@@ -1,0 +1,22 @@
+{
+	id: "6C14A4AFCB3F9FBB"
+	order_index: 0
+	title: "Дерево"
+	icon: "minecraft:oak_log"
+	loot_size: 1
+	rewards: [
+		{ title: "Дубовое бревно", item: "minecraft:oak_log", count: 4 }
+		{ title: "Еловое бревно", item: "minecraft:spruce_log", count: 4 }
+		{ title: "Берёзовое бревно", item: "minecraft:birch_log", count: 4 }
+		{ title: "Бревно тропического дерева", item: "minecraft:jungle_log", count: 4 }
+		{ title: "Акациевое бревно", item: "minecraft:acacia_log", count: 4 }
+		{ title: "Бревно тёмного дуба", item: "minecraft:dark_oak_log", count: 4 }
+		{ title: "Мангровое бревно", item: "minecraft:mangrove_log", count: 4 }
+		{ title: "Цветущее бревно", item: "quark:blossom_log", count: 4 }
+		{ title: "Азалиевое бревно", item: "quark:azalea_log", count: 4 }
+		{ title: "Бревно бальсы", item: "biomemakeover:blighted_balsa_log", count: 4 }
+		{ title: "Бревно ивы", item: "biomemakeover:willow_log", count: 4 }
+		{ title: "Бревно болотного кипариса", item: "biomemakeover:swamp_cypress_log", count: 4 }
+		{ title: "Ореховое бревно", item: "ecologics:walnut_log", count: 4 }
+	]
+}

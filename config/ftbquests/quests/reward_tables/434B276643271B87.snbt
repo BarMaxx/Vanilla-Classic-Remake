@@ -1,0 +1,22 @@
+{
+	id: "434B276643271B87"
+	order_index: 1
+	title: "Доски"
+	icon: "minecraft:oak_planks"
+	loot_size: 1
+	rewards: [
+		{ title: "Дубовые доски", item: "minecraft:oak_planks", count: 8 }
+		{ title: "Еловые доски", item: "minecraft:spruce_planks", count: 8 }
+		{ title: "Берёзовые доски", item: "minecraft:birch_planks", count: 8 }
+		{ title: "Доски из тропического дерева", item: "minecraft:jungle_planks", count: 8 }
+		{ title: "Акациевые доски", item: "minecraft:acacia_planks", count: 8 }
+		{ title: "Доски из тёмного дуба", item: "minecraft:dark_oak_planks", count: 8 }
+		{ title: "Мангровые доски", item: "minecraft:mangrove_planks", count: 8 }
+		{ title: "Цветущие доски", item: "quark:blossom_planks", count: 8 }
+		{ title: "Азалиевые доски", item: "quark:azalea_planks", count: 8 }
+		{ title: "Доски из бальсы", item: "biomemakeover:blighted_balsa_planks", count: 8 }
+		{ title: "Ивовые доски", item: "biomemakeover:willow_planks", count: 8 }
+		{ title: "Доски из болотного кипариса", item: "biomemakeover:swamp_cypress_planks", count: 8 }
+		{ title: "Ореховые доски", item: "ecologics:walnut_planks", count: 8 }
+	]
+}

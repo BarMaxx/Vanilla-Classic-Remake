@@ -1,0 +1,1536 @@
+{
+	id: "2B6CE8B44E9399A5"
+	group: ""
+	order_index: 1
+	filename: "2B6CE8B44E9399A5"
+	title: "Выживание"
+	icon: "minecraft:crafting_table"
+	default_quest_shape: "pentagon"
+	default_hide_dependency_lines: false
+	images: [{
+		x: 5.0d
+		y: 0.5d
+		width: 40.0d
+		height: 35.0d
+		rotation: 0.0d
+		image: "vanillaclassicremake:textures/survival.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			shape: "octagon"
+			description: ["Первые шаги в этой сборке, как и в Майнкрафте начинаются с добычи дерева. Нарубите несколько бревен и начните свое насыщенное путешествие в этом бренном мире..."]
+			dependencies: ["34C1D59023AA23CD"]
+			hide: true
+			size: 1.1d
+			id: "4797541149F48B31"
+			tasks: [{
+				id: "2F7199E5C825CF58"
+				type: "item"
+				title: "Дерево"
+				icon: "minecraft:oak_log"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+				count: 4L
+			}]
+			rewards: [{
+				id: "0AE22C0BEC7E292A"
+				type: "choice"
+				icon: "minecraft:oak_log"
+				exclude_from_claim_all: true
+				table_id: 7788030730566606779L
+			}]
+		}
+		{
+			x: 1.5d
+			y: 0.0d
+			description: ["Доски можно создать из дерева. А из досок можно создать уже большое количество предметов! Но самым главным будет - Верстак."]
+			dependencies: ["4797541149F48B31"]
+			id: "4C3E20DC2E7A5260"
+			tasks: [{
+				id: "58E73ECCB76F9B2D"
+				type: "item"
+				title: "Доски"
+				icon: "minecraft:oak_planks"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:planks"
+					}
+				}
+				count: 12L
+			}]
+			rewards: [{
+				id: "72DA096C5F5169C2"
+				type: "choice"
+				icon: "minecraft:oak_planks"
+				exclude_from_claim_all: true
+				table_id: 4849012743961254791L
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.0d
+			shape: "gear"
+			description: ["С помощью верстака можно создавать предметы на сетке крафта 3х3."]
+			dependencies: ["4C3E20DC2E7A5260"]
+			size: 1.2d
+			id: "72A952D88BACB448"
+			tasks: [{
+				id: "14250EC2220D7417"
+				type: "item"
+				item: "minecraft:crafting_table"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 0.0d
+			description: ["С помощью деревянной кирки можно добывать булыжник."]
+			dependencies: ["72A952D88BACB448"]
+			id: "01AECB10D8C15891"
+			tasks: [{
+				id: "5CE41CBA7F693846"
+				type: "item"
+				item: {
+					id: "minecraft:wooden_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 5.5d
+			y: 0.0d
+			description: ["С помощью булыжника можно создать каменные инструменты."]
+			dependencies: ["01AECB10D8C15891"]
+			size: 1.1d
+			id: "1353634C2CA41B60"
+			tasks: [{
+				id: "65ED1A56F01C0656"
+				type: "item"
+				title: "Булыжник"
+				icon: "minecraft:cobblestone"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:cobblestone"
+					}
+				}
+				count: 4L
+			}]
+			rewards: [{
+				id: "3F98918E3943824E"
+				type: "item"
+				item: "minecraft:cobblestone"
+				count: 4
+			}]
+		}
+		{
+			x: 6.0d
+			y: -1.0d
+			description: ["С помощью каменной кирки можно добыть рудное железо и рудную медь."]
+			dependencies: ["1353634C2CA41B60"]
+			id: "5D5B00D57978318B"
+			tasks: [{
+				id: "691C540C8B77C167"
+				type: "item"
+				item: {
+					id: "minecraft:stone_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 6.0d
+			y: 1.0d
+			description: ["С помощью печи можно переплавлять различные руды, еду и т.п. А также можно создать новые механизмы."]
+			dependencies: ["1353634C2CA41B60"]
+			id: "158697921D057035"
+			tasks: [{
+				id: "64578954AFB4E665"
+				type: "item"
+				item: "minecraft:furnace"
+			}]
+		}
+		{
+			x: 5.5d
+			y: -2.0d
+			description: ["Рудное железо можно найти под землей, хотя можно найти и на поверхности гор. С помощью рудного железа можно выплавить железный слиток."]
+			dependencies: ["5D5B00D57978318B"]
+			id: "67AC2AA68C541230"
+			tasks: [{
+				id: "78944241BE0CEE2D"
+				type: "item"
+				title: "Рудное железо"
+				item: "minecraft:raw_iron"
+				count: 8L
+			}]
+			rewards: [{
+				id: "58B9817F3E11416E"
+				type: "item"
+				item: "minecraft:raw_iron"
+				count: 4
+				random_bonus: 4
+			}]
+		}
+		{
+			x: 6.0d
+			y: 2.0d
+			description: ["С помощью коптильни можно жарить различную еду, но быстрее, чем в печи!"]
+			dependencies: ["158697921D057035"]
+			id: "796FACA96ED3EBEC"
+			tasks: [{
+				id: "5CD72ABC7E38BB3F"
+				type: "item"
+				item: "minecraft:smoker"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 1.0d
+			shape: "square"
+			description: ["Железный слиток можно получить, переплавив рудное железо. Железо нужно для улучшения каменных инструментов и для продолжения развития."]
+			dependencies: ["158697921D057035"]
+			id: "42A0AA3648A0912D"
+			tasks: [{
+				id: "264F109200F7B407"
+				type: "item"
+				title: "Железный слиток"
+				item: "minecraft:iron_ingot"
+				count: 6L
+			}]
+			rewards: [{
+				id: "28EA979BEC8E5468"
+				type: "item"
+				item: "minecraft:iron_ingot"
+				count: 3
+				random_bonus: 2
+			}]
+		}
+		{
+			x: 5.0d
+			y: 1.5d
+			description: ["С помощью плавильной печи можно переплавлять только руды (и все, что с ними связано), но намного быстрее, чем в печи!"]
+			dependencies: ["158697921D057035"]
+			id: "2CD4A7C3FAB9127A"
+			tasks: [{
+				id: "57FB064C91208279"
+				type: "item"
+				item: "minecraft:blast_furnace"
+			}]
+		}
+		{
+			x: 9.0d
+			y: 0.5d
+			description: ["С помощью железной кирки можно сразу добыть 3 новых минерала. А именно - редстоун, золото и алмаз!"]
+			dependencies: ["42A0AA3648A0912D"]
+			id: "665C7739C0310A43"
+			tasks: [{
+				id: "4BF0A82414A0AA04"
+				type: "item"
+				item: {
+					id: "minecraft:iron_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 9.5d
+			y: -0.5d
+			shape: "square"
+			description: ["Наверное самый важный минерал в игре. С его помощью можно создавать предметы, которые намного лучше других."]
+			dependencies: ["665C7739C0310A43"]
+			id: "7214867124566ED2"
+			tasks: [{
+				id: "437956EE26A4A83A"
+				type: "item"
+				title: "Алмаз"
+				item: "minecraft:diamond"
+				count: 4L
+			}]
+			rewards: [{
+				id: "1977087F8DB98B6C"
+				type: "item"
+				item: "minecraft:diamond"
+				count: 2
+				random_bonus: 1
+			}]
+		}
+		{
+			x: 11.0d
+			y: -0.5d
+			description: ["С помощью алмазной кирки можно добывать обсидиан! А также, она намного лучше, чем железная."]
+			dependencies: ["7214867124566ED2"]
+			id: "4F01D81AEA74A654"
+			tasks: [{
+				id: "7EA07E74237EB5EE"
+				type: "item"
+				item: {
+					id: "minecraft:diamond_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: -1.0d
+			description: ["В бочке можно хранить предметы."]
+			dependencies: ["4C3E20DC2E7A5260"]
+			id: "6AAAA180FDF5C44C"
+			tasks: [{
+				id: "116AF08340A120FD"
+				type: "item"
+				item: "minecraft:barrel"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -1.0d
+			description: ["В сундуке можно хранить предметы."]
+			dependencies: ["4C3E20DC2E7A5260"]
+			id: "5775A7B44208248A"
+			tasks: [{
+				id: "7A701CE622900F05"
+				type: "item"
+				item: "minecraft:chest"
+			}]
+		}
+		{
+			x: 6.5d
+			y: -2.0d
+			description: ["Рудную медь можно найти под землей, хотя можно найти и на поверхности гор. С помощью рудной меди можно выплавить медный слиток."]
+			dependencies: ["5D5B00D57978318B"]
+			id: "226A5295FFB7F509"
+			tasks: [{
+				id: "5C9EF4E48960BADB"
+				type: "item"
+				item: "minecraft:raw_copper"
+			}]
+			rewards: [{
+				id: "5D5CCC470B500235"
+				type: "item"
+				item: "minecraft:raw_copper"
+				count: 4
+				random_bonus: 4
+			}]
+		}
+		{
+			x: 7.5d
+			y: -2.5d
+			shape: "square"
+			description: ["Медный слиток можно использовать для создания подзорный трубы, чайника и множества декоративных предметов."]
+			dependencies: ["226A5295FFB7F509"]
+			id: "18FCE07AA8D0E689"
+			tasks: [{
+				id: "5F950228DA1DBF2D"
+				type: "item"
+				title: "Медный слиток"
+				item: "minecraft:copper_ingot"
+				count: 4L
+			}]
+			rewards: [{
+				id: "15C76EEBCF96BB87"
+				type: "item"
+				item: "minecraft:copper_ingot"
+				count: 2
+				random_bonus: 2
+			}]
+		}
+		{
+			x: 8.5d
+			y: -2.0d
+			shape: "octagon"
+			description: ["С помощью подзорной трубы можно приближать какие-то предметы и рассматривать их с большого расстояния. "]
+			dependencies: ["18FCE07AA8D0E689"]
+			size: 1.2d
+			id: "432478ADFB14EC6F"
+			tasks: [{
+				id: "56CBA34675EEDC18"
+				type: "item"
+				item: "minecraft:spyglass"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 1.0d
+			description: ["В мешок можно положить множество предметов, то есть, его можно использовать, как рюкзак."]
+			dependencies: ["72A952D88BACB448"]
+			id: "278F020C1FD6D396"
+			tasks: [{
+				id: "3459BE4673983312"
+				type: "item"
+				item: "minecraft:bundle"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 1.0d
+			description: ["Как кровать, но удобнее в путешествиях."]
+			dependencies: ["72A952D88BACB448"]
+			id: "372E6BD5CAC928B4"
+			tasks: [{
+				id: "35F19BC9B473EA60"
+				type: "item"
+				item: "comforts:sleeping_bag_white"
+			}]
+		}
+		{
+			x: 7.0d
+			y: -3.5d
+			description: ["С помощью чайника можно приготовить различные напитки, но в основном чай."]
+			dependencies: ["18FCE07AA8D0E689"]
+			size: 1.1d
+			id: "4F90FB2C13EF2C36"
+			tasks: [{
+				id: "461E528551173418"
+				type: "item"
+				title: "Чайник"
+				item: "farmersrespite:kettle"
+			}]
+		}
+		{
+			x: 8.5d
+			y: -1.0d
+			dependencies: ["7214867124566ED2"]
+			id: "6DEBC653A7DBCDE5"
+			tasks: [{
+				id: "42FB6DC01DDBA952"
+				type: "item"
+				item: {
+					id: "quark:pickarang"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 11.5d
+			y: -1.5d
+			shape: "rsquare"
+			description: ["С помощью обсидиана можно построить портал в Ад! А также, создать чародейский стол и эндер-сундук."]
+			dependencies: ["4F01D81AEA74A654"]
+			size: 1.1d
+			id: "784141803D88C42E"
+			tasks: [{
+				id: "4020DE806DC32E07"
+				type: "item"
+				title: "Обсидиан"
+				item: "minecraft:obsidian"
+				count: 8L
+			}]
+			rewards: [{
+				id: "6715A3941122B5A8"
+				type: "item"
+				item: "minecraft:obsidian"
+				count: 4
+				random_bonus: 2
+			}]
+		}
+		{
+			x: 12.5d
+			y: -1.5d
+			description: ["С помощью чародейского стола можно зачаровывать предметы."]
+			dependencies: ["784141803D88C42E"]
+			id: "634D0844C7C3BE55"
+			tasks: [{
+				id: "5BB88152270ECF75"
+				type: "item"
+				item: "minecraft:enchanting_table"
+			}]
+		}
+		{
+			x: 13.5d
+			y: -1.5d
+			description: ["С помощью зачаровывающего наполнителя можно намного легче зачаровывать предметы."]
+			dependencies: ["634D0844C7C3BE55"]
+			id: "6796FD2798B2CE01"
+			tasks: [{
+				id: "611FFE0C196E1EE3"
+				type: "item"
+				item: "enchantinginfuser:enchanting_infuser"
+			}]
+		}
+		{
+			x: 14.5d
+			y: -2.0d
+			description: ["Просто намного лучше, чем зачаровывающий наполнитель :)"]
+			dependencies: ["6796FD2798B2CE01"]
+			id: "0E3AC38C95F47EF7"
+			tasks: [{
+				id: "18A92BB44740D17E"
+				type: "item"
+				item: "enchantinginfuser:advanced_enchanting_infuser"
+			}]
+		}
+		{
+			x: 11.0d
+			y: -2.5d
+			description: ["В эндер-сундук можно положить вещи и взять их в совершенно другом месте через другой эндер-сундук, что очень удобно!"]
+			dependencies: ["784141803D88C42E"]
+			id: "1178C179B471D582"
+			tasks: [{
+				id: "3A11076783CE5D26"
+				type: "item"
+				item: "minecraft:ender_chest"
+			}]
+		}
+		{
+			x: 9.5d
+			y: 1.5d
+			description: ["Рудное золото можно найти под землей. С помощью рудного золота можно выплавить золотой слиток."]
+			dependencies: ["665C7739C0310A43"]
+			id: "1BDA93BB0E51F5E4"
+			tasks: [{
+				id: "6DDE5292AB943FDF"
+				type: "item"
+				title: "Рудное золото"
+				item: "minecraft:raw_gold"
+				count: 8L
+			}]
+			rewards: [{
+				id: "5D55479B821ACF8B"
+				type: "item"
+				item: "minecraft:raw_gold"
+				count: 4
+				random_bonus: 4
+			}]
+		}
+		{
+			x: 9.5d
+			y: 2.5d
+			shape: "square"
+			description: ["С помощью золотого слитка можно создавать различные полезные вещи."]
+			dependencies: ["1BDA93BB0E51F5E4"]
+			id: "08F7863D82646291"
+			tasks: [{
+				id: "454EA8A14D365AEB"
+				type: "item"
+				title: "Золотой слиток"
+				item: "minecraft:gold_ingot"
+				count: 6L
+			}]
+			rewards: [{
+				id: "069E13FB44F201CA"
+				type: "item"
+				item: "minecraft:gold_ingot"
+				count: 3
+				random_bonus: 2
+			}]
+		}
+		{
+			x: 10.5d
+			y: 3.0d
+			description: ["Золотая воронка намного быстрее, чем железная воронка."]
+			dependencies: ["08F7863D82646291"]
+			id: "2E3CCE72E3692064"
+			tasks: [{
+				id: "3810D7D2D9B21696"
+				type: "item"
+				title: "Золотая воронка"
+				item: "goldenhopper:golden_hopper"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 0.0d
+			description: ["На наковальне можно соединять, чинить, переименовывать различные предметы."]
+			dependencies: ["42A0AA3648A0912D"]
+			id: "34B3A9619C9D3FD3"
+			tasks: [{
+				id: "1AA9BFBDFF4C0918"
+				type: "item"
+				item: "minecraft:anvil"
+			}]
+		}
+		{
+			x: 8.5d
+			y: 3.0d
+			description: ["С помощью бартерной станции можно торговать с пиглинами."]
+			dependencies: ["08F7863D82646291"]
+			id: "0FB6524163C285BA"
+			tasks: [{
+				id: "112FEC1999240A29"
+				type: "item"
+				title: "Бартерная станция"
+				item: "barteringstation:bartering_station"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 2.0d
+			description: ["С помощью торгового поста можно торговать с жителями."]
+			dependencies: ["2B19E76BB0764227"]
+			id: "62683B2F01DA182F"
+			tasks: [{
+				id: "2E060ABD75F73282"
+				type: "item"
+				item: "tradingpost:trading_post"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 1.0d
+			dependencies: ["4C3E20DC2E7A5260"]
+			id: "2B19E76BB0764227"
+			tasks: [{
+				id: "5F2C7721222FA5AA"
+				type: "item"
+				title: "Палка"
+				item: "minecraft:stick"
+				count: 8L
+			}]
+			rewards: [{
+				id: "1A3510EA5EB22C37"
+				type: "item"
+				item: "minecraft:stick"
+				count: 4
+				random_bonus: 4
+			}]
+		}
+		{
+			x: 0.5d
+			y: 1.0d
+			description: ["Если держать параплан в руках, то можно прыгать с любой высоты, ведь вы будете медленно планировать!"]
+			dependencies: ["2B19E76BB0764227"]
+			id: "5CBDF85370D93E7D"
+			tasks: [{
+				id: "5AE1783691CA3269"
+				type: "item"
+				title: "Параплан"
+				item: "paraglider:paraglider"
+			}]
+		}
+		{
+			x: 8.0d
+			y: -4.0d
+			hide_dependency_lines: true
+			dependencies: ["4F90FB2C13EF2C36"]
+			id: "39E2014E85A449E5"
+			tasks: [{
+				id: "3E67E7E430ED0314"
+				type: "item"
+				item: "farmersrespite:coffee"
+			}]
+		}
+		{
+			x: 7.5d
+			y: -5.0d
+			hide_dependency_lines: true
+			dependencies: ["4F90FB2C13EF2C36"]
+			id: "2FD4ADEDF33F17C9"
+			tasks: [{
+				id: "5E2A11C80F96569A"
+				type: "item"
+				item: "farmersrespite:dandelion_tea"
+			}]
+		}
+		{
+			x: 6.5d
+			y: -5.0d
+			hide_dependency_lines: true
+			dependencies: ["4F90FB2C13EF2C36"]
+			id: "421423680EBD1922"
+			tasks: [{
+				id: "05DFFD67E94A4C66"
+				type: "item"
+				item: "farmersrespite:yellow_tea"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -4.0d
+			hide_dependency_lines: true
+			dependencies: ["4F90FB2C13EF2C36"]
+			id: "365C002FA3CCE18A"
+			tasks: [{
+				id: "05D832F6F2C0D28D"
+				type: "item"
+				item: "farmersrespite:green_tea"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 2.0d
+			description: ["На костре можно приготовить еду, а также его можно использовать в крафтах."]
+			dependencies: ["2B19E76BB0764227"]
+			id: "3499C1DC1A4493D7"
+			tasks: [{
+				id: "473F813169CC20E8"
+				type: "item"
+				item: "minecraft:campfire"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 3.0d
+			description: ["Кухонная плита нужна, чтобы можно было готовить еду в котелке и на сковороде."]
+			dependencies: ["3499C1DC1A4493D7"]
+			id: "3E7148E1FC71B4A2"
+			tasks: [{
+				id: "7C0FD43D8FADABD9"
+				type: "item"
+				item: "farmersdelight:stove"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 3.5d
+			description: ["Сковорода это по-сути тоже самое, что и костер."]
+			dependencies: ["3E7148E1FC71B4A2"]
+			id: "64216357FF920335"
+			tasks: [{
+				id: "63B89A62F0893F00"
+				type: "item"
+				item: {
+					id: "farmersdelight:skillet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.5d
+			description: ["В кухонном котелке можно готовить совершенно новые виды еды!"]
+			dependencies: ["3E7148E1FC71B4A2"]
+			id: "29F161339EA12F00"
+			tasks: [{
+				id: "3CA795DACBFE1F0A"
+				type: "item"
+				item: "farmersdelight:cooking_pot"
+			}]
+		}
+		{
+			icon: "minecraft:cooked_beef"
+			x: 6.5d
+			y: 3.0d
+			description: ["Довольно питательная еда!"]
+			dependencies: ["796FACA96ED3EBEC"]
+			id: "311BE5963489AB19"
+			tasks: [
+				{
+					id: "44A4DD5BF37784B3"
+					type: "item"
+					title: "Стейк"
+					item: "minecraft:cooked_beef"
+					count: 3L
+				}
+				{
+					id: "6C6089C848037F01"
+					type: "item"
+					title: "Жареная баранина"
+					item: "minecraft:cooked_mutton"
+					count: 3L
+				}
+				{
+					id: "6DAFCE36C794DAAB"
+					type: "item"
+					title: "Жареная курица"
+					item: "minecraft:cooked_chicken"
+					count: 3L
+				}
+				{
+					id: "3C1C5F5627E126EC"
+					type: "item"
+					title: "Жареная свинина"
+					item: "minecraft:cooked_porkchop"
+					count: 3L
+				}
+			]
+			rewards: [{
+				id: "595EE1813115EF68"
+				type: "random"
+				icon: "minecraft:cooked_beef"
+				table_id: 8406505191874674524L
+			}]
+		}
+		{
+			icon: "farmersdelight:beef_stew"
+			x: -0.5d
+			y: 2.5d
+			description: ["Очень вкусно и сытно!"]
+			dependencies: ["29F161339EA12F00"]
+			id: "00AC7BCBEC5F91BA"
+			tasks: [
+				{
+					id: "59D408391897DF2C"
+					type: "item"
+					item: "farmersdelight:beef_stew"
+				}
+				{
+					id: "7C728CD5026F011A"
+					type: "item"
+					item: "farmersdelight:baked_cod_stew"
+				}
+			]
+		}
+		{
+			icon: "farmersdelight:vegetable_soup"
+			x: -0.5d
+			y: 4.5d
+			description: ["Супчики!"]
+			dependencies: ["29F161339EA12F00"]
+			id: "1368C59D480A9722"
+			tasks: [
+				{
+					id: "0011819D9B12A7D8"
+					type: "item"
+					item: "farmersdelight:vegetable_soup"
+				}
+				{
+					id: "5F725161F9AA62A7"
+					type: "item"
+					item: "farmersdelight:chicken_soup"
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 3.5d
+			description: ["Да, тот самый, из мультфильма!"]
+			dependencies: ["29F161339EA12F00"]
+			id: "2FB7565666501D2F"
+			tasks: [{
+				id: "6B4469A4DB1263CF"
+				type: "item"
+				item: "farmersdelight:ratatouille"
+			}]
+		}
+		{
+			x: 7.5d
+			y: -1.0d
+			shape: "octagon"
+			dependencies: ["6DEBC653A7DBCDE5"]
+			size: 1.1d
+			id: "15C1403790BAD877"
+			tasks: [{
+				id: "693F654C643766EB"
+				type: "item"
+				item: {
+					id: "quark:echorang"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 5.5d
+			y: 3.0d
+			description: ["Довольно вкусная еда."]
+			dependencies: ["796FACA96ED3EBEC"]
+			id: "3ABEF2BBABB37A11"
+			tasks: [{
+				id: "780F2155C6B95748"
+				type: "item"
+				title: "Печёный картофель"
+				item: "minecraft:baked_potato"
+				count: 4L
+			}]
+			rewards: [{
+				id: "3B54C9D2F9B55B54"
+				type: "item"
+				item: "minecraft:baked_potato"
+				count: 2
+				random_bonus: 4
+			}]
+		}
+		{
+			x: 8.0d
+			y: 0.0d
+			description: ["В столе кузнеца можно улучшать различные вещи."]
+			dependencies: ["42A0AA3648A0912D"]
+			id: "7F45FD9CC1123787"
+			tasks: [{
+				id: "4276C9AAA1C4D1AE"
+				type: "item"
+				item: "minecraft:smithing_table"
+			}]
+		}
+		{
+			title: "Железная броня"
+			icon: {
+				id: "minecraft:iron_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 7.5d
+			y: 2.0d
+			description: ["Ваша первая броня, но достаточно сильная."]
+			dependencies: ["42A0AA3648A0912D"]
+			id: "395367A55D4BB1AE"
+			tasks: [
+				{
+					id: "2F0AB66DA90E77D9"
+					type: "item"
+					item: {
+						id: "minecraft:iron_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5CFC8E926DF001DB"
+					type: "item"
+					item: {
+						id: "minecraft:iron_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "30DD490490694088"
+					type: "item"
+					item: {
+						id: "minecraft:iron_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "19D127EB5B253518"
+					type: "item"
+					item: {
+						id: "minecraft:iron_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Железные инструменты"
+			icon: {
+				id: "minecraft:iron_axe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 8.5d
+			y: 1.5d
+			description: ["Железные инструменты более прочные и эффективные, чем каменные."]
+			dependencies: ["42A0AA3648A0912D"]
+			id: "1C114DB48476EBDF"
+			tasks: [
+				{
+					id: "3754CD3E4DBAB59A"
+					type: "item"
+					item: {
+						id: "minecraft:iron_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1897CD6480988A96"
+					type: "item"
+					item: {
+						id: "minecraft:iron_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "56A895097858AC9B"
+					type: "item"
+					item: {
+						id: "minecraft:iron_shovel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 10.5d
+			y: 0.5d
+			shape: "square"
+			description: ["С помощью редстоуна можно создавать различные приборы и изобретения."]
+			dependencies: ["665C7739C0310A43"]
+			id: "6C6BA8C9DB600AAF"
+			tasks: [{
+				id: "22567894A154AAA5"
+				type: "item"
+				title: "Редстоуновая пыль"
+				item: "minecraft:redstone"
+				count: 8L
+			}]
+			rewards: [{
+				id: "4799A30249226598"
+				type: "item"
+				item: "minecraft:redstone"
+				count: 5
+				random_bonus: 3
+			}]
+		}
+		{
+			x: 11.5d
+			y: 0.5d
+			description: ["Просто компас."]
+			dependencies: ["6C6BA8C9DB600AAF"]
+			id: "2BD8D7BAC3660F0E"
+			tasks: [{
+				id: "18EBDEB44D0AE4AA"
+				type: "item"
+				item: "minecraft:compass"
+			}]
+		}
+		{
+			x: 12.5d
+			y: 0.0d
+			description: ["Возвратный компас указывает на место вашей последней смерти!"]
+			dependencies: ["2BD8D7BAC3660F0E"]
+			id: "1083A006878C8823"
+			tasks: [{
+				id: "2338F8908BE9E23D"
+				type: "item"
+				item: "minecraft:recovery_compass"
+			}]
+		}
+		{
+			x: 11.5d
+			y: 1.5d
+			description: ["Компас природы позволяет вам искать любой биом в игре!"]
+			dependencies: ["2BD8D7BAC3660F0E"]
+			id: "5891D3FA126A7470"
+			tasks: [{
+				id: "48B997D00446DD27"
+				type: "item"
+				item: {
+					id: "naturescompass:naturescompass"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			title: "Стимпанковая броня"
+			icon: {
+				id: "immersive_armors:steampunk_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 10.5d
+			y: 1.5d
+			description: ["Стимпанковая броня очень хорошо защищенна от взрывов!"]
+			dependencies: ["6C6BA8C9DB600AAF"]
+			id: "786963EDF5B108CA"
+			tasks: [
+				{
+					id: "32A39BD39F5CDBF8"
+					type: "item"
+					item: {
+						id: "immersive_armors:steampunk_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0DDAF98323D14E47"
+					type: "item"
+					item: {
+						id: "immersive_armors:steampunk_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "45E90059E29F2B7A"
+					type: "item"
+					item: {
+						id: "immersive_armors:steampunk_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2F19DD12CA7340C9"
+					type: "item"
+					item: {
+						id: "immersive_armors:steampunk_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Алмазная броня"
+			icon: {
+				id: "minecraft:diamond_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 9.5d
+			y: -1.5d
+			description: ["Алмазная броня намного лучше, чем железная броня."]
+			dependencies: ["7214867124566ED2"]
+			id: "52A643BB1E2323D6"
+			tasks: [
+				{
+					id: "4F4B862D237F3B6C"
+					type: "item"
+					item: {
+						id: "minecraft:diamond_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0AB4559D959FF9AE"
+					type: "item"
+					item: {
+						id: "minecraft:diamond_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "139C73E07F939B93"
+					type: "item"
+					item: {
+						id: "minecraft:diamond_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "441C1F8DF230A4DD"
+					type: "item"
+					item: {
+						id: "minecraft:diamond_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Алмазные инструменты"
+			icon: {
+				id: "minecraft:diamond_axe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 10.5d
+			y: -1.5d
+			description: ["Алмазные инструменты более прочные и эффективные, чем железные."]
+			dependencies: ["7214867124566ED2"]
+			id: "6EFD35C8FFDEFD40"
+			tasks: [
+				{
+					id: "2D26466C6E8E4657"
+					type: "item"
+					item: {
+						id: "minecraft:diamond_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1EF4F44A5558DFB0"
+					type: "item"
+					item: {
+						id: "minecraft:diamond_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3A5703DD7ACA9297"
+					type: "item"
+					item: {
+						id: "minecraft:diamond_shovel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Деревянные инструменты"
+			icon: {
+				id: "minecraft:wooden_axe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 3.0d
+			y: -1.0d
+			description: ["Ваши первые инструменты!"]
+			dependencies: ["72A952D88BACB448"]
+			id: "16EAF7AE7B6AE4AB"
+			tasks: [
+				{
+					id: "3D9DDE2076D5600F"
+					type: "item"
+					item: {
+						id: "minecraft:wooden_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1F4E703338CE0D3D"
+					type: "item"
+					item: {
+						id: "minecraft:wooden_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "47E425BA878E0C04"
+					type: "item"
+					item: {
+						id: "minecraft:wooden_shovel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Каменные инструменты"
+			icon: {
+				id: "minecraft:stone_axe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 5.0d
+			y: -1.0d
+			description: ["Намного лучше, чем дерево."]
+			dependencies: ["1353634C2CA41B60"]
+			id: "6DF7F5370669302A"
+			tasks: [
+				{
+					id: "0219E710DDE642D1"
+					type: "item"
+					item: {
+						id: "minecraft:stone_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "28A74F9A6CEB38D2"
+					type: "item"
+					item: {
+						id: "minecraft:stone_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7BA05D2758EF954E"
+					type: "item"
+					item: {
+						id: "minecraft:stone_shovel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: 1.5d
+			description: ["Лист Деку - это тот же параплан."]
+			dependencies: ["5CBDF85370D93E7D"]
+			id: "7D87A1838EDCECFB"
+			tasks: [{
+				id: "7306FDF41642EFD7"
+				type: "item"
+				item: "paraglider:deku_leaf"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -1.5d
+			description: ["В нем можно хранить много вещей. А также рюкзак можно улучшать! Хорошая вещь в путешествиях."]
+			dependencies: ["5775A7B44208248A"]
+			id: "416B74D4AB51374B"
+			tasks: [{
+				id: "2286CC31EB516023"
+				type: "item"
+				item: "sophisticatedbackpacks:backpack"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -2.5d
+			description: ["Улучшенная версия предыдущего рюкзака."]
+			dependencies: ["416B74D4AB51374B"]
+			id: "4A761E894FE0F436"
+			tasks: [{
+				id: "6477F28E9ED16F30"
+				type: "item"
+				item: "sophisticatedbackpacks:iron_backpack"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -3.5d
+			description: ["Улучшенная версия предыдущего рюкзака."]
+			dependencies: ["4A761E894FE0F436"]
+			id: "77BC8D4750BD58DB"
+			tasks: [{
+				id: "40222C7D6D91F9C5"
+				type: "item"
+				item: "sophisticatedbackpacks:gold_backpack"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -4.5d
+			description: ["Улучшенная версия предыдущего рюкзака."]
+			dependencies: ["77BC8D4750BD58DB"]
+			id: "36ED28DD6857E7D8"
+			tasks: [{
+				id: "4BA1C51C444DA1D8"
+				type: "item"
+				item: "sophisticatedbackpacks:diamond_backpack"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -5.0d
+			shape: "gear"
+			description: ["Самый крутой рюкзак."]
+			dependencies: ["36ED28DD6857E7D8"]
+			size: 1.1d
+			id: "116EF45660B8660F"
+			tasks: [{
+				id: "6CFA8117537C1042"
+				type: "item"
+				item: "sophisticatedbackpacks:netherite_backpack"
+			}]
+		}
+		{
+			x: 9.5d
+			y: 3.5d
+			description: ["Очень хорошо защищают от взрывов."]
+			dependencies: ["08F7863D82646291"]
+			size: 1.1d
+			id: "12DB094CAC679515"
+			tasks: [{
+				id: "2F64CDE38C680076"
+				type: "item"
+				title: "Взрывоустойчивые листы"
+				item: "savage_and_ravage:blast_proof_plating"
+				count: 8L
+			}]
+			rewards: [{
+				id: "189C22945FC2140A"
+				type: "item"
+				item: "savage_and_ravage:blast_proof_plating"
+				count: 2
+				random_bonus: 2
+			}]
+		}
+		{
+			title: "Гриферская броня"
+			icon: {
+				id: "savage_and_ravage:griefer_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 9.0d
+			y: 4.5d
+			description: ["Очень хорошая броня, если вы боитесь криперов."]
+			dependencies: ["12DB094CAC679515"]
+			id: "6940C2DE0E4D2AFE"
+			tasks: [
+				{
+					id: "2833AB8D5B2EC065"
+					type: "item"
+					item: {
+						id: "savage_and_ravage:griefer_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6812A368B24B5C9A"
+					type: "item"
+					item: {
+						id: "savage_and_ravage:griefer_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "03E5D68F4BBFB9B1"
+					type: "item"
+					item: {
+						id: "savage_and_ravage:griefer_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "63A7EA253B145AF0"
+					type: "item"
+					item: {
+						id: "savage_and_ravage:griefer_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 10.0d
+			y: 4.5d
+			description: ["Блок, которому не страшны взрывы."]
+			dependencies: ["12DB094CAC679515"]
+			id: "152DF4D22DFFF7EB"
+			tasks: [{
+				id: "118E7E6D70538865"
+				type: "item"
+				title: "Взрывоустойчивая плитка"
+				item: "savage_and_ravage:blast_proof_plates"
+				count: 8L
+			}]
+			rewards: [{
+				id: "0D34DBBB8966942F"
+				type: "item"
+				item: "savage_and_ravage:blast_proof_plates"
+				count: 4
+				random_bonus: 2
+			}]
+		}
+		{
+			x: 8.5d
+			y: -3.0d
+			description: ["Громоотвод защищает ваши постройки от молний."]
+			dependencies: ["18FCE07AA8D0E689"]
+			id: "41775C50655769E3"
+			tasks: [{
+				id: "644F6C656D1EB183"
+				type: "item"
+				item: "minecraft:lightning_rod"
+			}]
+		}
+		{
+			x: 9.5d
+			y: -3.0d
+			shape: "rsquare"
+			description: ["Очень эффектная стрела."]
+			dependencies: ["41775C50655769E3"]
+			id: "50E551E5C2375DC8"
+			tasks: [{
+				id: "644759466779CDE4"
+				type: "item"
+				title: "Молниеносная стрела"
+				item: "archers_paradox:lightning_arrow"
+				count: 8L
+			}]
+			rewards: [{
+				id: "628ABD598F597FE3"
+				type: "item"
+				item: "archers_paradox:lightning_arrow"
+				count: 2
+				random_bonus: 2
+			}]
+		}
+	]
+}

@@ -1,0 +1,1008 @@
+{
+	id: "504E2D6C3C6F11E7"
+	group: ""
+	order_index: 4
+	filename: "504E2D6C3C6F11E7"
+	title: "Незер"
+	icon: "minecraft:netherite_ingot"
+	default_quest_shape: "octagon"
+	default_hide_dependency_lines: false
+	images: [{
+		x: -1.0d
+		y: -3.5d
+		width: 40.0d
+		height: 35.0d
+		rotation: 0.0d
+		image: "vanillaclassicremake:textures/nether.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			x: 0.5d
+			y: 0.5d
+			shape: "gear"
+			description: ["Войдите в портал из обсидиана!"]
+			dependencies: ["784141803D88C42E"]
+			size: 1.2d
+			id: "0638AA464CB433BD"
+			tasks: [{
+				id: "7F7529F0928603C2"
+				type: "dimension"
+				title: "Посетить измерение Незер"
+				dimension: "minecraft:the_nether"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.5d
+			description: ["Если убить Всполоха, то с него может выпасть огненный стержень."]
+			dependencies: ["0638AA464CB433BD"]
+			id: "07F71605EA4AD2D9"
+			tasks: [{
+				id: "1064D37728FC568B"
+				type: "kill"
+				title: "Убить Всполоха"
+				entity: "minecraft:blaze"
+				value: 1L
+			}]
+		}
+		{
+			x: 3.5d
+			y: 0.5d
+			description: ["Огненный стержень нужен для создания зельеварки и огненного порошка."]
+			dependencies: ["07F71605EA4AD2D9"]
+			id: "63CE859816941806"
+			tasks: [{
+				id: "49EFA1BEC8BE5B34"
+				type: "item"
+				title: "Огненный стержень"
+				item: "minecraft:blaze_rod"
+				count: 3L
+			}]
+			rewards: [{
+				id: "175696A62B2DF4E6"
+				type: "item"
+				item: "minecraft:blaze_rod"
+				count: 2
+				random_bonus: 1
+			}]
+		}
+		{
+			x: 4.0d
+			y: -0.5d
+			description: ["С помощью зельеварки можно готовить различные зелья."]
+			dependencies: ["63CE859816941806"]
+			size: 1.1d
+			id: "03D84CFC9502FAC9"
+			tasks: [{
+				id: "7B62886119E2B607"
+				type: "item"
+				item: "minecraft:brewing_stand"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 1.5d
+			description: ["Огненный порошок нужен для приготовления зелья, создания око эндера и для создания множества предметов."]
+			dependencies: ["63CE859816941806"]
+			id: "5C8F6BE38CD61F1B"
+			tasks: [{
+				id: "2289A079FD150DA8"
+				type: "item"
+				title: "Огненный порошок"
+				item: "minecraft:blaze_powder"
+				count: 4L
+			}]
+			rewards: [{
+				id: "2C31C0A1960768FA"
+				type: "item"
+				item: "minecraft:blaze_powder"
+				count: 2
+				random_bonus: 2
+			}]
+		}
+		{
+			x: 1.5d
+			y: 1.5d
+			description: ["Если убить Визер-скелета, то с небольшим шансом с него выпадет его голова!"]
+			dependencies: ["0638AA464CB433BD"]
+			id: "16270A1C68D32B47"
+			tasks: [{
+				id: "63357E11AACD49BB"
+				type: "kill"
+				title: "Убить Визер-скелета"
+				entity: "minecraft:wither_skeleton"
+				value: 1L
+			}]
+		}
+		{
+			x: 2.0d
+			y: 2.5d
+			description: ["Черепа визер-скелета нужны для призыва босса - Визера!"]
+			dependencies: ["16270A1C68D32B47"]
+			size: 1.1d
+			id: "560BBA75A74C1BCC"
+			tasks: [{
+				id: "0B88D5EBF01AB616"
+				type: "item"
+				title: "Череп визер-скелета"
+				item: "minecraft:wither_skeleton_skull"
+				count: 3L
+			}]
+		}
+		{
+			x: 2.0d
+			y: 3.5d
+			description: ["Попробуйте убить его."]
+			dependencies: ["560BBA75A74C1BCC"]
+			id: "5ACA9C1A680ABD8D"
+			tasks: [{
+				id: "023DF82513696645"
+				type: "kill"
+				title: "Убить Визера"
+				entity: "minecraft:wither"
+				value: 1L
+			}]
+		}
+		{
+			x: 2.0d
+			y: 4.5d
+			shape: "square"
+			description: ["Самый дорогой предмет в игре, наверное."]
+			dependencies: ["5ACA9C1A680ABD8D"]
+			id: "0BEF1BC6D388B3F8"
+			tasks: [{
+				id: "418C2BEFA0EB7DC6"
+				type: "item"
+				item: "minecraft:nether_star"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 5.0d
+			description: ["Маяк позволяет вам получать положительные эффекты в радиусе его действия."]
+			dependencies: ["0BEF1BC6D388B3F8"]
+			id: "2952AC1723FD3EF9"
+			tasks: [{
+				id: "3E89DDD1C12131B1"
+				type: "item"
+				item: "minecraft:beacon"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 5.0d
+			description: ["С помощью жертвенного клинка шанс на выпадение черепа визер-скелета выше."]
+			dependencies: ["0BEF1BC6D388B3F8"]
+			id: "20154C9A9D8A5897"
+			tasks: [{
+				id: "01BF31BE6E955265"
+				type: "item"
+				item: {
+					id: "wstweaks:lava_blade"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: -0.5d
+			description: ["Незер-кварц можно найти в Незере. Он нужен для создания множества предметов."]
+			dependencies: ["0638AA464CB433BD"]
+			size: 1.1d
+			id: "7816E4D8946FBA71"
+			tasks: [{
+				id: "7E4CEE92529C1B0C"
+				type: "item"
+				title: "Незер-кварц"
+				item: "minecraft:quartz"
+				count: 8L
+			}]
+			rewards: [{
+				id: "7BA8557269AD6453"
+				type: "item"
+				item: "minecraft:quartz"
+				count: 8
+				random_bonus: 4
+			}]
+		}
+		{
+			x: -2.0d
+			y: -0.5d
+			shape: "gear"
+			description: ["Датчик сезона позволяет следить за сменой сезонов года."]
+			dependencies: ["7816E4D8946FBA71"]
+			size: 1.2d
+			id: "59EA99D7EAA906AF"
+			tasks: [{
+				id: "772A96A6661BDC93"
+				type: "item"
+				item: "sereneseasons:season_sensor"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -0.5d
+			description: ["Песок душ нужен для того, чтобы выращивать незерский нарост либо же для вызова Визера."]
+			dependencies: ["0638AA464CB433BD"]
+			id: "76AA943499192987"
+			tasks: [{
+				id: "359EC817AADB428F"
+				type: "item"
+				title: "Песок душ"
+				item: "minecraft:soul_sand"
+				count: 4L
+			}]
+			rewards: [{
+				id: "2FEDE069D3D2E635"
+				type: "item"
+				item: "minecraft:soul_sand"
+				count: 2
+				random_bonus: 2
+			}]
+		}
+		{
+			x: 1.5d
+			y: -0.5d
+			description: ["С помощью незерского нароста можно варить зелья."]
+			dependencies: ["0638AA464CB433BD"]
+			id: "2438D11304615B6A"
+			tasks: [{
+				id: "47988529C2E0CA14"
+				type: "item"
+				title: "Незерский нарост"
+				item: "minecraft:nether_wart"
+				count: 4L
+			}]
+			rewards: [{
+				id: "777E60CBFB3AC2E2"
+				type: "item"
+				item: "minecraft:nether_wart"
+				count: 4
+				random_bonus: 2
+			}]
+		}
+		{
+			x: -1.0d
+			y: 0.5d
+			description: ["Древние обломки можно найти в недрах Ада. Только учтите, что они очень редкие. Они нужны для выплавки незеритового лома."]
+			dependencies: ["0638AA464CB433BD"]
+			id: "1339998B70AFCCF9"
+			tasks: [{
+				id: "21930FB42049618A"
+				type: "item"
+				title: "Древние обломки"
+				item: "minecraft:ancient_debris"
+				count: 4L
+			}]
+			rewards: [{
+				id: "314212D249D04EA3"
+				type: "item"
+				item: "minecraft:ancient_debris"
+				random_bonus: 2
+			}]
+		}
+		{
+			x: -2.0d
+			y: 0.5d
+			description: ["Незеритовый лом нужен для создания незеритового слитка."]
+			dependencies: ["1339998B70AFCCF9"]
+			id: "1903A4E8A177A1AC"
+			tasks: [{
+				id: "38F7A9C70D6CF3BB"
+				type: "item"
+				title: "Незеритовый лом"
+				item: "minecraft:netherite_scrap"
+				count: 4L
+			}]
+			rewards: [{
+				id: "4DF8AFB8701BD983"
+				type: "item"
+				item: "minecraft:netherite_scrap"
+				random_bonus: 2
+			}]
+		}
+		{
+			x: -3.5d
+			y: 0.5d
+			shape: "rsquare"
+			description: ["С помощью незеритового слитка можно улучшить свои алмазные инструменты и броню, а также создать несколько интересных предметов."]
+			dependencies: ["1903A4E8A177A1AC"]
+			id: "79325CD17EACF314"
+			tasks: [{
+				id: "26627B4161EA62BE"
+				type: "item"
+				title: "Незеритовый слиток"
+				item: "minecraft:netherite_ingot"
+				count: 2L
+			}]
+			rewards: [{
+				id: "14BECE25A2D62C0C"
+				type: "item"
+				item: "minecraft:netherite_ingot"
+			}]
+		}
+		{
+			title: "Незеритовая броня"
+			icon: {
+				id: "minecraft:netherite_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -4.0d
+			y: -0.5d
+			description: ["Наверное, эта броня одна из самых мощных на этой сборке."]
+			dependencies: ["79325CD17EACF314"]
+			id: "6FAD95BD066A958F"
+			tasks: [
+				{
+					id: "5039A60660D08A3D"
+					type: "item"
+					item: {
+						id: "minecraft:netherite_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4C76197E18209F9E"
+					type: "item"
+					item: {
+						id: "minecraft:netherite_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4381DA9DBBB9905A"
+					type: "item"
+					item: {
+						id: "minecraft:netherite_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "375C18250F0C55F4"
+					type: "item"
+					item: {
+						id: "minecraft:netherite_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Незеритовые инструменты"
+			icon: {
+				id: "minecraft:netherite_axe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -4.0d
+			y: 1.5d
+			description: ["Самые лучшие инструменты в игре, наверное..."]
+			dependencies: ["79325CD17EACF314"]
+			id: "01DE515CAEECA1DC"
+			tasks: [
+				{
+					id: "3403327A7EFE5A55"
+					type: "item"
+					item: {
+						id: "minecraft:netherite_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "15C10D7425201365"
+					type: "item"
+					item: {
+						id: "minecraft:netherite_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "579D8C2F3C41FA03"
+					type: "item"
+					item: {
+						id: "minecraft:netherite_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "72B8340D7521E043"
+					type: "item"
+					item: {
+						id: "minecraft:netherite_shovel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: 0.5d
+			description: ["Самый важный предмет в игре!"]
+			dependencies: ["79325CD17EACF314"]
+			id: "5903B6303FE57B7B"
+			tasks: [{
+				id: "6AAE67B50631533A"
+				type: "item"
+				item: {
+					id: "minecraft:netherite_hoe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 0.5d
+			y: 1.5d
+			description: ["При убийстве Гаста с него может выпасть слеза гаста."]
+			dependencies: ["0638AA464CB433BD"]
+			id: "4DA081B66BEB600A"
+			tasks: [{
+				id: "1403269C756C2C73"
+				type: "kill"
+				title: "Убить Гаста"
+				entity: "minecraft:ghast"
+				value: 1L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.5d
+			description: ["Достаточно полезный предмет."]
+			dependencies: ["4DA081B66BEB600A"]
+			size: 1.1d
+			id: "3E26776DA6F36149"
+			tasks: [{
+				id: "26D92EF084F52F6D"
+				type: "item"
+				title: "Слеза гаста"
+				item: "minecraft:ghast_tear"
+				count: 2L
+			}]
+			rewards: [{
+				id: "242BB03F88049A13"
+				type: "item"
+				item: "minecraft:ghast_tear"
+				count: 2
+				random_bonus: 1
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.5d
+			description: ["Данная стрела поможет в бою против большой толпы монстров."]
+			dependencies: ["3E26776DA6F36149"]
+			id: "4ADE1D02B4CDD3CA"
+			tasks: [{
+				id: "717FFC333428664C"
+				type: "item"
+				title: "Призрачная стрела"
+				item: "archers_paradox:phantasmal_arrow"
+				count: 8L
+			}]
+			rewards: [{
+				id: "43550DD2A20BF7DF"
+				type: "item"
+				item: "archers_paradox:phantasmal_arrow"
+				count: 2
+				random_bonus: 2
+			}]
+		}
+		{
+			x: -1.5d
+			y: -1.5d
+			description: ["Достаточно неплохая и дешевая в создании стрела."]
+			dependencies: ["7816E4D8946FBA71"]
+			id: "29F7A84AA5315852"
+			tasks: [{
+				id: "798A9B4460E9BC8D"
+				type: "item"
+				title: "Кварцевая стрела"
+				item: "archers_paradox:quartz_arrow"
+				count: 8L
+			}]
+			rewards: [{
+				id: "037679E49686EA38"
+				type: "item"
+				item: "archers_paradox:quartz_arrow"
+				count: 2
+				random_bonus: 2
+			}]
+		}
+		{
+			x: -0.5d
+			y: -1.5d
+			description: ["Можно использовать в качестве декорации или же создать несколько новых предметов."]
+			dependencies: ["7816E4D8946FBA71"]
+			id: "4030823F0387614B"
+			tasks: [{
+				id: "04063EEB83FD693D"
+				type: "item"
+				title: "Кварцевый блок"
+				item: "minecraft:quartz_block"
+				count: 8L
+			}]
+			rewards: [{
+				id: "62E15E052B0BEA77"
+				type: "item"
+				item: "minecraft:quartz_block"
+				count: 4
+				random_bonus: 2
+			}]
+		}
+		{
+			x: -0.5d
+			y: -2.5d
+			description: ["Можно использовать в качестве декорации или же создать несколько новых предметов."]
+			dependencies: ["4030823F0387614B"]
+			id: "5B6CBB22B90AEC7C"
+			tasks: [{
+				id: "1BEC43573578839A"
+				type: "item"
+				title: "Гладкий кварц"
+				item: "minecraft:smooth_quartz"
+				count: 8L
+			}]
+			rewards: [{
+				id: "012543402A4FA227"
+				type: "item"
+				item: "minecraft:smooth_quartz"
+				count: 4
+				random_bonus: 2
+			}]
+		}
+		{
+			x: 1.5d
+			y: -1.5d
+			description: ["Вкусный чаёк :)"]
+			dependencies: ["2438D11304615B6A"]
+			id: "7662943446BFF355"
+			tasks: [{
+				id: "3048F5938E9D815A"
+				type: "item"
+				item: "farmersrespite:purulent_tea"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 2.0d
+			description: ["Мм... Вкусно!"]
+			dependencies: ["5C8F6BE38CD61F1B"]
+			id: "1ECB8304D57715A6"
+			tasks: [{
+				id: "2761D4BF489315B5"
+				type: "item"
+				item: "farmersrespite:blazing_chili"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 2.0d
+			description: ["Достаточно сильная стрела, которая поможет вам в бою."]
+			dependencies: ["5C8F6BE38CD61F1B"]
+			id: "44194EBD8AE095DA"
+			tasks: [{
+				id: "24B88AF72A97D339"
+				type: "item"
+				title: "Поджигающая стрела"
+				item: "archers_paradox:blaze_arrow"
+				count: 8L
+			}]
+			rewards: [{
+				id: "35A001429F74EFF1"
+				type: "item"
+				item: "archers_paradox:blaze_arrow"
+				count: 2
+				random_bonus: 2
+			}]
+		}
+		{
+			x: 2.0d
+			y: 5.5d
+			description: ["Очень крутое улучшение!"]
+			dependencies: ["0BEF1BC6D388B3F8"]
+			size: 1.1d
+			id: "3C3E95437372C0B2"
+			tasks: [{
+				id: "3324CA5EE18E2445"
+				type: "item"
+				item: "sophisticatedbackpacks:inception_upgrade"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 0.5d
+			description: ["Красивый и яркий фонарик."]
+			dependencies: ["63CE859816941806"]
+			id: "1E3EC8C0E1261407"
+			tasks: [{
+				id: "6B15858F40181E0E"
+				type: "item"
+				title: "Ифритовый фонарь"
+				item: "quark:blaze_lantern"
+				count: 2L
+			}]
+			rewards: [{
+				id: "585A36E148990E0D"
+				type: "item"
+				item: "quark:blaze_lantern"
+				count: 4
+			}]
+		}
+		{
+			title: "Роба"
+			icon: {
+				id: "immersive_armors:robe_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 4.0d
+			y: 2.5d
+			shape: "rsquare"
+			description: ["Очень полезная броня в Аду!"]
+			dependencies: ["5C8F6BE38CD61F1B"]
+			size: 1.1d
+			id: "118F1B98CD63288A"
+			tasks: [
+				{
+					id: "1692E7EEF0B98AEF"
+					type: "item"
+					item: {
+						id: "immersive_armors:robe_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5C0E07D118EFC8BA"
+					type: "item"
+					item: {
+						id: "immersive_armors:robe_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "00C9F2E4FFC48EB4"
+					type: "item"
+					item: {
+						id: "immersive_armors:robe_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1327DB4CE08C3EA8"
+					type: "item"
+					item: {
+						id: "immersive_armors:robe_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -1.0d
+			description: ["Позволяет находиться в огне или лаве без получения урона."]
+			dependencies: ["03D84CFC9502FAC9"]
+			id: "6292CA12BD9FCA34"
+			tasks: [{
+				id: "6CA0BFDCDA5019C6"
+				type: "item"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "minecraft:fire_resistance"
+					}
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: -2.0d
+			shape: "pentagon"
+			description: ["Улучшенная версия зелья огнестойкости."]
+			dependencies: ["6292CA12BD9FCA34"]
+			size: 1.1d
+			id: "07297428C4FB2F68"
+			tasks: [{
+				id: "2274D98C8F4E009A"
+				type: "item"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "minecraft:long_fire_resistance"
+					}
+				}
+			}]
+		}
+		{
+			x: 5.0d
+			y: -1.0d
+			description: ["Позволяет наносить больше урона."]
+			dependencies: ["03D84CFC9502FAC9"]
+			id: "7A973E05C597B6E3"
+			tasks: [{
+				id: "33997C2375DFCCDD"
+				type: "item"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "minecraft:strength"
+					}
+				}
+			}]
+		}
+		{
+			x: 5.5d
+			y: 0.0d
+			description: ["Улучшенная версия зелья силы."]
+			dependencies: ["7A973E05C597B6E3"]
+			id: "6B716DE17E750687"
+			tasks: [{
+				id: "4F1316AA5EDDA80A"
+				type: "item"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "minecraft:long_strength"
+					}
+				}
+			}]
+		}
+		{
+			x: 5.5d
+			y: -2.0d
+			shape: "pentagon"
+			description: ["Улучшенная версия зелья силы."]
+			dependencies: ["7A973E05C597B6E3"]
+			size: 1.1d
+			id: "6160D7CD7CC14D3E"
+			tasks: [{
+				id: "770BA77E868DC662"
+				type: "item"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "minecraft:strong_strength"
+					}
+				}
+			}]
+		}
+		{
+			x: 4.0d
+			y: -1.5d
+			description: ["Позволяет исцелить некоторое количество здоровья."]
+			dependencies: ["03D84CFC9502FAC9"]
+			id: "09D39EC62B37C300"
+			tasks: [{
+				id: "2D2A1639F8FB3E8B"
+				type: "item"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "minecraft:healing"
+					}
+				}
+			}]
+		}
+		{
+			x: 4.0d
+			y: -2.5d
+			shape: "pentagon"
+			description: ["Улучшенная версия зелья исцеления."]
+			dependencies: ["09D39EC62B37C300"]
+			size: 1.1d
+			id: "5BD8CEE7E07A4083"
+			tasks: [{
+				id: "3A21E36AA39D8083"
+				type: "item"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "minecraft:strong_healing"
+					}
+				}
+			}]
+		}
+		{
+			x: 0.5d
+			y: -1.5d
+			dependencies: ["76AA943499192987"]
+			id: "0A1133B0D8F63BD2"
+			tasks: [{
+				id: "555FF5C64E8A7D75"
+				type: "item"
+				item: "minecraft:soul_campfire"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 1.5d
+			description: ["Чернит часто встречается в Аду. С помощью него можно создать множество предметов."]
+			dependencies: ["0638AA464CB433BD"]
+			id: "7C94D66978FD5DE1"
+			tasks: [{
+				id: "03D85A98E1857CA9"
+				type: "item"
+				title: "Чернит"
+				item: "minecraft:blackstone"
+				count: 8L
+			}]
+			rewards: [{
+				id: "0187EFE19F37B0D7"
+				type: "item"
+				item: "minecraft:blackstone"
+				count: 6
+				random_bonus: 2
+			}]
+		}
+		{
+			x: -1.5d
+			y: 1.5d
+			description: ["Аналог обычной печи."]
+			dependencies: ["7C94D66978FD5DE1"]
+			id: "643918B72D9D95A2"
+			tasks: [{
+				id: "60BB1E6D01C64426"
+				type: "item"
+				item: "nethersdelight:blackstone_furnace"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 2.5d
+			description: ["Можно использовать в качестве декорации. А также, можно создать несколько новых предметов."]
+			dependencies: ["7C94D66978FD5DE1"]
+			id: "6B405D8AA3F0CE61"
+			tasks: [{
+				id: "0FEC17CA96B7262A"
+				type: "item"
+				title: "Полированный чернит"
+				item: "minecraft:polished_blackstone"
+				count: 8L
+			}]
+			rewards: [{
+				id: "4D261730E3DBB015"
+				type: "item"
+				item: "minecraft:polished_blackstone"
+				count: 6
+				random_bonus: 2
+			}]
+		}
+		{
+			x: -1.0d
+			y: 3.5d
+			description: ["Можно использовать в качестве декораций или создать несколько новых предметов."]
+			dependencies: ["6B405D8AA3F0CE61"]
+			id: "1153B530055A58D1"
+			tasks: [{
+				id: "63FF5CA153AA2B82"
+				type: "item"
+				title: "Полированно-чернитные кирпичи"
+				item: "minecraft:polished_blackstone_bricks"
+				count: 8L
+			}]
+			rewards: [{
+				id: "76069D98285B774E"
+				type: "item"
+				item: "minecraft:polished_blackstone_bricks"
+				count: 6
+				random_bonus: 2
+			}]
+		}
+		{
+			x: -1.0d
+			y: 4.5d
+			description: ["Аналог обычной кухонной плиты."]
+			dependencies: ["1153B530055A58D1"]
+			id: "492569E5D2871E6E"
+			tasks: [{
+				id: "117394BC558D2C31"
+				type: "item"
+				item: "nethersdelight:blackstone_stove"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 1.5d
+			description: ["Аналог обычной плавильной печи."]
+			dependencies: ["643918B72D9D95A2"]
+			id: "4505B3A1BB04E26F"
+			tasks: [{
+				id: "13F00F9BA8E2E09D"
+				type: "item"
+				item: "nethersdelight:blackstone_blast_furnace"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 2.5d
+			description: ["Аналог обычной коптильни."]
+			dependencies: ["643918B72D9D95A2"]
+			id: "57D86C6312E858AF"
+			tasks: [{
+				id: "08CB61B02F88EDA3"
+				type: "item"
+				item: "nethersdelight:nether_brick_smoker"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 3.5d
+			description: ["Можно использовать в качестве декорации."]
+			dependencies: ["1153B530055A58D1"]
+			id: "4E853CD90F90CAA0"
+			tasks: [{
+				id: "186A37AD25E5DEC1"
+				type: "item"
+				title: "Потрескавшиеся полированно-чернитные кирпичи"
+				item: "minecraft:cracked_polished_blackstone_bricks"
+				count: 8L
+			}]
+			rewards: [{
+				id: "1EEEA7C5525C5A39"
+				type: "item"
+				item: "minecraft:cracked_polished_blackstone_bricks"
+				count: 6
+				random_bonus: 2
+			}]
+		}
+	]
+}

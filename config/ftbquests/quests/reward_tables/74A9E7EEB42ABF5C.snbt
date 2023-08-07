@@ -1,0 +1,13 @@
+{
+	id: "74A9E7EEB42ABF5C"
+	order_index: 2
+	title: "Мясо"
+	icon: "minecraft:cooked_beef"
+	loot_size: 1
+	rewards: [
+		{ title: "Стейк", item: "minecraft:cooked_beef", count: 4 }
+		{ title: "Жареная свинина", item: "minecraft:cooked_porkchop", count: 4 }
+		{ title: "Жареная курица", item: "minecraft:cooked_chicken", count: 4 }
+		{ title: "Жареная баранина", item: "minecraft:cooked_mutton", count: 4 }
+	]
+}

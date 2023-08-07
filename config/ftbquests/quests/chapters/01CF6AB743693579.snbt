@@ -1,0 +1,473 @@
+{
+	id: "01CF6AB743693579"
+	group: ""
+	order_index: 5
+	filename: "01CF6AB743693579"
+	title: "Энд"
+	icon: {
+		id: "minecraft:elytra"
+		Count: 1b
+		tag: {
+			Damage: 0
+		}
+	}
+	default_quest_shape: "octagon"
+	default_hide_dependency_lines: false
+	images: [{
+		x: 2.5d
+		y: 1.0d
+		width: 30.0d
+		height: 25.0d
+		rotation: 0.0d
+		image: "vanillaclassicremake:textures/end.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			description: ["С помощью око эндера можно найти портал в Энд, а также с помощью них портал можно активировать."]
+			dependencies: ["5C8F6BE38CD61F1B"]
+			size: 1.1d
+			id: "2B1E2D735EEA2212"
+			tasks: [{
+				id: "2A1A8AACAB1AB3A8"
+				type: "item"
+				title: "Око Эндера"
+				item: "minecraft:ender_eye"
+				count: 12L
+			}]
+			rewards: [{
+				id: "517C394C3091F612"
+				type: "item"
+				item: "minecraft:ender_eye"
+				count: 2
+				random_bonus: 3
+			}]
+		}
+		{
+			x: 1.0d
+			y: 0.0d
+			description: ["Вам нужно идти вслед за выпущенным око эндера, чтобы найти Крепость."]
+			dependencies: ["2B1E2D735EEA2212"]
+			id: "1495017582A6F45B"
+			tasks: [{
+				id: "7CBB59801054812D"
+				type: "structure"
+				title: "Найдите Крепость"
+				structure: "minecraft:stronghold"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.0d
+			description: ["Найдите портал, активируйте его и прыгните в неизвестность!"]
+			dependencies: ["1495017582A6F45B"]
+			id: "71E5CF71B79671E6"
+			tasks: [{
+				id: "7E95C5EFA23292F6"
+				type: "dimension"
+				title: "Посетить измерение Энд"
+				dimension: "minecraft:the_end"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.0d
+			shape: "gear"
+			description: ["Самый главный босс в игре - Эндер-дракон. Победите его и пройдите игру!!!"]
+			dependencies: ["71E5CF71B79671E6"]
+			size: 1.3d
+			id: "025279E92F14CED0"
+			tasks: [{
+				id: "18163D283DCEF388"
+				type: "kill"
+				title: "Убить Эндер-дракона"
+				entity: "minecraft:ender_dragon"
+				value: 1L
+			}]
+		}
+		{
+			x: 3.3000000000000003d
+			y: -1.1d
+			description: ["Самый эффективный способ передвижения."]
+			dependencies: ["025279E92F14CED0"]
+			size: 1.1d
+			id: "32A0F83FD64502C1"
+			tasks: [{
+				id: "40FEBD435CE53D30"
+				type: "item"
+				item: {
+					id: "minecraft:elytra"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: 1.0d
+			description: ["С помощью панциря шалкера можно создать сам шалкер."]
+			dependencies: ["025279E92F14CED0"]
+			id: "587116E8FD63F03C"
+			tasks: [{
+				id: "0D940C11C5F7037E"
+				type: "item"
+				title: "Панцирь шалкера"
+				item: "minecraft:shulker_shell"
+				count: 2L
+			}]
+			rewards: [{
+				id: "45798B058C632142"
+				type: "item"
+				item: "minecraft:shulker_shell"
+				random_bonus: 3
+			}]
+		}
+		{
+			x: 3.5d
+			y: 2.0d
+			description: ["В шалкеровый ящик можно положить вещи, сломать его и перенсти куда угодно - вещи останутся в нем."]
+			dependencies: ["587116E8FD63F03C"]
+			id: "376B95C41E562D37"
+			tasks: [{
+				id: "245EE9E43237200D"
+				type: "item"
+				item: "minecraft:shulker_box"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 3.0d
+			description: ["Улучшенная версия предыдущего хранилища."]
+			dependencies: ["376B95C41E562D37"]
+			id: "0ADA48C1EEF140EE"
+			tasks: [{
+				id: "3F5D461B0CA8EA07"
+				type: "item"
+				item: "sophisticatedstorage:iron_shulker_box"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 3.5d
+			description: ["Улучшенная версия предыдущего хранилища."]
+			dependencies: ["0ADA48C1EEF140EE"]
+			id: "750F1ECAF23A6AF3"
+			tasks: [{
+				id: "59317C8D6223FDED"
+				type: "item"
+				item: "sophisticatedstorage:gold_shulker_box"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 3.5d
+			description: ["Улучшенная версия предыдущего хранилища."]
+			dependencies: ["750F1ECAF23A6AF3"]
+			id: "3405CD1F131DB877"
+			tasks: [{
+				id: "50CB1C0D6771C854"
+				type: "item"
+				item: "sophisticatedstorage:diamond_shulker_box"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.5d
+			shape: "gear"
+			description: ["Улучшенная версия предыдущего хранилища."]
+			dependencies: ["3405CD1F131DB877"]
+			size: 1.2d
+			id: "7252B47B321A1ACD"
+			tasks: [{
+				id: "5C197244F97BF615"
+				type: "item"
+				item: "sophisticatedstorage:netherite_shulker_box"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -1.0d
+			description: ["Эндерняк можно использовать в качестве декорации или создать из него другие предметы."]
+			dependencies: ["71E5CF71B79671E6"]
+			id: "379865519EFDF82D"
+			tasks: [{
+				id: "344F8E1A2E98B798"
+				type: "item"
+				title: "Эндерняк"
+				item: "minecraft:end_stone"
+				count: 8L
+			}]
+			rewards: [{
+				id: "736679FDF0283267"
+				type: "item"
+				item: "minecraft:end_stone"
+				count: 4
+				random_bonus: 2
+			}]
+		}
+		{
+			x: 4.5d
+			y: 0.0d
+			description: ["Если съесть плод хоруса, то вы будете телепортированы в небольшом радиусе."]
+			dependencies: ["025279E92F14CED0"]
+			id: "352FDBD1E41ECBCB"
+			tasks: [{
+				id: "03ECD2F05BBECAB9"
+				type: "item"
+				title: "Плод хоруса"
+				item: "minecraft:chorus_fruit"
+				count: 4L
+			}]
+			rewards: [{
+				id: "38C6A7FB7E9A3B51"
+				type: "item"
+				item: "minecraft:chorus_fruit"
+				count: 2
+			}]
+		}
+		{
+			x: 5.5d
+			y: 0.0d
+			shape: "rsquare"
+			description: ["Из него можно сделать несколько интересных вещей."]
+			dependencies: ["352FDBD1E41ECBCB"]
+			id: "07A202D473CBDC95"
+			tasks: [{
+				id: "32FB6F98E71A7240"
+				type: "item"
+				title: "Прожаренный плод хоруса"
+				item: "minecraft:popped_chorus_fruit"
+				count: 4L
+			}]
+			rewards: [{
+				id: "733393632F331D3C"
+				type: "item"
+				item: "minecraft:popped_chorus_fruit"
+				count: 2
+				random_bonus: 2
+			}]
+		}
+		{
+			x: 6.0d
+			y: -1.0d
+			description: ["Обычная декорация."]
+			dependencies: ["07A202D473CBDC95"]
+			id: "2E628C9D109DF3C6"
+			tasks: [{
+				id: "74F083C488603243"
+				type: "item"
+				title: "Пурпур"
+				item: "minecraft:purpur_block"
+				count: 8L
+			}]
+			rewards: [{
+				id: "048A8FFB47C1425A"
+				type: "item"
+				item: "minecraft:purpur_block"
+				count: 6
+				random_bonus: 2
+			}]
+		}
+		{
+			x: 6.5d
+			y: 0.0d
+			description: ["Почувствуйте себя шалкером!"]
+			dependencies: ["07A202D473CBDC95"]
+			size: 1.1d
+			id: "19D20EF621077658"
+			tasks: [{
+				id: "13F0AF4EFF0D19E4"
+				type: "item"
+				title: "Стрела-шалкер"
+				item: "archers_paradox:shulker_arrow"
+				count: 8L
+			}]
+			rewards: [{
+				id: "23C87D9FE06FC989"
+				type: "item"
+				item: "archers_paradox:shulker_arrow"
+				count: 2
+				random_bonus: 2
+			}]
+		}
+		{
+			x: 6.0d
+			y: 1.0d
+			description: ["Обычная декорация."]
+			dependencies: ["07A202D473CBDC95"]
+			id: "5735DA885FC3CD27"
+			tasks: [{
+				id: "29ACC200F1733BA0"
+				type: "item"
+				title: "Стержень Энда"
+				item: "minecraft:end_rod"
+				count: 4L
+			}]
+			rewards: [{
+				id: "52BD61571445017B"
+				type: "item"
+				item: "minecraft:end_rod"
+				count: 2
+				random_bonus: 2
+			}]
+		}
+		{
+			x: 7.0d
+			y: -1.5d
+			description: ["Обычная декорация."]
+			dependencies: ["2E628C9D109DF3C6"]
+			id: "2E923C108E67BBA2"
+			tasks: [{
+				id: "672572077BF064E6"
+				type: "item"
+				title: "Сумеречный блок"
+				item: "quark:duskbound_block"
+				count: 8L
+			}]
+			rewards: [{
+				id: "4E74B59D135BDB17"
+				type: "item"
+				item: "quark:duskbound_block"
+				count: 4
+				random_bonus: 2
+			}]
+		}
+		{
+			x: 8.0d
+			y: -1.5d
+			description: ["Обычная декорация, которая еще и светит."]
+			dependencies: ["2E923C108E67BBA2"]
+			id: "0DE92BD932C21D18"
+			tasks: [{
+				id: "764B4F7ABF7BD446"
+				type: "item"
+				title: "Сумеречный фонарь"
+				item: "quark:duskbound_lantern"
+				count: 4L
+			}]
+			rewards: [{
+				id: "07F88DDF0C9CB163"
+				type: "item"
+				item: "quark:duskbound_lantern"
+				count: 2
+				random_bonus: 1
+			}]
+		}
+		{
+			x: 2.0d
+			y: -2.0d
+			description: ["Очень красивый блок."]
+			dependencies: ["379865519EFDF82D"]
+			id: "1FDA72882216D80C"
+			tasks: [{
+				id: "57F605276B59E893"
+				type: "item"
+				title: "Эндерняковые кирпичи"
+				item: "minecraft:end_stone_bricks"
+				count: 8L
+			}]
+			rewards: [{
+				id: "09DD35C0ACA016DF"
+				type: "item"
+				item: "minecraft:end_stone_bricks"
+				count: 4
+				random_bonus: 2
+			}]
+		}
+		{
+			x: 5.0d
+			y: 1.5d
+			description: ["Обычная декорация."]
+			dependencies: ["5735DA885FC3CD27"]
+			id: "7758D8C4B4028133"
+			tasks: [{
+				id: "685D4FAAEC885EE9"
+				type: "item"
+				title: "Железный стержень"
+				item: "quark:iron_rod"
+				count: 4L
+			}]
+			rewards: [{
+				id: "5AAF3EB1208BC325"
+				type: "item"
+				item: "quark:iron_rod"
+				count: 2
+				random_bonus: 2
+			}]
+		}
+		{
+			x: 7.0d
+			y: 1.5d
+			description: ["Обычная декорация, котрая светит."]
+			dependencies: ["5735DA885FC3CD27"]
+			id: "08716F15988A4C6E"
+			tasks: [{
+				id: "345111F78D561553"
+				type: "item"
+				title: "Мёдо-лампа"
+				item: "buzzier_bees:honey_lamp"
+				count: 4L
+			}]
+			rewards: [{
+				id: "22182C96D27CBE15"
+				type: "item"
+				item: "buzzier_bees:honey_lamp"
+				count: 2
+				random_bonus: 2
+			}]
+		}
+		{
+			x: -0.5d
+			y: -1.0d
+			description: ["С помощью кристаллов Энда можно возродить Дракона Края!"]
+			dependencies: ["2B1E2D735EEA2212"]
+			id: "49DD0CDDBE222BD7"
+			tasks: [{
+				id: "49A4952C43B5AC7C"
+				type: "item"
+				title: "Кристалл Энда"
+				item: "minecraft:end_crystal"
+				count: 4L
+			}]
+			rewards: [{
+				id: "4CC946971F425A6F"
+				type: "item"
+				item: "minecraft:end_crystal"
+				count: 2
+			}]
+		}
+		{
+			x: -0.5d
+			y: 1.0d
+			description: ["Эндер-смотрителя можно использовать в различных механизмах."]
+			dependencies: ["2B1E2D735EEA2212"]
+			id: "60B4D666B50757D0"
+			tasks: [{
+				id: "2B7E55B44DCBB74F"
+				type: "item"
+				item: "quark:ender_watcher"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -1.5d
+			shape: "gear"
+			description: ["С этим улучшением ваш рюкзак никогда не исчезнет."]
+			dependencies: ["49DD0CDDBE222BD7"]
+			size: 1.2d
+			id: "33A9045F813606BE"
+			tasks: [{
+				id: "774E49148D03505E"
+				type: "item"
+				item: "sophisticatedbackpacks:everlasting_upgrade"
+			}]
+		}
+	]
+}

@@ -1,0 +1,237 @@
+{
+	id: "4A8D6C5969B31F87"
+	group: ""
+	order_index: 3
+	filename: "4A8D6C5969B31F87"
+	title: "Колония"
+	icon: "structurize:sceptergold"
+	default_quest_shape: "rsquare"
+	default_hide_dependency_lines: false
+	images: [{
+		x: 0.5d
+		y: -0.5d
+		width: 40.0d
+		height: 35.0d
+		rotation: 0.0d
+		image: "vanillaclassicremake:textures/colony.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			description: ["Инструмент для строительства - это самый важный инструмент для создания собственной колонии."]
+			dependencies: ["1353634C2CA41B60"]
+			id: "2C99DE39599D0AE1"
+			tasks: [{
+				id: "2426A1FA7248ACB9"
+				type: "item"
+				title: "Инструмент для строительства "
+				item: "structurize:sceptergold"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 0.0d
+			shape: "rsquare"
+			description: ["Ратуша - это самое первое и самое главное строение в вашей колонии. Именно с ратуши начинается развитие колонии!"]
+			dependencies: ["2C99DE39599D0AE1"]
+			size: 1.1d
+			id: "2F7739EAE638E34C"
+			tasks: [{
+				id: "4636505E811CBFB1"
+				type: "item"
+				item: "minecolonies:blockhuttownhall"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 0.0d
+			shape: "octagon"
+			description: ["С помощью хижины строителя в вашей колонии начнут появлятся строители, которые будут выстраивать вашу колонию."]
+			dependencies: ["2F7739EAE638E34C"]
+			size: 1.2d
+			id: "77FD7924E4C9F49B"
+			tasks: [{
+				id: "709E053A6113D6EB"
+				type: "item"
+				item: "minecolonies:blockhutbuilder"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 1.0d
+			description: ["В бочке для компоста можно создать компост."]
+			dependencies: ["2C99DE39599D0AE1"]
+			id: "2A295A99E1EB08A1"
+			tasks: [{
+				id: "163BDECDCB0D90A8"
+				type: "item"
+				item: "minecolonies:barrel_block"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 2.0d
+			description: ["Прямо как костная мука."]
+			dependencies: ["2A295A99E1EB08A1"]
+			id: "456E8BAAC577EF97"
+			tasks: [{
+				id: "74B26EDE6003EA68"
+				type: "item"
+				title: "Компост"
+				item: "minecolonies:compost"
+				count: 4L
+			}]
+			rewards: [{
+				id: "54BE08BEC0DD60BE"
+				type: "item"
+				item: "minecolonies:compost"
+				count: 6
+				random_bonus: 2
+			}]
+		}
+		{
+			x: 3.5d
+			y: 1.0d
+			description: ["В ресторане жители вашей колонии будут питаться."]
+			hide_dependency_lines: true
+			dependencies: ["77FD7924E4C9F49B"]
+			id: "530C5641D46E0AB9"
+			tasks: [{
+				id: "77EBD35BCC51ACA0"
+				type: "item"
+				item: "minecolonies:blockhutcook"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -1.0d
+			description: ["На складе будут храниться предметы вашей колонии."]
+			hide_dependency_lines: true
+			dependencies: ["77FD7924E4C9F49B"]
+			id: "2B1589DB8B80A05C"
+			tasks: [{
+				id: "62CB53D8A875D15C"
+				type: "item"
+				item: "minecolonies:blockhutwarehouse"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -1.5d
+			description: ["С помощью фермы ваша колония сможет сама производить еду."]
+			hide_dependency_lines: true
+			dependencies: ["77FD7924E4C9F49B"]
+			id: "62F2D549BCD26EE7"
+			tasks: [{
+				id: "4D9C6482AFAD579F"
+				type: "item"
+				item: "minecolonies:blockhutfarmer"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 0.0d
+			description: ["В университете вы будете открывать новые строения для вашей колонии."]
+			dependencies: ["77FD7924E4C9F49B"]
+			id: "36DCE7FA65BB1F52"
+			tasks: [{
+				id: "091AC18F09373D04"
+				type: "item"
+				item: "minecolonies:blockhutuniversity"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 1.5d
+			description: ["С помощью шахты ваша колония будет сама добывать полезные ископаемые."]
+			hide_dependency_lines: true
+			dependencies: ["77FD7924E4C9F49B"]
+			id: "281D82ACDEC902F8"
+			tasks: [{
+				id: "72DFA8CF6EB5FD7D"
+				type: "item"
+				item: "minecolonies:blockhutminer"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -1.0d
+			description: ["С помощью хижины лесника ваша колония сможет сама добывать дерево для развития!"]
+			hide_dependency_lines: true
+			dependencies: ["77FD7924E4C9F49B"]
+			id: "6624CFD1C397FF48"
+			tasks: [{
+				id: "795442B328E5303B"
+				type: "item"
+				item: "minecolonies:blockhutlumberjack"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 1.0d
+			description: ["Сторожевая башня нужна для защиты колонии."]
+			hide_dependency_lines: true
+			dependencies: ["77FD7924E4C9F49B"]
+			id: "4E2542511296B43B"
+			tasks: [{
+				id: "786C63E868255B07"
+				type: "item"
+				item: "minecolonies:blockhutguardtower"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 1.0d
+			description: ["В школе жители вашей колонии будут учиться."]
+			hide_dependency_lines: true
+			dependencies: ["36DCE7FA65BB1F52"]
+			id: "19CD8CE2013A27C4"
+			tasks: [{
+				id: "4C61BE396F395DB9"
+				type: "item"
+				item: "minecolonies:blockhutschool"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -1.0d
+			description: ["В больнице жители вашей колонии будут лечиться."]
+			hide_dependency_lines: true
+			dependencies: ["36DCE7FA65BB1F52"]
+			id: "1BD339F1C02EE43B"
+			tasks: [{
+				id: "771F9C0B290900B5"
+				type: "item"
+				item: "minecolonies:blockhuthospital"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -1.0d
+			description: ["Интересное хранилище."]
+			dependencies: ["2C99DE39599D0AE1"]
+			id: "139BCE3B00A83815"
+			tasks: [{
+				id: "337ABDA97C5FDFA7"
+				type: "item"
+				item: "minecolonies:blockminecoloniesrack"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 0.0d
+			dependencies: ["5775A7B44208248A"]
+			id: "0F31B41596CC29EB"
+			tasks: [{
+				id: "318C1C3CBEC1D851"
+				type: "item"
+				item: "minecolonies:supplycampdeployer"
+			}]
+		}
+	]
+}
