@@ -46,6 +46,9 @@
     "mob_spawner": true,
     "redstone": true
   },
+  "tombstone": {
+    "graves": true
+  },
   "twilightforest": {
     "quest_ram_wool": true
   },
@@ -59,8 +62,5 @@
   },
   "waystones": {
     "waystone": true
-  },
-  "corpse": {
-    "corpse": true
   }
 }
