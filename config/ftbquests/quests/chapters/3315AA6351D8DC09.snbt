@@ -7,18 +7,6 @@
 	icon: "sophisticatedstorage:storage_tool"
 	default_quest_shape: "square"
 	default_hide_dependency_lines: false
-	images: [{
-		x: 0.5d
-		y: 1.5d
-		width: 38.0d
-		height: 30.0d
-		rotation: 0.0d
-		image: "vanillaclassicremake:textures/storage.png"
-		hover: [ ]
-		click: ""
-		dev: false
-		corner: false
-	}]
 	quests: [
 		{
 			x: -1.0d

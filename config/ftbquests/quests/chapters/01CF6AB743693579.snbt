@@ -13,18 +13,6 @@
 	}
 	default_quest_shape: "octagon"
 	default_hide_dependency_lines: false
-	images: [{
-		x: 2.5d
-		y: 1.0d
-		width: 30.0d
-		height: 25.0d
-		rotation: 0.0d
-		image: "vanillaclassicremake:textures/end.png"
-		hover: [ ]
-		click: ""
-		dev: false
-		corner: false
-	}]
 	quests: [
 		{
 			x: 0.0d

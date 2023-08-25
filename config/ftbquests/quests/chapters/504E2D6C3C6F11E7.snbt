@@ -7,18 +7,6 @@
 	icon: "minecraft:netherite_ingot"
 	default_quest_shape: "octagon"
 	default_hide_dependency_lines: false
-	images: [{
-		x: -1.0d
-		y: -3.5d
-		width: 40.0d
-		height: 35.0d
-		rotation: 0.0d
-		image: "vanillaclassicremake:textures/nether.png"
-		hover: [ ]
-		click: ""
-		dev: false
-		corner: false
-	}]
 	quests: [
 		{
 			x: 0.5d
@@ -210,20 +198,6 @@
 				item: "minecraft:quartz"
 				count: 8
 				random_bonus: 4
-			}]
-		}
-		{
-			x: -2.0d
-			y: -0.5d
-			shape: "gear"
-			description: ["Датчик сезона позволяет следить за сменой сезонов года."]
-			dependencies: ["7816E4D8946FBA71"]
-			size: 1.2d
-			id: "59EA99D7EAA906AF"
-			tasks: [{
-				id: "772A96A6661BDC93"
-				type: "item"
-				item: "sereneseasons:season_sensor"
 			}]
 		}
 		{

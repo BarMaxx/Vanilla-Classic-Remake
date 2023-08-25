@@ -7,18 +7,6 @@
 	icon: "structurize:sceptergold"
 	default_quest_shape: "rsquare"
 	default_hide_dependency_lines: false
-	images: [{
-		x: 0.5d
-		y: -0.5d
-		width: 40.0d
-		height: 35.0d
-		rotation: 0.0d
-		image: "vanillaclassicremake:textures/colony.png"
-		hover: [ ]
-		click: ""
-		dev: false
-		corner: false
-	}]
 	quests: [
 		{
 			x: 0.0d

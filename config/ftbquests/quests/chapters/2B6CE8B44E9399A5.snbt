@@ -7,18 +7,6 @@
 	icon: "minecraft:crafting_table"
 	default_quest_shape: "pentagon"
 	default_hide_dependency_lines: false
-	images: [{
-		x: 5.0d
-		y: 0.5d
-		width: 40.0d
-		height: 35.0d
-		rotation: 0.0d
-		image: "vanillaclassicremake:textures/survival.png"
-		hover: [ ]
-		click: ""
-		dev: false
-		corner: false
-	}]
 	quests: [
 		{
 			x: 0.0d
