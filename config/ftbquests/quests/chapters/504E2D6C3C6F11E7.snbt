@@ -500,27 +500,6 @@
 			}]
 		}
 		{
-			x: -1.5d
-			y: -1.5d
-			description: ["Достаточно неплохая и дешевая в создании стрела."]
-			dependencies: ["7816E4D8946FBA71"]
-			id: "29F7A84AA5315852"
-			tasks: [{
-				id: "798A9B4460E9BC8D"
-				type: "item"
-				title: "Кварцевая стрела"
-				item: "archers_paradox:quartz_arrow"
-				count: 8L
-			}]
-			rewards: [{
-				id: "037679E49686EA38"
-				type: "item"
-				item: "archers_paradox:quartz_arrow"
-				count: 2
-				random_bonus: 2
-			}]
-		}
-		{
 			x: -0.5d
 			y: -1.5d
 			description: ["Можно использовать в качестве декорации или же создать несколько новых предметов."]
@@ -584,27 +563,6 @@
 				id: "2761D4BF489315B5"
 				type: "item"
 				item: "farmersrespite:blazing_chili"
-			}]
-		}
-		{
-			x: 5.0d
-			y: 2.0d
-			description: ["Достаточно сильная стрела, которая поможет вам в бою."]
-			dependencies: ["5C8F6BE38CD61F1B"]
-			id: "44194EBD8AE095DA"
-			tasks: [{
-				id: "24B88AF72A97D339"
-				type: "item"
-				title: "Поджигающая стрела"
-				item: "archers_paradox:blaze_arrow"
-				count: 8L
-			}]
-			rewards: [{
-				id: "35A001429F74EFF1"
-				type: "item"
-				item: "archers_paradox:blaze_arrow"
-				count: 2
-				random_bonus: 2
 			}]
 		}
 		{

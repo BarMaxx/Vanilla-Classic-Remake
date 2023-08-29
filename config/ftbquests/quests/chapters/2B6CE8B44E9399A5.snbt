@@ -374,18 +374,6 @@
 			}]
 		}
 		{
-			x: 3.5d
-			y: 1.0d
-			description: ["Как кровать, но удобнее в путешествиях."]
-			dependencies: ["72A952D88BACB448"]
-			id: "372E6BD5CAC928B4"
-			tasks: [{
-				id: "35F19BC9B473EA60"
-				type: "item"
-				item: "comforts:sleeping_bag_white"
-			}]
-		}
-		{
 			x: 7.0d
 			y: -3.5d
 			description: ["С помощью чайника можно приготовить различные напитки, но в основном чай."]
@@ -452,30 +440,6 @@
 			}]
 		}
 		{
-			x: 13.5d
-			y: -1.5d
-			description: ["С помощью зачаровывающего наполнителя можно намного легче зачаровывать предметы."]
-			dependencies: ["634D0844C7C3BE55"]
-			id: "6796FD2798B2CE01"
-			tasks: [{
-				id: "611FFE0C196E1EE3"
-				type: "item"
-				item: "enchantinginfuser:enchanting_infuser"
-			}]
-		}
-		{
-			x: 14.5d
-			y: -2.0d
-			description: ["Просто намного лучше, чем зачаровывающий наполнитель :)"]
-			dependencies: ["6796FD2798B2CE01"]
-			id: "0E3AC38C95F47EF7"
-			tasks: [{
-				id: "18A92BB44740D17E"
-				type: "item"
-				item: "enchantinginfuser:advanced_enchanting_infuser"
-			}]
-		}
-		{
 			x: 11.0d
 			y: -2.5d
 			description: ["В эндер-сундук можно положить вещи и взять их в совершенно другом месте через другой эндер-сундук, что очень удобно!"]
@@ -531,19 +495,6 @@
 			}]
 		}
 		{
-			x: 10.5d
-			y: 3.0d
-			description: ["Золотая воронка намного быстрее, чем железная воронка."]
-			dependencies: ["08F7863D82646291"]
-			id: "2E3CCE72E3692064"
-			tasks: [{
-				id: "3810D7D2D9B21696"
-				type: "item"
-				title: "Золотая воронка"
-				item: "goldenhopper:golden_hopper"
-			}]
-		}
-		{
 			x: 7.0d
 			y: 0.0d
 			description: ["На наковальне можно соединять, чинить, переименовывать различные предметы."]
@@ -553,31 +504,6 @@
 				id: "1AA9BFBDFF4C0918"
 				type: "item"
 				item: "minecraft:anvil"
-			}]
-		}
-		{
-			x: 8.5d
-			y: 3.0d
-			description: ["С помощью бартерной станции можно торговать с пиглинами."]
-			dependencies: ["08F7863D82646291"]
-			id: "0FB6524163C285BA"
-			tasks: [{
-				id: "112FEC1999240A29"
-				type: "item"
-				title: "Бартерная станция"
-				item: "barteringstation:bartering_station"
-			}]
-		}
-		{
-			x: 2.0d
-			y: 2.0d
-			description: ["С помощью торгового поста можно торговать с жителями."]
-			dependencies: ["2B19E76BB0764227"]
-			id: "62683B2F01DA182F"
-			tasks: [{
-				id: "2E060ABD75F73282"
-				type: "item"
-				item: "tradingpost:trading_post"
 			}]
 		}
 		{
@@ -1496,28 +1422,6 @@
 				id: "644F6C656D1EB183"
 				type: "item"
 				item: "minecraft:lightning_rod"
-			}]
-		}
-		{
-			x: 9.5d
-			y: -3.0d
-			shape: "rsquare"
-			description: ["Очень эффектная стрела."]
-			dependencies: ["41775C50655769E3"]
-			id: "50E551E5C2375DC8"
-			tasks: [{
-				id: "644759466779CDE4"
-				type: "item"
-				title: "Молниеносная стрела"
-				item: "archers_paradox:lightning_arrow"
-				count: 8L
-			}]
-			rewards: [{
-				id: "628ABD598F597FE3"
-				type: "item"
-				item: "archers_paradox:lightning_arrow"
-				count: 2
-				random_bonus: 2
 			}]
 		}
 	]

@@ -391,27 +391,6 @@
 			}]
 		}
 		{
-			x: 7.0d
-			y: 1.5d
-			description: ["Обычная декорация, котрая светит."]
-			dependencies: ["5735DA885FC3CD27"]
-			id: "08716F15988A4C6E"
-			tasks: [{
-				id: "345111F78D561553"
-				type: "item"
-				title: "Мёдо-лампа"
-				item: "buzzier_bees:honey_lamp"
-				count: 4L
-			}]
-			rewards: [{
-				id: "22182C96D27CBE15"
-				type: "item"
-				item: "buzzier_bees:honey_lamp"
-				count: 2
-				random_bonus: 2
-			}]
-		}
-		{
 			x: -0.5d
 			y: -1.0d
 			description: ["С помощью кристаллов Энда можно возродить Дракона Края!"]
