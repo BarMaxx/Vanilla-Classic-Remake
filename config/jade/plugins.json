@@ -52,6 +52,12 @@
   "twilightforest": {
     "quest_ram_wool": true
   },
+  "reliquary": {
+    "pedestal": true,
+    "altar": true,
+    "mortar": true,
+    "cauldron": true
+  },
   "jade": {
     "coordinates.rel": false,
     "distance": false,
@@ -59,6 +65,11 @@
     "coordinates": false,
     "registry_name": "OFF",
     "mod_name": true
+  },
+  "apotheosis": {
+    "adventure": true,
+    "ench": true,
+    "spawner": true
   },
   "waystones": {
     "waystone": true

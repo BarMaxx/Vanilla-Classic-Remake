@@ -41,5 +41,12 @@
   "jade:block_face": null,
   "twilightforest:quest_ram_wool": null,
   "waystones:waystone": null,
-  "tombstone:graves": null
+  "tombstone:graves": null,
+  "apotheosis:spawner": null,
+  "apotheosis:ench": null,
+  "apotheosis:adventure": null,
+  "reliquary:mortar": null,
+  "reliquary:altar": null,
+  "reliquary:cauldron": null,
+  "reliquary:pedestal": null
 }
