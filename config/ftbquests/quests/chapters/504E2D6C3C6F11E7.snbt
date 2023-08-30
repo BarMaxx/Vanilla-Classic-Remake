@@ -479,27 +479,6 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: 3.5d
-			description: ["Данная стрела поможет в бою против большой толпы монстров."]
-			dependencies: ["3E26776DA6F36149"]
-			id: "4ADE1D02B4CDD3CA"
-			tasks: [{
-				id: "717FFC333428664C"
-				type: "item"
-				title: "Призрачная стрела"
-				item: "archers_paradox:phantasmal_arrow"
-				count: 8L
-			}]
-			rewards: [{
-				id: "43550DD2A20BF7DF"
-				type: "item"
-				item: "archers_paradox:phantasmal_arrow"
-				count: 2
-				random_bonus: 2
-			}]
-		}
-		{
 			x: -0.5d
 			y: -1.5d
 			description: ["Можно использовать в качестве декорации или же создать несколько новых предметов."]

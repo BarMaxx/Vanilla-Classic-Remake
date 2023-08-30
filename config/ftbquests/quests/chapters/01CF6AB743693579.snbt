@@ -264,28 +264,6 @@
 			}]
 		}
 		{
-			x: 6.5d
-			y: 0.0d
-			description: ["Почувствуйте себя шалкером!"]
-			dependencies: ["07A202D473CBDC95"]
-			size: 1.1d
-			id: "19D20EF621077658"
-			tasks: [{
-				id: "13F0AF4EFF0D19E4"
-				type: "item"
-				title: "Стрела-шалкер"
-				item: "archers_paradox:shulker_arrow"
-				count: 8L
-			}]
-			rewards: [{
-				id: "23C87D9FE06FC989"
-				type: "item"
-				item: "archers_paradox:shulker_arrow"
-				count: 2
-				random_bonus: 2
-			}]
-		}
-		{
 			x: 6.0d
 			y: 1.0d
 			description: ["Обычная декорация."]

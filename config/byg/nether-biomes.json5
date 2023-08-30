@@ -91,6 +91,14 @@ If your settings in this file seem to have to no effect on the generation of the
 			{
 				"data": "byg:arisian_undergrowth",
 				"weight": 0
+			},
+			{
+				"data": "gardens_of_the_dead:soulblight_forest",
+				"weight": 2
+			},
+			{
+				"data": "gardens_of_the_dead:whistling_woods",
+				"weight": 2
 			}
 		]
 	},
@@ -179,6 +187,14 @@ If your settings in this file seem to have to no effect on the generation of the
 			{
 				"data": "byg:arisian_undergrowth",
 				"weight": 0
+			},
+			{
+				"data": "gardens_of_the_dead:soulblight_forest",
+				"weight": 2
+			},
+			{
+				"data": "gardens_of_the_dead:whistling_woods",
+				"weight": 2
 			}
 		]
 	},
