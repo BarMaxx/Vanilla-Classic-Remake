@@ -3,7 +3,8 @@
 	group: "6DCD60E845454FA7"
 	order_index: 5
 	filename: "409B82265E7A25C9"
-	title: "Эвердоун"
+	title: "Everdown"
+	icon: "blue_skies:lunar_grass_block"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [ ]

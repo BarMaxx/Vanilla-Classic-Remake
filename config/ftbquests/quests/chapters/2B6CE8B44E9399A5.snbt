@@ -3,7 +3,7 @@
 	group: "05663B9B89B6A710"
 	order_index: 0
 	filename: "2B6CE8B44E9399A5"
-	title: "Выживание"
+	title: "Survival"
 	icon: "minecraft:crafting_table"
 	default_quest_shape: "pentagon"
 	default_hide_dependency_lines: false
@@ -642,6 +642,7 @@
 			}]
 		}
 		{
+			title: "Мясо"
 			icon: "minecraft:cooked_beef"
 			x: 6.5d
 			y: 3.0d
@@ -798,7 +799,7 @@
 					Damage: 0
 				}
 			}
-			x: 7.5d
+			x: 7.0d
 			y: 2.0d
 			description: ["Ваша первая броня, но достаточно сильная."]
 			dependencies: ["42A0AA3648A0912D"]
@@ -859,8 +860,8 @@
 					Damage: 0
 				}
 			}
-			x: 8.5d
-			y: 1.5d
+			x: 8.0d
+			y: 2.0d
 			description: ["Железные инструменты более прочные и эффективные, чем каменные."]
 			dependencies: ["42A0AA3648A0912D"]
 			id: "1C114DB48476EBDF"

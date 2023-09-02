@@ -1,0 +1,17 @@
+{
+	id: "287FE2542905064F"
+	group: "72B112B1F6B996A7"
+	order_index: 3
+	filename: "alexs_mobs"
+	title: "Alex's Mobs"
+	icon: {
+		id: "alexsmobs:novelty_hat"
+		Count: 1b
+		tag: {
+			Damage: 0
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

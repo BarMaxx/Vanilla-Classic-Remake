@@ -429,17 +429,6 @@
         "value": 10000000
       }
     },
-    "apotheosis:cold_damage": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 1000,
-        "value": 10000000
-      }
-    },
     "environmental:stealth": {
       "enabled": false,
       "min": {
@@ -448,6 +437,17 @@
       },
       "max": {
         "default": 1,
+        "value": 10000000
+      }
+    },
+    "apotheosis:cold_damage": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1000,
         "value": 10000000
       }
     },
@@ -539,17 +539,6 @@
         "value": 10000000
       }
     },
-    "apotheosis:armor_shred": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 2,
-        "value": 10000000
-      }
-    },
     "obscure_api:critical_damage": {
       "enabled": false,
       "min": {
@@ -558,6 +547,17 @@
       },
       "max": {
         "default": 100,
+        "value": 10000000
+      }
+    },
+    "apotheosis:armor_shred": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2,
         "value": 10000000
       }
     },

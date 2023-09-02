@@ -3,7 +3,8 @@
 	group: "6DCD60E845454FA7"
 	order_index: 4
 	filename: "0F38F2E08CA84FDC"
-	title: "Эвербрайт"
+	title: "Everbright"
+	icon: "blue_skies:turquoise_grass_block"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [ ]

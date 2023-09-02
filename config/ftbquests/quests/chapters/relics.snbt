@@ -1,0 +1,25 @@
+{
+	id: "37BF8750A8F3173D"
+	group: "55E44FEC8E881863"
+	order_index: 3
+	filename: "relics"
+	title: "Relics"
+	icon: {
+		id: "relics:bastion_ring"
+		Count: 1b
+		tag: {
+			abilities: {
+				trade: {
+					stats: {
+						rolls: 0.23865d
+					}
+					points: 0
+				}
+			}
+			Damage: 0
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

@@ -1,0 +1,11 @@
+{
+	id: "3CAF553D29224227"
+	group: "05663B9B89B6A710"
+	order_index: 2
+	filename: "spirit"
+	title: "Spirit"
+	icon: "spirit:soul_crystal"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

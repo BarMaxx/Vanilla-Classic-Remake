@@ -3,7 +3,8 @@
 	group: "6DCD60E845454FA7"
 	order_index: 2
 	filename: "1B411C83846097EB"
-	title: "Сумеречный Лес"
+	title: "Twilight Forest"
+	icon: "twilightforest:twilight_portal_miniature_structure"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [ ]

@@ -1,0 +1,11 @@
+{
+	id: "4529F2188E0330B9"
+	group: "72B112B1F6B996A7"
+	order_index: 4
+	filename: "decoration"
+	title: "Decoration"
+	icon: "rechiseled:chisel"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

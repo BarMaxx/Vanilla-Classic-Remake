@@ -1,0 +1,10 @@
+{
+	id: "45A4304C4D93ECCC"
+	group: "5B087F11CA4E26A2"
+	order_index: 0
+	filename: "vanilla_classic_remake"
+	title: "Vanilla Classic Remake"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

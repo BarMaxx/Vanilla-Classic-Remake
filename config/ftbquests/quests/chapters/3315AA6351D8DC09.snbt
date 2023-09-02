@@ -3,8 +3,14 @@
 	group: "72B112B1F6B996A7"
 	order_index: 0
 	filename: "3315AA6351D8DC09"
-	title: "Хранилища"
-	icon: "sophisticatedstorage:storage_tool"
+	title: "Sophisticated Storage"
+	icon: {
+		id: "sophisticatedstorage:gold_barrel"
+		Count: 1b
+		tag: {
+			woodType: "acacia"
+		}
+	}
 	default_quest_shape: "square"
 	default_hide_dependency_lines: false
 	quests: [

@@ -1,6 +1,6 @@
 {
 	version: 13
-	title: "Vanilla Classic: Remake"
+	title: "Vanilla Classic Remake"
 	default_reward_team: true
 	default_consume_items: false
 	default_autoclaim_rewards: "disabled"

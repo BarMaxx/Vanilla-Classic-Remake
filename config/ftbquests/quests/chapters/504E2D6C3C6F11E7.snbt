@@ -3,7 +3,7 @@
 	group: "6DCD60E845454FA7"
 	order_index: 0
 	filename: "504E2D6C3C6F11E7"
-	title: "Незер"
+	title: "Nether"
 	icon: "minecraft:netherite_ingot"
 	default_quest_shape: "octagon"
 	default_hide_dependency_lines: false

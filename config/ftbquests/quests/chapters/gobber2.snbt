@@ -1,0 +1,17 @@
+{
+	id: "2EC2D23D3AE2BA9B"
+	group: "05663B9B89B6A710"
+	order_index: 3
+	filename: "gobber2"
+	title: "Gobber2"
+	icon: {
+		id: "gobber2:gobber2_sword_nether"
+		Count: 1b
+		tag: {
+			Damage: 0
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

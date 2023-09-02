@@ -1,0 +1,15 @@
+{
+	id: "74905FBDD06F743F"
+	group: "55E44FEC8E881863"
+	order_index: 0
+	filename: "galosphere"
+	title: "Galosphere"
+	icon: {
+		id: "galosphere:silver_bomb"
+		Count: 1b
+		tag: { }
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

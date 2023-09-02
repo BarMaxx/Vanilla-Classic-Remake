@@ -1,0 +1,11 @@
+{
+	id: "394E881DA7AA05F2"
+	group: "55E44FEC8E881863"
+	order_index: 1
+	filename: "artifacts"
+	title: "Artifacts"
+	icon: "artifacts:bunny_hoppers"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

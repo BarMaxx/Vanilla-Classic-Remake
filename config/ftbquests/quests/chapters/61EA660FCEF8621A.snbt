@@ -3,7 +3,14 @@
 	group: "6DCD60E845454FA7"
 	order_index: 6
 	filename: "61EA660FCEF8621A"
-	title: "Глубже и Темнее"
+	title: "Deeper and Darker"
+	icon: {
+		id: "deeperdarker:warden_helmet"
+		Count: 1b
+		tag: {
+			Damage: 0
+		}
+	}
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [ ]

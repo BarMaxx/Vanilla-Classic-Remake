@@ -1,0 +1,11 @@
+{
+	id: "5D884DE66428FFA8"
+	group: "72B112B1F6B996A7"
+	order_index: 1
+	filename: "sophisticated_backpacks"
+	title: "Sophisticated Backpacks"
+	icon: "sophisticatedbackpacks:backpack"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

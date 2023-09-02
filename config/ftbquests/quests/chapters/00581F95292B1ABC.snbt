@@ -1,0 +1,11 @@
+{
+	id: "00581F95292B1ABC"
+	group: "72B112B1F6B996A7"
+	order_index: 2
+	filename: "00581F95292B1ABC"
+	title: "Farmer's Delight and Addons"
+	icon: "farmersdelight:stove"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

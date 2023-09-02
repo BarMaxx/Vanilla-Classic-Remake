@@ -3,7 +3,7 @@
 	group: "05663B9B89B6A710"
 	order_index: 1
 	filename: "4A8D6C5969B31F87"
-	title: "Колония"
+	title: "MineColonies"
 	icon: "structurize:sceptergold"
 	default_quest_shape: "rsquare"
 	default_hide_dependency_lines: false
