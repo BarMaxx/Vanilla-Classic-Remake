@@ -3,7 +3,7 @@
 	group: "05663B9B89B6A710"
 	order_index: 3
 	filename: "gobber2"
-	title: "Gobber2"
+	title: "Gobber 2"
 	icon: {
 		id: "gobber2:gobber2_sword_nether"
 		Count: 1b
@@ -13,5 +13,768 @@
 	}
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [ ]
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			dependencies: ["34C1D59023AA23CD"]
+			id: "1ED09DF6E49AE5FC"
+			tasks: [{
+				id: "72298EF5FE859123"
+				type: "item"
+				item: "gobber2:gobber2_globette"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 0.0d
+			dependencies: ["1ED09DF6E49AE5FC"]
+			id: "08EDE234BE786942"
+			tasks: [{
+				id: "1AFB526E670016E5"
+				type: "item"
+				item: "gobber2:gobber2_glob"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.0d
+			dependencies: ["08EDE234BE786942"]
+			id: "31A5D8D3BA9D9B6F"
+			tasks: [{
+				id: "1F4561855CF50D46"
+				type: "item"
+				item: "gobber2:gobber2_ingot"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 0.0d
+			dependencies: [
+				"31A5D8D3BA9D9B6F"
+				"16BB3BF0783762C2"
+			]
+			id: "74F59CD499BC477C"
+			tasks: [{
+				id: "4971FA7544473F14"
+				type: "item"
+				item: "gobber2:gobber2_ingot_nether"
+			}]
+		}
+		{
+			x: 5.5d
+			y: -1.5d
+			dependencies: ["3C8971B6DFD6A54B"]
+			id: "16BB3BF0783762C2"
+			tasks: [{
+				id: "0B3C167F74156548"
+				type: "item"
+				item: "gobber2:gobber2_glob_nether"
+			}]
+		}
+		{
+			x: 5.5d
+			y: -3.0d
+			dependencies: ["34C1D59023AA23CD"]
+			id: "3C8971B6DFD6A54B"
+			tasks: [{
+				id: "7CF0CECA3C276B72"
+				type: "item"
+				item: "gobber2:gobber2_globette_nether"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 2.5d
+			dependencies: [
+				"74F59CD499BC477C"
+				"19A6C469328914AA"
+			]
+			id: "50C683E564944A1A"
+			tasks: [{
+				id: "3AC1997D53397F49"
+				type: "item"
+				item: "gobber2:gobber2_ingot_end"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 2.5d
+			dependencies: ["2D0CBF484C3D09CB"]
+			id: "19A6C469328914AA"
+			tasks: [{
+				id: "2208E4CF061F0AE4"
+				type: "item"
+				item: "gobber2:gobber2_glob_end"
+			}]
+		}
+		{
+			x: 8.5d
+			y: 2.5d
+			dependencies: ["34C1D59023AA23CD"]
+			id: "2D0CBF484C3D09CB"
+			tasks: [{
+				id: "5ED66C9EC623E61B"
+				type: "item"
+				item: "gobber2:gobber2_globette_end"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 2.5d
+			dependencies: ["50C683E564944A1A"]
+			id: "4B44DD08F7769D65"
+			tasks: [{
+				id: "66721D008AE2D880"
+				type: "item"
+				item: "gobber2:dragon_star"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 1.5d
+			dependencies: ["50C683E564944A1A"]
+			id: "026336A8F6BA44CF"
+			tasks: [{
+				id: "341882209F29087C"
+				type: "item"
+				item: "gobber2:dragon_elytra"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 2.0d
+			dependencies: ["4B44DD08F7769D65"]
+			id: "2F7C76899D352F45"
+			tasks: [{
+				id: "157F0BB45E177D1C"
+				type: "item"
+				item: {
+					id: "gobber2:gobber2_helmet_dragon"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: 3.0d
+			dependencies: ["4B44DD08F7769D65"]
+			id: "6DEEF116F0C17DB3"
+			tasks: [{
+				id: "571EA3D8AB174A98"
+				type: "item"
+				item: {
+					id: "gobber2:gobber2_chestplate_dragon"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 4.0d
+			y: 1.5d
+			dependencies: ["4B44DD08F7769D65"]
+			id: "419201FBE07A6BCD"
+			tasks: [{
+				id: "2A0AAD7144F41849"
+				type: "item"
+				item: {
+					id: "gobber2:gobber2_leggings_dragon"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 4.0d
+			y: 3.5d
+			dependencies: ["4B44DD08F7769D65"]
+			id: "2E6489E73B5AED47"
+			tasks: [{
+				id: "20F6B542B380387C"
+				type: "item"
+				item: {
+					id: "gobber2:gobber2_boots_dragon"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: -1.5d
+			dependencies: ["08EDE234BE786942"]
+			id: "346F69616CFC6A8A"
+			tasks: [{
+				id: "46FFF9E5AC500FEA"
+				type: "item"
+				item: "gobber2:gobber2_goo"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -3.0d
+			dependencies: ["346F69616CFC6A8A"]
+			id: "226F9DFBDDCAAABC"
+			tasks: [{
+				id: "1A7919A3D83A3D3D"
+				type: "item"
+				item: "gobber2:gobber2_gooey_beef"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -4.0d
+			dependencies: ["226F9DFBDDCAAABC"]
+			id: "01772069520E9529"
+			tasks: [{
+				id: "4E88A4667E7E06B6"
+				type: "item"
+				item: "gobber2:gobber2_gooey_beefstew"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -2.0d
+			dependencies: ["346F69616CFC6A8A"]
+			id: "3065F2E991D65BC4"
+			tasks: [{
+				id: "72B66B9E2FE5363D"
+				type: "item"
+				item: "gobber2:gobber2_gooey_bread"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -2.0d
+			dependencies: ["346F69616CFC6A8A"]
+			id: "2D2BF6AE7C91C24E"
+			tasks: [{
+				id: "3DD904173D171733"
+				type: "item"
+				item: "gobber2:gobber2_gooey_apple"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 1.5d
+			dependencies: ["08EDE234BE786942"]
+			id: "0653B7E8FBB27AA1"
+			tasks: [{
+				id: "7AC8BB5733DB2D74"
+				type: "item"
+				item: "gobber2:gobber2_foo"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 1.5d
+			dependencies: [
+				"08EDE234BE786942"
+				"040561DDC1113B5C"
+			]
+			id: "1A03FE01A8A8A3D3"
+			tasks: [{
+				id: "514D066BC3FA6766"
+				type: "item"
+				item: "gobber2:gobber2_staff_harvest"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.0d
+			hide_dependency_lines: true
+			dependencies: ["31A5D8D3BA9D9B6F"]
+			id: "040561DDC1113B5C"
+			tasks: [{
+				id: "238559D050853D72"
+				type: "item"
+				item: "gobber2:gobber2_rod"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 1.0d
+			dependencies: ["040561DDC1113B5C"]
+			id: "2FA19D8AA76A35C9"
+			tasks: [
+				{
+					id: "52739BA76FB6868B"
+					type: "item"
+					item: {
+						id: "gobber2:gobber2_tree_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4CE4B6B93D23FFEE"
+					type: "item"
+					item: {
+						id: "gobber2:gobber2_hammer"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "278000A3B4800CEE"
+					type: "item"
+					item: {
+						id: "gobber2:gobber2_paxel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: 3.0d
+			dependencies: ["040561DDC1113B5C"]
+			id: "00F51DB0B4CA3D5A"
+			tasks: [
+				{
+					id: "6EC4F83F358668CE"
+					type: "item"
+					item: "gobber2:gobber2_staff_ensnarement"
+				}
+				{
+					id: "75D82D93E197A052"
+					type: "item"
+					item: "gobber2:gobber2_staff_clearing"
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 1.0d
+			dependencies: ["31A5D8D3BA9D9B6F"]
+			id: "494F4F366329C0EA"
+			tasks: [
+				{
+					id: "12D7165069AEF94C"
+					type: "item"
+					item: {
+						id: "gobber2:gobber2_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "770B0E6C5E8E8D7F"
+					type: "item"
+					item: {
+						id: "gobber2:gobber2_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5512C9831F648918"
+					type: "item"
+					item: {
+						id: "gobber2:gobber2_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5BDAD223A83E4B67"
+					type: "item"
+					item: {
+						id: "gobber2:gobber2_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: -1.5d
+			dependencies: ["16BB3BF0783762C2"]
+			id: "4DB29EF37AEF8D72"
+			tasks: [{
+				id: "01A3818476869435"
+				type: "item"
+				item: "gobber2:gobber2_goo_nether"
+			}]
+		}
+		{
+			x: 8.5d
+			y: -1.5d
+			dependencies: ["4DB29EF37AEF8D72"]
+			id: "3A8100A96AEC9A9F"
+			tasks: [{
+				id: "165A522C33D604B4"
+				type: "item"
+				item: "gobber2:gobber2_gooey_beef_nether"
+			}]
+		}
+		{
+			x: 9.5d
+			y: -1.5d
+			dependencies: ["3A8100A96AEC9A9F"]
+			id: "412061AFA7BECEF9"
+			tasks: [{
+				id: "0B6DEDC416792A90"
+				type: "item"
+				item: "gobber2:gobber2_gooey_beefstew_nether"
+			}]
+		}
+		{
+			x: 7.5d
+			y: -2.5d
+			dependencies: ["4DB29EF37AEF8D72"]
+			id: "40F06A7132CB9833"
+			tasks: [{
+				id: "6A5467B54649A2E2"
+				type: "item"
+				item: "gobber2:gobber2_gooey_apple_nether"
+			}]
+		}
+		{
+			x: 6.5d
+			y: -2.5d
+			dependencies: ["4DB29EF37AEF8D72"]
+			id: "0C292064CCFCB1D8"
+			tasks: [{
+				id: "38A47BBA047D45B1"
+				type: "item"
+				item: "gobber2:gobber2_gooey_bread_nether"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -2.0d
+			dependencies: ["16BB3BF0783762C2"]
+			id: "305FE6E6399956B5"
+			tasks: [{
+				id: "571AF4E425BED450"
+				type: "item"
+				item: "gobber2:gobber2_foo_nether"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 0.0d
+			dependencies: ["74F59CD499BC477C"]
+			id: "31CB28162642A634"
+			tasks: [{
+				id: "32926842B3DBFBF2"
+				type: "item"
+				item: "gobber2:gobber2_rod_nether"
+			}]
+		}
+		{
+			x: 8.0d
+			y: 0.5d
+			dependencies: ["31CB28162642A634"]
+			id: "4CE0C4BB9E927681"
+			tasks: [
+				{
+					id: "03A825328CDEA6E2"
+					type: "item"
+					item: {
+						id: "gobber2:gobber2_sword_nether"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4CBDC92F3A6CA42C"
+					type: "item"
+					item: {
+						id: "gobber2:gobber2_tree_axe_nether"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "703F4606939CCEB4"
+					type: "item"
+					item: {
+						id: "gobber2:gobber2_hammer_nether"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "355ECBCE5E557305"
+					type: "item"
+					item: {
+						id: "gobber2:gobber2_excavator_nether"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 8.0d
+			y: -0.5d
+			dependencies: ["31CB28162642A634"]
+			id: "19A05964363C4592"
+			tasks: [
+				{
+					id: "5BC05BB6A1CA0AEB"
+					type: "item"
+					item: "gobber2:gobber2_staff_stars"
+				}
+				{
+					id: "6C828587A94D4AA8"
+					type: "item"
+					item: "gobber2:gobber2_staff_nature"
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: -1.0d
+			dependencies: ["74F59CD499BC477C"]
+			id: "0FBBCAD46B69BD6B"
+			tasks: [
+				{
+					id: "4D6762703250B1D3"
+					type: "item"
+					item: {
+						id: "gobber2:gobber2_helmet_nether"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0BB73DFBA32E90AA"
+					type: "item"
+					item: {
+						id: "gobber2:gobber2_chestplate_nether"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "795012E705466933"
+					type: "item"
+					item: {
+						id: "gobber2:gobber2_leggings_nether"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4C9502C4A1C7EE80"
+					type: "item"
+					item: {
+						id: "gobber2:gobber2_boots_nether"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: 1.5d
+			dependencies: ["19A6C469328914AA"]
+			id: "41CFAA2B493FD21D"
+			tasks: [{
+				id: "230FDCC05A689B1E"
+				type: "item"
+				item: "gobber2:gobber2_foo_end"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 4.0d
+			dependencies: ["50C683E564944A1A"]
+			id: "634B483DE20BAAE6"
+			tasks: [{
+				id: "0E4EC83A75981D6F"
+				type: "item"
+				item: "gobber2:gobber2_ring_end"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 5.5d
+			dependencies: ["634B483DE20BAAE6"]
+			id: "461AC034EF33F28E"
+			tasks: [{
+				id: "6A8861374B29324C"
+				type: "item"
+				item: "gobber2:gobber2_links_end"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 6.5d
+			dependencies: ["461AC034EF33F28E"]
+			id: "0599C97AAB449DB4"
+			tasks: [
+				{
+					id: "4D2AA73E155AD965"
+					type: "item"
+					item: {
+						id: "gobber2:gobber2_helmet_end"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3954CE905CE17861"
+					type: "item"
+					item: {
+						id: "gobber2:gobber2_chestplate_end"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "619385ABF90286EA"
+					type: "item"
+					item: {
+						id: "gobber2:gobber2_leggings_end"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "20EDDA3D6D9C9683"
+					type: "item"
+					item: {
+						id: "gobber2:gobber2_boots_end"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: 4.0d
+			dependencies: ["50C683E564944A1A"]
+			id: "7590E34F91E8F0FC"
+			tasks: [{
+				id: "2F2F923FF741F983"
+				type: "item"
+				item: "gobber2:gobber2_rod_end"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 5.5d
+			dependencies: ["7590E34F91E8F0FC"]
+			id: "7303D56D81BABB45"
+			tasks: [
+				{
+					id: "6967C8305881E0E8"
+					type: "item"
+					item: {
+						id: "gobber2:gobber2_tree_axe_end"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "07AD1FFDF666C461"
+					type: "item"
+					item: {
+						id: "gobber2:gobber2_hammer_end"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "19AB5BEBFB14D8AE"
+					type: "item"
+					item: {
+						id: "gobber2:gobber2_excavator_end"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "124B683C7FB1E46B"
+					type: "item"
+					item: {
+						id: "gobber2:gobber2_paxel_end"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: 6.5d
+			dependencies: ["7303D56D81BABB45"]
+			id: "5A83B8344FBEA809"
+			tasks: [{
+				id: "1E180EBD150EF605"
+				type: "item"
+				item: {
+					id: "gobber2:gobber2_paxel_stars"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+	]
 }
