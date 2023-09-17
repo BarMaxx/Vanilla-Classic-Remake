@@ -437,6 +437,7 @@
 		{
 			x: 9.5d
 			y: -1.5d
+			shape: "dirt"
 			dependencies: ["3A8100A96AEC9A9F"]
 			id: "412061AFA7BECEF9"
 			tasks: [{
