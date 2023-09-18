@@ -17,6 +17,7 @@
 		{
 			x: -1.0d
 			y: -0.5d
+			shape: "dirt"
 			description: ["Улучшенная версия предыдущего хранилища."]
 			dependencies: ["5775A7B44208248A"]
 			id: "15762F597B965F99"
@@ -35,6 +36,7 @@
 		{
 			x: 0.0d
 			y: -1.0d
+			shape: "iron"
 			description: ["Улучшенная версия предыдущего хранилища."]
 			dependencies: ["15762F597B965F99"]
 			id: "337B785A56F5D850"
@@ -53,6 +55,7 @@
 		{
 			x: 1.0d
 			y: -1.0d
+			shape: "gold"
 			description: ["Улучшенная версия предыдущего хранилища."]
 			dependencies: ["337B785A56F5D850"]
 			id: "6D350C1F3CF2932A"
@@ -71,6 +74,7 @@
 		{
 			x: 2.0d
 			y: -0.5d
+			shape: "diamond"
 			description: ["Улучшенная версия предыдущего хранилища."]
 			dependencies: ["6D350C1F3CF2932A"]
 			id: "1B8A0233AE4DCB4B"
@@ -89,6 +93,7 @@
 		{
 			x: -1.0d
 			y: 0.5d
+			shape: "dirt"
 			description: ["Улучшенная версия предыдущего хранилища."]
 			dependencies: ["6AAAA180FDF5C44C"]
 			id: "782E87DFA8D9E320"
@@ -107,6 +112,7 @@
 		{
 			x: 0.0d
 			y: 1.0d
+			shape: "iron"
 			description: ["Улучшенная версия предыдущего хранилища."]
 			dependencies: ["782E87DFA8D9E320"]
 			id: "468BEDC6F00999C4"
@@ -125,6 +131,7 @@
 		{
 			x: 1.0d
 			y: 1.0d
+			shape: "gold"
 			description: ["Улучшенная версия предыдущего хранилища."]
 			dependencies: ["468BEDC6F00999C4"]
 			id: "6559A50C458AEE13"
@@ -143,6 +150,7 @@
 		{
 			x: 2.0d
 			y: 0.5d
+			shape: "diamond"
 			description: ["Улучшенная версия предыдущего хранилища."]
 			dependencies: ["6559A50C458AEE13"]
 			id: "6B8DDDD19EDF924F"
@@ -161,7 +169,7 @@
 		{
 			x: 0.5d
 			y: 4.5d
-			shape: "gear"
+			shape: "dirt"
 			description: ["Шаблон улучшений нужен для создания улучшений."]
 			hide_dependency_lines: true
 			dependencies: [
@@ -180,6 +188,7 @@
 		{
 			x: 4.0d
 			y: 0.0d
+			shape: "dirt"
 			description: ["С помощью этого улучшений можно моментально улучшить хранилище."]
 			dependencies: ["2B19E76BB0764227"]
 			id: "7DD72871BE2B9E8D"
@@ -192,6 +201,7 @@
 		{
 			x: 4.5d
 			y: 1.0d
+			shape: "iron"
 			description: ["С помощью этого улучшений можно моментально улучшить хранилище."]
 			dependencies: ["42A0AA3648A0912D"]
 			id: "7299F4C6F228A401"
@@ -204,6 +214,7 @@
 		{
 			x: 4.5d
 			y: -1.0d
+			shape: "gold"
 			description: ["С помощью этого улучшений можно моментально улучшить хранилище."]
 			dependencies: ["08F7863D82646291"]
 			id: "5FD7487ACED59006"
@@ -216,6 +227,7 @@
 		{
 			x: 4.0d
 			y: 2.0d
+			shape: "diamond"
 			description: ["С помощью этого улучшений можно моментально улучшить хранилище."]
 			dependencies: ["7214867124566ED2"]
 			id: "05616FB7D90AFE2C"
@@ -228,6 +240,7 @@
 		{
 			x: 4.0d
 			y: -2.0d
+			shape: "diamond"
 			description: ["С помощью этого улучшений можно моментально улучшить хранилище."]
 			dependencies: ["79325CD17EACF314"]
 			id: "4A69546A27A19757"
@@ -240,6 +253,7 @@
 		{
 			x: 2.0d
 			y: 3.0d
+			shape: "iron"
 			hide_dependency_lines: true
 			dependencies: ["274FC868882EF6E8"]
 			id: "177ED30FD39DE3C0"
@@ -252,6 +266,7 @@
 		{
 			x: 2.5d
 			y: 4.0d
+			shape: "iron"
 			dependencies: ["177ED30FD39DE3C0"]
 			id: "27F06EF8AA069247"
 			tasks: [{
@@ -263,6 +278,7 @@
 		{
 			x: 2.5d
 			y: 5.0d
+			shape: "gold"
 			dependencies: ["27F06EF8AA069247"]
 			id: "668F335ED1929B6E"
 			tasks: [{
@@ -274,6 +290,7 @@
 		{
 			x: 2.0d
 			y: 6.0d
+			shape: "diamond"
 			dependencies: ["668F335ED1929B6E"]
 			id: "08C0CEDFACD115A5"
 			tasks: [{
@@ -285,6 +302,7 @@
 		{
 			x: 1.0d
 			y: 2.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["274FC868882EF6E8"]
 			id: "374BDF8B77143D4E"
@@ -297,6 +315,7 @@
 		{
 			x: -1.0d
 			y: 3.0d
+			shape: "gold"
 			hide_dependency_lines: true
 			dependencies: ["274FC868882EF6E8"]
 			id: "7AF0DFC503FF931D"
@@ -309,6 +328,7 @@
 		{
 			x: -1.5d
 			y: 4.0d
+			shape: "diamond"
 			dependencies: ["7AF0DFC503FF931D"]
 			id: "5AD08FB6F1B2EBE6"
 			tasks: [{
@@ -320,6 +340,7 @@
 		{
 			x: -1.5d
 			y: 5.0d
+			shape: "diamond"
 			dependencies: ["1DA2575BE67F8FD8"]
 			id: "43AD92755F50BF75"
 			tasks: [{
@@ -331,6 +352,7 @@
 		{
 			x: -1.0d
 			y: 6.0d
+			shape: "gold"
 			hide_dependency_lines: true
 			dependencies: ["274FC868882EF6E8"]
 			id: "1DA2575BE67F8FD8"
@@ -343,6 +365,7 @@
 		{
 			x: 0.0d
 			y: 6.5d
+			shape: "gold"
 			hide_dependency_lines: true
 			dependencies: ["274FC868882EF6E8"]
 			id: "24B0E4521E19A5A8"
@@ -355,6 +378,7 @@
 		{
 			x: 1.0d
 			y: 6.5d
+			shape: "diamond"
 			dependencies: ["24B0E4521E19A5A8"]
 			id: "3E514CD196C1E50E"
 			tasks: [{
@@ -366,6 +390,7 @@
 		{
 			x: 0.0d
 			y: 2.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["274FC868882EF6E8"]
 			id: "35D843CA92D55690"

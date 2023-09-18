@@ -11,7 +11,7 @@
 		{
 			x: 0.0d
 			y: 0.0d
-			shape: "octagon"
+			shape: "dirt"
 			description: ["Первые шаги в этой сборке, как и в Майнкрафте начинаются с добычи дерева. Нарубите несколько бревен и начните свое насыщенное путешествие в этом бренном мире..."]
 			dependencies: ["34C1D59023AA23CD"]
 			hide: true
@@ -42,6 +42,7 @@
 		{
 			x: 1.5d
 			y: 0.0d
+			shape: "iron"
 			description: ["Доски можно создать из дерева. А из досок можно создать уже большое количество предметов! Но самым главным будет - Верстак."]
 			dependencies: ["4797541149F48B31"]
 			id: "4C3E20DC2E7A5260"
@@ -70,7 +71,7 @@
 		{
 			x: 3.0d
 			y: 0.0d
-			shape: "gear"
+			shape: "iron"
 			description: ["С помощью верстака можно создавать предметы на сетке крафта 3х3."]
 			dependencies: ["4C3E20DC2E7A5260"]
 			size: 1.2d
@@ -84,6 +85,7 @@
 		{
 			x: 4.5d
 			y: 0.0d
+			shape: "iron"
 			description: ["С помощью деревянной кирки можно добывать булыжник."]
 			dependencies: ["72A952D88BACB448"]
 			id: "01AECB10D8C15891"
@@ -102,6 +104,7 @@
 		{
 			x: 5.5d
 			y: 0.0d
+			shape: "gold"
 			description: ["С помощью булыжника можно создать каменные инструменты."]
 			dependencies: ["01AECB10D8C15891"]
 			size: 1.1d
@@ -130,6 +133,7 @@
 		{
 			x: 6.0d
 			y: -1.0d
+			shape: "iron"
 			description: ["С помощью каменной кирки можно добыть рудное железо и рудную медь."]
 			dependencies: ["1353634C2CA41B60"]
 			id: "5D5B00D57978318B"
@@ -148,6 +152,7 @@
 		{
 			x: 6.0d
 			y: 1.0d
+			shape: "iron"
 			description: ["С помощью печи можно переплавлять различные руды, еду и т.п. А также можно создать новые механизмы."]
 			dependencies: ["1353634C2CA41B60"]
 			id: "158697921D057035"
@@ -160,6 +165,7 @@
 		{
 			x: 5.5d
 			y: -2.0d
+			shape: "diamond"
 			description: ["Рудное железо можно найти под землей, хотя можно найти и на поверхности гор. С помощью рудного железа можно выплавить железный слиток."]
 			dependencies: ["5D5B00D57978318B"]
 			id: "67AC2AA68C541230"
@@ -181,6 +187,7 @@
 		{
 			x: 6.0d
 			y: 2.0d
+			shape: "gold"
 			description: ["С помощью коптильни можно жарить различную еду, но быстрее, чем в печи!"]
 			dependencies: ["158697921D057035"]
 			id: "796FACA96ED3EBEC"
@@ -193,7 +200,7 @@
 		{
 			x: 7.5d
 			y: 1.0d
-			shape: "square"
+			shape: "gold"
 			description: ["Железный слиток можно получить, переплавив рудное железо. Железо нужно для улучшения каменных инструментов и для продолжения развития."]
 			dependencies: ["158697921D057035"]
 			id: "42A0AA3648A0912D"
@@ -215,6 +222,7 @@
 		{
 			x: 5.0d
 			y: 1.5d
+			shape: "gold"
 			description: ["С помощью плавильной печи можно переплавлять только руды (и все, что с ними связано), но намного быстрее, чем в печи!"]
 			dependencies: ["158697921D057035"]
 			id: "2CD4A7C3FAB9127A"
@@ -227,6 +235,7 @@
 		{
 			x: 9.0d
 			y: 0.5d
+			shape: "iron"
 			description: ["С помощью железной кирки можно сразу добыть 3 новых минерала. А именно - редстоун, золото и алмаз!"]
 			dependencies: ["42A0AA3648A0912D"]
 			id: "665C7739C0310A43"
@@ -245,7 +254,7 @@
 		{
 			x: 9.5d
 			y: -0.5d
-			shape: "square"
+			shape: "gold"
 			description: ["Наверное самый важный минерал в игре. С его помощью можно создавать предметы, которые намного лучше других."]
 			dependencies: ["665C7739C0310A43"]
 			id: "7214867124566ED2"
@@ -267,6 +276,7 @@
 		{
 			x: 11.0d
 			y: -0.5d
+			shape: "iron"
 			description: ["С помощью алмазной кирки можно добывать обсидиан! А также, она намного лучше, чем железная."]
 			dependencies: ["7214867124566ED2"]
 			id: "4F01D81AEA74A654"
@@ -285,6 +295,7 @@
 		{
 			x: 2.0d
 			y: -1.0d
+			shape: "iron"
 			description: ["В бочке можно хранить предметы."]
 			dependencies: ["4C3E20DC2E7A5260"]
 			id: "6AAAA180FDF5C44C"
@@ -297,6 +308,7 @@
 		{
 			x: 1.0d
 			y: -1.0d
+			shape: "iron"
 			description: ["В сундуке можно хранить предметы."]
 			dependencies: ["4C3E20DC2E7A5260"]
 			id: "5775A7B44208248A"
@@ -309,6 +321,7 @@
 		{
 			x: 6.5d
 			y: -2.0d
+			shape: "iron"
 			description: ["Рудную медь можно найти под землей, хотя можно найти и на поверхности гор. С помощью рудной меди можно выплавить медный слиток."]
 			dependencies: ["5D5B00D57978318B"]
 			id: "226A5295FFB7F509"
@@ -328,7 +341,7 @@
 		{
 			x: 7.5d
 			y: -2.5d
-			shape: "square"
+			shape: "gold"
 			description: ["Медный слиток можно использовать для создания подзорный трубы, чайника и множества декоративных предметов."]
 			dependencies: ["226A5295FFB7F509"]
 			id: "18FCE07AA8D0E689"
@@ -350,7 +363,7 @@
 		{
 			x: 8.5d
 			y: -2.0d
-			shape: "octagon"
+			shape: "diamond"
 			description: ["С помощью подзорной трубы можно приближать какие-то предметы и рассматривать их с большого расстояния. "]
 			dependencies: ["18FCE07AA8D0E689"]
 			size: 1.2d
@@ -362,8 +375,9 @@
 			}]
 		}
 		{
-			x: 2.5d
+			x: 3.0d
 			y: 1.0d
+			shape: "gold"
 			description: ["В мешок можно положить множество предметов, то есть, его можно использовать, как рюкзак."]
 			dependencies: ["72A952D88BACB448"]
 			id: "278F020C1FD6D396"
@@ -376,6 +390,7 @@
 		{
 			x: 7.0d
 			y: -3.5d
+			shape: "gold"
 			description: ["С помощью чайника можно приготовить различные напитки, но в основном чай."]
 			dependencies: ["18FCE07AA8D0E689"]
 			size: 1.1d
@@ -390,6 +405,7 @@
 		{
 			x: 8.5d
 			y: -1.0d
+			shape: "gold"
 			dependencies: ["7214867124566ED2"]
 			id: "6DEBC653A7DBCDE5"
 			tasks: [{
@@ -407,7 +423,7 @@
 		{
 			x: 11.5d
 			y: -1.5d
-			shape: "rsquare"
+			shape: "gold"
 			description: ["С помощью обсидиана можно построить портал в Ад! А также, создать чародейский стол и эндер-сундук."]
 			dependencies: ["4F01D81AEA74A654"]
 			size: 1.1d
@@ -430,6 +446,7 @@
 		{
 			x: 12.5d
 			y: -1.5d
+			shape: "diamond"
 			description: ["С помощью чародейского стола можно зачаровывать предметы."]
 			dependencies: ["784141803D88C42E"]
 			id: "634D0844C7C3BE55"
@@ -442,6 +459,7 @@
 		{
 			x: 11.0d
 			y: -2.5d
+			shape: "diamond"
 			description: ["В эндер-сундук можно положить вещи и взять их в совершенно другом месте через другой эндер-сундук, что очень удобно!"]
 			dependencies: ["784141803D88C42E"]
 			id: "1178C179B471D582"
@@ -454,6 +472,7 @@
 		{
 			x: 9.5d
 			y: 1.5d
+			shape: "iron"
 			description: ["Рудное золото можно найти под землей. С помощью рудного золота можно выплавить золотой слиток."]
 			dependencies: ["665C7739C0310A43"]
 			id: "1BDA93BB0E51F5E4"
@@ -475,7 +494,7 @@
 		{
 			x: 9.5d
 			y: 2.5d
-			shape: "square"
+			shape: "gold"
 			description: ["С помощью золотого слитка можно создавать различные полезные вещи."]
 			dependencies: ["1BDA93BB0E51F5E4"]
 			id: "08F7863D82646291"
@@ -497,6 +516,7 @@
 		{
 			x: 7.0d
 			y: 0.0d
+			shape: "diamond"
 			description: ["На наковальне можно соединять, чинить, переименовывать различные предметы."]
 			dependencies: ["42A0AA3648A0912D"]
 			id: "34B3A9619C9D3FD3"
@@ -509,6 +529,7 @@
 		{
 			x: 1.5d
 			y: 1.0d
+			shape: "iron"
 			dependencies: ["4C3E20DC2E7A5260"]
 			id: "2B19E76BB0764227"
 			tasks: [{
@@ -529,6 +550,7 @@
 		{
 			x: 0.5d
 			y: 1.0d
+			shape: "gold"
 			description: ["Если держать параплан в руках, то можно прыгать с любой высоты, ведь вы будете медленно планировать!"]
 			dependencies: ["2B19E76BB0764227"]
 			id: "5CBDF85370D93E7D"
@@ -542,6 +564,7 @@
 		{
 			x: 8.0d
 			y: -4.0d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["4F90FB2C13EF2C36"]
 			id: "39E2014E85A449E5"
@@ -554,6 +577,7 @@
 		{
 			x: 7.5d
 			y: -5.0d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["4F90FB2C13EF2C36"]
 			id: "2FD4ADEDF33F17C9"
@@ -566,6 +590,7 @@
 		{
 			x: 6.5d
 			y: -5.0d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["4F90FB2C13EF2C36"]
 			id: "421423680EBD1922"
@@ -578,6 +603,7 @@
 		{
 			x: 6.0d
 			y: -4.0d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["4F90FB2C13EF2C36"]
 			id: "365C002FA3CCE18A"
@@ -590,6 +616,7 @@
 		{
 			x: 1.0d
 			y: 2.0d
+			shape: "iron"
 			description: ["На костре можно приготовить еду, а также его можно использовать в крафтах."]
 			dependencies: ["2B19E76BB0764227"]
 			id: "3499C1DC1A4493D7"
@@ -602,6 +629,7 @@
 		{
 			x: 1.0d
 			y: 3.0d
+			shape: "gold"
 			description: ["Кухонная плита нужна, чтобы можно было готовить еду в котелке и на сковороде."]
 			dependencies: ["3499C1DC1A4493D7"]
 			id: "3E7148E1FC71B4A2"
@@ -614,6 +642,7 @@
 		{
 			x: 2.0d
 			y: 3.5d
+			shape: "gold"
 			description: ["Сковорода это по-сути тоже самое, что и костер."]
 			dependencies: ["3E7148E1FC71B4A2"]
 			id: "64216357FF920335"
@@ -632,6 +661,7 @@
 		{
 			x: 0.0d
 			y: 3.5d
+			shape: "gold"
 			description: ["В кухонном котелке можно готовить совершенно новые виды еды!"]
 			dependencies: ["3E7148E1FC71B4A2"]
 			id: "29F161339EA12F00"
@@ -646,6 +676,7 @@
 			icon: "minecraft:cooked_beef"
 			x: 6.5d
 			y: 3.0d
+			shape: "diamond"
 			description: ["Довольно питательная еда!"]
 			dependencies: ["796FACA96ED3EBEC"]
 			id: "311BE5963489AB19"
@@ -690,6 +721,7 @@
 			icon: "farmersdelight:beef_stew"
 			x: -0.5d
 			y: 2.5d
+			shape: "diamond"
 			description: ["Очень вкусно и сытно!"]
 			dependencies: ["29F161339EA12F00"]
 			id: "00AC7BCBEC5F91BA"
@@ -710,6 +742,7 @@
 			icon: "farmersdelight:vegetable_soup"
 			x: -0.5d
 			y: 4.5d
+			shape: "diamond"
 			description: ["Супчики!"]
 			dependencies: ["29F161339EA12F00"]
 			id: "1368C59D480A9722"
@@ -729,6 +762,7 @@
 		{
 			x: -1.0d
 			y: 3.5d
+			shape: "diamond"
 			description: ["Да, тот самый, из мультфильма!"]
 			dependencies: ["29F161339EA12F00"]
 			id: "2FB7565666501D2F"
@@ -741,7 +775,7 @@
 		{
 			x: 7.5d
 			y: -1.0d
-			shape: "octagon"
+			shape: "diamond"
 			dependencies: ["6DEBC653A7DBCDE5"]
 			size: 1.1d
 			id: "15C1403790BAD877"
@@ -760,6 +794,7 @@
 		{
 			x: 5.5d
 			y: 3.0d
+			shape: "diamond"
 			description: ["Довольно вкусная еда."]
 			dependencies: ["796FACA96ED3EBEC"]
 			id: "3ABEF2BBABB37A11"
@@ -781,6 +816,7 @@
 		{
 			x: 8.0d
 			y: 0.0d
+			shape: "diamond"
 			description: ["В столе кузнеца можно улучшать различные вещи."]
 			dependencies: ["42A0AA3648A0912D"]
 			id: "7F45FD9CC1123787"
@@ -801,6 +837,7 @@
 			}
 			x: 7.0d
 			y: 2.0d
+			shape: "diamond"
 			description: ["Ваша первая броня, но достаточно сильная."]
 			dependencies: ["42A0AA3648A0912D"]
 			id: "395367A55D4BB1AE"
@@ -862,6 +899,7 @@
 			}
 			x: 8.0d
 			y: 2.0d
+			shape: "diamond"
 			description: ["Железные инструменты более прочные и эффективные, чем каменные."]
 			dependencies: ["42A0AA3648A0912D"]
 			id: "1C114DB48476EBDF"
@@ -904,7 +942,7 @@
 		{
 			x: 10.5d
 			y: 0.5d
-			shape: "square"
+			shape: "gold"
 			description: ["С помощью редстоуна можно создавать различные приборы и изобретения."]
 			dependencies: ["665C7739C0310A43"]
 			id: "6C6BA8C9DB600AAF"
@@ -926,6 +964,7 @@
 		{
 			x: 11.5d
 			y: 0.5d
+			shape: "gold"
 			description: ["Просто компас."]
 			dependencies: ["6C6BA8C9DB600AAF"]
 			id: "2BD8D7BAC3660F0E"
@@ -938,6 +977,7 @@
 		{
 			x: 12.5d
 			y: 0.0d
+			shape: "diamond"
 			description: ["Возвратный компас указывает на место вашей последней смерти!"]
 			dependencies: ["2BD8D7BAC3660F0E"]
 			id: "1083A006878C8823"
@@ -950,6 +990,7 @@
 		{
 			x: 11.5d
 			y: 1.5d
+			shape: "diamond"
 			description: ["Компас природы позволяет вам искать любой биом в игре!"]
 			dependencies: ["2BD8D7BAC3660F0E"]
 			id: "5891D3FA126A7470"
@@ -974,6 +1015,7 @@
 			}
 			x: 10.5d
 			y: 1.5d
+			shape: "diamond"
 			description: ["Стимпанковая броня очень хорошо защищенна от взрывов!"]
 			dependencies: ["6C6BA8C9DB600AAF"]
 			id: "786963EDF5B108CA"
@@ -1035,6 +1077,7 @@
 			}
 			x: 9.5d
 			y: -1.5d
+			shape: "diamond"
 			description: ["Алмазная броня намного лучше, чем железная броня."]
 			dependencies: ["7214867124566ED2"]
 			id: "52A643BB1E2323D6"
@@ -1096,6 +1139,7 @@
 			}
 			x: 10.5d
 			y: -1.5d
+			shape: "diamond"
 			description: ["Алмазные инструменты более прочные и эффективные, чем железные."]
 			dependencies: ["7214867124566ED2"]
 			id: "6EFD35C8FFDEFD40"
@@ -1146,6 +1190,7 @@
 			}
 			x: 3.0d
 			y: -1.0d
+			shape: "iron"
 			description: ["Ваши первые инструменты!"]
 			dependencies: ["72A952D88BACB448"]
 			id: "16EAF7AE7B6AE4AB"
@@ -1196,6 +1241,7 @@
 			}
 			x: 5.0d
 			y: -1.0d
+			shape: "iron"
 			description: ["Намного лучше, чем дерево."]
 			dependencies: ["1353634C2CA41B60"]
 			id: "6DF7F5370669302A"
@@ -1238,6 +1284,7 @@
 		{
 			x: -0.5d
 			y: 1.5d
+			shape: "diamond"
 			description: ["Лист Деку - это тот же параплан."]
 			dependencies: ["5CBDF85370D93E7D"]
 			id: "7D87A1838EDCECFB"
@@ -1250,6 +1297,7 @@
 		{
 			x: 0.0d
 			y: -1.5d
+			shape: "iron"
 			description: ["В нем можно хранить много вещей. А также рюкзак можно улучшать! Хорошая вещь в путешествиях."]
 			dependencies: ["5775A7B44208248A"]
 			id: "416B74D4AB51374B"
@@ -1262,6 +1310,7 @@
 		{
 			x: -0.5d
 			y: -2.5d
+			shape: "iron"
 			description: ["Улучшенная версия предыдущего рюкзака."]
 			dependencies: ["416B74D4AB51374B"]
 			id: "4A761E894FE0F436"
@@ -1274,6 +1323,7 @@
 		{
 			x: -0.5d
 			y: -3.5d
+			shape: "gold"
 			description: ["Улучшенная версия предыдущего рюкзака."]
 			dependencies: ["4A761E894FE0F436"]
 			id: "77BC8D4750BD58DB"
@@ -1286,6 +1336,7 @@
 		{
 			x: 0.0d
 			y: -4.5d
+			shape: "gold"
 			description: ["Улучшенная версия предыдущего рюкзака."]
 			dependencies: ["77BC8D4750BD58DB"]
 			id: "36ED28DD6857E7D8"
@@ -1298,7 +1349,7 @@
 		{
 			x: 1.0d
 			y: -5.0d
-			shape: "gear"
+			shape: "diamond"
 			description: ["Самый крутой рюкзак."]
 			dependencies: ["36ED28DD6857E7D8"]
 			size: 1.1d
@@ -1312,6 +1363,7 @@
 		{
 			x: 9.5d
 			y: 3.5d
+			shape: "gold"
 			description: ["Очень хорошо защищают от взрывов."]
 			dependencies: ["08F7863D82646291"]
 			size: 1.1d
@@ -1342,6 +1394,7 @@
 			}
 			x: 9.0d
 			y: 4.5d
+			shape: "diamond"
 			description: ["Очень хорошая броня, если вы боитесь криперов."]
 			dependencies: ["12DB094CAC679515"]
 			id: "6940C2DE0E4D2AFE"
@@ -1395,6 +1448,7 @@
 		{
 			x: 10.0d
 			y: 4.5d
+			shape: "diamond"
 			description: ["Блок, которому не страшны взрывы."]
 			dependencies: ["12DB094CAC679515"]
 			id: "152DF4D22DFFF7EB"
@@ -1416,6 +1470,7 @@
 		{
 			x: 8.5d
 			y: -3.0d
+			shape: "diamond"
 			description: ["Громоотвод защищает ваши постройки от молний."]
 			dependencies: ["18FCE07AA8D0E689"]
 			id: "41775C50655769E3"

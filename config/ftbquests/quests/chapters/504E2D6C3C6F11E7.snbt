@@ -11,7 +11,7 @@
 		{
 			x: 0.5d
 			y: 0.5d
-			shape: "gear"
+			shape: "dirt"
 			description: ["Войдите в портал из обсидиана!"]
 			dependencies: ["784141803D88C42E"]
 			size: 1.2d
@@ -26,6 +26,7 @@
 		{
 			x: 2.0d
 			y: 0.5d
+			shape: "iron"
 			description: ["Если убить Всполоха, то с него может выпасть огненный стержень."]
 			dependencies: ["0638AA464CB433BD"]
 			id: "07F71605EA4AD2D9"
@@ -40,6 +41,7 @@
 		{
 			x: 3.5d
 			y: 0.5d
+			shape: "gold"
 			description: ["Огненный стержень нужен для создания зельеварки и огненного порошка."]
 			dependencies: ["07F71605EA4AD2D9"]
 			id: "63CE859816941806"
@@ -61,6 +63,7 @@
 		{
 			x: 4.0d
 			y: -0.5d
+			shape: "gold"
 			description: ["С помощью зельеварки можно готовить различные зелья."]
 			dependencies: ["63CE859816941806"]
 			size: 1.1d
@@ -74,6 +77,7 @@
 		{
 			x: 4.0d
 			y: 1.5d
+			shape: "gold"
 			description: ["Огненный порошок нужен для приготовления зелья, создания око эндера и для создания множества предметов."]
 			dependencies: ["63CE859816941806"]
 			id: "5C8F6BE38CD61F1B"
@@ -95,6 +99,7 @@
 		{
 			x: 1.5d
 			y: 1.5d
+			shape: "iron"
 			description: ["Если убить Визер-скелета, то с небольшим шансом с него выпадет его голова!"]
 			dependencies: ["0638AA464CB433BD"]
 			id: "16270A1C68D32B47"
@@ -109,6 +114,7 @@
 		{
 			x: 2.0d
 			y: 2.5d
+			shape: "iron"
 			description: ["Черепа визер-скелета нужны для призыва босса - Визера!"]
 			dependencies: ["16270A1C68D32B47"]
 			size: 1.1d
@@ -124,6 +130,7 @@
 		{
 			x: 2.0d
 			y: 3.5d
+			shape: "iron"
 			description: ["Попробуйте убить его."]
 			dependencies: ["560BBA75A74C1BCC"]
 			id: "5ACA9C1A680ABD8D"
@@ -138,7 +145,7 @@
 		{
 			x: 2.0d
 			y: 4.5d
-			shape: "square"
+			shape: "gold"
 			description: ["Самый дорогой предмет в игре, наверное."]
 			dependencies: ["5ACA9C1A680ABD8D"]
 			id: "0BEF1BC6D388B3F8"
@@ -151,6 +158,7 @@
 		{
 			x: 3.0d
 			y: 5.0d
+			shape: "diamond"
 			description: ["Маяк позволяет вам получать положительные эффекты в радиусе его действия."]
 			dependencies: ["0BEF1BC6D388B3F8"]
 			id: "2952AC1723FD3EF9"
@@ -163,6 +171,7 @@
 		{
 			x: 1.0d
 			y: 5.0d
+			shape: "diamond"
 			description: ["С помощью жертвенного клинка шанс на выпадение черепа визер-скелета выше."]
 			dependencies: ["0BEF1BC6D388B3F8"]
 			id: "20154C9A9D8A5897"
@@ -181,6 +190,7 @@
 		{
 			x: -0.5d
 			y: -0.5d
+			shape: "iron"
 			description: ["Незер-кварц можно найти в Незере. Он нужен для создания множества предметов."]
 			dependencies: ["0638AA464CB433BD"]
 			size: 1.1d
@@ -203,6 +213,7 @@
 		{
 			x: 0.5d
 			y: -0.5d
+			shape: "gold"
 			description: ["Песок душ нужен для того, чтобы выращивать незерский нарост либо же для вызова Визера."]
 			dependencies: ["0638AA464CB433BD"]
 			id: "76AA943499192987"
@@ -224,6 +235,7 @@
 		{
 			x: 1.5d
 			y: -0.5d
+			shape: "gold"
 			description: ["С помощью незерского нароста можно варить зелья."]
 			dependencies: ["0638AA464CB433BD"]
 			id: "2438D11304615B6A"
@@ -245,6 +257,7 @@
 		{
 			x: -1.0d
 			y: 0.5d
+			shape: "iron"
 			description: ["Древние обломки можно найти в недрах Ада. Только учтите, что они очень редкие. Они нужны для выплавки незеритового лома."]
 			dependencies: ["0638AA464CB433BD"]
 			id: "1339998B70AFCCF9"
@@ -265,6 +278,7 @@
 		{
 			x: -2.0d
 			y: 0.5d
+			shape: "iron"
 			description: ["Незеритовый лом нужен для создания незеритового слитка."]
 			dependencies: ["1339998B70AFCCF9"]
 			id: "1903A4E8A177A1AC"
@@ -285,7 +299,7 @@
 		{
 			x: -3.5d
 			y: 0.5d
-			shape: "rsquare"
+			shape: "gold"
 			description: ["С помощью незеритового слитка можно улучшить свои алмазные инструменты и броню, а также создать несколько интересных предметов."]
 			dependencies: ["1903A4E8A177A1AC"]
 			id: "79325CD17EACF314"
@@ -313,6 +327,7 @@
 			}
 			x: -4.0d
 			y: -0.5d
+			shape: "diamond"
 			description: ["Наверное, эта броня одна из самых мощных на этой сборке."]
 			dependencies: ["79325CD17EACF314"]
 			id: "6FAD95BD066A958F"
@@ -374,6 +389,7 @@
 			}
 			x: -4.0d
 			y: 1.5d
+			shape: "diamond"
 			description: ["Самые лучшие инструменты в игре, наверное..."]
 			dependencies: ["79325CD17EACF314"]
 			id: "01DE515CAEECA1DC"
@@ -427,6 +443,7 @@
 		{
 			x: -4.5d
 			y: 0.5d
+			shape: "diamond"
 			description: ["Самый важный предмет в игре!"]
 			dependencies: ["79325CD17EACF314"]
 			id: "5903B6303FE57B7B"
@@ -445,6 +462,7 @@
 		{
 			x: 0.5d
 			y: 1.5d
+			shape: "gold"
 			description: ["При убийстве Гаста с него может выпасть слеза гаста."]
 			dependencies: ["0638AA464CB433BD"]
 			id: "4DA081B66BEB600A"
@@ -459,6 +477,7 @@
 		{
 			x: 0.0d
 			y: 2.5d
+			shape: "diamond"
 			description: ["Достаточно полезный предмет."]
 			dependencies: ["4DA081B66BEB600A"]
 			size: 1.1d
@@ -481,6 +500,7 @@
 		{
 			x: -0.5d
 			y: -1.5d
+			shape: "gold"
 			description: ["Можно использовать в качестве декорации или же создать несколько новых предметов."]
 			dependencies: ["7816E4D8946FBA71"]
 			id: "4030823F0387614B"
@@ -502,6 +522,7 @@
 		{
 			x: -0.5d
 			y: -2.5d
+			shape: "diamond"
 			description: ["Можно использовать в качестве декорации или же создать несколько новых предметов."]
 			dependencies: ["4030823F0387614B"]
 			id: "5B6CBB22B90AEC7C"
@@ -523,6 +544,7 @@
 		{
 			x: 1.5d
 			y: -1.5d
+			shape: "diamond"
 			description: ["Вкусный чаёк :)"]
 			dependencies: ["2438D11304615B6A"]
 			id: "7662943446BFF355"
@@ -535,6 +557,7 @@
 		{
 			x: 3.0d
 			y: 2.0d
+			shape: "diamond"
 			description: ["Мм... Вкусно!"]
 			dependencies: ["5C8F6BE38CD61F1B"]
 			id: "1ECB8304D57715A6"
@@ -547,6 +570,7 @@
 		{
 			x: 2.0d
 			y: 5.5d
+			shape: "diamond"
 			description: ["Очень крутое улучшение!"]
 			dependencies: ["0BEF1BC6D388B3F8"]
 			size: 1.1d
@@ -560,6 +584,7 @@
 		{
 			x: 4.5d
 			y: 0.5d
+			shape: "diamond"
 			description: ["Красивый и яркий фонарик."]
 			dependencies: ["63CE859816941806"]
 			id: "1E3EC8C0E1261407"
@@ -588,7 +613,7 @@
 			}
 			x: 4.0d
 			y: 2.5d
-			shape: "rsquare"
+			shape: "diamond"
 			description: ["Очень полезная броня в Аду!"]
 			dependencies: ["5C8F6BE38CD61F1B"]
 			size: 1.1d
@@ -643,6 +668,7 @@
 		{
 			x: 3.0d
 			y: -1.0d
+			shape: "gold"
 			description: ["Позволяет находиться в огне или лаве без получения урона."]
 			dependencies: ["03D84CFC9502FAC9"]
 			id: "6292CA12BD9FCA34"
@@ -661,7 +687,7 @@
 		{
 			x: 3.0d
 			y: -2.0d
-			shape: "pentagon"
+			shape: "diamond"
 			description: ["Улучшенная версия зелья огнестойкости."]
 			dependencies: ["6292CA12BD9FCA34"]
 			size: 1.1d
@@ -681,6 +707,7 @@
 		{
 			x: 5.0d
 			y: -1.0d
+			shape: "gold"
 			description: ["Позволяет наносить больше урона."]
 			dependencies: ["03D84CFC9502FAC9"]
 			id: "7A973E05C597B6E3"
@@ -699,6 +726,7 @@
 		{
 			x: 5.5d
 			y: 0.0d
+			shape: "diamond"
 			description: ["Улучшенная версия зелья силы."]
 			dependencies: ["7A973E05C597B6E3"]
 			id: "6B716DE17E750687"
@@ -717,7 +745,7 @@
 		{
 			x: 5.5d
 			y: -2.0d
-			shape: "pentagon"
+			shape: "diamond"
 			description: ["Улучшенная версия зелья силы."]
 			dependencies: ["7A973E05C597B6E3"]
 			size: 1.1d
@@ -737,6 +765,7 @@
 		{
 			x: 4.0d
 			y: -1.5d
+			shape: "gold"
 			description: ["Позволяет исцелить некоторое количество здоровья."]
 			dependencies: ["03D84CFC9502FAC9"]
 			id: "09D39EC62B37C300"
@@ -755,7 +784,7 @@
 		{
 			x: 4.0d
 			y: -2.5d
-			shape: "pentagon"
+			shape: "diamond"
 			description: ["Улучшенная версия зелья исцеления."]
 			dependencies: ["09D39EC62B37C300"]
 			size: 1.1d
@@ -775,6 +804,7 @@
 		{
 			x: 0.5d
 			y: -1.5d
+			shape: "diamond"
 			dependencies: ["76AA943499192987"]
 			id: "0A1133B0D8F63BD2"
 			tasks: [{
@@ -786,6 +816,7 @@
 		{
 			x: -0.5d
 			y: 1.5d
+			shape: "iron"
 			description: ["Чернит часто встречается в Аду. С помощью него можно создать множество предметов."]
 			dependencies: ["0638AA464CB433BD"]
 			id: "7C94D66978FD5DE1"
@@ -807,6 +838,7 @@
 		{
 			x: -1.5d
 			y: 1.5d
+			shape: "gold"
 			description: ["Аналог обычной печи."]
 			dependencies: ["7C94D66978FD5DE1"]
 			id: "643918B72D9D95A2"
@@ -819,6 +851,7 @@
 		{
 			x: -1.0d
 			y: 2.5d
+			shape: "iron"
 			description: ["Можно использовать в качестве декорации. А также, можно создать несколько новых предметов."]
 			dependencies: ["7C94D66978FD5DE1"]
 			id: "6B405D8AA3F0CE61"
@@ -840,6 +873,7 @@
 		{
 			x: -1.0d
 			y: 3.5d
+			shape: "gold"
 			description: ["Можно использовать в качестве декораций или создать несколько новых предметов."]
 			dependencies: ["6B405D8AA3F0CE61"]
 			id: "1153B530055A58D1"
@@ -861,6 +895,7 @@
 		{
 			x: -1.0d
 			y: 4.5d
+			shape: "diamond"
 			description: ["Аналог обычной кухонной плиты."]
 			dependencies: ["1153B530055A58D1"]
 			id: "492569E5D2871E6E"
@@ -873,6 +908,7 @@
 		{
 			x: -2.5d
 			y: 1.5d
+			shape: "diamond"
 			description: ["Аналог обычной плавильной печи."]
 			dependencies: ["643918B72D9D95A2"]
 			id: "4505B3A1BB04E26F"
@@ -885,6 +921,7 @@
 		{
 			x: -2.0d
 			y: 2.5d
+			shape: "diamond"
 			description: ["Аналог обычной коптильни."]
 			dependencies: ["643918B72D9D95A2"]
 			id: "57D86C6312E858AF"
@@ -897,6 +934,7 @@
 		{
 			x: -2.0d
 			y: 3.5d
+			shape: "diamond"
 			description: ["Можно использовать в качестве декорации."]
 			dependencies: ["1153B530055A58D1"]
 			id: "4E853CD90F90CAA0"

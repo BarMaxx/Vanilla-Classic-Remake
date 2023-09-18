@@ -17,6 +17,7 @@
 		{
 			x: 0.0d
 			y: 0.0d
+			shape: "dirt"
 			description: ["С помощью око эндера можно найти портал в Энд, а также с помощью них портал можно активировать."]
 			dependencies: ["5C8F6BE38CD61F1B"]
 			size: 1.1d
@@ -39,6 +40,7 @@
 		{
 			x: 1.0d
 			y: 0.0d
+			shape: "iron"
 			description: ["Вам нужно идти вслед за выпущенным око эндера, чтобы найти Крепость."]
 			dependencies: ["2B1E2D735EEA2212"]
 			id: "1495017582A6F45B"
@@ -52,6 +54,7 @@
 		{
 			x: 2.0d
 			y: 0.0d
+			shape: "gold"
 			description: ["Найдите портал, активируйте его и прыгните в неизвестность!"]
 			dependencies: ["1495017582A6F45B"]
 			id: "71E5CF71B79671E6"
@@ -65,7 +68,7 @@
 		{
 			x: 3.0d
 			y: 0.0d
-			shape: "gear"
+			shape: "gold"
 			description: ["Самый главный босс в игре - Эндер-дракон. Победите его и пройдите игру!!!"]
 			dependencies: ["71E5CF71B79671E6"]
 			size: 1.3d
@@ -81,6 +84,7 @@
 		{
 			x: 3.3000000000000003d
 			y: -1.1d
+			shape: "diamond"
 			description: ["Самый эффективный способ передвижения."]
 			dependencies: ["025279E92F14CED0"]
 			size: 1.1d
@@ -100,6 +104,7 @@
 		{
 			x: 3.5d
 			y: 1.0d
+			shape: "iron"
 			description: ["С помощью панциря шалкера можно создать сам шалкер."]
 			dependencies: ["025279E92F14CED0"]
 			id: "587116E8FD63F03C"
@@ -120,6 +125,7 @@
 		{
 			x: 3.5d
 			y: 2.0d
+			shape: "iron"
 			description: ["В шалкеровый ящик можно положить вещи, сломать его и перенсти куда угодно - вещи останутся в нем."]
 			dependencies: ["587116E8FD63F03C"]
 			id: "376B95C41E562D37"
@@ -132,6 +138,7 @@
 		{
 			x: 3.0d
 			y: 3.0d
+			shape: "iron"
 			description: ["Улучшенная версия предыдущего хранилища."]
 			dependencies: ["376B95C41E562D37"]
 			id: "0ADA48C1EEF140EE"
@@ -144,6 +151,7 @@
 		{
 			x: 2.0d
 			y: 3.5d
+			shape: "gold"
 			description: ["Улучшенная версия предыдущего хранилища."]
 			dependencies: ["0ADA48C1EEF140EE"]
 			id: "750F1ECAF23A6AF3"
@@ -156,6 +164,7 @@
 		{
 			x: 1.0d
 			y: 3.5d
+			shape: "gold"
 			description: ["Улучшенная версия предыдущего хранилища."]
 			dependencies: ["750F1ECAF23A6AF3"]
 			id: "3405CD1F131DB877"
@@ -168,7 +177,7 @@
 		{
 			x: 0.0d
 			y: 3.5d
-			shape: "gear"
+			shape: "diamond"
 			description: ["Улучшенная версия предыдущего хранилища."]
 			dependencies: ["3405CD1F131DB877"]
 			size: 1.2d
@@ -182,6 +191,7 @@
 		{
 			x: 2.0d
 			y: -1.0d
+			shape: "gold"
 			description: ["Эндерняк можно использовать в качестве декорации или создать из него другие предметы."]
 			dependencies: ["71E5CF71B79671E6"]
 			id: "379865519EFDF82D"
@@ -203,6 +213,7 @@
 		{
 			x: 4.5d
 			y: 0.0d
+			shape: "iron"
 			description: ["Если съесть плод хоруса, то вы будете телепортированы в небольшом радиусе."]
 			dependencies: ["025279E92F14CED0"]
 			id: "352FDBD1E41ECBCB"
@@ -223,7 +234,7 @@
 		{
 			x: 5.5d
 			y: 0.0d
-			shape: "rsquare"
+			shape: "iron"
 			description: ["Из него можно сделать несколько интересных вещей."]
 			dependencies: ["352FDBD1E41ECBCB"]
 			id: "07A202D473CBDC95"
@@ -245,6 +256,7 @@
 		{
 			x: 6.0d
 			y: -1.0d
+			shape: "iron"
 			description: ["Обычная декорация."]
 			dependencies: ["07A202D473CBDC95"]
 			id: "2E628C9D109DF3C6"
@@ -266,6 +278,7 @@
 		{
 			x: 6.0d
 			y: 1.0d
+			shape: "gold"
 			description: ["Обычная декорация."]
 			dependencies: ["07A202D473CBDC95"]
 			id: "5735DA885FC3CD27"
@@ -287,6 +300,7 @@
 		{
 			x: 7.0d
 			y: -1.5d
+			shape: "gold"
 			description: ["Обычная декорация."]
 			dependencies: ["2E628C9D109DF3C6"]
 			id: "2E923C108E67BBA2"
@@ -308,6 +322,7 @@
 		{
 			x: 8.0d
 			y: -1.5d
+			shape: "diamond"
 			description: ["Обычная декорация, которая еще и светит."]
 			dependencies: ["2E923C108E67BBA2"]
 			id: "0DE92BD932C21D18"
@@ -329,6 +344,7 @@
 		{
 			x: 2.0d
 			y: -2.0d
+			shape: "diamond"
 			description: ["Очень красивый блок."]
 			dependencies: ["379865519EFDF82D"]
 			id: "1FDA72882216D80C"
@@ -350,6 +366,7 @@
 		{
 			x: 5.0d
 			y: 1.5d
+			shape: "diamond"
 			description: ["Обычная декорация."]
 			dependencies: ["5735DA885FC3CD27"]
 			id: "7758D8C4B4028133"
@@ -371,6 +388,7 @@
 		{
 			x: -0.5d
 			y: -1.0d
+			shape: "gold"
 			description: ["С помощью кристаллов Энда можно возродить Дракона Края!"]
 			dependencies: ["2B1E2D735EEA2212"]
 			id: "49DD0CDDBE222BD7"
@@ -391,6 +409,7 @@
 		{
 			x: -0.5d
 			y: 1.0d
+			shape: "diamond"
 			description: ["Эндер-смотрителя можно использовать в различных механизмах."]
 			dependencies: ["2B1E2D735EEA2212"]
 			id: "60B4D666B50757D0"
@@ -403,7 +422,7 @@
 		{
 			x: -1.5d
 			y: -1.5d
-			shape: "gear"
+			shape: "diamond"
 			description: ["С этим улучшением ваш рюкзак никогда не исчезнет."]
 			dependencies: ["49DD0CDDBE222BD7"]
 			size: 1.2d

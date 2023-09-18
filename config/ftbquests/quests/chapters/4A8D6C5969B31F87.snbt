@@ -11,6 +11,7 @@
 		{
 			x: 0.0d
 			y: 0.0d
+			shape: "dirt"
 			description: ["Инструмент для строительства - это самый важный инструмент для создания собственной колонии."]
 			dependencies: ["1353634C2CA41B60"]
 			id: "2C99DE39599D0AE1"
@@ -24,7 +25,7 @@
 		{
 			x: 1.0d
 			y: 0.0d
-			shape: "rsquare"
+			shape: "iron"
 			description: ["Ратуша - это самое первое и самое главное строение в вашей колонии. Именно с ратуши начинается развитие колонии!"]
 			dependencies: ["2C99DE39599D0AE1"]
 			size: 1.1d
@@ -38,7 +39,7 @@
 		{
 			x: 2.5d
 			y: 0.0d
-			shape: "octagon"
+			shape: "gold"
 			description: ["С помощью хижины строителя в вашей колонии начнут появлятся строители, которые будут выстраивать вашу колонию."]
 			dependencies: ["2F7739EAE638E34C"]
 			size: 1.2d
@@ -52,6 +53,7 @@
 		{
 			x: -0.5d
 			y: 1.0d
+			shape: "iron"
 			description: ["В бочке для компоста можно создать компост."]
 			dependencies: ["2C99DE39599D0AE1"]
 			id: "2A295A99E1EB08A1"
@@ -64,6 +66,7 @@
 		{
 			x: -0.5d
 			y: 2.0d
+			shape: "gold"
 			description: ["Прямо как костная мука."]
 			dependencies: ["2A295A99E1EB08A1"]
 			id: "456E8BAAC577EF97"
@@ -85,6 +88,7 @@
 		{
 			x: 3.5d
 			y: 1.0d
+			shape: "diamond"
 			description: ["В ресторане жители вашей колонии будут питаться."]
 			hide_dependency_lines: true
 			dependencies: ["77FD7924E4C9F49B"]
@@ -98,6 +102,7 @@
 		{
 			x: 3.5d
 			y: -1.0d
+			shape: "diamond"
 			description: ["На складе будут храниться предметы вашей колонии."]
 			hide_dependency_lines: true
 			dependencies: ["77FD7924E4C9F49B"]
@@ -111,6 +116,7 @@
 		{
 			x: 2.5d
 			y: -1.5d
+			shape: "diamond"
 			description: ["С помощью фермы ваша колония сможет сама производить еду."]
 			hide_dependency_lines: true
 			dependencies: ["77FD7924E4C9F49B"]
@@ -124,6 +130,7 @@
 		{
 			x: 4.0d
 			y: 0.0d
+			shape: "gold"
 			description: ["В университете вы будете открывать новые строения для вашей колонии."]
 			dependencies: ["77FD7924E4C9F49B"]
 			id: "36DCE7FA65BB1F52"
@@ -136,6 +143,7 @@
 		{
 			x: 2.5d
 			y: 1.5d
+			shape: "diamond"
 			description: ["С помощью шахты ваша колония будет сама добывать полезные ископаемые."]
 			hide_dependency_lines: true
 			dependencies: ["77FD7924E4C9F49B"]
@@ -149,6 +157,7 @@
 		{
 			x: 1.5d
 			y: -1.0d
+			shape: "diamond"
 			description: ["С помощью хижины лесника ваша колония сможет сама добывать дерево для развития!"]
 			hide_dependency_lines: true
 			dependencies: ["77FD7924E4C9F49B"]
@@ -162,6 +171,7 @@
 		{
 			x: 1.5d
 			y: 1.0d
+			shape: "diamond"
 			description: ["Сторожевая башня нужна для защиты колонии."]
 			hide_dependency_lines: true
 			dependencies: ["77FD7924E4C9F49B"]
@@ -175,6 +185,7 @@
 		{
 			x: 4.5d
 			y: 1.0d
+			shape: "diamond"
 			description: ["В школе жители вашей колонии будут учиться."]
 			hide_dependency_lines: true
 			dependencies: ["36DCE7FA65BB1F52"]
@@ -188,6 +199,7 @@
 		{
 			x: 4.5d
 			y: -1.0d
+			shape: "diamond"
 			description: ["В больнице жители вашей колонии будут лечиться."]
 			hide_dependency_lines: true
 			dependencies: ["36DCE7FA65BB1F52"]
@@ -201,6 +213,7 @@
 		{
 			x: 0.0d
 			y: -1.0d
+			shape: "iron"
 			description: ["Интересное хранилище."]
 			dependencies: ["2C99DE39599D0AE1"]
 			id: "139BCE3B00A83815"
@@ -213,6 +226,7 @@
 		{
 			x: -1.5d
 			y: 0.0d
+			shape: "dirt"
 			dependencies: ["5775A7B44208248A"]
 			id: "0F31B41596CC29EB"
 			tasks: [{
