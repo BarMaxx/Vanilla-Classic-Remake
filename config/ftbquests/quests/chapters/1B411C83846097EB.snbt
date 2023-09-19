@@ -7,5 +7,16 @@
 	icon: "twilightforest:twilight_portal_miniature_structure"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [ ]
+	quests: [{
+		x: 0.0d
+		y: 0.0d
+		shape: "dirt"
+		dependencies: ["34C1D59023AA23CD"]
+		id: "0AFECA103FCCF23A"
+		tasks: [{
+			id: "2648E3A46617AC4C"
+			type: "dimension"
+			dimension: "twilightforest:twilight_forest"
+		}]
+	}]
 }

@@ -6,5 +6,15 @@
 	title: "Vanilla Classic Remake"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [ ]
+	quests: [{
+		x: 0.0d
+		y: 0.0d
+		dependencies: ["34C1D59023AA23CD"]
+		id: "58CEA56747D60B65"
+		tasks: [{
+			id: "0ADEE6EF9815FA56"
+			type: "item"
+			item: "kubejs:vanilla_classic_remake"
+		}]
+	}]
 }
