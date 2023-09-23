@@ -1,404 +1,405 @@
 {
-	id: "3315AA6351D8DC09"
-	group: "72B112B1F6B996A7"
-	order_index: 0
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
 	filename: "3315AA6351D8DC09"
-	title: "Sophisticated Storage"
+	group: "72B112B1F6B996A7"
 	icon: {
-		id: "sophisticatedstorage:gold_barrel"
 		Count: 1b
+		id: "sophisticatedstorage:gold_barrel"
 		tag: {
 			woodType: "acacia"
 		}
 	}
-	default_quest_shape: "square"
-	default_hide_dependency_lines: false
+	id: "3315AA6351D8DC09"
+	order_index: 0
+	quest_links: [ ]
 	quests: [
 		{
-			x: -1.0d
-			y: -0.5d
-			shape: "dirt"
-			description: ["Улучшенная версия предыдущего хранилища."]
 			dependencies: ["5775A7B44208248A"]
+			description: ["Улучшенная версия предыдущего хранилища."]
 			id: "15762F597B965F99"
+			shape: "dirt"
 			tasks: [{
 				id: "79554B5440BB0C88"
-				type: "item"
 				item: {
-					id: "sophisticatedstorage:iron_chest"
 					Count: 1b
+					id: "sophisticatedstorage:iron_chest"
 					tag: {
 						woodType: "dark_oak"
 					}
 				}
+				type: "item"
 			}]
+			x: -1.0d
+			y: -0.5d
 		}
 		{
-			x: 0.0d
-			y: -1.0d
-			shape: "iron"
-			description: ["Улучшенная версия предыдущего хранилища."]
 			dependencies: ["15762F597B965F99"]
+			description: ["Улучшенная версия предыдущего хранилища."]
 			id: "337B785A56F5D850"
+			shape: "iron"
 			tasks: [{
 				id: "00B9DD290543FA96"
-				type: "item"
 				item: {
-					id: "sophisticatedstorage:gold_chest"
 					Count: 1b
+					id: "sophisticatedstorage:gold_chest"
 					tag: {
 						woodType: "dark_oak"
 					}
 				}
+				type: "item"
 			}]
+			x: 0.0d
+			y: -1.0d
 		}
 		{
-			x: 1.0d
-			y: -1.0d
-			shape: "gold"
-			description: ["Улучшенная версия предыдущего хранилища."]
 			dependencies: ["337B785A56F5D850"]
+			description: ["Улучшенная версия предыдущего хранилища."]
 			id: "6D350C1F3CF2932A"
+			shape: "gold"
 			tasks: [{
 				id: "23F5D0CAF7C75168"
-				type: "item"
 				item: {
-					id: "sophisticatedstorage:diamond_chest"
 					Count: 1b
+					id: "sophisticatedstorage:diamond_chest"
 					tag: {
 						woodType: "dark_oak"
 					}
 				}
+				type: "item"
 			}]
+			x: 1.0d
+			y: -1.0d
 		}
 		{
-			x: 2.0d
-			y: -0.5d
-			shape: "diamond"
-			description: ["Улучшенная версия предыдущего хранилища."]
 			dependencies: ["6D350C1F3CF2932A"]
+			description: ["Улучшенная версия предыдущего хранилища."]
 			id: "1B8A0233AE4DCB4B"
+			shape: "diamond"
 			tasks: [{
 				id: "6AA031AFFC736292"
-				type: "item"
 				item: {
-					id: "sophisticatedstorage:netherite_chest"
 					Count: 1b
+					id: "sophisticatedstorage:netherite_chest"
 					tag: {
 						woodType: "dark_oak"
 					}
 				}
+				type: "item"
 			}]
+			x: 2.0d
+			y: -0.5d
 		}
 		{
-			x: -1.0d
-			y: 0.5d
-			shape: "dirt"
-			description: ["Улучшенная версия предыдущего хранилища."]
 			dependencies: ["6AAAA180FDF5C44C"]
+			description: ["Улучшенная версия предыдущего хранилища."]
 			id: "782E87DFA8D9E320"
+			shape: "dirt"
 			tasks: [{
 				id: "4AA74A2DB3E78BEC"
-				type: "item"
 				item: {
-					id: "sophisticatedstorage:iron_barrel"
 					Count: 1b
+					id: "sophisticatedstorage:iron_barrel"
 					tag: {
 						woodType: "dark_oak"
 					}
 				}
+				type: "item"
 			}]
+			x: -1.0d
+			y: 0.5d
 		}
 		{
-			x: 0.0d
-			y: 1.0d
-			shape: "iron"
-			description: ["Улучшенная версия предыдущего хранилища."]
 			dependencies: ["782E87DFA8D9E320"]
+			description: ["Улучшенная версия предыдущего хранилища."]
 			id: "468BEDC6F00999C4"
+			shape: "iron"
 			tasks: [{
 				id: "7DF9F866BE67091E"
-				type: "item"
 				item: {
-					id: "sophisticatedstorage:gold_barrel"
 					Count: 1b
+					id: "sophisticatedstorage:gold_barrel"
 					tag: {
 						woodType: "dark_oak"
 					}
 				}
+				type: "item"
 			}]
+			x: 0.0d
+			y: 1.0d
 		}
 		{
-			x: 1.0d
-			y: 1.0d
-			shape: "gold"
-			description: ["Улучшенная версия предыдущего хранилища."]
 			dependencies: ["468BEDC6F00999C4"]
+			description: ["Улучшенная версия предыдущего хранилища."]
 			id: "6559A50C458AEE13"
+			shape: "gold"
 			tasks: [{
 				id: "7C0DD39673F01169"
-				type: "item"
 				item: {
-					id: "sophisticatedstorage:diamond_barrel"
 					Count: 1b
+					id: "sophisticatedstorage:diamond_barrel"
 					tag: {
 						woodType: "dark_oak"
 					}
 				}
+				type: "item"
 			}]
+			x: 1.0d
+			y: 1.0d
 		}
 		{
-			x: 2.0d
-			y: 0.5d
-			shape: "diamond"
-			description: ["Улучшенная версия предыдущего хранилища."]
 			dependencies: ["6559A50C458AEE13"]
+			description: ["Улучшенная версия предыдущего хранилища."]
 			id: "6B8DDDD19EDF924F"
+			shape: "diamond"
 			tasks: [{
 				id: "2D0BFB397C1B2B81"
-				type: "item"
 				item: {
-					id: "sophisticatedstorage:netherite_barrel"
 					Count: 1b
+					id: "sophisticatedstorage:netherite_barrel"
 					tag: {
 						woodType: "dark_oak"
 					}
 				}
+				type: "item"
 			}]
+			x: 2.0d
+			y: 0.5d
 		}
 		{
-			x: 0.5d
-			y: 4.5d
-			shape: "dirt"
-			description: ["Шаблон улучшений нужен для создания улучшений."]
-			hide_dependency_lines: true
 			dependencies: [
 				"15762F597B965F99"
 				"782E87DFA8D9E320"
 			]
 			dependency_requirement: "one_completed"
-			size: 1.2d
+			description: ["Шаблон улучшений нужен для создания улучшений."]
+			hide_dependency_lines: true
 			id: "274FC868882EF6E8"
+			shape: "dirt"
+			size: 1.2d
 			tasks: [{
 				id: "443130F0B0760C2A"
-				type: "item"
 				item: "sophisticatedstorage:upgrade_base"
+				type: "item"
 			}]
+			x: 0.5d
+			y: 4.5d
 		}
 		{
-			x: 4.0d
-			y: 0.0d
-			shape: "dirt"
-			description: ["С помощью этого улучшений можно моментально улучшить хранилище."]
 			dependencies: ["2B19E76BB0764227"]
+			description: ["С помощью этого улучшений можно моментально улучшить хранилище."]
 			id: "7DD72871BE2B9E8D"
+			shape: "dirt"
 			tasks: [{
 				id: "232A25F58766FCC8"
-				type: "item"
 				item: "sophisticatedstorage:basic_tier_upgrade"
+				type: "item"
 			}]
+			x: 4.0d
+			y: 0.0d
 		}
 		{
-			x: 4.5d
-			y: 1.0d
-			shape: "iron"
-			description: ["С помощью этого улучшений можно моментально улучшить хранилище."]
 			dependencies: ["42A0AA3648A0912D"]
+			description: ["С помощью этого улучшений можно моментально улучшить хранилище."]
 			id: "7299F4C6F228A401"
+			shape: "iron"
 			tasks: [{
 				id: "50A8C0993029B4AD"
-				type: "item"
 				item: "sophisticatedstorage:basic_to_iron_tier_upgrade"
+				type: "item"
 			}]
+			x: 4.5d
+			y: 1.0d
 		}
 		{
-			x: 4.5d
-			y: -1.0d
-			shape: "gold"
-			description: ["С помощью этого улучшений можно моментально улучшить хранилище."]
 			dependencies: ["08F7863D82646291"]
+			description: ["С помощью этого улучшений можно моментально улучшить хранилище."]
 			id: "5FD7487ACED59006"
+			shape: "gold"
 			tasks: [{
 				id: "218FE453ED0855E6"
-				type: "item"
 				item: "sophisticatedstorage:iron_to_gold_tier_upgrade"
+				type: "item"
 			}]
+			x: 4.5d
+			y: -1.0d
 		}
 		{
-			x: 4.0d
-			y: 2.0d
-			shape: "diamond"
-			description: ["С помощью этого улучшений можно моментально улучшить хранилище."]
 			dependencies: ["7214867124566ED2"]
+			description: ["С помощью этого улучшений можно моментально улучшить хранилище."]
 			id: "05616FB7D90AFE2C"
+			shape: "diamond"
 			tasks: [{
 				id: "708B4E316333F8E4"
-				type: "item"
 				item: "sophisticatedstorage:gold_to_diamond_tier_upgrade"
+				type: "item"
 			}]
+			x: 4.0d
+			y: 2.0d
 		}
 		{
-			x: 4.0d
-			y: -2.0d
-			shape: "diamond"
-			description: ["С помощью этого улучшений можно моментально улучшить хранилище."]
 			dependencies: ["79325CD17EACF314"]
+			description: ["С помощью этого улучшений можно моментально улучшить хранилище."]
 			id: "4A69546A27A19757"
+			shape: "diamond"
 			tasks: [{
 				id: "793A14201AA8FEA4"
-				type: "item"
 				item: "sophisticatedstorage:diamond_to_netherite_tier_upgrade"
+				type: "item"
 			}]
+			x: 4.0d
+			y: -2.0d
 		}
 		{
-			x: 2.0d
-			y: 3.0d
-			shape: "iron"
-			hide_dependency_lines: true
 			dependencies: ["274FC868882EF6E8"]
+			hide_dependency_lines: true
 			id: "177ED30FD39DE3C0"
+			shape: "iron"
 			tasks: [{
 				id: "5ED18D13998F0D87"
-				type: "item"
 				item: "sophisticatedstorage:stack_upgrade_tier_1"
+				type: "item"
 			}]
+			x: 2.0d
+			y: 3.0d
 		}
 		{
-			x: 2.5d
-			y: 4.0d
-			shape: "iron"
 			dependencies: ["177ED30FD39DE3C0"]
 			id: "27F06EF8AA069247"
+			shape: "iron"
 			tasks: [{
 				id: "3BA0E6CAF6C50FB6"
-				type: "item"
 				item: "sophisticatedstorage:stack_upgrade_tier_2"
+				type: "item"
 			}]
+			x: 2.5d
+			y: 4.0d
 		}
 		{
-			x: 2.5d
-			y: 5.0d
-			shape: "gold"
 			dependencies: ["27F06EF8AA069247"]
 			id: "668F335ED1929B6E"
+			shape: "gold"
 			tasks: [{
 				id: "03E290B81E99049F"
-				type: "item"
 				item: "sophisticatedstorage:stack_upgrade_tier_3"
+				type: "item"
 			}]
+			x: 2.5d
+			y: 5.0d
 		}
 		{
-			x: 2.0d
-			y: 6.0d
-			shape: "diamond"
 			dependencies: ["668F335ED1929B6E"]
 			id: "08C0CEDFACD115A5"
+			shape: "diamond"
 			tasks: [{
 				id: "3AAF9A86CB6A0A1E"
-				type: "item"
 				item: "sophisticatedstorage:stack_upgrade_tier_4"
+				type: "item"
 			}]
+			x: 2.0d
+			y: 6.0d
 		}
 		{
-			x: 1.0d
-			y: 2.5d
-			shape: "diamond"
-			hide_dependency_lines: true
 			dependencies: ["274FC868882EF6E8"]
+			hide_dependency_lines: true
 			id: "374BDF8B77143D4E"
+			shape: "diamond"
 			tasks: [{
 				id: "1E07AF766B8106FB"
-				type: "item"
 				item: "sophisticatedstorage:crafting_upgrade"
+				type: "item"
 			}]
+			x: 1.0d
+			y: 2.5d
 		}
 		{
-			x: -1.0d
-			y: 3.0d
-			shape: "gold"
-			hide_dependency_lines: true
 			dependencies: ["274FC868882EF6E8"]
+			hide_dependency_lines: true
 			id: "7AF0DFC503FF931D"
+			shape: "gold"
 			tasks: [{
 				id: "7A3D0D35813A9AEB"
-				type: "item"
 				item: "sophisticatedstorage:smelting_upgrade"
+				type: "item"
 			}]
+			x: -1.0d
+			y: 3.0d
 		}
 		{
-			x: -1.5d
-			y: 4.0d
-			shape: "diamond"
 			dependencies: ["7AF0DFC503FF931D"]
 			id: "5AD08FB6F1B2EBE6"
+			shape: "diamond"
 			tasks: [{
 				id: "1AEBC4EC08C766CD"
-				type: "item"
 				item: "sophisticatedstorage:auto_smelting_upgrade"
+				type: "item"
 			}]
+			x: -1.5d
+			y: 4.0d
 		}
 		{
-			x: -1.5d
-			y: 5.0d
-			shape: "diamond"
 			dependencies: ["1DA2575BE67F8FD8"]
 			id: "43AD92755F50BF75"
+			shape: "diamond"
 			tasks: [{
 				id: "2AD740058B5B9C25"
-				type: "item"
 				item: "sophisticatedstorage:auto_blasting_upgrade"
+				type: "item"
 			}]
+			x: -1.5d
+			y: 5.0d
 		}
 		{
-			x: -1.0d
-			y: 6.0d
-			shape: "gold"
-			hide_dependency_lines: true
 			dependencies: ["274FC868882EF6E8"]
+			hide_dependency_lines: true
 			id: "1DA2575BE67F8FD8"
+			shape: "gold"
 			tasks: [{
 				id: "65F01C6963E96ACF"
-				type: "item"
 				item: "sophisticatedstorage:blasting_upgrade"
+				type: "item"
 			}]
+			x: -1.0d
+			y: 6.0d
 		}
 		{
-			x: 0.0d
-			y: 6.5d
-			shape: "gold"
-			hide_dependency_lines: true
 			dependencies: ["274FC868882EF6E8"]
+			hide_dependency_lines: true
 			id: "24B0E4521E19A5A8"
+			shape: "gold"
 			tasks: [{
 				id: "4BAEF856E9E71611"
-				type: "item"
 				item: "sophisticatedstorage:smoking_upgrade"
+				type: "item"
 			}]
+			x: 0.0d
+			y: 6.5d
 		}
 		{
-			x: 1.0d
-			y: 6.5d
-			shape: "diamond"
 			dependencies: ["24B0E4521E19A5A8"]
 			id: "3E514CD196C1E50E"
+			shape: "diamond"
 			tasks: [{
 				id: "743261ECEF71D5EB"
-				type: "item"
 				item: "sophisticatedstorage:auto_smoking_upgrade"
+				type: "item"
 			}]
+			x: 1.0d
+			y: 6.5d
 		}
 		{
-			x: 0.0d
-			y: 2.5d
-			shape: "diamond"
-			hide_dependency_lines: true
 			dependencies: ["274FC868882EF6E8"]
+			hide_dependency_lines: true
 			id: "35D843CA92D55690"
+			shape: "diamond"
 			tasks: [{
 				id: "452D4A002F91DBA3"
-				type: "item"
 				item: "sophisticatedstorage:stonecutter_upgrade"
+				type: "item"
 			}]
+			x: 0.0d
+			y: 2.5d
 		}
 	]
+	title: "Sophisticated Storage"
 }

@@ -1,11 +1,12 @@
 {
-	id: "0F38F2E08CA84FDC"
-	group: "6DCD60E845454FA7"
-	order_index: 4
-	filename: "0F38F2E08CA84FDC"
-	title: "Everbright"
-	icon: "blue_skies:turquoise_grass_block"
-	default_quest_shape: ""
 	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "0F38F2E08CA84FDC"
+	group: "6DCD60E845454FA7"
+	icon: "blue_skies:turquoise_grass_block"
+	id: "0F38F2E08CA84FDC"
+	order_index: 4
+	quest_links: [ ]
 	quests: [ ]
+	title: "Everbright"
 }

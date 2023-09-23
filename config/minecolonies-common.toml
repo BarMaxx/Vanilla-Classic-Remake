@@ -1,6 +1,6 @@
 
-#All configuration items related to the core gameplay
+#Все настройки, связанные с основным игровым процессом
 [gameplay]
-	#Whether to generate supply ships and camps in loot chests. [Default: true]
+	#Создавать ли корабли снабжения и лагеря c сундуками. [По умолчанию: true]
 	generatesupplyloot = true
 

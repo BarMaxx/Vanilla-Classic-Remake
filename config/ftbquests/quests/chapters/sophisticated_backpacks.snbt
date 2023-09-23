@@ -1,11 +1,12 @@
 {
-	id: "5D884DE66428FFA8"
-	group: "72B112B1F6B996A7"
-	order_index: 1
-	filename: "sophisticated_backpacks"
-	title: "Sophisticated Backpacks"
-	icon: "sophisticatedbackpacks:backpack"
-	default_quest_shape: ""
 	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "sophisticated_backpacks"
+	group: "72B112B1F6B996A7"
+	icon: "sophisticatedbackpacks:backpack"
+	id: "5D884DE66428FFA8"
+	order_index: 1
+	quest_links: [ ]
 	quests: [ ]
+	title: "Sophisticated Backpacks"
 }

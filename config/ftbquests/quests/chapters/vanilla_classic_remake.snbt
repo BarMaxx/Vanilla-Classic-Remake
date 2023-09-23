@@ -1,20 +1,21 @@
 {
-	id: "45A4304C4D93ECCC"
-	group: "5B087F11CA4E26A2"
-	order_index: 0
-	filename: "vanilla_classic_remake"
-	title: "Vanilla Classic Remake"
-	default_quest_shape: ""
 	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "vanilla_classic_remake"
+	group: "5B087F11CA4E26A2"
+	id: "45A4304C4D93ECCC"
+	order_index: 0
+	quest_links: [ ]
 	quests: [{
-		x: 0.0d
-		y: 0.0d
 		dependencies: ["34C1D59023AA23CD"]
 		id: "58CEA56747D60B65"
 		tasks: [{
 			id: "0ADEE6EF9815FA56"
-			type: "item"
 			item: "kubejs:vanilla_classic_remake"
+			type: "item"
 		}]
+		x: 0.0d
+		y: 0.0d
 	}]
+	title: "Vanilla Classic Remake"
 }

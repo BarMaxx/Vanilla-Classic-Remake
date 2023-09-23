@@ -1,17 +1,18 @@
 {
-	id: "61EA660FCEF8621A"
-	group: "6DCD60E845454FA7"
-	order_index: 6
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
 	filename: "61EA660FCEF8621A"
-	title: "Deeper and Darker"
+	group: "6DCD60E845454FA7"
 	icon: {
-		id: "deeperdarker:warden_helmet"
 		Count: 1b
+		id: "deeperdarker:warden_helmet"
 		tag: {
 			Damage: 0
 		}
 	}
-	default_quest_shape: ""
-	default_hide_dependency_lines: false
+	id: "61EA660FCEF8621A"
+	order_index: 6
+	quest_links: [ ]
 	quests: [ ]
+	title: "Deeper and Darker"
 }

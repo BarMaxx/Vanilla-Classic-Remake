@@ -1,16 +1,12 @@
 {
-	id: "75BB5507FFF934F9"
-	group: ""
-	order_index: 0
-	filename: "75BB5507FFF934F9"
-	title: "Intro"
-	default_quest_shape: ""
 	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "75BB5507FFF934F9"
+	group: ""
+	id: "75BB5507FFF934F9"
+	order_index: 0
+	quest_links: [ ]
 	quests: [{
-		x: 0.6d
-		y: 0.6d
-		shape: "gear"
-		subtitle: "Много текста..."
 		description: [
 			"Vanilla Classic Remake - это сборка, в которой вы не найдете сложные механизмы и непонятные ритуалы, потому что главная цель сборки - это улучшение игры, без добавления большого количества сложного контента."
 			"В данную сборку было добавлено очень много нового контента, который сочетается с тем, что уже есть в Майнкрафте. Из-за этого играть в сборку приятно и интересно."
@@ -18,17 +14,22 @@
 			"Данная сборка была создана командой LGame Studio, а главный разработчик - BarMaxx. Мы надеемся, что вам понравится играть в эту сборку, потому что сил в нее вложено не мало."
 			"P.S. На данный момент сборка не доработана до конца, следовательно могут возникать различные ошибки."
 		]
-		size: 1.2d
 		id: "34C1D59023AA23CD"
-		tasks: [{
-			id: "2A14243B232A7030"
-			type: "checkmark"
-			title: "Немного о сборке"
-		}]
 		rewards: [{
 			id: "1070046E768A7AED"
-			type: "item"
 			item: "minecraft:cake"
+			type: "item"
 		}]
+		shape: "gear"
+		size: 1.2d
+		subtitle: "Много текста..."
+		tasks: [{
+			id: "2A14243B232A7030"
+			title: "Немного о сборке"
+			type: "checkmark"
+		}]
+		x: 0.6d
+		y: 0.6d
 	}]
+	title: "Intro"
 }

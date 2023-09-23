@@ -1,11 +1,12 @@
 {
-	id: "409B82265E7A25C9"
-	group: "6DCD60E845454FA7"
-	order_index: 5
-	filename: "409B82265E7A25C9"
-	title: "Everdown"
-	icon: "blue_skies:lunar_grass_block"
-	default_quest_shape: ""
 	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "409B82265E7A25C9"
+	group: "6DCD60E845454FA7"
+	icon: "blue_skies:lunar_grass_block"
+	id: "409B82265E7A25C9"
+	order_index: 5
+	quest_links: [ ]
 	quests: [ ]
+	title: "Everdown"
 }

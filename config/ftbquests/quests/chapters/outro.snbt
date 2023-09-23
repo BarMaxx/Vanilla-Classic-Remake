@@ -1,19 +1,20 @@
 {
-	id: "5D84F824C1B42392"
-	group: "5B087F11CA4E26A2"
-	order_index: 1
-	filename: "outro"
-	title: "Outro"
-	default_quest_shape: "gear"
 	default_hide_dependency_lines: false
+	default_quest_shape: "gear"
+	filename: "outro"
+	group: "5B087F11CA4E26A2"
+	id: "5D84F824C1B42392"
+	order_index: 1
+	quest_links: [ ]
 	quests: [{
-		x: 0.0d
-		y: 0.0d
 		id: "1C44686F661BB9E4"
 		tasks: [{
 			id: "2DA16D1E425E1BB8"
-			type: "checkmark"
 			title: "Пора прощаться :("
+			type: "checkmark"
 		}]
+		x: 0.0d
+		y: 0.0d
 	}]
+	title: "Outro"
 }

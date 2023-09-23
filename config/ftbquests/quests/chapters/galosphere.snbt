@@ -1,15 +1,16 @@
 {
-	id: "74905FBDD06F743F"
-	group: "55E44FEC8E881863"
-	order_index: 0
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
 	filename: "galosphere"
-	title: "Galosphere"
+	group: "55E44FEC8E881863"
 	icon: {
-		id: "galosphere:silver_bomb"
 		Count: 1b
+		id: "galosphere:silver_bomb"
 		tag: { }
 	}
-	default_quest_shape: ""
-	default_hide_dependency_lines: false
+	id: "74905FBDD06F743F"
+	order_index: 0
+	quest_links: [ ]
 	quests: [ ]
+	title: "Galosphere"
 }

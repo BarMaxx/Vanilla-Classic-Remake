@@ -1,22 +1,23 @@
 {
-	id: "1B411C83846097EB"
-	group: "6DCD60E845454FA7"
-	order_index: 2
-	filename: "1B411C83846097EB"
-	title: "Twilight Forest"
-	icon: "twilightforest:twilight_portal_miniature_structure"
-	default_quest_shape: ""
 	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "1B411C83846097EB"
+	group: "6DCD60E845454FA7"
+	icon: "twilightforest:twilight_portal_miniature_structure"
+	id: "1B411C83846097EB"
+	order_index: 2
+	quest_links: [ ]
 	quests: [{
-		x: 0.0d
-		y: 0.0d
-		shape: "dirt"
 		dependencies: ["34C1D59023AA23CD"]
 		id: "0AFECA103FCCF23A"
+		shape: "dirt"
 		tasks: [{
+			dimension: "twilightforest:twilight_forest"
 			id: "2648E3A46617AC4C"
 			type: "dimension"
-			dimension: "twilightforest:twilight_forest"
 		}]
+		x: 0.0d
+		y: 0.0d
 	}]
+	title: "Twilight Forest"
 }
