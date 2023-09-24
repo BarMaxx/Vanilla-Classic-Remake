@@ -7,17 +7,592 @@
 	id: "1B411C83846097EB"
 	order_index: 2
 	quest_links: [ ]
-	quests: [{
-		dependencies: ["34C1D59023AA23CD"]
-		id: "0AFECA103FCCF23A"
-		shape: "dirt"
-		tasks: [{
-			dimension: "twilightforest:twilight_forest"
-			id: "2648E3A46617AC4C"
-			type: "dimension"
-		}]
-		x: 0.0d
-		y: 0.0d
-	}]
+	quests: [
+		{
+			dependencies: ["34C1D59023AA23CD"]
+			id: "0AFECA103FCCF23A"
+			shape: "dirt"
+			tasks: [{
+				dimension: "twilightforest:twilight_forest"
+				id: "2648E3A46617AC4C"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0AFECA103FCCF23A"]
+			id: "06CBAD8BCECDCDF3"
+			tasks: [{
+				entity: "twilightforest:naga"
+				id: "66F1879851C48615"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["06CBAD8BCECDCDF3"]
+			id: "22A6CCC23C2D1061"
+			tasks: [{
+				id: "543DE51691A2E345"
+				item: "twilightforest:naga_trophy"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["06CBAD8BCECDCDF3"]
+			id: "620060537AB35D26"
+			tasks: [{
+				id: "4576EDC824854D56"
+				item: "twilightforest:naga_scale"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["620060537AB35D26"]
+			id: "22A89BEA68A0DA0A"
+			tasks: [
+				{
+					id: "097A25572039FEA0"
+					item: {
+						Count: 1b
+						id: "twilightforest:naga_chestplate"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:fire_protection"
+								lvl: 3s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0C8C817D20405597"
+					item: {
+						Count: 1b
+						id: "twilightforest:naga_leggings"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:protection"
+								lvl: 3s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["22A6CCC23C2D1061"]
+			id: "568E339ABFF7A602"
+			tasks: [{
+				entity: "twilightforest:lich"
+				id: "09CCFAB9E6240115"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["568E339ABFF7A602"]
+			id: "0BF7880FE91B6666"
+			tasks: [{
+				id: "3A242741D4D4A8BF"
+				item: "twilightforest:lich_trophy"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["568E339ABFF7A602"]
+			id: "321CF520641CEBDD"
+			tasks: [{
+				id: "1DD1308727EF9B6C"
+				item: {
+					Count: 1b
+					id: "twilightforest:twilight_scepter"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["568E339ABFF7A602"]
+			id: "757E37DC1CDDAA63"
+			tasks: [{
+				id: "1361EB02AC8BE60F"
+				item: {
+					Count: 1b
+					id: "twilightforest:lifedrain_scepter"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["568E339ABFF7A602"]
+			id: "59D6A0B3682157D7"
+			tasks: [{
+				id: "6F15B4DC9B90ABC4"
+				item: {
+					Count: 1b
+					id: "twilightforest:zombie_scepter"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["568E339ABFF7A602"]
+			id: "7502F166B14ABB5E"
+			tasks: [{
+				id: "1EFF39EAA287B759"
+				item: {
+					Count: 1b
+					id: "twilightforest:fortification_scepter"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0BF7880FE91B6666"]
+			id: "5AE48A334FE50D59"
+			tasks: [{
+				entity: "twilightforest:minotaur"
+				id: "74B28C72970FB973"
+				type: "kill"
+				value: 1L
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5AE48A334FE50D59"]
+			id: "411013196B68BFA4"
+			tasks: [{
+				id: "5F9263FC2DB3DAD3"
+				item: "twilightforest:minoshroom_trophy"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5AE48A334FE50D59"]
+			id: "5D59B600FF5D690B"
+			tasks: [{
+				id: "634BF7EEC688B8C7"
+				item: "twilightforest:meef_stroganoff"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5AE48A334FE50D59"]
+			id: "16C1CC7285B68D28"
+			tasks: [{
+				id: "329DF37DC531D331"
+				item: {
+					Count: 1b
+					id: "twilightforest:diamond_minotaur_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["411013196B68BFA4"]
+			id: "4636FFBEE32833E5"
+			tasks: [{
+				entity: "twilightforest:hydra"
+				id: "057451F514211659"
+				type: "kill"
+				value: 1L
+			}]
+			x: 12.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4636FFBEE32833E5"]
+			id: "44134EE872FCDB7D"
+			tasks: [{
+				id: "7CF6C9B5FF019DCB"
+				item: "twilightforest:hydra_trophy"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4636FFBEE32833E5"]
+			id: "2840646BF0E99DFD"
+			tasks: [{
+				id: "5F012D5D1E160B71"
+				item: "twilightforest:hydra_chop"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4636FFBEE32833E5"]
+			id: "7456786190948B9D"
+			tasks: [{
+				id: "35F813928DA53993"
+				item: "twilightforest:fiery_blood"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7456786190948B9D"]
+			id: "7710DC59B6351661"
+			tasks: [{
+				id: "5068BCEB984366E6"
+				item: "twilightforest:fiery_ingot"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7710DC59B6351661"]
+			id: "66EC38BF11EB06B9"
+			tasks: [
+				{
+					id: "31CDA0BBB072B34C"
+					item: {
+						Count: 1b
+						id: "twilightforest:fiery_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "00D69B393D45A9E0"
+					item: {
+						Count: 1b
+						id: "twilightforest:fiery_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "544CA0E008270A77"
+					item: {
+						Count: 1b
+						id: "twilightforest:fiery_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "40F677A28605DBFE"
+					item: {
+						Count: 1b
+						id: "twilightforest:fiery_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 13.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7710DC59B6351661"]
+			id: "781F927EF445EF76"
+			tasks: [
+				{
+					id: "056209D12AB8E3A7"
+					item: {
+						Count: 1b
+						id: "twilightforest:fiery_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "40834E6783C12290"
+					item: {
+						Count: 1b
+						id: "twilightforest:fiery_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 14.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["44134EE872FCDB7D"]
+			id: "20C904F4EE6D103C"
+			tasks: [{
+				entity: "twilightforest:ur_ghast"
+				id: "40EC5E2A5D0DA116"
+				type: "kill"
+				value: 1L
+			}]
+			x: 16.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["20C904F4EE6D103C"]
+			id: "4DA0EF7E83174979"
+			tasks: [{
+				id: "324E864B9AF0329B"
+				item: "twilightforest:ur_ghast_trophy"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["20C904F4EE6D103C"]
+			id: "5C7256D15435750F"
+			tasks: [{
+				id: "44F1585E529A16E1"
+				item: "twilightforest:carminite"
+				type: "item"
+			}]
+			x: 16.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["20C904F4EE6D103C"]
+			id: "329815C94B4FFB56"
+			tasks: [{
+				id: "0AA9EF073D1EE3D7"
+				item: "twilightforest:fiery_tears"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4DA0EF7E83174979"]
+			id: "0B8EB3D5AA1768F0"
+			tasks: [{
+				entity: "twilightforest:alpha_yeti"
+				id: "4686B5F437B80C84"
+				type: "kill"
+				value: 1L
+			}]
+			x: 19.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0B8EB3D5AA1768F0"]
+			id: "2C4CA744F9DDC365"
+			tasks: [{
+				id: "3059DE4F54AFE1D4"
+				item: "twilightforest:alpha_yeti_trophy"
+				type: "item"
+			}]
+			x: 21.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0B8EB3D5AA1768F0"]
+			id: "6EFE9929677DD2A3"
+			tasks: [{
+				id: "048AE0FED8A7ABDD"
+				item: "twilightforest:alpha_yeti_fur"
+				type: "item"
+			}]
+			x: 20.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6EFE9929677DD2A3"]
+			id: "4F1D655B30E0F368"
+			tasks: [
+				{
+					id: "63C7BCA7B950C18A"
+					item: {
+						Count: 1b
+						id: "twilightforest:yeti_helmet"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:protection"
+								lvl: 2s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0BFF383BFBFCFFD1"
+					item: {
+						Count: 1b
+						id: "twilightforest:yeti_chestplate"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:protection"
+								lvl: 2s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4ADC6AA97B392315"
+					item: {
+						Count: 1b
+						id: "twilightforest:yeti_leggings"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:protection"
+								lvl: 2s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "40B43D0AA6F8A083"
+					item: {
+						Count: 1b
+						id: "twilightforest:yeti_boots"
+						tag: {
+							Damage: 0
+							Enchantments: [
+								{
+									id: "minecraft:protection"
+									lvl: 2s
+								}
+								{
+									id: "minecraft:feather_falling"
+									lvl: 4s
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 21.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0B8EB3D5AA1768F0"]
+			id: "4E7DAC10729379BE"
+			tasks: [{
+				id: "507CF053CC93F4B3"
+				item: "twilightforest:ice_bomb"
+				type: "item"
+			}]
+			x: 20.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2C4CA744F9DDC365"]
+			id: "15B58FFDBB2B3766"
+			tasks: [{
+				entity: "twilightforest:snow_queen"
+				id: "69BAF94F6148A31D"
+				type: "kill"
+				value: 1L
+			}]
+			x: 23.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["15B58FFDBB2B3766"]
+			id: "32A2447D9C4BAF7D"
+			tasks: [{
+				id: "3593EEE0E5BBA007"
+				item: "twilightforest:snow_queen_trophy"
+				type: "item"
+			}]
+			x: 25.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["15B58FFDBB2B3766"]
+			id: "0545B934E4E04F0A"
+			tasks: [{
+				id: "2EE18001B1E71EAF"
+				item: {
+					Count: 1b
+					id: "twilightforest:triple_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 23.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["15B58FFDBB2B3766"]
+			id: "43C3F589CDE0074B"
+			tasks: [{
+				id: "3209C917839C0060"
+				item: {
+					Count: 1b
+					id: "twilightforest:seeker_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 23.5d
+			y: -1.0d
+		}
+	]
 	title: "Twilight Forest"
 }
