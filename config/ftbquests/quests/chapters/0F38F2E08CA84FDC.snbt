@@ -7,6 +7,83 @@
 	id: "0F38F2E08CA84FDC"
 	order_index: 4
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			dependencies: ["34C1D59023AA23CD"]
+			id: "33C118E36D9FA1E1"
+			tasks: [{
+				dimension: "blue_skies:everbright"
+				id: "484669DACC558B6C"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["33C118E36D9FA1E1"]
+			id: "0A65F1010B1D56BA"
+			tasks: [{
+				id: "06DF09AA64BA9B49"
+				item: "blue_skies:turquoise_cobblestone"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"0A65F1010B1D56BA"
+				"06EB44453CFA0D9E"
+			]
+			id: "21294D4889484551"
+			tasks: [{
+				id: "5CAFC1FE3B51D42F"
+				item: "blue_skies:snowcap_oven"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["495BFE02895B7155"]
+			id: "06EB44453CFA0D9E"
+			tasks: [{
+				id: "5A81958EE0B36738"
+				item: "blue_skies:snowcap_mushroom_block"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["33C118E36D9FA1E1"]
+			hide_dependency_lines: true
+			id: "495BFE02895B7155"
+			tasks: [{
+				id: "502DF5FA177F3F58"
+				item: "blue_skies:snowcap_pinhead"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0A65F1010B1D56BA"]
+			id: "3DE354A671C2D09B"
+			tasks: [{
+				id: "6B0B3A9CD69BF2ED"
+				item: {
+					Count: 1b
+					id: "blue_skies:turquoise_stone_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.5d
+		}
+	]
 	title: "Everbright"
 }

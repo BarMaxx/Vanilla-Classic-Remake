@@ -7,6 +7,16 @@
 	id: "409B82265E7A25C9"
 	order_index: 5
 	quest_links: [ ]
-	quests: [ ]
+	quests: [{
+		dependencies: ["34C1D59023AA23CD"]
+		id: "74BE7195932F349A"
+		tasks: [{
+			dimension: "blue_skies:everdawn"
+			id: "6366D8B6199AE511"
+			type: "dimension"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
 	title: "Everdown"
 }
