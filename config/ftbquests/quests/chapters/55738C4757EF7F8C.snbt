@@ -11,6 +11,7 @@
 		{
 			dependencies: ["34C1D59023AA23CD"]
 			id: "56BDF3DC0743ECEC"
+			shape: "dirt"
 			tasks: [{
 				id: "5B6F197F3E95D1D3"
 				item: "undergarden:catalyst"
@@ -22,6 +23,7 @@
 		{
 			dependencies: ["56BDF3DC0743ECEC"]
 			id: "33BAC31846B85E50"
+			shape: "gold"
 			tasks: [{
 				dimension: "undergarden:undergarden"
 				id: "4C6A45B3CB7F35ED"
@@ -33,6 +35,7 @@
 		{
 			dependencies: ["33BAC31846B85E50"]
 			id: "3533994A7E20AD53"
+			shape: "iron"
 			tasks: [{
 				id: "160212924C91CB51"
 				item: "undergarden:raw_cloggrum"
@@ -44,6 +47,7 @@
 		{
 			dependencies: ["33BAC31846B85E50"]
 			id: "65DA848B635FC2DA"
+			shape: "iron"
 			tasks: [{
 				id: "4BBAD5C86581C781"
 				item: "undergarden:raw_froststeel"
@@ -55,6 +59,7 @@
 		{
 			dependencies: ["3533994A7E20AD53"]
 			id: "5A0A352946FDAD28"
+			shape: "gold"
 			tasks: [{
 				id: "5610DBD180EB63A6"
 				item: "undergarden:cloggrum_ingot"
@@ -66,6 +71,7 @@
 		{
 			dependencies: ["65DA848B635FC2DA"]
 			id: "40444BC36346008C"
+			shape: "gold"
 			tasks: [{
 				id: "2BA666C93C8F7115"
 				item: "undergarden:froststeel_ingot"
@@ -77,6 +83,7 @@
 		{
 			dependencies: ["33BAC31846B85E50"]
 			id: "3231386158012906"
+			shape: "iron"
 			tasks: [{
 				entity: "undergarden:forgotten_guardian"
 				id: "7365622F3D2C97F7"
@@ -89,6 +96,7 @@
 		{
 			dependencies: ["3231386158012906"]
 			id: "364BCF66CD1A168F"
+			shape: "iron"
 			tasks: [{
 				id: "1CBE889DC04F5137"
 				item: "undergarden:forgotten_nugget"
@@ -100,6 +108,7 @@
 		{
 			dependencies: ["364BCF66CD1A168F"]
 			id: "5203045576711C8C"
+			shape: "gold"
 			tasks: [{
 				id: "7727CB17174AF172"
 				item: "undergarden:forgotten_ingot"
@@ -111,6 +120,7 @@
 		{
 			dependencies: ["33BAC31846B85E50"]
 			id: "6DB6DE5E03353D95"
+			shape: "iron"
 			tasks: [{
 				entity: "undergarden:rotbeast"
 				id: "1F8B8F646E4EAE46"
@@ -123,6 +133,7 @@
 		{
 			dependencies: ["6DB6DE5E03353D95"]
 			id: "6946BEF7CDE8A954"
+			shape: "iron"
 			tasks: [{
 				id: "56D541434AEFAE7C"
 				item: "undergarden:utheric_shard"
@@ -134,6 +145,7 @@
 		{
 			dependencies: ["6946BEF7CDE8A954"]
 			id: "514654B94823F2A2"
+			shape: "gold"
 			tasks: [{
 				id: "60B25DEE7AEA47AF"
 				item: "undergarden:utherium_crystal"
@@ -145,6 +157,7 @@
 		{
 			dependencies: ["33BAC31846B85E50"]
 			id: "4D9267B93902E4FC"
+			shape: "iron"
 			tasks: [{
 				entity: "undergarden:masticator"
 				id: "43D6EFBB36D9CE62"
@@ -157,6 +170,7 @@
 		{
 			dependencies: ["4D9267B93902E4FC"]
 			id: "6FE108004B6ED236"
+			shape: "gold"
 			tasks: [{
 				id: "423EFB149DC7903D"
 				item: "undergarden:masticator_scales"
@@ -168,6 +182,7 @@
 		{
 			dependencies: ["6FE108004B6ED236"]
 			id: "7F9497CE4E7645E5"
+			shape: "diamond"
 			tasks: [{
 				id: "59CE3F7747846FCC"
 				item: {
@@ -189,6 +204,7 @@
 		{
 			dependencies: ["5203045576711C8C"]
 			id: "0C476EDF2EC0ED8D"
+			shape: "diamond"
 			tasks: [
 				{
 					id: "122A66F7CC70B275"
@@ -219,6 +235,7 @@
 		{
 			dependencies: ["5203045576711C8C"]
 			id: "113AC8DC225BE957"
+			shape: "diamond"
 			tasks: [
 				{
 					id: "19BAC981188043F9"
@@ -249,6 +266,7 @@
 		{
 			dependencies: ["5203045576711C8C"]
 			id: "100385269130C68D"
+			shape: "diamond"
 			tasks: [
 				{
 					id: "109C0985420F7C01"
@@ -279,6 +297,7 @@
 		{
 			dependencies: ["5A0A352946FDAD28"]
 			id: "377511059D3B0BD1"
+			shape: "diamond"
 			tasks: [
 				{
 					id: "30550230F5893727"
@@ -331,6 +350,7 @@
 		{
 			dependencies: ["5A0A352946FDAD28"]
 			id: "390DCEEC49A433FE"
+			shape: "diamond"
 			tasks: [
 				{
 					id: "5734BBA8F5DED212"
@@ -372,6 +392,7 @@
 		{
 			dependencies: ["5A0A352946FDAD28"]
 			id: "74C1E672043EC84F"
+			shape: "diamond"
 			tasks: [
 				{
 					id: "1B767ED8565DFC44"
@@ -402,6 +423,7 @@
 		{
 			dependencies: ["5A0A352946FDAD28"]
 			id: "243E1DEA4F78471E"
+			shape: "diamond"
 			tasks: [
 				{
 					id: "79BE4C4A2695AF29"
@@ -432,6 +454,7 @@
 		{
 			dependencies: ["40444BC36346008C"]
 			id: "068697869FA84DC1"
+			shape: "diamond"
 			tasks: [
 				{
 					id: "6F43986413313316"
@@ -484,6 +507,7 @@
 		{
 			dependencies: ["40444BC36346008C"]
 			id: "6329E536B15B0DB0"
+			shape: "diamond"
 			tasks: [
 				{
 					id: "087BBC38D7C87678"
@@ -514,6 +538,7 @@
 		{
 			dependencies: ["40444BC36346008C"]
 			id: "763C4CBD7C71C963"
+			shape: "diamond"
 			tasks: [{
 				id: "19E92AE5E39CFF16"
 				item: {
@@ -531,6 +556,7 @@
 		{
 			dependencies: ["40444BC36346008C"]
 			id: "4A1027A5BB4E24C2"
+			shape: "diamond"
 			tasks: [
 				{
 					id: "64544FEA88329B5E"
@@ -561,6 +587,7 @@
 		{
 			dependencies: ["514654B94823F2A2"]
 			id: "2D4E5E270EEDA8F4"
+			shape: "diamond"
 			tasks: [
 				{
 					id: "58A65455345096AA"
@@ -613,6 +640,7 @@
 		{
 			dependencies: ["514654B94823F2A2"]
 			id: "05D3485829E976B6"
+			shape: "diamond"
 			tasks: [{
 				id: "385953B569C02A13"
 				item: {
@@ -630,6 +658,7 @@
 		{
 			dependencies: ["514654B94823F2A2"]
 			id: "601DA50CEBD9C7AB"
+			shape: "diamond"
 			tasks: [
 				{
 					id: "794EFD419759A70B"
@@ -660,6 +689,7 @@
 		{
 			dependencies: ["514654B94823F2A2"]
 			id: "40ED3B53DDFB73AB"
+			shape: "diamond"
 			tasks: [
 				{
 					id: "2152E4607A418C86"

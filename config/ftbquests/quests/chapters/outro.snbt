@@ -8,6 +8,7 @@
 	quest_links: [ ]
 	quests: [{
 		id: "1C44686F661BB9E4"
+		subtitle: "Много текста..."
 		tasks: [{
 			id: "2DA16D1E425E1BB8"
 			title: "Пора прощаться :("

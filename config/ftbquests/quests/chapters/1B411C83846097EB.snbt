@@ -29,8 +29,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 2.0d
-			y: 0.0d
+			x: 0.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["06CBAD8BCECDCDF3"]
@@ -40,8 +40,8 @@
 				item: "twilightforest:naga_trophy"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 0.0d
+			x: 0.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["06CBAD8BCECDCDF3"]
@@ -51,8 +51,8 @@
 				item: "twilightforest:naga_scale"
 				type: "item"
 			}]
-			x: 2.5d
-			y: 1.0d
+			x: -1.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["620060537AB35D26"]
@@ -89,8 +89,8 @@
 					type: "item"
 				}
 			]
-			x: 3.5d
-			y: 1.5d
+			x: -1.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["22A6CCC23C2D1061"]
@@ -101,8 +101,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 5.5d
-			y: 0.0d
+			x: 0.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["568E339ABFF7A602"]
@@ -112,8 +112,8 @@
 				item: "twilightforest:lich_trophy"
 				type: "item"
 			}]
-			x: 7.5d
-			y: 0.0d
+			x: 0.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["568E339ABFF7A602"]
@@ -129,8 +129,8 @@
 				}
 				type: "item"
 			}]
-			x: 5.0d
-			y: 1.5d
+			x: 1.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["568E339ABFF7A602"]
@@ -146,8 +146,8 @@
 				}
 				type: "item"
 			}]
-			x: 6.0d
-			y: 1.5d
+			x: -1.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["568E339ABFF7A602"]
@@ -163,8 +163,8 @@
 				}
 				type: "item"
 			}]
-			x: 5.0d
-			y: -1.5d
+			x: -1.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["568E339ABFF7A602"]
@@ -180,8 +180,8 @@
 				}
 				type: "item"
 			}]
-			x: 6.0d
-			y: -1.5d
+			x: 1.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["0BF7880FE91B6666"]
@@ -192,8 +192,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 9.0d
-			y: 0.0d
+			x: 0.0d
+			y: -7.5d
 		}
 		{
 			dependencies: ["5AE48A334FE50D59"]
@@ -203,8 +203,8 @@
 				item: "twilightforest:minoshroom_trophy"
 				type: "item"
 			}]
-			x: 11.0d
-			y: 0.0d
+			x: 0.0d
+			y: -9.0d
 		}
 		{
 			dependencies: ["5AE48A334FE50D59"]
@@ -214,8 +214,8 @@
 				item: "twilightforest:meef_stroganoff"
 				type: "item"
 			}]
-			x: 9.5d
-			y: 1.5d
+			x: 1.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["5AE48A334FE50D59"]
@@ -231,8 +231,8 @@
 				}
 				type: "item"
 			}]
-			x: 9.5d
-			y: -1.5d
+			x: -1.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["411013196B68BFA4"]
@@ -243,8 +243,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 12.5d
-			y: 0.0d
+			x: 0.0d
+			y: -10.5d
 		}
 		{
 			dependencies: ["4636FFBEE32833E5"]
@@ -254,8 +254,8 @@
 				item: "twilightforest:hydra_trophy"
 				type: "item"
 			}]
-			x: 14.5d
-			y: 0.0d
+			x: 0.0d
+			y: -12.0d
 		}
 		{
 			dependencies: ["4636FFBEE32833E5"]
@@ -265,8 +265,8 @@
 				item: "twilightforest:hydra_chop"
 				type: "item"
 			}]
-			x: 13.0d
-			y: -1.0d
+			x: -1.0d
+			y: -11.0d
 		}
 		{
 			dependencies: ["4636FFBEE32833E5"]
@@ -276,8 +276,8 @@
 				item: "twilightforest:fiery_blood"
 				type: "item"
 			}]
-			x: 13.0d
-			y: 1.0d
+			x: 1.0d
+			y: -11.0d
 		}
 		{
 			dependencies: ["7456786190948B9D"]
@@ -287,8 +287,8 @@
 				item: "twilightforest:fiery_ingot"
 				type: "item"
 			}]
-			x: 14.0d
-			y: 1.5d
+			x: 1.5d
+			y: -12.0d
 		}
 		{
 			dependencies: ["7710DC59B6351661"]
@@ -339,8 +339,8 @@
 					type: "item"
 				}
 			]
-			x: 13.5d
-			y: 2.5d
+			x: 2.5d
+			y: -12.5d
 		}
 		{
 			dependencies: ["7710DC59B6351661"]
@@ -369,8 +369,8 @@
 					type: "item"
 				}
 			]
-			x: 14.5d
-			y: 2.5d
+			x: 2.5d
+			y: -11.5d
 		}
 		{
 			dependencies: ["44134EE872FCDB7D"]
@@ -381,8 +381,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 16.0d
-			y: 0.0d
+			x: 0.0d
+			y: -13.5d
 		}
 		{
 			dependencies: ["20C904F4EE6D103C"]
@@ -392,8 +392,8 @@
 				item: "twilightforest:ur_ghast_trophy"
 				type: "item"
 			}]
-			x: 18.0d
-			y: 0.0d
+			x: 0.0d
+			y: -15.0d
 		}
 		{
 			dependencies: ["20C904F4EE6D103C"]
@@ -403,8 +403,8 @@
 				item: "twilightforest:carminite"
 				type: "item"
 			}]
-			x: 16.5d
-			y: -1.0d
+			x: 1.0d
+			y: -14.0d
 		}
 		{
 			dependencies: ["20C904F4EE6D103C"]
@@ -414,8 +414,8 @@
 				item: "twilightforest:fiery_tears"
 				type: "item"
 			}]
-			x: 16.5d
-			y: 1.0d
+			x: -1.0d
+			y: -14.0d
 		}
 		{
 			dependencies: ["4DA0EF7E83174979"]
@@ -426,8 +426,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 19.5d
-			y: 0.0d
+			x: 0.0d
+			y: -16.5d
 		}
 		{
 			dependencies: ["0B8EB3D5AA1768F0"]
@@ -437,8 +437,8 @@
 				item: "twilightforest:alpha_yeti_trophy"
 				type: "item"
 			}]
-			x: 21.5d
-			y: 0.0d
+			x: 0.0d
+			y: -18.0d
 		}
 		{
 			dependencies: ["0B8EB3D5AA1768F0"]
@@ -448,8 +448,8 @@
 				item: "twilightforest:alpha_yeti_fur"
 				type: "item"
 			}]
-			x: 20.0d
-			y: 1.0d
+			x: -1.0d
+			y: -17.0d
 		}
 		{
 			dependencies: ["6EFE9929677DD2A3"]
@@ -522,8 +522,8 @@
 					type: "item"
 				}
 			]
-			x: 21.0d
-			y: 1.5d
+			x: -1.5d
+			y: -18.0d
 		}
 		{
 			dependencies: ["0B8EB3D5AA1768F0"]
@@ -533,8 +533,8 @@
 				item: "twilightforest:ice_bomb"
 				type: "item"
 			}]
-			x: 20.0d
-			y: -1.0d
+			x: 1.0d
+			y: -17.0d
 		}
 		{
 			dependencies: ["2C4CA744F9DDC365"]
@@ -545,8 +545,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 23.0d
-			y: 0.0d
+			x: 0.0d
+			y: -19.5d
 		}
 		{
 			dependencies: ["15B58FFDBB2B3766"]
@@ -556,8 +556,8 @@
 				item: "twilightforest:snow_queen_trophy"
 				type: "item"
 			}]
-			x: 25.0d
-			y: 0.0d
+			x: 0.0d
+			y: -21.0d
 		}
 		{
 			dependencies: ["15B58FFDBB2B3766"]
@@ -573,8 +573,8 @@
 				}
 				type: "item"
 			}]
-			x: 23.5d
-			y: 1.0d
+			x: -1.0d
+			y: -20.0d
 		}
 		{
 			dependencies: ["15B58FFDBB2B3766"]
@@ -590,8 +590,8 @@
 				}
 				type: "item"
 			}]
-			x: 23.5d
-			y: -1.0d
+			x: 1.0d
+			y: -20.0d
 		}
 	]
 	title: "Twilight Forest"

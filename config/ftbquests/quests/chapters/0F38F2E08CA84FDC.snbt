@@ -84,6 +84,133 @@
 			x: 2.5d
 			y: 0.5d
 		}
+		{
+			dependencies: ["3DE354A671C2D09B"]
+			id: "7F34C736C90A6C82"
+			tasks: [{
+				id: "0AB47B306710395A"
+				item: "blue_skies:moonstone_shard"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3DE354A671C2D09B"]
+			id: "3E3F2A6658CB655C"
+			tasks: [{
+				id: "4D447C80168BCB83"
+				item: "blue_skies:pyrope_gem"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3DE354A671C2D09B"]
+			id: "71DB69814A0B47B0"
+			tasks: [{
+				id: "68A0A260D6A98A0C"
+				item: "blue_skies:aquite"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["71DB69814A0B47B0"]
+			id: "34FAA200D911BBFD"
+			tasks: [{
+				id: "0571593B5B5C15CF"
+				item: {
+					Count: 1b
+					id: "blue_skies:aquite_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3E3F2A6658CB655C"]
+			id: "09AD609EF2CF1F27"
+			tasks: [{
+				id: "4E0B416BE27A067C"
+				item: {
+					Count: 1b
+					id: "blue_skies:pyrope_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"09AD609EF2CF1F27"
+				"34FAA200D911BBFD"
+			]
+			dependency_requirement: "one_completed"
+			id: "67DEE061A73F243E"
+			tasks: [{
+				id: "376A552FB02AFDB8"
+				item: "blue_skies:charoite"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["67DEE061A73F243E"]
+			id: "6BDD636E4AA02AA2"
+			tasks: [{
+				id: "6EE5C80619C05F01"
+				item: {
+					Count: 1b
+					id: "blue_skies:charoite_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6BDD636E4AA02AA2"]
+			id: "7BD9063F0E0C0224"
+			tasks: [{
+				id: "32D7304C884FE0BE"
+				item: "blue_skies:diopside_gem"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7BD9063F0E0C0224"]
+			id: "6264D9F5BC0CC4B9"
+			tasks: [{
+				id: "683200A6D0A927D0"
+				item: {
+					Count: 1b
+					id: "blue_skies:diopside_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: 0.5d
+		}
 	]
 	title: "Everbright"
 }
