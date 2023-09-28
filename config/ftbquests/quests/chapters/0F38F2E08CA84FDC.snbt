@@ -11,6 +11,7 @@
 		{
 			dependencies: ["34C1D59023AA23CD"]
 			id: "33C118E36D9FA1E1"
+			shape: "dirt"
 			tasks: [{
 				dimension: "blue_skies:everbright"
 				id: "484669DACC558B6C"
@@ -210,6 +211,34 @@
 			}]
 			x: 9.5d
 			y: 0.5d
+		}
+		{
+			dependencies: ["7F34C736C90A6C82"]
+			id: "4B13FDA474D9BFCD"
+			tasks: [{
+				id: "4BA71EC597FB9AAD"
+				item: {
+					Count: 1b
+					id: "blue_skies:maple_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7F34C736C90A6C82"]
+			id: "0A5B07937CF23A7C"
+			tasks: [{
+				id: "0613D84F6911AFAC"
+				item: "blue_skies:moonstone"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.5d
 		}
 	]
 	title: "Everbright"
