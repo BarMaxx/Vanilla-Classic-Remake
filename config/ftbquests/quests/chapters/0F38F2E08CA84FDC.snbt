@@ -110,11 +110,18 @@
 		{
 			dependencies: ["3DE354A671C2D09B"]
 			id: "71DB69814A0B47B0"
-			tasks: [{
-				id: "68A0A260D6A98A0C"
-				item: "blue_skies:aquite"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "00AA6958D576820A"
+					item: "blue_skies:raw_aquite"
+					type: "item"
+				}
+				{
+					id: "5E6D6B403DF8868B"
+					item: "blue_skies:aquite"
+					type: "item"
+				}
+			]
 			x: 4.0d
 			y: 1.0d
 		}
@@ -159,11 +166,18 @@
 			]
 			dependency_requirement: "one_completed"
 			id: "67DEE061A73F243E"
-			tasks: [{
-				id: "376A552FB02AFDB8"
-				item: "blue_skies:charoite"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "6F83B1927BEA1ED7"
+					item: "blue_skies:raw_charoite"
+					type: "item"
+				}
+				{
+					id: "595080BE7E0A507F"
+					item: "blue_skies:charoite"
+					type: "item"
+				}
+			]
 			x: 5.0d
 			y: 0.5d
 		}
@@ -239,6 +253,170 @@
 			}]
 			x: 1.5d
 			y: 2.5d
+		}
+		{
+			dependencies: ["67DEE061A73F243E"]
+			id: "5D5593AC9E0DD2A5"
+			tasks: [
+				{
+					id: "6E9AFC22F47F1CAC"
+					item: {
+						Count: 1b
+						id: "blue_skies:charoite_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0C998397DCB3CBA1"
+					item: {
+						Count: 1b
+						id: "blue_skies:charoite_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "75E84E90BF694FAF"
+					item: {
+						Count: 1b
+						id: "blue_skies:charoite_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6ED0481659304E80"
+					item: {
+						Count: 1b
+						id: "blue_skies:charoite_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["67DEE061A73F243E"]
+			id: "6EE88B1FDF7FAAE6"
+			tasks: [
+				{
+					id: "016B51F2D817D13D"
+					item: {
+						Count: 1b
+						id: "blue_skies:charoite_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4AC812E1F9945366"
+					item: {
+						Count: 1b
+						id: "blue_skies:charoite_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7BD9063F0E0C0224"]
+			id: "63ED9D47E736BB72"
+			tasks: [
+				{
+					id: "55777EEE59F4AB28"
+					item: {
+						Count: 1b
+						id: "blue_skies:diopside_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2F0DF4433915264E"
+					item: {
+						Count: 1b
+						id: "blue_skies:diopside_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5A64819BF462B583"
+					item: {
+						Count: 1b
+						id: "blue_skies:diopside_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "611C9893140E9FBD"
+					item: {
+						Count: 1b
+						id: "blue_skies:diopside_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 8.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7BD9063F0E0C0224"]
+			id: "4C88CDCBB0CD75DD"
+			tasks: [
+				{
+					id: "3A7F1E38FC1AC068"
+					item: {
+						Count: 1b
+						id: "blue_skies:diopside_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "049C8B12C855CD2B"
+					item: {
+						Count: 1b
+						id: "blue_skies:diopside_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 8.5d
+			y: 2.0d
 		}
 	]
 	title: "Everbright"

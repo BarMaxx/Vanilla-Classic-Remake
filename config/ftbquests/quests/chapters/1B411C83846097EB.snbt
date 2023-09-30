@@ -23,6 +23,7 @@
 		{
 			dependencies: ["0AFECA103FCCF23A"]
 			id: "06CBAD8BCECDCDF3"
+			shape: "gold"
 			tasks: [{
 				entity: "twilightforest:naga"
 				id: "66F1879851C48615"
@@ -35,6 +36,7 @@
 		{
 			dependencies: ["06CBAD8BCECDCDF3"]
 			id: "22A6CCC23C2D1061"
+			shape: "iron"
 			tasks: [{
 				id: "543DE51691A2E345"
 				item: "twilightforest:naga_trophy"
@@ -46,6 +48,7 @@
 		{
 			dependencies: ["06CBAD8BCECDCDF3"]
 			id: "620060537AB35D26"
+			shape: "iron"
 			tasks: [{
 				id: "4576EDC824854D56"
 				item: "twilightforest:naga_scale"
@@ -57,6 +60,7 @@
 		{
 			dependencies: ["620060537AB35D26"]
 			id: "22A89BEA68A0DA0A"
+			shape: "diamond"
 			tasks: [
 				{
 					id: "097A25572039FEA0"
@@ -95,29 +99,32 @@
 		{
 			dependencies: ["22A6CCC23C2D1061"]
 			id: "568E339ABFF7A602"
+			shape: "gold"
 			tasks: [{
 				entity: "twilightforest:lich"
 				id: "09CCFAB9E6240115"
 				type: "kill"
 				value: 1L
 			}]
-			x: 0.0d
-			y: -4.5d
+			x: 1.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["568E339ABFF7A602"]
 			id: "0BF7880FE91B6666"
+			shape: "iron"
 			tasks: [{
 				id: "3A242741D4D4A8BF"
 				item: "twilightforest:lich_trophy"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -6.0d
+			x: 3.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["568E339ABFF7A602"]
 			id: "321CF520641CEBDD"
+			shape: "diamond"
 			tasks: [{
 				id: "1DD1308727EF9B6C"
 				item: {
@@ -129,12 +136,13 @@
 				}
 				type: "item"
 			}]
-			x: 1.0d
-			y: -4.0d
+			x: 2.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["568E339ABFF7A602"]
 			id: "757E37DC1CDDAA63"
+			shape: "diamond"
 			tasks: [{
 				id: "1361EB02AC8BE60F"
 				item: {
@@ -146,12 +154,13 @@
 				}
 				type: "item"
 			}]
-			x: -1.0d
+			x: 1.0d
 			y: -4.0d
 		}
 		{
 			dependencies: ["568E339ABFF7A602"]
 			id: "59D6A0B3682157D7"
+			shape: "diamond"
 			tasks: [{
 				id: "6F15B4DC9B90ABC4"
 				item: {
@@ -163,12 +172,13 @@
 				}
 				type: "item"
 			}]
-			x: -1.0d
-			y: -5.0d
+			x: 2.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["568E339ABFF7A602"]
 			id: "7502F166B14ABB5E"
+			shape: "diamond"
 			tasks: [{
 				id: "1EFF39EAA287B759"
 				item: {
@@ -181,45 +191,49 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: -5.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["0BF7880FE91B6666"]
 			id: "5AE48A334FE50D59"
+			shape: "gold"
 			tasks: [{
 				entity: "twilightforest:minotaur"
 				id: "74B28C72970FB973"
 				type: "kill"
 				value: 1L
 			}]
-			x: 0.0d
-			y: -7.5d
+			x: 3.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["5AE48A334FE50D59"]
 			id: "411013196B68BFA4"
+			shape: "iron"
 			tasks: [{
 				id: "5F9263FC2DB3DAD3"
 				item: "twilightforest:minoshroom_trophy"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -9.0d
+			x: 3.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["5AE48A334FE50D59"]
 			id: "5D59B600FF5D690B"
+			shape: "diamond"
 			tasks: [{
 				id: "634BF7EEC688B8C7"
 				item: "twilightforest:meef_stroganoff"
 				type: "item"
 			}]
-			x: 1.0d
-			y: -8.0d
+			x: 4.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["5AE48A334FE50D59"]
 			id: "16C1CC7285B68D28"
+			shape: "diamond"
 			tasks: [{
 				id: "329DF37DC531D331"
 				item: {
@@ -231,68 +245,75 @@
 				}
 				type: "item"
 			}]
-			x: -1.0d
-			y: -8.0d
+			x: 2.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["411013196B68BFA4"]
 			id: "4636FFBEE32833E5"
+			shape: "gold"
 			tasks: [{
 				entity: "twilightforest:hydra"
 				id: "057451F514211659"
 				type: "kill"
 				value: 1L
 			}]
-			x: 0.0d
-			y: -10.5d
+			x: 4.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["4636FFBEE32833E5"]
+			hide: false
 			id: "44134EE872FCDB7D"
+			shape: "iron"
 			tasks: [{
 				id: "7CF6C9B5FF019DCB"
 				item: "twilightforest:hydra_trophy"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -12.0d
+			x: 6.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["4636FFBEE32833E5"]
 			id: "2840646BF0E99DFD"
+			shape: "diamond"
 			tasks: [{
 				id: "5F012D5D1E160B71"
 				item: "twilightforest:hydra_chop"
 				type: "item"
 			}]
-			x: -1.0d
-			y: -11.0d
+			x: 4.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["4636FFBEE32833E5"]
 			id: "7456786190948B9D"
+			shape: "iron"
 			tasks: [{
 				id: "35F813928DA53993"
 				item: "twilightforest:fiery_blood"
 				type: "item"
 			}]
-			x: 1.0d
-			y: -11.0d
+			x: 5.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["7456786190948B9D"]
 			id: "7710DC59B6351661"
+			shape: "gold"
 			tasks: [{
 				id: "5068BCEB984366E6"
 				item: "twilightforest:fiery_ingot"
 				type: "item"
 			}]
-			x: 1.5d
-			y: -12.0d
+			x: 6.0d
+			y: -7.5d
 		}
 		{
 			dependencies: ["7710DC59B6351661"]
 			id: "66EC38BF11EB06B9"
+			shape: "diamond"
 			tasks: [
 				{
 					id: "31CDA0BBB072B34C"
@@ -339,12 +360,13 @@
 					type: "item"
 				}
 			]
-			x: 2.5d
-			y: -12.5d
+			x: 7.0d
+			y: -7.5d
 		}
 		{
 			dependencies: ["7710DC59B6351661"]
 			id: "781F927EF445EF76"
+			shape: "diamond"
 			tasks: [
 				{
 					id: "056209D12AB8E3A7"
@@ -369,91 +391,99 @@
 					type: "item"
 				}
 			]
-			x: 2.5d
-			y: -11.5d
+			x: 6.0d
+			y: -8.5d
 		}
 		{
 			dependencies: ["44134EE872FCDB7D"]
 			id: "20C904F4EE6D103C"
+			shape: "gold"
 			tasks: [{
 				entity: "twilightforest:ur_ghast"
 				id: "40EC5E2A5D0DA116"
 				type: "kill"
 				value: 1L
 			}]
-			x: 0.0d
-			y: -13.5d
+			x: 6.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["20C904F4EE6D103C"]
 			id: "4DA0EF7E83174979"
+			shape: "iron"
 			tasks: [{
 				id: "324E864B9AF0329B"
 				item: "twilightforest:ur_ghast_trophy"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -15.0d
+			x: 6.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["20C904F4EE6D103C"]
 			id: "5C7256D15435750F"
+			shape: "diamond"
 			tasks: [{
 				id: "44F1585E529A16E1"
 				item: "twilightforest:carminite"
 				type: "item"
 			}]
-			x: 1.0d
-			y: -14.0d
+			x: 5.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["20C904F4EE6D103C"]
 			id: "329815C94B4FFB56"
+			shape: "diamond"
 			tasks: [{
 				id: "0AA9EF073D1EE3D7"
 				item: "twilightforest:fiery_tears"
 				type: "item"
 			}]
-			x: -1.0d
-			y: -14.0d
+			x: 5.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["4DA0EF7E83174979"]
 			id: "0B8EB3D5AA1768F0"
+			shape: "gold"
 			tasks: [{
 				entity: "twilightforest:alpha_yeti"
 				id: "4686B5F437B80C84"
 				type: "kill"
 				value: 1L
 			}]
-			x: 0.0d
-			y: -16.5d
+			x: 7.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["0B8EB3D5AA1768F0"]
 			id: "2C4CA744F9DDC365"
+			shape: "iron"
 			tasks: [{
 				id: "3059DE4F54AFE1D4"
 				item: "twilightforest:alpha_yeti_trophy"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -18.0d
+			x: 9.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["0B8EB3D5AA1768F0"]
 			id: "6EFE9929677DD2A3"
+			shape: "iron"
 			tasks: [{
 				id: "048AE0FED8A7ABDD"
 				item: "twilightforest:alpha_yeti_fur"
 				type: "item"
 			}]
-			x: -1.0d
-			y: -17.0d
+			x: 8.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["6EFE9929677DD2A3"]
 			id: "4F1D655B30E0F368"
+			shape: "diamond"
 			tasks: [
 				{
 					id: "63C7BCA7B950C18A"
@@ -522,46 +552,50 @@
 					type: "item"
 				}
 			]
-			x: -1.5d
-			y: -18.0d
+			x: 9.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["0B8EB3D5AA1768F0"]
 			id: "4E7DAC10729379BE"
+			shape: "diamond"
 			tasks: [{
 				id: "507CF053CC93F4B3"
 				item: "twilightforest:ice_bomb"
 				type: "item"
 			}]
-			x: 1.0d
-			y: -17.0d
+			x: 7.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["2C4CA744F9DDC365"]
 			id: "15B58FFDBB2B3766"
+			shape: "gold"
 			tasks: [{
 				entity: "twilightforest:snow_queen"
 				id: "69BAF94F6148A31D"
 				type: "kill"
 				value: 1L
 			}]
-			x: 0.0d
-			y: -19.5d
+			x: 9.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["15B58FFDBB2B3766"]
 			id: "32A2447D9C4BAF7D"
+			shape: "diamond"
 			tasks: [{
 				id: "3593EEE0E5BBA007"
 				item: "twilightforest:snow_queen_trophy"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -21.0d
+			x: 9.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["15B58FFDBB2B3766"]
 			id: "0545B934E4E04F0A"
+			shape: "diamond"
 			tasks: [{
 				id: "2EE18001B1E71EAF"
 				item: {
@@ -573,12 +607,13 @@
 				}
 				type: "item"
 			}]
-			x: -1.0d
-			y: -20.0d
+			x: 7.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["15B58FFDBB2B3766"]
 			id: "43C3F589CDE0074B"
+			shape: "diamond"
 			tasks: [{
 				id: "3209C917839C0060"
 				item: {
@@ -590,8 +625,8 @@
 				}
 				type: "item"
 			}]
-			x: 1.0d
-			y: -20.0d
+			x: 10.5d
+			y: -1.5d
 		}
 	]
 	title: "Twilight Forest"
