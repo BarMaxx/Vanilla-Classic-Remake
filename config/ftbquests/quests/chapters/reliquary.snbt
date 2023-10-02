@@ -13,6 +13,124 @@
 	id: "27AF0B560CA4B392"
 	order_index: 2
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			dependencies: ["34C1D59023AA23CD"]
+			id: "78BD398809013534"
+			tasks: [{
+				id: "27556A6263AA105F"
+				item: {
+					Count: 1b
+					id: "reliquary:alkahestry_tome"
+					tag: {
+						Damage: 1001
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["34C1D59023AA23CD"]
+			id: "6E44560E1B6FA6D3"
+			tasks: [{
+				id: "7FC9A86F0DBA8C27"
+				item: "reliquary:angelic_feather"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["34C1D59023AA23CD"]
+			id: "04D9ECE32C41651D"
+			tasks: [{
+				id: "351448EE2608D801"
+				item: {
+					Count: 1b
+					id: "reliquary:mercy_cross"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["34C1D59023AA23CD"]
+			id: "0424B69EB0ADBDFD"
+			tasks: [{
+				id: "71DEC8A5A01187A0"
+				item: "reliquary:aphrodite_potion"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["34C1D59023AA23CD"]
+			id: "52DAD02AB8D98C2A"
+			tasks: [{
+				id: "7916A094A6D794FD"
+				item: "reliquary:angelheart_vial"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["34C1D59023AA23CD"]
+			id: "769CFFD4A904F8A8"
+			tasks: [{
+				id: "62CFEDB6565BF9CB"
+				item: "reliquary:rending_gale"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["34C1D59023AA23CD"]
+			id: "0AB563FC37C58F6E"
+			tasks: [{
+				id: "38B428AACFAD2C72"
+				item: "reliquary:emperor_chalice"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["34C1D59023AA23CD"]
+			id: "710758CA1E529C12"
+			tasks: [{
+				id: "09504839CD60A1D6"
+				item: "reliquary:infernal_chalice"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["34C1D59023AA23CD"]
+			id: "32331A894F602C8E"
+			tasks: [{
+				id: "01F72913466B95DD"
+				item: {
+					Count: 1b
+					id: "reliquary:magicbane"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.5d
+		}
+	]
 	title: "Reliquary"
 }
