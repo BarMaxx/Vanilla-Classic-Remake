@@ -17,6 +17,8 @@
 		{
 			dependencies: ["34C1D59023AA23CD"]
 			id: "78BD398809013534"
+			shape: "dirt"
+			size: 2.0d
 			tasks: [{
 				id: "27556A6263AA105F"
 				item: {
@@ -34,6 +36,7 @@
 		{
 			dependencies: ["34C1D59023AA23CD"]
 			id: "6E44560E1B6FA6D3"
+			shape: "iron"
 			tasks: [{
 				id: "7FC9A86F0DBA8C27"
 				item: "reliquary:angelic_feather"
@@ -45,6 +48,7 @@
 		{
 			dependencies: ["34C1D59023AA23CD"]
 			id: "04D9ECE32C41651D"
+			shape: "iron"
 			tasks: [{
 				id: "351448EE2608D801"
 				item: {
@@ -62,6 +66,7 @@
 		{
 			dependencies: ["34C1D59023AA23CD"]
 			id: "0424B69EB0ADBDFD"
+			shape: "iron"
 			tasks: [{
 				id: "71DEC8A5A01187A0"
 				item: "reliquary:aphrodite_potion"
@@ -73,6 +78,7 @@
 		{
 			dependencies: ["34C1D59023AA23CD"]
 			id: "52DAD02AB8D98C2A"
+			shape: "iron"
 			tasks: [{
 				id: "7916A094A6D794FD"
 				item: "reliquary:angelheart_vial"
@@ -84,6 +90,7 @@
 		{
 			dependencies: ["34C1D59023AA23CD"]
 			id: "769CFFD4A904F8A8"
+			shape: "gold"
 			tasks: [{
 				id: "62CFEDB6565BF9CB"
 				item: "reliquary:rending_gale"
@@ -95,6 +102,7 @@
 		{
 			dependencies: ["34C1D59023AA23CD"]
 			id: "0AB563FC37C58F6E"
+			shape: "gold"
 			tasks: [{
 				id: "38B428AACFAD2C72"
 				item: "reliquary:emperor_chalice"
@@ -106,6 +114,7 @@
 		{
 			dependencies: ["34C1D59023AA23CD"]
 			id: "710758CA1E529C12"
+			shape: "gold"
 			tasks: [{
 				id: "09504839CD60A1D6"
 				item: "reliquary:infernal_chalice"
@@ -117,6 +126,7 @@
 		{
 			dependencies: ["34C1D59023AA23CD"]
 			id: "32331A894F602C8E"
+			shape: "gold"
 			tasks: [{
 				id: "01F72913466B95DD"
 				item: {
@@ -129,6 +139,150 @@
 				type: "item"
 			}]
 			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["34C1D59023AA23CD"]
+			id: "3E35DB48C65F529E"
+			shape: "diamond"
+			tasks: [{
+				id: "56511245DA5572DF"
+				item: "reliquary:fortune_coin"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["34C1D59023AA23CD"]
+			id: "612A366796443537"
+			shape: "diamond"
+			tasks: [{
+				id: "41334B7D22C5C74C"
+				item: "reliquary:sojourner_staff"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["34C1D59023AA23CD"]
+			id: "633DFE3BFED168B6"
+			shape: "diamond"
+			tasks: [{
+				id: "49B2477B248526C0"
+				item: "reliquary:ender_staff"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["34C1D59023AA23CD"]
+			id: "07D35DBFCCD7705E"
+			shape: "diamond"
+			tasks: [{
+				id: "407C22EC83AF16FB"
+				item: "reliquary:pyromancer_staff"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["34C1D59023AA23CD"]
+			id: "66AB1EE300BEC02E"
+			shape: "gold"
+			tasks: [{
+				id: "0A0220BA86429EA4"
+				item: "reliquary:ice_magus_rod"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["34C1D59023AA23CD"]
+			id: "2278AB0668015C40"
+			shape: "gold"
+			tasks: [{
+				id: "7BFA8DFC2D11B66B"
+				item: "reliquary:glacial_staff"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["34C1D59023AA23CD"]
+			id: "7B1BAF5AFECE973C"
+			shape: "gold"
+			tasks: [{
+				id: "61C46BC25C3B70EC"
+				item: "reliquary:infernal_tear"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["34C1D59023AA23CD"]
+			id: "03CFDF2E97C8CA8C"
+			shape: "gold"
+			tasks: [{
+				id: "2597F4342A69BA43"
+				item: "reliquary:hero_medallion"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["34C1D59023AA23CD"]
+			id: "03B938F7B00A0471"
+			shape: "gold"
+			tasks: [{
+				id: "7F6C72218BCFCAC2"
+				item: "reliquary:phoenix_down"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["34C1D59023AA23CD"]
+			id: "575A4686FBB758EC"
+			shape: "gold"
+			tasks: [{
+				id: "060E5DA79FF1028B"
+				item: "reliquary:infernal_claws"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["34C1D59023AA23CD"]
+			id: "337152DDC55288D0"
+			shape: "gold"
+			tasks: [{
+				id: "308D699482995550"
+				item: "reliquary:kraken_shell"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["34C1D59023AA23CD"]
+			id: "3EB0313E8201403F"
+			shape: "gold"
+			tasks: [{
+				id: "19789B9EF24C6D7E"
+				item: "reliquary:midas_touchstone"
+				type: "item"
+			}]
+			x: -3.5d
 			y: -1.5d
 		}
 	]
