@@ -7,6 +7,399 @@
 	id: "00581F95292B1ABC"
 	order_index: 2
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			dependencies: ["34C1D59023AA23CD"]
+			description: ["Кухонная плита нужна, чтобы можно было готовить еду в котелке и на сковороде."]
+			id: "3E7148E1FC71B4A2"
+			shape: "iron"
+			tasks: [{
+				id: "7C0FD43D8FADABD9"
+				item: "farmersdelight:stove"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3E7148E1FC71B4A2"]
+			description: ["Сковорода это по-сути тоже самое, что и костер."]
+			id: "64216357FF920335"
+			shape: "gold"
+			tasks: [{
+				id: "63B89A62F0893F00"
+				item: {
+					Count: 1b
+					id: "farmersdelight:skillet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3E7148E1FC71B4A2"]
+			description: ["В кухонном котелке можно готовить совершенно новые виды еды!"]
+			id: "29F161339EA12F00"
+			shape: "gold"
+			tasks: [{
+				id: "3CA795DACBFE1F0A"
+				item: "farmersdelight:cooking_pot"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["29F161339EA12F00"]
+			description: ["Супчики!"]
+			icon: "farmersdelight:vegetable_soup"
+			id: "1368C59D480A9722"
+			shape: "diamond"
+			tasks: [
+				{
+					id: "0011819D9B12A7D8"
+					item: "farmersdelight:vegetable_soup"
+					type: "item"
+				}
+				{
+					id: "5F725161F9AA62A7"
+					item: "farmersdelight:chicken_soup"
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["29F161339EA12F00"]
+			description: ["Очень вкусно и сытно!"]
+			icon: "farmersdelight:beef_stew"
+			id: "00AC7BCBEC5F91BA"
+			shape: "diamond"
+			tasks: [
+				{
+					id: "59D408391897DF2C"
+					item: "farmersdelight:beef_stew"
+					type: "item"
+				}
+				{
+					id: "7C728CD5026F011A"
+					item: "farmersdelight:baked_cod_stew"
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["29F161339EA12F00"]
+			description: ["Да, тот самый, из мультфильма!"]
+			id: "2FB7565666501D2F"
+			shape: "diamond"
+			tasks: [{
+				id: "6B4469A4DB1263CF"
+				item: "farmersdelight:ratatouille"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3E7148E1FC71B4A2"]
+			id: "3992EECE0C4B9373"
+			tasks: [{
+				id: "6ADC0D7A8CBDEF95"
+				item: "farmersdelight:cutting_board"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["34C1D59023AA23CD"]
+			id: "1A9FE61DBCB1385D"
+			tasks: [{
+				id: "04F31C6E5683A5D8"
+				item: "endersdelight:endstone_stove"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1A9FE61DBCB1385D"]
+			id: "5F2A3EB514ABC2F2"
+			tasks: [{
+				id: "2C441EC3E1164381"
+				item: "endersdelight:stuffed_shulker"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1A9FE61DBCB1385D"]
+			id: "5B18D811BF0A5D06"
+			tasks: [{
+				id: "33184F7469C25115"
+				item: "endersdelight:ender_paella"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1A9FE61DBCB1385D"]
+			id: "7FF76203AE09119E"
+			tasks: [{
+				id: "06D3AB1E6E7C11C3"
+				item: "endersdelight:shulker_bowl"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1A9FE61DBCB1385D"]
+			id: "1618990D065FBCFC"
+			tasks: [{
+				id: "4F7A149836CB31A2"
+				item: "endersdelight:chorus_juice"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["34C1D59023AA23CD"]
+			id: "6E480373CD5E5C67"
+			tasks: [{
+				id: "56C913690BA7E2F6"
+				item: "nethersdelight:blackstone_stove"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6E480373CD5E5C67"]
+			id: "2DE59A0AFD265F74"
+			tasks: [{
+				id: "6C1CFCEF84799CCE"
+				item: "nethersdelight:stuffed_hoglin"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6E480373CD5E5C67"]
+			id: "2CF20133C647879A"
+			tasks: [{
+				id: "3A0DD59D06410A0C"
+				item: "nethersdelight:grilled_strider"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6E480373CD5E5C67"]
+			id: "742EF8CC88B0B0C6"
+			tasks: [{
+				id: "2A1B480D8423A0C0"
+				item: "nethersdelight:magma_gelatin"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6E480373CD5E5C67"]
+			id: "73C996E70CA4D6F9"
+			tasks: [{
+				id: "5ACA922B006BAF2B"
+				item: "nethersdelight:soul_compost"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["34C1D59023AA23CD"]
+			id: "22D33D34AE2C423D"
+			tasks: [{
+				id: "0896759FB2C052A2"
+				item: "twilightdelight:maze_stove"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["22D33D34AE2C423D"]
+			id: "7CDDFEBEBE84ED51"
+			tasks: [{
+				id: "1778C4C64B3D371C"
+				item: "twilightdelight:fiery_cooking_pot"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7CDDFEBEBE84ED51"]
+			id: "5E46C3158E26D902"
+			tasks: [{
+				id: "4C62A7E0BAA93E12"
+				item: "twilightdelight:glow_venison_rib_with_pasta"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7CDDFEBEBE84ED51"]
+			id: "2F38B770C75725F9"
+			tasks: [{
+				id: "5B33AC9ABEEC68DD"
+				item: "twilightdelight:mushgloom_meef_pasta"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["7CDDFEBEBE84ED51"]
+			id: "58BD3C492752B19D"
+			tasks: [{
+				id: "649EEBC56DB5400C"
+				item: "twilightdelight:fried_insect"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["22D33D34AE2C423D"]
+			id: "04F4B4D499D8AD88"
+			tasks: [{
+				id: "1492CCF7BFE01098"
+				item: {
+					Count: 1b
+					id: "twilightdelight:teardrop_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["22D33D34AE2C423D"]
+			id: "2DCEF1362B27C094"
+			tasks: [{
+				id: "25A021E1BABACDD9"
+				item: "twilightdelight:thorn_rose_tea"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3E7148E1FC71B4A2"]
+			id: "6A777900F59F2823"
+			tasks: [{
+				id: "618AFA8B748A7A0A"
+				item: "abnormals_delight:pickerelweed_juice"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["22D33D34AE2C423D"]
+			id: "7FA52E148E23B68E"
+			tasks: [{
+				id: "0850835B3FAF2E6D"
+				item: "twilightdelight:torchberries_crate"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["18FCE07AA8D0E689"]
+			description: ["С помощью чайника можно приготовить различные напитки, но в основном чай."]
+			id: "4F90FB2C13EF2C36"
+			shape: "gold"
+			tasks: [{
+				id: "461E528551173418"
+				item: "farmersrespite:kettle"
+				title: "Чайник"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4F90FB2C13EF2C36"]
+			hide_dependency_lines: true
+			id: "39E2014E85A449E5"
+			shape: "diamond"
+			tasks: [{
+				id: "3E67E7E430ED0314"
+				item: "farmersrespite:coffee"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4F90FB2C13EF2C36"]
+			hide_dependency_lines: true
+			id: "365C002FA3CCE18A"
+			shape: "diamond"
+			tasks: [{
+				id: "05D832F6F2C0D28D"
+				item: "farmersrespite:green_tea"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4F90FB2C13EF2C36"]
+			hide_dependency_lines: true
+			id: "2FD4ADEDF33F17C9"
+			shape: "diamond"
+			tasks: [{
+				id: "5E2A11C80F96569A"
+				item: "farmersrespite:dandelion_tea"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["4F90FB2C13EF2C36"]
+			hide_dependency_lines: true
+			id: "421423680EBD1922"
+			shape: "diamond"
+			tasks: [{
+				id: "05DFFD67E94A4C66"
+				item: "farmersrespite:yellow_tea"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -5.5d
+		}
+	]
 	title: "Farmer's Delight and Addons"
 }

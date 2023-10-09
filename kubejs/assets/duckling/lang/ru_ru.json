@@ -1,0 +1,31 @@
+{
+  "item.duckling.duck_spawn_egg": "Яйцо призыва утки",
+  "item.duckling.quackling_spawn_egg": "Яйцо призыва селезня",
+  "item.duckling.duck_egg": "Утиное яйцо",
+  "block.duckling.holiday_fruit_cake": "Праздничный фруктовый торт",
+  "item.duckling.raw_duck": "Сырое утиное мясо",
+  "item.duckling.cooked_duck": "Жаренное утиное мясо",
+  "entity.duckling.duck": "Утка",
+  "entity.duckling.quackling": "Селезень",
+  "entity.duckling.duck_egg": "Утиное яйцо",
+
+  "subtitles.duckling.quack": "Утка крякает",
+  "subtitles.duckling.deep_quack": "Селезень крякает",
+  "subtitles.duckling.duck_death": "Утка ранена",
+  "subtitles.duckling.quackling_death": "Селезень ранен",
+
+  "advancements.duckling.agent_d.title": "Супер секретный шпион",
+  "advancements.duckling.agent_d.description": "Погладьте агента D - супер секретного шпиона!",
+
+  "advancements.duckling.breed_duck.title": "Поглядите на этих голубков!",
+  "advancements.duckling.breed_duck.description": "Размножьте утку и селезня.",
+
+  "advancements.duckling.fishing_rod.title": "Мокрое дельце",
+  "advancements.duckling.fishing_rod.description": "Дайте удочку селезню",
+
+  "advancements.duckling.holiday_fruit_cake.title": "Чересчур фруктово",
+  "advancements.duckling.holiday_fruit_cake.description": "Получите праздничный фруктовый торт.",
+
+  "advancements.duckling.pet_duck.title": "Передозировка милоты",
+  "advancements.duckling.pet_duck.description": "Погладьте утку."
+}

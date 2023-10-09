@@ -388,21 +388,6 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["18FCE07AA8D0E689"]
-			description: ["С помощью чайника можно приготовить различные напитки, но в основном чай."]
-			id: "4F90FB2C13EF2C36"
-			shape: "gold"
-			size: 1.1d
-			tasks: [{
-				id: "461E528551173418"
-				item: "farmersrespite:kettle"
-				title: "Чайник"
-				type: "item"
-			}]
-			x: 7.0d
-			y: -3.5d
-		}
-		{
 			dependencies: ["7214867124566ED2"]
 			id: "6DEBC653A7DBCDE5"
 			shape: "gold"
@@ -562,58 +547,6 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["4F90FB2C13EF2C36"]
-			hide_dependency_lines: true
-			id: "39E2014E85A449E5"
-			shape: "diamond"
-			tasks: [{
-				id: "3E67E7E430ED0314"
-				item: "farmersrespite:coffee"
-				type: "item"
-			}]
-			x: 8.0d
-			y: -4.0d
-		}
-		{
-			dependencies: ["4F90FB2C13EF2C36"]
-			hide_dependency_lines: true
-			id: "2FD4ADEDF33F17C9"
-			shape: "diamond"
-			tasks: [{
-				id: "5E2A11C80F96569A"
-				item: "farmersrespite:dandelion_tea"
-				type: "item"
-			}]
-			x: 7.5d
-			y: -5.0d
-		}
-		{
-			dependencies: ["4F90FB2C13EF2C36"]
-			hide_dependency_lines: true
-			id: "421423680EBD1922"
-			shape: "diamond"
-			tasks: [{
-				id: "05DFFD67E94A4C66"
-				item: "farmersrespite:yellow_tea"
-				type: "item"
-			}]
-			x: 6.5d
-			y: -5.0d
-		}
-		{
-			dependencies: ["4F90FB2C13EF2C36"]
-			hide_dependency_lines: true
-			id: "365C002FA3CCE18A"
-			shape: "diamond"
-			tasks: [{
-				id: "05D832F6F2C0D28D"
-				item: "farmersrespite:green_tea"
-				type: "item"
-			}]
-			x: 6.0d
-			y: -4.0d
-		}
-		{
 			dependencies: ["2B19E76BB0764227"]
 			description: ["На костре можно приготовить еду, а также его можно использовать в крафтах."]
 			id: "3499C1DC1A4493D7"
@@ -625,51 +558,6 @@
 			}]
 			x: 1.0d
 			y: 2.0d
-		}
-		{
-			dependencies: ["3499C1DC1A4493D7"]
-			description: ["Кухонная плита нужна, чтобы можно было готовить еду в котелке и на сковороде."]
-			id: "3E7148E1FC71B4A2"
-			shape: "gold"
-			tasks: [{
-				id: "7C0FD43D8FADABD9"
-				item: "farmersdelight:stove"
-				type: "item"
-			}]
-			x: 1.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["3E7148E1FC71B4A2"]
-			description: ["Сковорода это по-сути тоже самое, что и костер."]
-			id: "64216357FF920335"
-			shape: "gold"
-			tasks: [{
-				id: "63B89A62F0893F00"
-				item: {
-					Count: 1b
-					id: "farmersdelight:skillet"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 2.0d
-			y: 3.5d
-		}
-		{
-			dependencies: ["3E7148E1FC71B4A2"]
-			description: ["В кухонном котелке можно готовить совершенно новые виды еды!"]
-			id: "29F161339EA12F00"
-			shape: "gold"
-			tasks: [{
-				id: "3CA795DACBFE1F0A"
-				item: "farmersdelight:cooking_pot"
-				type: "item"
-			}]
-			x: 0.0d
-			y: 3.5d
 		}
 		{
 			dependencies: ["796FACA96ED3EBEC"]
@@ -716,61 +604,6 @@
 			title: "Мясо"
 			x: 6.5d
 			y: 3.0d
-		}
-		{
-			dependencies: ["29F161339EA12F00"]
-			description: ["Очень вкусно и сытно!"]
-			icon: "farmersdelight:beef_stew"
-			id: "00AC7BCBEC5F91BA"
-			shape: "diamond"
-			tasks: [
-				{
-					id: "59D408391897DF2C"
-					item: "farmersdelight:beef_stew"
-					type: "item"
-				}
-				{
-					id: "7C728CD5026F011A"
-					item: "farmersdelight:baked_cod_stew"
-					type: "item"
-				}
-			]
-			x: -0.5d
-			y: 2.5d
-		}
-		{
-			dependencies: ["29F161339EA12F00"]
-			description: ["Супчики!"]
-			icon: "farmersdelight:vegetable_soup"
-			id: "1368C59D480A9722"
-			shape: "diamond"
-			tasks: [
-				{
-					id: "0011819D9B12A7D8"
-					item: "farmersdelight:vegetable_soup"
-					type: "item"
-				}
-				{
-					id: "5F725161F9AA62A7"
-					item: "farmersdelight:chicken_soup"
-					type: "item"
-				}
-			]
-			x: -0.5d
-			y: 4.5d
-		}
-		{
-			dependencies: ["29F161339EA12F00"]
-			description: ["Да, тот самый, из мультфильма!"]
-			id: "2FB7565666501D2F"
-			shape: "diamond"
-			tasks: [{
-				id: "6B4469A4DB1263CF"
-				item: "farmersdelight:ratatouille"
-				type: "item"
-			}]
-			x: -1.0d
-			y: 3.5d
 		}
 		{
 			dependencies: ["6DEBC653A7DBCDE5"]

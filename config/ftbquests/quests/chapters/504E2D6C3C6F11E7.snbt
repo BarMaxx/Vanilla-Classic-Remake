@@ -893,19 +893,6 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["1153B530055A58D1"]
-			description: ["Аналог обычной кухонной плиты."]
-			id: "492569E5D2871E6E"
-			shape: "diamond"
-			tasks: [{
-				id: "117394BC558D2C31"
-				item: "nethersdelight:blackstone_stove"
-				type: "item"
-			}]
-			x: -1.0d
-			y: 4.5d
-		}
-		{
 			dependencies: ["643918B72D9D95A2"]
 			description: ["Аналог обычной плавильной печи."]
 			id: "4505B3A1BB04E26F"
