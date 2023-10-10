@@ -1,0 +1,9 @@
+{
+  "block.deepslatecutting.deepslate_slab": "Полублок из глубинного сланца",
+  "block.deepslatecutting.deepslate_stairs": "Ступеньки из глубинного сланца",
+  "block.deepslatecutting.deepslate_wall": "Стена из глубинного сланца",
+  "config.deepslatecutting.title": "Конфигурация DeepslateCutting",
+  "config.deepslatecutting.toggle_deepslate_extras": "Включить Deepslate экстра",
+  "config.deepslatecutting.toggle_deepslate_extras.true": "ВКЛ",
+  "config.deepslatecutting.toggle_deepslate_extras.false": "ВЫКЛ"
+}
