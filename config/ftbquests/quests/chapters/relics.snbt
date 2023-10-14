@@ -24,9 +24,11 @@
 	quests: [
 		{
 			dependencies: ["34C1D59023AA23CD"]
+			description: ["С помощью &6Стола Исследователя&r можно изучать различные &2Артефакты&r. А также, заниматься улучшением этих Артефактов, чтобы более выгодно их использовать в своих целях."]
 			id: "7CF84DD7C8E4B52C"
 			shape: "dirt"
 			size: 2.0d
+			subtitle: "Изучение Артефактов!"
 			tasks: [{
 				id: "6874E2AD566CAAAA"
 				item: "relics:researching_table"
