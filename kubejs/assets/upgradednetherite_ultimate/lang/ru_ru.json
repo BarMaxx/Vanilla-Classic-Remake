@@ -1,0 +1,48 @@
+{
+  "item.upgradednetherite_ultimate.ultimate_upgraded_netherite_ingot": "Ультимеритовый слиток",
+  "item.upgradednetherite_ultimate.ultimate_essence": "Ультимеритовая эссенция",
+
+  "item.upgradednetherite_ultimate.ultimate_upgraded_netherite_helmet": "Ультимеритовый шлем",
+  "item.upgradednetherite_ultimate.ultimate_upgraded_netherite_chestplate": "Ультимеритовый нагрудник",
+  "item.upgradednetherite_ultimate.ultimate_upgraded_netherite_leggings": "Ультимеритовые поножи",
+  "item.upgradednetherite_ultimate.ultimate_upgraded_netherite_boots": "Ультимеритовые поножи",
+
+  "item.upgradednetherite_ultimate.ultimate_upgraded_netherite_horse_armor": "Ультимеритовая конская броня",
+
+  "item.upgradednetherite_ultimate.ultimate_upgraded_netherite_sword": "Ультимеритовый меч",
+  "item.upgradednetherite_ultimate.ultimate_upgraded_netherite_pickaxe": "Ультимеритовая кирка",
+  "item.upgradednetherite_ultimate.ultimate_upgraded_netherite_shovel": "Ультимеритовая лопата",
+  "item.upgradednetherite_ultimate.ultimate_upgraded_netherite_axe": "Ультимеритовый топор",
+  "item.upgradednetherite_ultimate.ultimate_upgraded_netherite_bow": "Ультимеритовый лук",
+  "item.upgradednetherite_ultimate.ultimate_upgraded_netherite_crossbow": "Ультимеритовый арбалет",
+
+  "item.upgradednetherite_ultimate.ultimate_upgraded_netherite_shield": "Ультимеритовый щит",
+  "item.upgradednetherite_ultimate.ultimate_upgraded_netherite_shield.black": "Чёрный ультимеритовый щит",
+  "item.upgradednetherite_ultimate.ultimate_upgraded_netherite_shield.red": "Красный ультимеритовый щит",
+  "item.upgradednetherite_ultimate.ultimate_upgraded_netherite_shield.green": "Зелёный ультимеритовый щит",
+  "item.upgradednetherite_ultimate.ultimate_upgraded_netherite_shield.brown": "Коричневый ультимеритовый щит",
+  "item.upgradednetherite_ultimate.ultimate_upgraded_netherite_shield.blue": "Синий ультимеритовый щит",
+  "item.upgradednetherite_ultimate.ultimate_upgraded_netherite_shield.purple": "Фиолетовый ультимеритовый щит",
+  "item.upgradednetherite_ultimate.ultimate_upgraded_netherite_shield.cyan": "Голубой ультимеритовый щит",
+  "item.upgradednetherite_ultimate.ultimate_upgraded_netherite_shield.light_gray": "Светло-серый ультимеритовый щит",
+  "item.upgradednetherite_ultimate.ultimate_upgraded_netherite_shield.gray": "Серый ультимеритовый щит",
+  "item.upgradednetherite_ultimate.ultimate_upgraded_netherite_shield.pink": "Розовый ультимеритовый щит",
+  "item.upgradednetherite_ultimate.ultimate_upgraded_netherite_shield.lime": "Лаймовый ультимеритовый щит",
+  "item.upgradednetherite_ultimate.ultimate_upgraded_netherite_shield.yellow": "Жёлтый ультимеритовый щит",
+  "item.upgradednetherite_ultimate.ultimate_upgraded_netherite_shield.light_blue": "Светло-синий ультимеритовый щит",
+  "item.upgradednetherite_ultimate.ultimate_upgraded_netherite_shield.magenta": "Пурпурный ультимеритовый щит",
+  "item.upgradednetherite_ultimate.ultimate_upgraded_netherite_shield.orange": "Оранжевый ультимеритовый щит",
+  "item.upgradednetherite_ultimate.ultimate_upgraded_netherite_shield.white": "Белый ультимеритовый щит",
+
+  "upgradednetherite_ultimate.SetBonusFrom.TT": "§a§lСпособность набор",
+  "upgradednetherite_ultimate.BonusFrom.TT": "§a§lБонус от:",
+  "upgradednetherite_ultimate.Golderite.TT": "§7• §6Золотерит",
+  "upgradednetherite_ultimate.Blazerite.TT": "§7• §cБлейзерит",
+  "upgradednetherite_ultimate.Enderite.TT": "§7• §3Эндерит",
+  "upgradednetherite_ultimate.Prismarite.TT": "§7• §bПризмарит",
+  "upgradednetherite_ultimate.Witherite.TT": "§7• §8Визерит",
+  "upgradednetherite_ultimate.Spiderite.TT": "§7• §2Спайдерит",
+  "upgradednetherite_ultimate.Phanterite.TT": "§7• §7Фантерит",
+  "upgradednetherite_ultimate.Featherite.TT": "§7• §fФеатерит",
+  "upgradednetherite_ultimate.Echorite.TT": "§7• §bЭхорит"
+}
