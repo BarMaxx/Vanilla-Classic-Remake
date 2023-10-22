@@ -3,7 +3,7 @@
 	default_quest_shape: ""
 	filename: "409B82265E7A25C9"
 	group: "6DCD60E845454FA7"
-	icon: "blue_skies:lunar_grass_block"
+	icon: "blue_skies:everdawn_portal"
 	id: "409B82265E7A25C9"
 	order_index: 5
 	quest_links: [ ]

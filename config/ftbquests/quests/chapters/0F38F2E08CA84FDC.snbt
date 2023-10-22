@@ -3,7 +3,7 @@
 	default_quest_shape: ""
 	filename: "0F38F2E08CA84FDC"
 	group: "6DCD60E845454FA7"
-	icon: "blue_skies:turquoise_grass_block"
+	icon: "blue_skies:everbright_portal"
 	id: "0F38F2E08CA84FDC"
 	order_index: 4
 	quest_links: [ ]

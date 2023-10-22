@@ -5,7 +5,7 @@
 	group: "55E44FEC8E881863"
 	icon: "artifacts:bunny_hoppers"
 	id: "394E881DA7AA05F2"
-	order_index: 1
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
@@ -294,7 +294,7 @@
 				xp_levels: 10
 			}]
 			shape: "diamond"
-			subtitle: "Вполне реальное колье :)"
+			subtitle: "Поддержка Гермеса!"
 			tasks: [{
 				id: "0FA7C0DBBFF81005"
 				item: "artifacts:panic_necklace"
