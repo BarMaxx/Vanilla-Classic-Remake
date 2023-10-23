@@ -243,8 +243,15 @@
 		}
 		{
 			dependencies: ["34C1D59023AA23CD"]
+			description: ["&6Ледяной Посох Волхва&r - это реликвия, которая поглощает (&eShift&r + &eПКМ&r) снежки из инвентаря своего владельца и стреляет ими в противником. Более эффективена против противников из &cНезера&r."]
 			id: "66AB1EE300BEC02E"
+			rewards: [{
+				id: "5FBEE2BF935D04A9"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
 			shape: "gold"
+			subtitle: "Полезен в Незере!"
 			tasks: [{
 				id: "0A0220BA86429EA4"
 				item: "reliquary:ice_magus_rod"
@@ -267,8 +274,15 @@
 		}
 		{
 			dependencies: ["34C1D59023AA23CD"]
+			description: ["&6Адская Слеза&r - это реликвия, которая поглащает (&eShift&r + &eПКМ&r) те предметы, которых больше всего в инвентаре владельца, а вместо них выдаёт опыт. "]
 			id: "7B1BAF5AFECE973C"
+			rewards: [{
+				id: "37A879D8AF13BD07"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
 			shape: "gold"
+			subtitle: "Любит большое количество предметов!"
 			tasks: [{
 				id: "61C46BC25C3B70EC"
 				item: "reliquary:infernal_tear"
