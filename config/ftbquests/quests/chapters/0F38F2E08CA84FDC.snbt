@@ -23,6 +23,7 @@
 		{
 			dependencies: ["33C118E36D9FA1E1"]
 			id: "0A65F1010B1D56BA"
+			shape: "iron"
 			tasks: [{
 				id: "06DF09AA64BA9B49"
 				item: "blue_skies:turquoise_cobblestone"
@@ -37,6 +38,7 @@
 				"06EB44453CFA0D9E"
 			]
 			id: "21294D4889484551"
+			shape: "gold"
 			tasks: [{
 				id: "5CAFC1FE3B51D42F"
 				item: "blue_skies:snowcap_oven"
@@ -48,6 +50,7 @@
 		{
 			dependencies: ["495BFE02895B7155"]
 			id: "06EB44453CFA0D9E"
+			shape: "iron"
 			tasks: [{
 				id: "5A81958EE0B36738"
 				item: "blue_skies:snowcap_mushroom_block"
@@ -60,6 +63,7 @@
 			dependencies: ["33C118E36D9FA1E1"]
 			hide_dependency_lines: true
 			id: "495BFE02895B7155"
+			shape: "iron"
 			tasks: [{
 				id: "502DF5FA177F3F58"
 				item: "blue_skies:snowcap_pinhead"
@@ -71,6 +75,7 @@
 		{
 			dependencies: ["0A65F1010B1D56BA"]
 			id: "3DE354A671C2D09B"
+			shape: "gold"
 			tasks: [{
 				id: "6B0B3A9CD69BF2ED"
 				item: {
@@ -88,6 +93,7 @@
 		{
 			dependencies: ["3DE354A671C2D09B"]
 			id: "7F34C736C90A6C82"
+			shape: "iron"
 			tasks: [{
 				id: "0AB47B306710395A"
 				item: "blue_skies:moonstone_shard"
@@ -99,6 +105,7 @@
 		{
 			dependencies: ["3DE354A671C2D09B"]
 			id: "3E3F2A6658CB655C"
+			shape: "iron"
 			tasks: [{
 				id: "4D447C80168BCB83"
 				item: "blue_skies:pyrope_gem"
@@ -110,6 +117,7 @@
 		{
 			dependencies: ["3DE354A671C2D09B"]
 			id: "71DB69814A0B47B0"
+			shape: "iron"
 			tasks: [
 				{
 					id: "00AA6958D576820A"
@@ -128,6 +136,7 @@
 		{
 			dependencies: ["71DB69814A0B47B0"]
 			id: "34FAA200D911BBFD"
+			shape: "gold"
 			tasks: [{
 				id: "0571593B5B5C15CF"
 				item: {
@@ -145,6 +154,7 @@
 		{
 			dependencies: ["3E3F2A6658CB655C"]
 			id: "09AD609EF2CF1F27"
+			shape: "gold"
 			tasks: [{
 				id: "4E0B416BE27A067C"
 				item: {
@@ -166,6 +176,7 @@
 			]
 			dependency_requirement: "one_completed"
 			id: "67DEE061A73F243E"
+			shape: "iron"
 			tasks: [
 				{
 					id: "6F83B1927BEA1ED7"
@@ -184,6 +195,7 @@
 		{
 			dependencies: ["67DEE061A73F243E"]
 			id: "6BDD636E4AA02AA2"
+			shape: "gold"
 			tasks: [{
 				id: "6EE5C80619C05F01"
 				item: {
@@ -201,6 +213,7 @@
 		{
 			dependencies: ["6BDD636E4AA02AA2"]
 			id: "7BD9063F0E0C0224"
+			shape: "iron"
 			tasks: [{
 				id: "32D7304C884FE0BE"
 				item: "blue_skies:diopside_gem"
@@ -212,6 +225,7 @@
 		{
 			dependencies: ["7BD9063F0E0C0224"]
 			id: "6264D9F5BC0CC4B9"
+			shape: "diamond"
 			tasks: [{
 				id: "683200A6D0A927D0"
 				item: {
@@ -229,6 +243,7 @@
 		{
 			dependencies: ["7F34C736C90A6C82"]
 			id: "4B13FDA474D9BFCD"
+			shape: "diamond"
 			tasks: [{
 				id: "4BA71EC597FB9AAD"
 				item: {
@@ -246,6 +261,7 @@
 		{
 			dependencies: ["7F34C736C90A6C82"]
 			id: "0A5B07937CF23A7C"
+			shape: "diamond"
 			tasks: [{
 				id: "0613D84F6911AFAC"
 				item: "blue_skies:moonstone"
@@ -257,6 +273,7 @@
 		{
 			dependencies: ["67DEE061A73F243E"]
 			id: "5D5593AC9E0DD2A5"
+			shape: "diamond"
 			tasks: [
 				{
 					id: "6E9AFC22F47F1CAC"
@@ -309,6 +326,7 @@
 		{
 			dependencies: ["67DEE061A73F243E"]
 			id: "6EE88B1FDF7FAAE6"
+			shape: "diamond"
 			tasks: [
 				{
 					id: "016B51F2D817D13D"
@@ -339,6 +357,7 @@
 		{
 			dependencies: ["7BD9063F0E0C0224"]
 			id: "63ED9D47E736BB72"
+			shape: "diamond"
 			tasks: [
 				{
 					id: "55777EEE59F4AB28"
@@ -391,6 +410,7 @@
 		{
 			dependencies: ["7BD9063F0E0C0224"]
 			id: "4C88CDCBB0CD75DD"
+			shape: "diamond"
 			tasks: [
 				{
 					id: "3A7F1E38FC1AC068"

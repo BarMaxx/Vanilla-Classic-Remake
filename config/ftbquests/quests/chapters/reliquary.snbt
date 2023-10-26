@@ -165,8 +165,15 @@
 		}
 		{
 			dependencies: ["34C1D59023AA23CD"]
+			description: ["&6Адская Чаша&r - это реликвия, которая может хранить в себе лаву, а также защищает своего владельца от лавы и огня в обмен на голод."]
 			id: "710758CA1E529C12"
+			rewards: [{
+				id: "586509A3B79F3C4D"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
 			shape: "gold"
+			subtitle: "Полезна в Незере!"
 			tasks: [{
 				id: "09504839CD60A1D6"
 				item: "reliquary:infernal_chalice"
