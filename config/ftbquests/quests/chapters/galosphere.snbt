@@ -14,9 +14,19 @@
 	quests: [
 		{
 			dependencies: ["34C1D59023AA23CD"]
+			description: ["&6Сырое серебро&r можно получить при добычи серебряной руды. Её же можно найти под землёй в шахтах. "]
 			id: "52FB4C454B4F2ACF"
+			rewards: [{
+				count: 3
+				id: "5BD2BED028D5F330"
+				item: "galosphere:raw_silver"
+				random_bonus: 2
+				type: "item"
+			}]
 			shape: "dirt"
+			subtitle: "Новый вид руды!"
 			tasks: [{
+				count: 4L
 				id: "4EB43B5BBDBEF9FE"
 				item: "galosphere:raw_silver"
 				type: "item"
@@ -26,9 +36,18 @@
 		}
 		{
 			dependencies: ["52FB4C454B4F2ACF"]
+			description: ["&6Слиток серебра&r можно получить, переплавив сырое серебро в печке или же в плавильной печке. "]
 			id: "0934C05C6A6445B3"
+			rewards: [{
+				id: "03CDA139814B6783"
+				item: "galosphere:silver_ingot"
+				random_bonus: 2
+				type: "item"
+			}]
 			shape: "gold"
+			subtitle: "Новый вид слитков!"
 			tasks: [{
+				count: 4L
 				id: "2EDFEA82745B8F58"
 				item: "galosphere:silver_ingot"
 				type: "item"
