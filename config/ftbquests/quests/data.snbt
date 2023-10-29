@@ -9,6 +9,7 @@
 	drop_loot_crates: false
 	emergency_items_cooldown: 300
 	grid_scale: 0.5d
+	icon: "kubejs:vanilla_classic_remake"
 	lock_message: ""
 	loot_crate_no_drop: {
 		boss: 0
