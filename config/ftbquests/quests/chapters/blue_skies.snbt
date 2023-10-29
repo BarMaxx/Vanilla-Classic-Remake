@@ -3,9 +3,32 @@
 	default_quest_shape: ""
 	filename: "blue_skies"
 	group: "55E44FEC8E881863"
+	icon: {
+		Count: 1b
+		id: "blue_skies:zeal_lighter"
+		tag: {
+			Damage: 0
+		}
+	}
 	id: "28E3403250D0C15F"
 	order_index: 0
 	quest_links: [ ]
-	quests: [ ]
+	quests: [{
+		dependencies: ["34C1D59023AA23CD"]
+		id: "49FE34669CEAD13C"
+		tasks: [{
+			id: "02E6A75E4F309416"
+			item: {
+				Count: 1b
+				id: "blue_skies:zeal_lighter"
+				tag: {
+					Damage: 0
+				}
+			}
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
 	title: "Blue Skies"
 }

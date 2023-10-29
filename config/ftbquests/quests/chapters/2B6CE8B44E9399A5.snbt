@@ -558,7 +558,14 @@
 			dependencies: ["2B19E76BB0764227"]
 			description: ["На костре можно приготовить еду, а также его можно использовать в крафтах."]
 			id: "3499C1DC1A4493D7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "27BE07453DC2E452"
+				table_id: 8406505191874674524L
+				type: "random"
+			}]
 			shape: "iron"
+			subtitle: "Незаменим на ранних этапах!"
 			tasks: [{
 				id: "473F813169CC20E8"
 				item: "minecraft:campfire"
@@ -1031,7 +1038,14 @@
 				}
 			}
 			id: "16EAF7AE7B6AE4AB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "03237772A448C747"
+				table_id: 4849012743961254791L
+				type: "choice"
+			}]
 			shape: "iron"
+			subtitle: "Важный набор!"
 			tasks: [
 				{
 					id: "3D9DDE2076D5600F"

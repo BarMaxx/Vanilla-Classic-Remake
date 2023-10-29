@@ -7,6 +7,16 @@
 	id: "4529F2188E0330B9"
 	order_index: 4
 	quest_links: [ ]
-	quests: [ ]
+	quests: [{
+		dependencies: ["34C1D59023AA23CD"]
+		id: "46F4AFCC7AF62FC3"
+		tasks: [{
+			id: "4364260C0247C706"
+			item: "rechiseled:chisel"
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
 	title: "Decoration"
 }

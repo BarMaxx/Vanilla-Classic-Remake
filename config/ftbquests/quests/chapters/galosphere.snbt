@@ -57,9 +57,18 @@
 		}
 		{
 			dependencies: ["0934C05C6A6445B3"]
+			description: ["&6Серебряный Блок&r нужен для создания декоративных блоков и нескольких механизмов."]
 			id: "6539AFC730A694E2"
+			rewards: [{
+				id: "1F30289A743F632C"
+				item: "galosphere:silver_block"
+				random_bonus: 1
+				type: "item"
+			}]
 			shape: "gold"
+			subtitle: "Нужен для создания механизмов!"
 			tasks: [{
+				count: 2L
 				id: "2BBD817E2F8A8314"
 				item: "galosphere:silver_block"
 				type: "item"
@@ -219,9 +228,31 @@
 		}
 		{
 			dependencies: ["0934C05C6A6445B3"]
+			description: ["&6Серебряная Бомба&r отлично подходит для раскопок древних обломков, например. Вполне полезная вещица на самом деле, советую попробовать использовать её, но главное - аккуратно."]
 			id: "4F0B6DCA1DDB4095"
+			rewards: [
+				{
+					id: "398FFD59759A4722"
+					item: {
+						Count: 1b
+						id: "galosphere:silver_bomb"
+						tag: { }
+					}
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 2
+					id: "4A2637BC5C6EFA8A"
+					item: "galosphere:silver_ingot"
+					random_bonus: 2
+					type: "item"
+				}
+			]
 			shape: "diamond"
+			subtitle: "Подходит для раскопок!"
 			tasks: [{
+				count: 2L
 				id: "01102B7BCFC07ACE"
 				item: {
 					Count: 1b
@@ -235,8 +266,21 @@
 		}
 		{
 			dependencies: ["0934C05C6A6445B3"]
+			description: [
+				"&6Броня Стерлинга&r не отличается какими-то выдающимися качествами защиты или уникальных механик. Но выглядит она вполне неплохо."
+				""
+				"Поэтому можете создать её и повесить на стойку для брони, чтобы она радовала глаз своей красотой, а не разачаровывала своими защитными свойствами."
+			]
 			id: "122DF2C9AAB4E7F5"
+			rewards: [{
+				count: 6
+				id: "20C9DAA2F31BCBE5"
+				item: "galosphere:silver_ingot"
+				random_bonus: 3
+				type: "item"
+			}]
 			shape: "diamond"
+			subtitle: "Посредственная броня!"
 			tasks: [
 				{
 					id: "46AC5983623BE5C4"
@@ -283,6 +327,7 @@
 					type: "item"
 				}
 			]
+			title: "Броня Стерлинга"
 			x: 1.5d
 			y: -1.0d
 		}
