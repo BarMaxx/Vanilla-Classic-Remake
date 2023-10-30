@@ -20,6 +20,7 @@
 				"03BB56AE39EB1FE5"
 			]
 			id: "65042FBB8F397705"
+			shape: "gold"
 			tasks: [{
 				id: "3B6BE30FD535CA78"
 				item: {
@@ -37,6 +38,7 @@
 		{
 			dependencies: ["023139629C04414A"]
 			id: "662553426D5FBBA5"
+			shape: "iron"
 			tasks: [{
 				id: "657682A616B54613"
 				item: "alexsmobs:void_worm_mandible"
@@ -48,6 +50,7 @@
 		{
 			dependencies: ["023139629C04414A"]
 			id: "03BB56AE39EB1FE5"
+			shape: "iron"
 			tasks: [{
 				id: "233C6FCDA8122B6B"
 				item: "alexsmobs:void_worm_eye"
@@ -59,6 +62,7 @@
 		{
 			dependencies: ["34C1D59023AA23CD"]
 			id: "023139629C04414A"
+			shape: "dirt"
 			tasks: [{
 				entity: "alexsmobs:void_worm"
 				id: "08B30F83E94EE639"
@@ -71,6 +75,7 @@
 		{
 			dependencies: ["65042FBB8F397705"]
 			id: "5D63076CB966AD8C"
+			shape: "diamond"
 			tasks: [{
 				id: "49BF57DA66A0F7F9"
 				item: {
@@ -88,6 +93,7 @@
 		{
 			dependencies: ["08C12D59F3DAB192"]
 			id: "373A3E77E53F4428"
+			shape: "gold"
 			tasks: [{
 				id: "3D8ED39D2860DD8A"
 				item: {
@@ -105,6 +111,7 @@
 		{
 			dependencies: ["57F9EC17BF08B807"]
 			id: "08C12D59F3DAB192"
+			shape: "iron"
 			tasks: [{
 				id: "44479EDB37F5D8F5"
 				item: "alexsmobs:mosquito_proboscis"
@@ -116,6 +123,7 @@
 		{
 			dependencies: ["34C1D59023AA23CD"]
 			id: "57F9EC17BF08B807"
+			shape: "dirt"
 			tasks: [{
 				entity: "alexsmobs:crimson_mosquito"
 				id: "78D095E081C945E1"
@@ -128,6 +136,7 @@
 		{
 			dependencies: ["08C12D59F3DAB192"]
 			id: "7AC9DCA9D6FB7FB2"
+			shape: "gold"
 			tasks: [{
 				id: "1219C74EC57A6146"
 				item: "alexsmobs:mosquito_larva"
@@ -139,6 +148,7 @@
 		{
 			dependencies: ["7AC9DCA9D6FB7FB2"]
 			id: "085F5800DB518471"
+			shape: "diamond"
 			tasks: [{
 				id: "5D330B3B8A09675A"
 				item: "alexsmobs:mysterious_worm"
@@ -155,6 +165,7 @@
 				"4327D4C2836718B0"
 			]
 			id: "4269A9E1CF62D653"
+			shape: "diamond"
 			tasks: [{
 				id: "49CE1304F686F007"
 				item: {
@@ -172,6 +183,7 @@
 		{
 			dependencies: ["0AA80D65B3B768FB"]
 			id: "448A575184216FA7"
+			shape: "gold"
 			tasks: [{
 				id: "7998EBA1D4C51A5B"
 				item: "alexsmobs:warped_muscle"
@@ -183,6 +195,7 @@
 		{
 			dependencies: ["0AA80D65B3B768FB"]
 			id: "64BED05F81C60480"
+			shape: "gold"
 			tasks: [{
 				id: "33CD9AF8FE601178"
 				item: "alexsmobs:hemolymph_sac"
@@ -194,6 +207,7 @@
 		{
 			dependencies: ["34C1D59023AA23CD"]
 			id: "0AA80D65B3B768FB"
+			shape: "dirt"
 			tasks: [{
 				entity: "alexsmobs:warped_mosco"
 				id: "53DCECD0A916484D"
@@ -206,6 +220,7 @@
 		{
 			dependencies: ["1A9977BCE49FE965"]
 			id: "4327D4C2836718B0"
+			shape: "gold"
 			tasks: [{
 				id: "1DD2F37BD6F91119"
 				item: "alexsmobs:mimicream"
@@ -217,6 +232,7 @@
 		{
 			dependencies: ["34C1D59023AA23CD"]
 			id: "1A9977BCE49FE965"
+			shape: "dirt"
 			tasks: [{
 				entity: "alexsmobs:mimicube"
 				id: "006F70FDEBD65F08"
@@ -232,6 +248,7 @@
 				"7BB1BC226316DE76"
 			]
 			id: "50BF67B336520698"
+			shape: "diamond"
 			tasks: [{
 				id: "7CC9F754C9C9AA9F"
 				item: {
@@ -249,6 +266,7 @@
 		{
 			dependencies: ["1001BA1EC2F0F590"]
 			id: "1C0A3BEC6461F300"
+			shape: "gold"
 			tasks: [{
 				id: "1B524902F8BFF61C"
 				item: "alexsmobs:shark_tooth"
@@ -260,6 +278,7 @@
 		{
 			dependencies: ["1001BA1EC2F0F590"]
 			id: "7BB1BC226316DE76"
+			shape: "gold"
 			tasks: [{
 				id: "1CE73D6E16808BB8"
 				item: "alexsmobs:serrated_shark_tooth"
@@ -271,6 +290,7 @@
 		{
 			dependencies: ["34C1D59023AA23CD"]
 			id: "1001BA1EC2F0F590"
+			shape: "dirt"
 			tasks: [{
 				entity: "alexsmobs:hammerhead_shark"
 				id: "5DF80D0B41338985"
@@ -283,6 +303,7 @@
 		{
 			dependencies: ["67D9A09BF040E87C"]
 			id: "19D6DEB8359F5A4A"
+			shape: "gold"
 			tasks: [{
 				id: "4AE61A4FD855457E"
 				item: "alexsmobs:straddlite"
@@ -294,6 +315,7 @@
 		{
 			dependencies: ["34C1D59023AA23CD"]
 			id: "67D9A09BF040E87C"
+			shape: "dirt"
 			tasks: [{
 				entity: "alexsmobs:straddler"
 				id: "25C7AE0BD32D912D"
@@ -306,6 +328,7 @@
 		{
 			dependencies: ["19D6DEB8359F5A4A"]
 			id: "30DF83086365066F"
+			shape: "diamond"
 			tasks: [{
 				id: "1FCFC86090FF3207"
 				item: "alexsmobs:straddle_saddle"
@@ -317,6 +340,7 @@
 		{
 			dependencies: ["19D6DEB8359F5A4A"]
 			id: "5878B8EB47AB4A7F"
+			shape: "diamond"
 			tasks: [{
 				id: "0B2F7C43A2B08E07"
 				item: {
@@ -334,6 +358,7 @@
 		{
 			dependencies: ["2300B7C334827BD7"]
 			id: "761FA8E717FAD575"
+			shape: "diamond"
 			tasks: [{
 				id: "2F6F6466694B4E66"
 				item: "alexsmobs:sculk_boomer"
@@ -345,6 +370,7 @@
 		{
 			dependencies: ["1732CDDA79D0555A"]
 			id: "2300B7C334827BD7"
+			shape: "gold"
 			tasks: [{
 				id: "3E26FBFC7E06B240"
 				item: "alexsmobs:skreecher_soul"
@@ -356,6 +382,7 @@
 		{
 			dependencies: ["34C1D59023AA23CD"]
 			id: "1732CDDA79D0555A"
+			shape: "dirt"
 			tasks: [{
 				entity: "alexsmobs:skreecher"
 				id: "3570209DAE36F4BF"
@@ -368,6 +395,7 @@
 		{
 			dependencies: ["3856AEBDD0FF4991"]
 			id: "08BECA83C402CEE9"
+			shape: "diamond"
 			tasks: [{
 				id: "3497456BEACDCDBE"
 				item: "alexsmobs:transmutation_table"
@@ -379,6 +407,7 @@
 		{
 			dependencies: ["60ECFF5383C12583"]
 			id: "3856AEBDD0FF4991"
+			shape: "gold"
 			tasks: [{
 				id: "14595CA22908A534"
 				item: "alexsmobs:farseer_arm"
@@ -390,6 +419,7 @@
 		{
 			dependencies: ["34C1D59023AA23CD"]
 			id: "60ECFF5383C12583"
+			shape: "dirt"
 			tasks: [{
 				entity: "alexsmobs:farseer"
 				id: "5A15CA2B0A1E6491"

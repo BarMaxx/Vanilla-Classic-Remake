@@ -92,9 +92,16 @@
 		}
 		{
 			dependencies: ["72A952D88BACB448"]
-			description: ["С помощью деревянной кирки можно добывать булыжник."]
+			description: ["С помощью &6деревянной кирки&r можно добывать булыжник."]
 			id: "01AECB10D8C15891"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "67220EF9F63482DD"
+				table_id: 7788030730566606779L
+				type: "random"
+			}]
 			shape: "iron"
+			subtitle: "Важный инструмент!"
 			tasks: [{
 				id: "5CE41CBA7F693846"
 				item: {
@@ -302,9 +309,15 @@
 		}
 		{
 			dependencies: ["4C3E20DC2E7A5260"]
-			description: ["В бочке можно хранить предметы."]
+			description: ["В &6бочке&r можно хранить предметы."]
 			id: "6AAAA180FDF5C44C"
+			rewards: [{
+				id: "2A114BF554117FB4"
+				item: "minecraft:barrel"
+				type: "item"
+			}]
 			shape: "iron"
+			subtitle: "Более удобное хранение вещей!"
 			tasks: [{
 				id: "116AF08340A120FD"
 				item: "minecraft:barrel"
@@ -315,9 +328,15 @@
 		}
 		{
 			dependencies: ["4C3E20DC2E7A5260"]
-			description: ["В сундуке можно хранить предметы."]
+			description: ["В &6сундуке&r можно хранить предметы. В будущем появится возможность улучшениях сундуков, чтобы хранить большее количество предметов."]
 			id: "5775A7B44208248A"
+			rewards: [{
+				id: "12DDFE30BBD450F2"
+				table_id: 6349271575041529688L
+				type: "random"
+			}]
 			shape: "iron"
+			subtitle: "Хранение вещей!"
 			tasks: [{
 				id: "7A701CE622900F05"
 				item: "minecraft:chest"
@@ -386,7 +405,15 @@
 			dependencies: ["72A952D88BACB448"]
 			description: ["В мешок можно положить множество предметов, то есть, его можно использовать, как рюкзак."]
 			id: "278F020C1FD6D396"
+			rewards: [{
+				count: 2
+				id: "381E4814A4D0E181"
+				item: "minecraft:leather"
+				random_bonus: 2
+				type: "item"
+			}]
 			shape: "gold"
+			subtitle: "Переносное хранилище!"
 			tasks: [{
 				id: "3459BE4673983312"
 				item: "minecraft:bundle"
@@ -521,6 +548,7 @@
 		}
 		{
 			dependencies: ["4C3E20DC2E7A5260"]
+			description: ["&6Палки&r очень полезны на всех этапах игры."]
 			id: "2B19E76BB0764227"
 			rewards: [{
 				count: 4
@@ -530,6 +558,7 @@
 				type: "item"
 			}]
 			shape: "iron"
+			subtitle: "Палочки!"
 			tasks: [{
 				count: 8L
 				id: "5F2C7721222FA5AA"
@@ -542,9 +571,10 @@
 		}
 		{
 			dependencies: ["2B19E76BB0764227"]
-			description: ["Если держать параплан в руках, то можно прыгать с любой высоты, ведь вы будете медленно планировать!"]
+			description: ["Если держать &6параплан&r в руках, то можно прыгать с любой высоты, ведь вы будете медленно планировать!"]
 			id: "5CBDF85370D93E7D"
 			shape: "gold"
+			subtitle: "Возможность планировать!"
 			tasks: [{
 				id: "5AE1783691CA3269"
 				item: "paraglider:paraglider"
@@ -556,7 +586,7 @@
 		}
 		{
 			dependencies: ["2B19E76BB0764227"]
-			description: ["На костре можно приготовить еду, а также его можно использовать в крафтах."]
+			description: ["На &6костре&r можно приготовить еду, а также его можно использовать в крафтах."]
 			id: "3499C1DC1A4493D7"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1138,9 +1168,10 @@
 		}
 		{
 			dependencies: ["5CBDF85370D93E7D"]
-			description: ["Лист Деку - это тот же параплан."]
+			description: ["&6Лист Деку&r - это тот же параплан."]
 			id: "7D87A1838EDCECFB"
 			shape: "diamond"
+			subtitle: "Возможность планировать! x2"
 			tasks: [{
 				id: "7306FDF41642EFD7"
 				item: "paraglider:deku_leaf"

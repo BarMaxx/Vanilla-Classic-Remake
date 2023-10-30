@@ -1,0 +1,34 @@
+{
+	icon: "minecraft:chest"
+	id: "581D24DB8CD5D758"
+	loot_size: 1
+	order_index: 3
+	rewards: [
+		{ item: "minecraft:chest" }
+		{ item: "quark:ancient_chest" }
+		{ item: "quark:blossom_chest" }
+		{ item: "quark:azalea_chest" }
+		{ item: "quark:bamboo_chest" }
+		{ item: "quark:oak_chest" }
+		{ item: "quark:spruce_chest" }
+		{ item: "quark:birch_chest" }
+		{ item: "quark:jungle_chest" }
+		{ item: "quark:acacia_chest" }
+		{ item: "quark:dark_oak_chest" }
+		{ item: "quark:crimson_chest" }
+		{ item: "quark:warped_chest" }
+		{ item: "quark:mangrove_chest" }
+		{ item: "quark:nether_brick_chest" }
+		{ item: "quark:purpur_chest" }
+		{ item: "quark:purpur_chest" }
+		{ item: "quark:prismarine_chest" }
+		{ item: "blue_skies:bluebright_chest" }
+		{ item: "blue_skies:starlit_chest" }
+		{ item: "blue_skies:frostbright_chest" }
+		{ item: "blue_skies:lunar_chest" }
+		{ item: "blue_skies:dusk_chest" }
+		{ item: "blue_skies:maple_chest" }
+		{ item: "blue_skies:cherry_chest" }
+	]
+	title: "Сундуки"
+}
