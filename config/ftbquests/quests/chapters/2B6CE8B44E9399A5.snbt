@@ -128,6 +128,7 @@
 			}]
 			shape: "gold"
 			size: 1.1d
+			subtitle: "Довольно твёрдый!"
 			tasks: [{
 				count: 4L
 				icon: "minecraft:cobblestone"
@@ -169,6 +170,7 @@
 			description: ["С помощью печи можно переплавлять различные руды, еду и т.п. А также можно создать новые механизмы."]
 			id: "158697921D057035"
 			shape: "iron"
+			subtitle: "Универсальный!"
 			tasks: [{
 				id: "64578954AFB4E665"
 				item: "minecraft:furnace"
@@ -203,7 +205,31 @@
 			dependencies: ["158697921D057035"]
 			description: ["С помощью коптильни можно жарить различную еду, но быстрее, чем в печи!"]
 			id: "796FACA96ED3EBEC"
+			rewards: [
+				{
+					count: 4
+					id: "6A97BC0AC0043A50"
+					item: "minecraft:beef"
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					count: 4
+					id: "606EA1BBC5D7A5F6"
+					item: "minecraft:porkchop"
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					count: 5
+					id: "1B91F56BBF8C25A0"
+					item: "minecraft:potato"
+					random_bonus: 3
+					type: "item"
+				}
+			]
 			shape: "gold"
+			subtitle: "Больше подходит для приготовления пищи!"
 			tasks: [{
 				id: "5CD72ABC7E38BB3F"
 				item: "minecraft:smoker"
@@ -238,7 +264,24 @@
 			dependencies: ["158697921D057035"]
 			description: ["С помощью плавильной печи можно переплавлять только руды (и все, что с ними связано), но намного быстрее, чем в печи!"]
 			id: "2CD4A7C3FAB9127A"
+			rewards: [
+				{
+					count: 3
+					id: "1C1587F347FCF30F"
+					item: "minecraft:raw_iron"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 5
+					id: "09AE6BEC1958AC8B"
+					item: "minecraft:raw_copper"
+					random_bonus: 2
+					type: "item"
+				}
+			]
 			shape: "gold"
+			subtitle: "Больше подходит для выплавки слитков!"
 			tasks: [{
 				id: "57FB064C91208279"
 				item: "minecraft:blast_furnace"
