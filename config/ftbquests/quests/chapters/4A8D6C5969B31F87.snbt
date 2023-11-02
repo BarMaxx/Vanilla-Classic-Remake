@@ -10,9 +10,17 @@
 	quests: [
 		{
 			dependencies: ["1353634C2CA41B60"]
-			description: ["Инструмент для строительства - это самый важный инструмент для создания собственной колонии."]
+			description: ["&6Инструмент для строительства&r - это самый важный инструмент, который нужен для создания собственной колонии."]
 			id: "2C99DE39599D0AE1"
+			rewards: [{
+				count: 2
+				id: "6039C8AD8F99E4BB"
+				item: "minecraft:raw_gold"
+				random_bonus: 3
+				type: "item"
+			}]
 			shape: "dirt"
+			subtitle: "Самое важное!"
 			tasks: [{
 				id: "2426A1FA7248ACB9"
 				item: "structurize:sceptergold"

@@ -429,6 +429,92 @@
 			x: -0.5d
 			y: -7.5d
 		}
+		{
+			dependencies: ["34C1D59023AA23CD"]
+			id: "2343694DE3E03B67"
+			shape: "dirt"
+			tasks: [{
+				entity: "alexsmobs:crocodile"
+				id: "0FB5E9F41F799EAB"
+				type: "kill"
+				value: 1L
+			}]
+			x: -4.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["2343694DE3E03B67"]
+			id: "3E75D9E2E22C7708"
+			shape: "gold"
+			tasks: [{
+				id: "36307B47892107F8"
+				item: "alexsmobs:crocodile_scute"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["3E75D9E2E22C7708"]
+			id: "5C803139CD81B0E5"
+			shape: "diamond"
+			tasks: [{
+				id: "600DEC577CE47482"
+				item: {
+					Count: 1b
+					id: "alexsmobs:crocodile_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["34C1D59023AA23CD"]
+			id: "1D18918B51E26B91"
+			shape: "dirt"
+			tasks: [{
+				entity: "alexsmobs:centipede_body"
+				id: "1AC21E003B41FA74"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["1D18918B51E26B91"]
+			id: "62BEF3B14CD38D7D"
+			shape: "gold"
+			tasks: [{
+				id: "2F16BB42804D21D8"
+				item: "alexsmobs:centipede_leg"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["62BEF3B14CD38D7D"]
+			id: "6EC8D64A6EA6510D"
+			shape: "diamond"
+			tasks: [{
+				id: "661660081F083FB9"
+				item: {
+					Count: 1b
+					id: "alexsmobs:centipede_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -4.5d
+		}
 	]
 	title: "Alex's Mobs"
 }
