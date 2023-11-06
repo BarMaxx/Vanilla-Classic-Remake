@@ -10,7 +10,7 @@
 	quests: [
 		{
 			dependencies: ["34C1D59023AA23CD"]
-			description: ["Первые шаги в этой сборке, как и в Майнкрафте начинаются с добычи дерева. Нарубите несколько бревен и начните свое насыщенное путешествие в этом бренном мире..."]
+			description: ["Первые шаги в этой сборке, как и в Майнкрафте начинаются с добычи &6дерева&r. Нарубите несколько бревен и начните свое насыщенное путешествие в этом бренном мире..."]
 			hide: true
 			id: "4797541149F48B31"
 			rewards: [{
@@ -42,7 +42,7 @@
 		}
 		{
 			dependencies: ["4797541149F48B31"]
-			description: ["Доски можно создать из дерева. А из досок можно создать уже большое количество предметов! Но самым главным будет - Верстак."]
+			description: ["&6Доски&r можно создать из дерева. А из досок можно создать уже большое количество предметов! Но самым главным будет - Верстак."]
 			id: "4C3E20DC2E7A5260"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -72,7 +72,7 @@
 		}
 		{
 			dependencies: ["4C3E20DC2E7A5260"]
-			description: ["С помощью верстака можно создавать предметы на сетке крафта 3х3."]
+			description: ["С помощью &6верстака&r можно создавать предметы на сетке крафта &e3х3&r."]
 			id: "72A952D88BACB448"
 			rewards: [{
 				id: "5FCE890880FBDE0A"
@@ -80,7 +80,6 @@
 				type: "item"
 			}]
 			shape: "iron"
-			size: 1.2d
 			subtitle: "Главный предмет в сборке!"
 			tasks: [{
 				id: "14250EC2220D7417"
@@ -118,7 +117,7 @@
 		}
 		{
 			dependencies: ["01AECB10D8C15891"]
-			description: ["С помощью булыжника можно создать каменные инструменты."]
+			description: ["С помощью &6булыжника&r можно создать каменные инструменты."]
 			id: "1353634C2CA41B60"
 			rewards: [{
 				count: 4
@@ -143,7 +142,7 @@
 				title: "Булыжник"
 				type: "item"
 			}]
-			x: 5.5d
+			x: 6.05d
 			y: 0.0d
 		}
 		{
@@ -162,12 +161,12 @@
 				}
 				type: "item"
 			}]
-			x: 6.0d
-			y: -1.0d
+			x: 6.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["1353634C2CA41B60"]
-			description: ["С помощью печи можно переплавлять различные руды, еду и т.п. А также можно создать новые механизмы."]
+			description: ["С помощью &6печи&r можно переплавлять различные руды, еду и т.п. А также можно создать новые механизмы."]
 			id: "158697921D057035"
 			shape: "iron"
 			subtitle: "Универсальный!"
@@ -176,8 +175,8 @@
 				item: "minecraft:furnace"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 1.0d
+			x: 6.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["5D5B00D57978318B"]
@@ -198,12 +197,12 @@
 				title: "Рудное железо"
 				type: "item"
 			}]
-			x: 5.5d
-			y: -2.0d
+			x: 6.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["158697921D057035"]
-			description: ["С помощью коптильни можно жарить различную еду, но быстрее, чем в печи!"]
+			description: ["С помощью &6коптильни&r можно жарить различную еду, но быстрее, чем в печи!"]
 			id: "796FACA96ED3EBEC"
 			rewards: [
 				{
@@ -235,7 +234,7 @@
 				item: "minecraft:smoker"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 5.5d
 			y: 2.0d
 		}
 		{
@@ -257,12 +256,12 @@
 				title: "Железный слиток"
 				type: "item"
 			}]
-			x: 7.5d
-			y: 1.0d
+			x: 8.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["158697921D057035"]
-			description: ["С помощью плавильной печи можно переплавлять только руды (и все, что с ними связано), но намного быстрее, чем в печи!"]
+			description: ["С помощью &6плавильной печи&r можно переплавлять только руды (и все, что с ними связано), но намного быстрее, чем в печи!"]
 			id: "2CD4A7C3FAB9127A"
 			rewards: [
 				{
@@ -287,8 +286,8 @@
 				item: "minecraft:blast_furnace"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 1.5d
+			x: 7.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["42A0AA3648A0912D"]
@@ -306,8 +305,8 @@
 				}
 				type: "item"
 			}]
-			x: 9.0d
-			y: 0.5d
+			x: 10.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["665C7739C0310A43"]
@@ -328,8 +327,8 @@
 				title: "Алмаз"
 				type: "item"
 			}]
-			x: 9.5d
-			y: -0.5d
+			x: 12.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["7214867124566ED2"]
@@ -347,8 +346,8 @@
 				}
 				type: "item"
 			}]
-			x: 11.0d
-			y: -0.5d
+			x: 14.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["4C3E20DC2E7A5260"]
@@ -405,8 +404,8 @@
 				item: "minecraft:raw_copper"
 				type: "item"
 			}]
-			x: 6.5d
-			y: -2.0d
+			x: 7.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["226A5295FFB7F509"]
@@ -427,26 +426,25 @@
 				title: "Медный слиток"
 				type: "item"
 			}]
-			x: 7.5d
-			y: -2.5d
+			x: 8.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["18FCE07AA8D0E689"]
 			description: ["С помощью подзорной трубы можно приближать какие-то предметы и рассматривать их с большого расстояния. "]
 			id: "432478ADFB14EC6F"
 			shape: "diamond"
-			size: 1.2d
 			tasks: [{
 				id: "56CBA34675EEDC18"
 				item: "minecraft:spyglass"
 				type: "item"
 			}]
-			x: 8.5d
-			y: -2.0d
+			x: 9.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["72A952D88BACB448"]
-			description: ["В мешок можно положить множество предметов, то есть, его можно использовать, как рюкзак."]
+			description: ["В &6мешок&r можно положить множество предметов, то есть, его можно использовать, как рюкзак."]
 			id: "278F020C1FD6D396"
 			rewards: [{
 				count: 2
@@ -480,8 +478,8 @@
 				}
 				type: "item"
 			}]
-			x: 8.5d
-			y: -1.0d
+			x: 13.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["4F01D81AEA74A654"]
@@ -495,7 +493,6 @@
 				type: "item"
 			}]
 			shape: "gold"
-			size: 1.1d
 			tasks: [{
 				count: 8L
 				id: "4020DE806DC32E07"
@@ -503,8 +500,8 @@
 				title: "Обсидиан"
 				type: "item"
 			}]
-			x: 11.5d
-			y: -1.5d
+			x: 15.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["784141803D88C42E"]
@@ -516,8 +513,8 @@
 				item: "minecraft:enchanting_table"
 				type: "item"
 			}]
-			x: 12.5d
-			y: -1.5d
+			x: 16.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["784141803D88C42E"]
@@ -529,8 +526,8 @@
 				item: "minecraft:ender_chest"
 				type: "item"
 			}]
-			x: 11.0d
-			y: -2.5d
+			x: 16.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["665C7739C0310A43"]
@@ -551,8 +548,8 @@
 				title: "Рудное золото"
 				type: "item"
 			}]
-			x: 9.5d
-			y: 1.5d
+			x: 11.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["1BDA93BB0E51F5E4"]
@@ -573,8 +570,8 @@
 				title: "Золотой слиток"
 				type: "item"
 			}]
-			x: 9.5d
-			y: 2.5d
+			x: 11.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["42A0AA3648A0912D"]
@@ -586,8 +583,8 @@
 				item: "minecraft:anvil"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 0.0d
+			x: 8.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["4C3E20DC2E7A5260"]
@@ -644,7 +641,7 @@
 				item: "minecraft:campfire"
 				type: "item"
 			}]
-			x: 1.0d
+			x: 2.0d
 			y: 2.0d
 		}
 		{
@@ -690,14 +687,13 @@
 				}
 			]
 			title: "Мясо"
-			x: 6.5d
+			x: 5.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["6DEBC653A7DBCDE5"]
 			id: "15C1403790BAD877"
 			shape: "diamond"
-			size: 1.1d
 			tasks: [{
 				id: "693F654C643766EB"
 				item: {
@@ -709,8 +705,8 @@
 				}
 				type: "item"
 			}]
-			x: 7.5d
-			y: -1.0d
+			x: 14.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["796FACA96ED3EBEC"]
@@ -731,8 +727,8 @@
 				title: "Печёный картофель"
 				type: "item"
 			}]
-			x: 5.5d
-			y: 3.0d
+			x: 4.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["42A0AA3648A0912D"]
@@ -744,8 +740,8 @@
 				item: "minecraft:smithing_table"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 0.0d
+			x: 9.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["42A0AA3648A0912D"]
@@ -806,8 +802,8 @@
 				}
 			]
 			title: "Железная броня"
-			x: 7.0d
-			y: 2.0d
+			x: 9.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["42A0AA3648A0912D"]
@@ -858,7 +854,7 @@
 			]
 			title: "Железные инструменты"
 			x: 8.0d
-			y: 2.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["665C7739C0310A43"]
@@ -879,8 +875,8 @@
 				title: "Редстоуновая пыль"
 				type: "item"
 			}]
-			x: 10.5d
-			y: 0.5d
+			x: 11.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["6C6BA8C9DB600AAF"]
@@ -892,8 +888,8 @@
 				item: "minecraft:compass"
 				type: "item"
 			}]
-			x: 11.5d
-			y: 0.5d
+			x: 10.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["2BD8D7BAC3660F0E"]
@@ -905,8 +901,8 @@
 				item: "minecraft:recovery_compass"
 				type: "item"
 			}]
-			x: 12.5d
-			y: 0.0d
+			x: 11.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["2BD8D7BAC3660F0E"]
@@ -922,8 +918,8 @@
 				}
 				type: "item"
 			}]
-			x: 11.5d
-			y: 1.5d
+			x: 9.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["6C6BA8C9DB600AAF"]
@@ -984,8 +980,8 @@
 				}
 			]
 			title: "Стимпанковая броня"
-			x: 10.5d
-			y: 1.5d
+			x: 11.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["7214867124566ED2"]
@@ -1046,8 +1042,8 @@
 				}
 			]
 			title: "Алмазная броня"
-			x: 9.5d
-			y: -1.5d
+			x: 12.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["7214867124566ED2"]
@@ -1097,12 +1093,12 @@
 				}
 			]
 			title: "Алмазные инструменты"
-			x: 10.5d
-			y: -1.5d
+			x: 12.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["72A952D88BACB448"]
-			description: ["Ваши первые инструменты!"]
+			description: ["Ваши первые &6инструменты&r!"]
 			icon: {
 				Count: 1b
 				id: "minecraft:wooden_axe"
@@ -1206,7 +1202,7 @@
 				}
 			]
 			title: "Каменные инструменты"
-			x: 5.0d
+			x: 5.5d
 			y: -1.0d
 		}
 		{
@@ -1235,7 +1231,6 @@
 				type: "item"
 			}]
 			shape: "gold"
-			size: 1.1d
 			tasks: [{
 				count: 8L
 				id: "2F64CDE38C680076"
@@ -1243,8 +1238,8 @@
 				title: "Взрывоустойчивые листы"
 				type: "item"
 			}]
-			x: 9.5d
-			y: 3.5d
+			x: 11.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["12DB094CAC679515"]
@@ -1305,8 +1300,8 @@
 				}
 			]
 			title: "Гриферская броня"
-			x: 9.0d
-			y: 4.5d
+			x: 9.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["12DB094CAC679515"]
@@ -1327,8 +1322,8 @@
 				title: "Взрывоустойчивая плитка"
 				type: "item"
 			}]
-			x: 10.0d
-			y: 4.5d
+			x: 12.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["18FCE07AA8D0E689"]
@@ -1340,8 +1335,8 @@
 				item: "minecraft:lightning_rod"
 				type: "item"
 			}]
-			x: 8.5d
-			y: -3.0d
+			x: 7.5d
+			y: -4.0d
 		}
 	]
 	title: "Survival"

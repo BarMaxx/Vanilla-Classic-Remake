@@ -13,15 +13,14 @@
 			description: ["Войдите в портал из обсидиана!"]
 			id: "0638AA464CB433BD"
 			shape: "dirt"
-			size: 1.2d
 			tasks: [{
 				dimension: "minecraft:the_nether"
 				id: "7F7529F0928603C2"
 				title: "Посетить измерение Незер"
 				type: "dimension"
 			}]
-			x: 0.5d
-			y: 0.5d
+			x: 0.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["0638AA464CB433BD"]
@@ -35,8 +34,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 2.0d
-			y: 0.5d
+			x: 1.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["07F71605EA4AD2D9"]
@@ -57,22 +56,21 @@
 				title: "Огненный стержень"
 				type: "item"
 			}]
-			x: 3.5d
-			y: 0.5d
+			x: 3.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["63CE859816941806"]
 			description: ["С помощью зельеварки можно готовить различные зелья."]
 			id: "03D84CFC9502FAC9"
 			shape: "gold"
-			size: 1.1d
 			tasks: [{
 				id: "7B62886119E2B607"
 				item: "minecraft:brewing_stand"
 				type: "item"
 			}]
-			x: 4.0d
-			y: -0.5d
+			x: 3.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["63CE859816941806"]
@@ -93,7 +91,7 @@
 				title: "Огненный порошок"
 				type: "item"
 			}]
-			x: 4.0d
+			x: 3.5d
 			y: 1.5d
 		}
 		{
@@ -108,15 +106,14 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 1.5d
-			y: 1.5d
+			x: 0.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["16270A1C68D32B47"]
 			description: ["Черепа визер-скелета нужны для призыва босса - Визера!"]
 			id: "560BBA75A74C1BCC"
 			shape: "iron"
-			size: 1.1d
 			tasks: [{
 				count: 3L
 				id: "0B88D5EBF01AB616"
@@ -124,8 +121,8 @@
 				title: "Череп визер-скелета"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 2.5d
+			x: 0.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["560BBA75A74C1BCC"]
@@ -139,8 +136,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 2.0d
-			y: 3.5d
+			x: 0.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["5ACA9C1A680ABD8D"]
@@ -152,8 +149,8 @@
 				item: "minecraft:nether_star"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 4.5d
+			x: 0.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["0BEF1BC6D388B3F8"]
@@ -165,8 +162,8 @@
 				item: "minecraft:beacon"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 5.0d
+			x: 0.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["0BEF1BC6D388B3F8"]
@@ -184,8 +181,8 @@
 				}
 				type: "item"
 			}]
-			x: 1.0d
-			y: 5.0d
+			x: -1.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["0638AA464CB433BD"]
@@ -199,7 +196,6 @@
 				type: "item"
 			}]
 			shape: "iron"
-			size: 1.1d
 			tasks: [{
 				count: 8L
 				id: "7E4CEE92529C1B0C"
@@ -207,8 +203,8 @@
 				title: "Незер-кварц"
 				type: "item"
 			}]
-			x: -0.5d
-			y: -0.5d
+			x: -1.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["0638AA464CB433BD"]
@@ -229,8 +225,8 @@
 				title: "Песок душ"
 				type: "item"
 			}]
-			x: 0.5d
-			y: -0.5d
+			x: 0.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["0638AA464CB433BD"]
@@ -251,8 +247,8 @@
 				title: "Незерский нарост"
 				type: "item"
 			}]
-			x: 1.5d
-			y: -0.5d
+			x: 1.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["0638AA464CB433BD"]
@@ -273,7 +269,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: 0.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["1339998B70AFCCF9"]
@@ -293,8 +289,8 @@
 				title: "Незеритовый лом"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 0.5d
+			x: -3.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["1903A4E8A177A1AC"]
@@ -313,8 +309,8 @@
 				title: "Незеритовый слиток"
 				type: "item"
 			}]
-			x: -3.5d
-			y: 0.5d
+			x: -4.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["79325CD17EACF314"]
@@ -375,8 +371,8 @@
 				}
 			]
 			title: "Незеритовая броня"
-			x: -4.0d
-			y: -0.5d
+			x: -6.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["79325CD17EACF314"]
@@ -437,7 +433,7 @@
 				}
 			]
 			title: "Незеритовые инструменты"
-			x: -4.0d
+			x: -5.0d
 			y: 1.5d
 		}
 		{
@@ -456,8 +452,8 @@
 				}
 				type: "item"
 			}]
-			x: -4.5d
-			y: 0.5d
+			x: -5.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["0638AA464CB433BD"]
@@ -471,7 +467,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 0.5d
+			x: 1.0d
 			y: 1.5d
 		}
 		{
@@ -486,7 +482,6 @@
 				type: "item"
 			}]
 			shape: "diamond"
-			size: 1.1d
 			tasks: [{
 				count: 2L
 				id: "26D92EF084F52F6D"
@@ -494,8 +489,8 @@
 				title: "Слеза гаста"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 2.5d
+			x: 1.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["7816E4D8946FBA71"]
@@ -516,8 +511,8 @@
 				title: "Кварцевый блок"
 				type: "item"
 			}]
-			x: -0.5d
-			y: -1.5d
+			x: -1.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["4030823F0387614B"]
@@ -538,8 +533,8 @@
 				title: "Гладкий кварц"
 				type: "item"
 			}]
-			x: -0.5d
-			y: -2.5d
+			x: -1.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["2438D11304615B6A"]
@@ -551,8 +546,8 @@
 				item: "farmersrespite:purulent_tea"
 				type: "item"
 			}]
-			x: 1.5d
-			y: -1.5d
+			x: 1.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["5C8F6BE38CD61F1B"]
@@ -564,8 +559,8 @@
 				item: "farmersrespite:blazing_chili"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 2.0d
+			x: 4.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["0BEF1BC6D388B3F8"]
@@ -578,8 +573,8 @@
 				item: "sophisticatedbackpacks:inception_upgrade"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 5.5d
+			x: 1.6500000000000001d
+			y: 6.6000000000000005d
 		}
 		{
 			dependencies: ["63CE859816941806"]
@@ -600,7 +595,7 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: 0.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["5C8F6BE38CD61F1B"]
@@ -662,8 +657,8 @@
 				}
 			]
 			title: "Роба"
-			x: 4.0d
-			y: 2.5d
+			x: 2.75d
+			y: 2.2d
 		}
 		{
 			dependencies: ["03D84CFC9502FAC9"]
@@ -682,14 +677,13 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: -1.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["6292CA12BD9FCA34"]
 			description: ["Улучшенная версия зелья огнестойкости."]
 			id: "07297428C4FB2F68"
 			shape: "diamond"
-			size: 1.1d
 			tasks: [{
 				id: "2274D98C8F4E009A"
 				item: {
@@ -701,8 +695,8 @@
 				}
 				type: "item"
 			}]
-			x: 3.0d
-			y: -2.0d
+			x: 2.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["03D84CFC9502FAC9"]
@@ -721,7 +715,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: -1.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["7A973E05C597B6E3"]
@@ -739,15 +733,14 @@
 				}
 				type: "item"
 			}]
-			x: 5.5d
-			y: 0.0d
+			x: 6.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["7A973E05C597B6E3"]
 			description: ["Улучшенная версия зелья силы."]
 			id: "6160D7CD7CC14D3E"
 			shape: "diamond"
-			size: 1.1d
 			tasks: [{
 				id: "770BA77E868DC662"
 				item: {
@@ -760,7 +753,7 @@
 				type: "item"
 			}]
 			x: 5.5d
-			y: -2.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["03D84CFC9502FAC9"]
@@ -779,14 +772,13 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: -1.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["09D39EC62B37C300"]
 			description: ["Улучшенная версия зелья исцеления."]
 			id: "5BD8CEE7E07A4083"
 			shape: "diamond"
-			size: 1.1d
 			tasks: [{
 				id: "3A21E36AA39D8083"
 				item: {
@@ -798,8 +790,8 @@
 				}
 				type: "item"
 			}]
-			x: 4.0d
-			y: -2.5d
+			x: 5.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["76AA943499192987"]
@@ -810,8 +802,8 @@
 				item: "minecraft:soul_campfire"
 				type: "item"
 			}]
-			x: 0.5d
-			y: -1.5d
+			x: 0.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["0638AA464CB433BD"]
@@ -832,7 +824,7 @@
 				title: "Чернит"
 				type: "item"
 			}]
-			x: -0.5d
+			x: -1.0d
 			y: 1.5d
 		}
 		{
@@ -845,7 +837,7 @@
 				item: "nethersdelight:blackstone_furnace"
 				type: "item"
 			}]
-			x: -1.5d
+			x: -2.5d
 			y: 1.5d
 		}
 		{
@@ -868,7 +860,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: 2.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["6B405D8AA3F0CE61"]
@@ -890,7 +882,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: 3.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["643918B72D9D95A2"]
@@ -902,8 +894,8 @@
 				item: "nethersdelight:blackstone_blast_furnace"
 				type: "item"
 			}]
-			x: -2.5d
-			y: 1.5d
+			x: -3.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["643918B72D9D95A2"]
@@ -938,7 +930,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: 3.5d
+			y: 4.5d
 		}
 	]
 	title: "Nether"
