@@ -12,7 +12,7 @@
 			dependencies: ["34C1D59023AA23CD"]
 			description: ["Кухонная плита нужна, чтобы можно было готовить еду в котелке и на сковороде."]
 			id: "3E7148E1FC71B4A2"
-			shape: "iron"
+			shape: "dirt"
 			tasks: [{
 				id: "7C0FD43D8FADABD9"
 				item: "farmersdelight:stove"
@@ -111,6 +111,7 @@
 		{
 			dependencies: ["3E7148E1FC71B4A2"]
 			id: "3992EECE0C4B9373"
+			shape: "gold"
 			tasks: [{
 				id: "6ADC0D7A8CBDEF95"
 				item: "farmersdelight:cutting_board"
@@ -122,6 +123,7 @@
 		{
 			dependencies: ["34C1D59023AA23CD"]
 			id: "1A9FE61DBCB1385D"
+			shape: "dirt"
 			tasks: [{
 				id: "04F31C6E5683A5D8"
 				item: "endersdelight:endstone_stove"
@@ -133,6 +135,7 @@
 		{
 			dependencies: ["1A9FE61DBCB1385D"]
 			id: "5F2A3EB514ABC2F2"
+			shape: "diamond"
 			tasks: [{
 				id: "2C441EC3E1164381"
 				item: "endersdelight:stuffed_shulker"
@@ -144,6 +147,7 @@
 		{
 			dependencies: ["1A9FE61DBCB1385D"]
 			id: "5B18D811BF0A5D06"
+			shape: "diamond"
 			tasks: [{
 				id: "33184F7469C25115"
 				item: "endersdelight:ender_paella"
@@ -155,6 +159,7 @@
 		{
 			dependencies: ["1A9FE61DBCB1385D"]
 			id: "7FF76203AE09119E"
+			shape: "gold"
 			tasks: [{
 				id: "06D3AB1E6E7C11C3"
 				item: "endersdelight:shulker_bowl"
@@ -166,6 +171,7 @@
 		{
 			dependencies: ["1A9FE61DBCB1385D"]
 			id: "1618990D065FBCFC"
+			shape: "diamond"
 			tasks: [{
 				id: "4F7A149836CB31A2"
 				item: "endersdelight:chorus_juice"
@@ -177,6 +183,7 @@
 		{
 			dependencies: ["34C1D59023AA23CD"]
 			id: "6E480373CD5E5C67"
+			shape: "dirt"
 			tasks: [{
 				id: "56C913690BA7E2F6"
 				item: "nethersdelight:blackstone_stove"
@@ -188,6 +195,7 @@
 		{
 			dependencies: ["6E480373CD5E5C67"]
 			id: "2DE59A0AFD265F74"
+			shape: "diamond"
 			tasks: [{
 				id: "6C1CFCEF84799CCE"
 				item: "nethersdelight:stuffed_hoglin"
@@ -199,6 +207,7 @@
 		{
 			dependencies: ["6E480373CD5E5C67"]
 			id: "2CF20133C647879A"
+			shape: "diamond"
 			tasks: [{
 				id: "3A0DD59D06410A0C"
 				item: "nethersdelight:grilled_strider"
@@ -210,6 +219,7 @@
 		{
 			dependencies: ["6E480373CD5E5C67"]
 			id: "742EF8CC88B0B0C6"
+			shape: "diamond"
 			tasks: [{
 				id: "2A1B480D8423A0C0"
 				item: "nethersdelight:magma_gelatin"
@@ -221,6 +231,7 @@
 		{
 			dependencies: ["6E480373CD5E5C67"]
 			id: "73C996E70CA4D6F9"
+			shape: "gold"
 			tasks: [{
 				id: "5ACA922B006BAF2B"
 				item: "nethersdelight:soul_compost"
@@ -232,6 +243,7 @@
 		{
 			dependencies: ["34C1D59023AA23CD"]
 			id: "22D33D34AE2C423D"
+			shape: "dirt"
 			tasks: [{
 				id: "0896759FB2C052A2"
 				item: "twilightdelight:maze_stove"
@@ -243,6 +255,7 @@
 		{
 			dependencies: ["22D33D34AE2C423D"]
 			id: "7CDDFEBEBE84ED51"
+			shape: "gold"
 			tasks: [{
 				id: "1778C4C64B3D371C"
 				item: "twilightdelight:fiery_cooking_pot"
@@ -254,6 +267,7 @@
 		{
 			dependencies: ["7CDDFEBEBE84ED51"]
 			id: "5E46C3158E26D902"
+			shape: "diamond"
 			tasks: [{
 				id: "4C62A7E0BAA93E12"
 				item: "twilightdelight:glow_venison_rib_with_pasta"
@@ -265,6 +279,7 @@
 		{
 			dependencies: ["7CDDFEBEBE84ED51"]
 			id: "2F38B770C75725F9"
+			shape: "diamond"
 			tasks: [{
 				id: "5B33AC9ABEEC68DD"
 				item: "twilightdelight:mushgloom_meef_pasta"
@@ -276,6 +291,7 @@
 		{
 			dependencies: ["7CDDFEBEBE84ED51"]
 			id: "58BD3C492752B19D"
+			shape: "diamond"
 			tasks: [{
 				id: "649EEBC56DB5400C"
 				item: "twilightdelight:fried_insect"
@@ -287,6 +303,7 @@
 		{
 			dependencies: ["22D33D34AE2C423D"]
 			id: "04F4B4D499D8AD88"
+			shape: "gold"
 			tasks: [{
 				id: "1492CCF7BFE01098"
 				item: {
@@ -304,6 +321,7 @@
 		{
 			dependencies: ["22D33D34AE2C423D"]
 			id: "2DCEF1362B27C094"
+			shape: "diamond"
 			tasks: [{
 				id: "25A021E1BABACDD9"
 				item: "twilightdelight:thorn_rose_tea"
@@ -315,6 +333,7 @@
 		{
 			dependencies: ["3E7148E1FC71B4A2"]
 			id: "6A777900F59F2823"
+			shape: "diamond"
 			tasks: [{
 				id: "618AFA8B748A7A0A"
 				item: "abnormals_delight:pickerelweed_juice"
@@ -326,6 +345,7 @@
 		{
 			dependencies: ["22D33D34AE2C423D"]
 			id: "7FA52E148E23B68E"
+			shape: "gold"
 			tasks: [{
 				id: "0850835B3FAF2E6D"
 				item: "twilightdelight:torchberries_crate"
@@ -398,6 +418,66 @@
 				type: "item"
 			}]
 			x: 4.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["34C1D59023AA23CD"]
+			id: "166345543A884EE8"
+			shape: "gold"
+			tasks: [{
+				id: "7FD196F1648647E5"
+				item: "oceansdelight:guardian_soup"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["34C1D59023AA23CD"]
+			id: "0026D313DD899F3C"
+			shape: "diamond"
+			tasks: [{
+				id: "4219ACF4C4C4BC14"
+				item: "pineapple_delight:pineapple_juice"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["34C1D59023AA23CD"]
+			id: "66B463AAA9FA115A"
+			shape: "diamond"
+			tasks: [{
+				id: "70F146DEDCA85560"
+				item: "pineapple_delight:pineapple_ice_cream"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["34C1D59023AA23CD"]
+			id: "3C264BBAB7979EE5"
+			shape: "diamond"
+			tasks: [{
+				id: "59595D8616A5FE66"
+				item: "pineapple_delight:pineapple_fried_rice"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["34C1D59023AA23CD"]
+			id: "64AA84782948C502"
+			shape: "diamond"
+			tasks: [{
+				id: "4EE5C259AA39BAF9"
+				item: "oceansdelight:squid_rings"
+				type: "item"
+			}]
+			x: -6.0d
 			y: -5.5d
 		}
 	]

@@ -1106,7 +1106,7 @@
 		}
 		{
 			dependencies: ["72A952D88BACB448"]
-			description: ["Ваши первые &6инструменты&r!"]
+			description: ["Ваши первые &6инструменты&r! Они помогут в выживание и изучении мира сборки."]
 			icon: {
 				Count: 1b
 				id: "minecraft:wooden_axe"
@@ -1164,7 +1164,7 @@
 		}
 		{
 			dependencies: ["1353634C2CA41B60"]
-			description: ["Намного лучше, чем дерево."]
+			description: ["&6Каменные инструменты&r немного лучше, чем деревянные. С ними будет ещё проще выживать в мире сборки и строить свой путь к главному Артефакту сборки."]
 			icon: {
 				Count: 1b
 				id: "minecraft:stone_axe"
@@ -1173,7 +1173,15 @@
 				}
 			}
 			id: "6DF7F5370669302A"
+			rewards: [{
+				count: 8
+				id: "39F7D3E2CE5872C8"
+				item: "minecraft:cobblestone"
+				random_bonus: 8
+				type: "item"
+			}]
 			shape: "iron"
+			subtitle: "Более прочный набор инструментов!"
 			tasks: [
 				{
 					id: "0219E710DDE642D1"
