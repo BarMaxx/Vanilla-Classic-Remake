@@ -147,9 +147,19 @@
 		}
 		{
 			dependencies: ["1353634C2CA41B60"]
-			description: ["С помощью каменной кирки можно добыть рудное железо и рудную медь."]
+			description: [
+				"С помощью &6каменной кирки&r можно добывать более твёрдые земные породы. А именно, медную и железную руды. "
+				""
+				"Кроме этого, новая кирка обладает большим количеством прочности, а также добывает ресурсы с большей скоростью."
+			]
 			id: "5D5B00D57978318B"
+			rewards: [{
+				id: "05968CED0D52A0BC"
+				item: "farmersdelight:bone_broth"
+				type: "item"
+			}]
 			shape: "iron"
+			subtitle: "Обновка!"
 			tasks: [{
 				id: "691C540C8B77C167"
 				item: {
@@ -180,7 +190,11 @@
 		}
 		{
 			dependencies: ["5D5B00D57978318B"]
-			description: ["Рудное железо можно найти под землей, хотя можно найти и на поверхности гор. С помощью рудного железа можно выплавить железный слиток."]
+			description: [
+				"&6Рудное железо&r можно найти под землей, но, если повезёт, можно найти и в горах. А также, его можно получить в виде добычи, при убийстве Пещерного Крипера."
+				""
+				"С помощью этого ресурса можно выплавить железный слиток, используя печь."
+			]
 			id: "67AC2AA68C541230"
 			rewards: [{
 				count: 4
@@ -190,6 +204,7 @@
 				type: "item"
 			}]
 			shape: "diamond"
+			subtitle: "Более твёрдая руда!"
 			tasks: [{
 				count: 8L
 				id: "78944241BE0CEE2D"
@@ -254,7 +269,7 @@
 			}]
 			shape: "gold"
 			size: 1.1d
-			subtitle: "Настоящий металл!"
+			subtitle: "Один из главных компонентов, помогающий в выживании!"
 			tasks: [{
 				count: 6L
 				id: "264F109200F7B407"
@@ -395,7 +410,11 @@
 		}
 		{
 			dependencies: ["5D5B00D57978318B"]
-			description: ["Рудную медь можно найти под землей, хотя можно найти и на поверхности гор. С помощью рудной меди можно выплавить медный слиток."]
+			description: [
+				"&6Рудную медь&r можно найти под землей, но, если повезёт, можно найти и в горах."
+				""
+				"С помощью рудной меди можно выплавить медный слиток, используя печь."
+			]
 			id: "226A5295FFB7F509"
 			rewards: [{
 				count: 4
@@ -405,6 +424,7 @@
 				type: "item"
 			}]
 			shape: "iron"
+			subtitle: "Более мягкая руда!"
 			tasks: [{
 				id: "5C9EF4E48960BADB"
 				item: "minecraft:raw_copper"
@@ -415,7 +435,7 @@
 		}
 		{
 			dependencies: ["226A5295FFB7F509"]
-			description: ["Медный слиток можно использовать для создания подзорный трубы, чайника и множества декоративных предметов."]
+			description: ["&6Медный слиток&r можно использовать для создания подзорный трубы, чайника и множества других предметов и декораций."]
 			id: "18FCE07AA8D0E689"
 			rewards: [{
 				count: 2
@@ -425,6 +445,7 @@
 				type: "item"
 			}]
 			shape: "gold"
+			subtitle: "Не самый важный слиток!"
 			tasks: [{
 				count: 4L
 				id: "5F950228DA1DBF2D"
@@ -437,9 +458,24 @@
 		}
 		{
 			dependencies: ["18FCE07AA8D0E689"]
-			description: ["С помощью подзорной трубы можно приближать какие-то предметы и рассматривать их с большого расстояния. "]
+			description: ["С помощью &6подзорной трубы&r можно приближать какие-либо предметы и рассматривать их с большого расстояния. "]
 			id: "432478ADFB14EC6F"
+			rewards: [
+				{
+					count: 2
+					id: "3227BAE403062867"
+					item: "minecraft:amethyst_block"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "4188C3A4423AD319"
+					item: "minecraft:budding_amethyst"
+					type: "item"
+				}
+			]
 			shape: "diamond"
+			subtitle: "Замена OptiFine!"
 			tasks: [{
 				id: "56CBA34675EEDC18"
 				item: "minecraft:spyglass"
@@ -581,9 +617,55 @@
 		}
 		{
 			dependencies: ["42A0AA3648A0912D"]
-			description: ["На наковальне можно соединять, чинить, переименовывать различные предметы."]
+			description: [
+				"&6Наковальню&r можно использовать для нескольких важный &aфункций&r игры."
+				""
+				"&aПочинка инструментов&r. С помощью этой функции можно чинить инструменты, добавляя к ним тот же материал, из которого создан инструмент, а также несколько уровней опыта. Например, для починки железных инструментов необходимо использовать железные слитки."
+				""
+				"&aПереименование&r. С помощью этой функции можно изменять имя любого предмета, добавляя для этого несколько уровней опыта. В игре спрятано несколько пасхалок, связанных с этой механикой. Попробуйте найти их!"
+				""
+				"&aНакладывание зачарований&r. С помощью этой функции можно накладывать зачарования на инструменты, добавляя к ним книгу зачарования и несколько уровней опыта. "
+			]
 			id: "34B3A9619C9D3FD3"
+			rewards: [
+				{
+					id: "1A8AC874FF74F792"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:efficiency"
+								lvl: 3s
+							}]
+						}
+					}
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "05FAF6670A2FFFC9"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:fortune"
+								lvl: 2s
+							}]
+						}
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "04A9387623EB6A9C"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
 			shape: "diamond"
+			subtitle: "Многофункциональный прибор!"
 			tasks: [{
 				id: "1AA9BFBDFF4C0918"
 				item: "minecraft:anvil"
@@ -740,9 +822,61 @@
 		}
 		{
 			dependencies: ["42A0AA3648A0912D"]
-			description: ["В столе кузнеца можно улучшать различные вещи."]
+			description: [
+				"&6Стол кузнеца&r используется для усиления некоторых предметов, путём наложения на них дополнительного материала. При этом новые предметы становятся более совершенными."
+				""
+				"В данной сборке это очень важный прибор, который имеет множество рецептов. Без него дойти до финального предмета и пройти сборку будет практически невозможно."
+			]
 			id: "7F45FD9CC1123787"
+			rewards: [
+				{
+					id: "6514DE42B5F5C4B6"
+					item: {
+						Count: 1b
+						id: "reliquary:potion"
+						tag: {
+							effects: [{
+								duration: 2250
+								name: "minecraft:speed"
+								potency: 1
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "243BAD73B9B9F24F"
+					item: {
+						Count: 1b
+						id: "reliquary:potion"
+						tag: {
+							effects: [{
+								duration: 750
+								name: "minecraft:strength"
+								potency: 0
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "48F75196E900E2C5"
+					item: {
+						Count: 1b
+						id: "reliquary:splash_potion"
+						tag: {
+							effects: [{
+								duration: 1
+								name: "minecraft:instant_damage"
+								potency: 1
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
 			shape: "diamond"
+			subtitle: "Незаменимый прибор для более поздних этапов игры!"
 			tasks: [{
 				id: "4276C9AAA1C4D1AE"
 				item: "minecraft:smithing_table"
@@ -753,7 +887,7 @@
 		}
 		{
 			dependencies: ["42A0AA3648A0912D"]
-			description: ["Ваша первая броня, но достаточно сильная."]
+			description: ["&6Железная броня&r довольно хорошо защищает от случайных попаданий. Но против серьёзных боссов она будет плохо выполнять свою работу."]
 			icon: {
 				Count: 1b
 				id: "minecraft:iron_chestplate"
@@ -762,7 +896,38 @@
 				}
 			}
 			id: "395367A55D4BB1AE"
+			rewards: [
+				{
+					count: 12
+					id: "6173169BA4EE618B"
+					item: "minecraft:iron_ingot"
+					random_bonus: 6
+					type: "item"
+				}
+				{
+					id: "3C29C76DFB80BB53"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "0958BCA15578480C"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:protection"
+								lvl: 2s
+							}]
+						}
+					}
+					random_bonus: 2
+					type: "item"
+				}
+			]
 			shape: "diamond"
+			subtitle: "Защита нужна для помощи в выживаемости в бою!"
 			tasks: [
 				{
 					id: "2F0AB66DA90E77D9"
@@ -815,7 +980,7 @@
 		}
 		{
 			dependencies: ["42A0AA3648A0912D"]
-			description: ["Железные инструменты более прочные и эффективные, чем каменные."]
+			description: ["&6Железные инструменты&r более удачный выбор, чем деревянные или каменные. Они имеют хорошую скорость копания, большой урон и достаточный запас прочности."]
 			icon: {
 				Count: 1b
 				id: "minecraft:iron_axe"
@@ -824,7 +989,55 @@
 				}
 			}
 			id: "1C114DB48476EBDF"
+			rewards: [
+				{
+					id: "3B5BBDBFAF13E0A2"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:sharpness"
+								lvl: 2s
+							}]
+						}
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "6B4A6FCAC6167E2A"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:efficiency"
+								lvl: 3s
+							}]
+						}
+					}
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "3DA67BFEE2A793C9"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:unbreaking"
+								lvl: 2s
+							}]
+						}
+					}
+					random_bonus: 3
+					type: "item"
+				}
+			]
 			shape: "diamond"
+			subtitle: "Удобный наборчик на ранних этапах игры!"
 			tasks: [
 				{
 					id: "3754CD3E4DBAB59A"
@@ -1343,9 +1556,28 @@
 		}
 		{
 			dependencies: ["18FCE07AA8D0E689"]
-			description: ["Громоотвод защищает ваши постройки от молний."]
+			description: [
+				"&6Громоотвод&r защищает ваши сооружения от молний, принимая их удар на себя."
+				""
+				"Для этого нужно просто поставить его в каком-нибудь месте, в которое и будут попадать ближайшие молнии."
+			]
 			id: "41775C50655769E3"
+			rewards: [
+				{
+					count: 4
+					id: "11FD0E8E04978AE4"
+					item: "minecraft:copper_ingot"
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					id: "068CE2D4AA02CB62"
+					item: "upgradednetherite_items:netherite_apple"
+					type: "item"
+				}
+			]
 			shape: "diamond"
+			subtitle: "Помогает устранить воспламенение, вызываемое молнией!"
 			tasks: [{
 				id: "644F6C656D1EB183"
 				item: "minecraft:lightning_rod"
