@@ -32,10 +32,25 @@
 		}
 		{
 			dependencies: ["2C99DE39599D0AE1"]
-			description: ["Ратуша - это самое первое и самое главное строение в вашей колонии. Именно с ратуши начинается развитие колонии!"]
+			description: ["&6Ратуша&r - это самое первое и самое главное строение в вашей колонии. Именно с ратуши начинается развитие колонии!"]
 			id: "2F7739EAE638E34C"
+			rewards: [{
+				id: "60DE35128ED5D913"
+				item: {
+					Count: 1b
+					id: "quark:ancient_tome"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:unbreaking"
+							lvl: 3s
+						}]
+					}
+				}
+				type: "item"
+			}]
 			shape: "iron"
 			size: 1.1d
+			subtitle: "Начало колонии!"
 			tasks: [{
 				id: "4636505E811CBFB1"
 				item: "minecolonies:blockhuttownhall"

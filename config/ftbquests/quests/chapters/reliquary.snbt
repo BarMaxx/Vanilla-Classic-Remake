@@ -169,7 +169,7 @@
 				xp_levels: 10
 			}]
 			shape: "gold"
-			subtitle: "Очень полезно!"
+			subtitle: "Бесконечный источник воды!"
 			tasks: [{
 				id: "38B428AACFAD2C72"
 				item: "reliquary:emperor_chalice"

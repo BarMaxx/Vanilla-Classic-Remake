@@ -312,9 +312,32 @@
 		}
 		{
 			dependencies: ["42A0AA3648A0912D"]
-			description: ["С помощью железной кирки можно сразу добыть 3 новых минерала. А именно - редстоун, золото и алмаз!"]
+			description: ["С помощью &6железной кирки&r можно сразу добыть 3 новых минерала. А именно - редстоун, золото и алмаз!"]
 			id: "665C7739C0310A43"
+			rewards: [
+				{
+					id: "2EFD692B3562680D"
+					item: "minecraft:raw_iron_block"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "6899975C1BA54D0D"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:efficiency"
+								lvl: 3s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
 			shape: "iron"
+			subtitle: "Краеугольный предмет этой ветки квестов!"
 			tasks: [{
 				id: "4BF0A82414A0AA04"
 				item: {
