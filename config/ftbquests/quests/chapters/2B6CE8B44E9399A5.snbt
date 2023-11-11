@@ -596,7 +596,11 @@
 		}
 		{
 			dependencies: ["665C7739C0310A43"]
-			description: ["Рудное золото можно найти под землей. С помощью рудного золота можно выплавить золотой слиток."]
+			description: [
+				"&6Рудное золото&r можно найти под землёй. А также, его можно получить в виде добычи, при убийстве Пещерного Крипера и Муммии."
+				""
+				"С помощью этого ресурса можно выплавить золотой слиток, используя печь."
+			]
 			id: "1BDA93BB0E51F5E4"
 			rewards: [{
 				count: 4
@@ -606,6 +610,7 @@
 				type: "item"
 			}]
 			shape: "iron"
+			subtitle: "Аж блестит!"
 			tasks: [{
 				count: 8L
 				id: "6DDE5292AB943FDF"
@@ -618,16 +623,37 @@
 		}
 		{
 			dependencies: ["1BDA93BB0E51F5E4"]
-			description: ["С помощью золотого слитка можно создавать различные полезные вещи."]
+			description: [
+				"С помощью &6золотого слитка&r можно создавать различные полезные вещи. "
+				""
+				"Но золотые инструменты и броня имеют очень маленькое количество прочности и это стоит учитывать при создании. "
+			]
 			id: "08F7863D82646291"
-			rewards: [{
-				count: 3
-				id: "069E13FB44F201CA"
-				item: "minecraft:gold_ingot"
-				random_bonus: 2
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 3
+					id: "069E13FB44F201CA"
+					item: "minecraft:gold_ingot"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "7C31B51FF93F6589"
+					item: {
+						Count: 1b
+						id: "quark:ancient_tome"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:unbreaking"
+								lvl: 3s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
 			shape: "gold"
+			subtitle: "Хрупкий металл!"
 			tasks: [{
 				count: 6L
 				id: "454EA8A14D365AEB"
@@ -1102,7 +1128,7 @@
 		}
 		{
 			dependencies: ["665C7739C0310A43"]
-			description: ["С помощью редстоуна можно создавать различные приборы и изобретения."]
+			description: ["С помощью &6редстоуна&r можно создавать различные приборы и изобретения. А также, автоматизировать различные процессы."]
 			id: "6C6BA8C9DB600AAF"
 			rewards: [{
 				count: 5
@@ -1112,6 +1138,7 @@
 				type: "item"
 			}]
 			shape: "gold"
+			subtitle: "Энергия?!"
 			tasks: [{
 				count: 8L
 				id: "22567894A154AAA5"
@@ -1124,9 +1151,24 @@
 		}
 		{
 			dependencies: ["6C6BA8C9DB600AAF"]
-			description: ["Просто компас."]
+			description: ["&6Компас&r указывает путь!"]
 			id: "2BD8D7BAC3660F0E"
+			rewards: [
+				{
+					id: "34B0AD293192DE3C"
+					item: "quark:redstone_randomizer"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "64B12F030D19ED5F"
+					item: "minecraft:redstone"
+					random_bonus: 16
+					type: "item"
+				}
+			]
 			shape: "gold"
+			subtitle: "Ориентирование в пространстве!"
 			tasks: [{
 				id: "18EBDEB44D0AE4AA"
 				item: "minecraft:compass"
@@ -1137,9 +1179,33 @@
 		}
 		{
 			dependencies: ["2BD8D7BAC3660F0E"]
-			description: ["Возвратный компас указывает на место вашей последней смерти!"]
+			description: ["&6Возвратный компас&r указывает на место вашей последней смерти!"]
 			id: "1083A006878C8823"
+			rewards: [
+				{
+					count: 2
+					id: "0A9A994B1AD905C4"
+					item: "minecraft:echo_shard"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "5A2920B156F44213"
+					item: {
+						Count: 1b
+						id: "quark:ancient_tome"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:sharpness"
+								lvl: 5s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
 			shape: "diamond"
+			subtitle: "Дорогостоящая, но вполне полезная вещь!"
 			tasks: [{
 				id: "2338F8908BE9E23D"
 				item: "minecraft:recovery_compass"
@@ -1150,9 +1216,24 @@
 		}
 		{
 			dependencies: ["2BD8D7BAC3660F0E"]
-			description: ["Компас природы позволяет вам искать любой биом в игре!"]
+			description: ["&6Компас природы&r позволяет найти любой биом в сборки и выстроить путь до него. Ну, либо просто телепортирует туда."]
 			id: "5891D3FA126A7470"
+			rewards: [{
+				id: "217D08C3EEB01557"
+				item: {
+					Count: 1b
+					id: "quark:ancient_tome"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:efficiency"
+							lvl: 5s
+						}]
+					}
+				}
+				type: "item"
+			}]
 			shape: "diamond"
+			subtitle: "Полезен в путешествиях!"
 			tasks: [{
 				id: "48B997D00446DD27"
 				item: {
@@ -1167,7 +1248,7 @@
 		}
 		{
 			dependencies: ["6C6BA8C9DB600AAF"]
-			description: ["Стимпанковая броня очень хорошо защищенна от взрывов!"]
+			description: ["&6Стимпанковая броня&r очень хорошо защищает от взрывов, что является её главной особенностью."]
 			icon: {
 				Count: 1b
 				id: "immersive_armors:steampunk_chestplate"
@@ -1176,7 +1257,23 @@
 				}
 			}
 			id: "786963EDF5B108CA"
+			rewards: [
+				{
+					id: "09CFBCC904F82667"
+					item: "minecraft:raw_gold_block"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					count: 4
+					id: "5894653D48799D51"
+					item: "minecraft:slime_ball"
+					random_bonus: 4
+					type: "item"
+				}
+			]
 			shape: "diamond"
+			subtitle: "Механизмы в броне?"
 			tasks: [
 				{
 					id: "32A39BD39F5CDBF8"
@@ -1473,7 +1570,7 @@
 		}
 		{
 			dependencies: ["08F7863D82646291"]
-			description: ["Очень хорошо защищают от взрывов."]
+			description: ["&6Взрывоустойчивые листы&r нужны для создания брони и блоков, которые будут защищать от взрывов."]
 			id: "12DB094CAC679515"
 			rewards: [{
 				count: 2
@@ -1483,6 +1580,7 @@
 				type: "item"
 			}]
 			shape: "gold"
+			subtitle: "Их непросто получить!"
 			tasks: [{
 				count: 8L
 				id: "2F64CDE38C680076"
@@ -1495,7 +1593,7 @@
 		}
 		{
 			dependencies: ["12DB094CAC679515"]
-			description: ["Очень хорошая броня, если вы боитесь криперов."]
+			description: ["&6Гриферская броня&r хорошо защищает от взрывов и очень хорошо подходит против криперов."]
 			icon: {
 				Count: 1b
 				id: "savage_and_ravage:griefer_chestplate"
@@ -1504,7 +1602,61 @@
 				}
 			}
 			id: "6940C2DE0E4D2AFE"
+			rewards: [
+				{
+					count: 6
+					id: "0D2FE4E79FF6D5BD"
+					item: "savage_and_ravage:blast_proof_plating"
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					id: "4783A14D77E07A40"
+					item: {
+						Count: 1b
+						id: "quark:ancient_tome"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:feather_falling"
+								lvl: 4s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "0208806374409C38"
+					item: {
+						Count: 1b
+						id: "quark:ancient_tome"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:thorns"
+								lvl: 3s
+							}]
+						}
+					}
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "4EA20725000231F7"
+					item: {
+						Count: 1b
+						id: "quark:ancient_tome"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:sharpness"
+								lvl: 5s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
 			shape: "diamond"
+			subtitle: "Странное название..."
 			tasks: [
 				{
 					id: "2833AB8D5B2EC065"
@@ -1557,16 +1709,40 @@
 		}
 		{
 			dependencies: ["12DB094CAC679515"]
-			description: ["Блок, которому не страшны взрывы."]
+			description: ["&6Взрывоустойчивая плитка&r - блок, которому не страшны взрывы."]
 			id: "152DF4D22DFFF7EB"
-			rewards: [{
-				count: 4
-				id: "0D34DBBB8966942F"
-				item: "savage_and_ravage:blast_proof_plates"
-				random_bonus: 2
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 4
+					id: "0D34DBBB8966942F"
+					item: "savage_and_ravage:blast_proof_plates"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 8
+					id: "71F83D2E9C1CC303"
+					item: "savage_and_ravage:blast_proof_plating"
+					random_bonus: 8
+					type: "item"
+				}
+				{
+					id: "163EE5A3057AD086"
+					item: {
+						Count: 1b
+						id: "quark:ancient_tome"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:unbreaking"
+								lvl: 3s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
 			shape: "diamond"
+			subtitle: "Защищает важные объекты от взрывов!"
 			tasks: [{
 				count: 8L
 				id: "118E7E6D70538865"
