@@ -16,9 +16,25 @@
 	quests: [
 		{
 			dependencies: ["34C1D59023AA23CD"]
+			description: [
+				"&6Глоубеты Gobber&r можно получить, добывая руду Gobber в шахте. "
+				""
+				"Для добычи нужна минимум алмазная кирка."
+				""
+				"Глоубеты Gobber нужны для создания &aГлоубов Gobber&r. "
+			]
 			id: "1ED09DF6E49AE5FC"
+			rewards: [{
+				count: 6
+				id: "5A90A52CB05AC7FD"
+				item: "gobber2:gobber2_globette"
+				random_bonus: 8
+				type: "item"
+			}]
 			shape: "dirt"
+			subtitle: "Камушки!"
 			tasks: [{
+				count: 8L
 				id: "72298EF5FE859123"
 				item: "gobber2:gobber2_globette"
 				type: "item"
@@ -28,9 +44,23 @@
 		}
 		{
 			dependencies: ["1ED09DF6E49AE5FC"]
+			description: [
+				"&6Глоуб Gobber&r создаётся из маленьких глоубетов Gobber. "
+				""
+				"Этот ресурс нужен для создания &aслитков Gobber&r, а также кучи других полезных предметов."
+			]
 			id: "08EDE234BE786942"
+			rewards: [{
+				count: 3
+				id: "12BEC47F5A8108C0"
+				item: "gobber2:gobber2_glob"
+				random_bonus: 2
+				type: "item"
+			}]
 			shape: "iron"
+			subtitle: "Полноценный ресурс!"
 			tasks: [{
+				count: 2L
 				id: "1AFB526E670016E5"
 				item: "gobber2:gobber2_glob"
 				type: "item"
@@ -286,9 +316,25 @@
 		}
 		{
 			dependencies: ["08EDE234BE786942"]
+			description: [
+				"&6Фо Gobber&r создаётся из Глоуб Gobber и из Древесного угля."
+				""
+				"Фо Gobber является &aулучшенным топливом&r для печи, которое лучше, чем обычный и древесный уголь."
+				""
+				"Время горения Фо Gobber &e64000&r, когда у обычного и древесного угля это время составляет всего &e80&r. "
+			]
 			id: "0653B7E8FBB27AA1"
+			rewards: [{
+				count: 6
+				id: "3C7D527AC2BACA58"
+				item: "gobber2:gobber2_foo"
+				random_bonus: 2
+				type: "item"
+			}]
 			shape: "diamond"
+			subtitle: "Улучшенное топливо!"
 			tasks: [{
+				count: 4L
 				id: "7AC8BB5733DB2D74"
 				item: "gobber2:gobber2_foo"
 				type: "item"

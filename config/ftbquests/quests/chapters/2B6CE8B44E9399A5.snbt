@@ -26,7 +26,7 @@
 			tasks: [{
 				count: 4L
 				icon: "minecraft:oak_log"
-				id: "2F7199E5C825CF58"
+				id: "032DBF937ACFA50D"
 				item: {
 					Count: 1b
 					id: "itemfilters:tag"
@@ -34,7 +34,7 @@
 						value: "minecraft:logs"
 					}
 				}
-				title: "Дерево"
+				title: "4х Брёвна"
 				type: "item"
 			}]
 			x: 0.0d
@@ -56,7 +56,7 @@
 			tasks: [{
 				count: 12L
 				icon: "minecraft:oak_planks"
-				id: "58E73ECCB76F9B2D"
+				id: "5E4F9561EE102CC5"
 				item: {
 					Count: 1b
 					id: "itemfilters:tag"
@@ -64,7 +64,7 @@
 						value: "minecraft:planks"
 					}
 				}
-				title: "Доски"
+				title: "12х Доски"
 				type: "item"
 			}]
 			x: 1.5d
@@ -130,16 +130,8 @@
 			subtitle: "Довольно твёрдый!"
 			tasks: [{
 				count: 4L
-				icon: "minecraft:cobblestone"
-				id: "65ED1A56F01C0656"
-				item: {
-					Count: 1b
-					id: "itemfilters:tag"
-					tag: {
-						value: "forge:cobblestone"
-					}
-				}
-				title: "Булыжник"
+				id: "45B1331FE213306F"
+				item: "minecraft:cobblestone"
 				type: "item"
 			}]
 			x: 6.05d
@@ -209,7 +201,6 @@
 				count: 8L
 				id: "78944241BE0CEE2D"
 				item: "minecraft:raw_iron"
-				title: "Рудное железо"
 				type: "item"
 			}]
 			x: 6.0d
@@ -274,7 +265,6 @@
 				count: 6L
 				id: "264F109200F7B407"
 				item: "minecraft:iron_ingot"
-				title: "Железный слиток"
 				type: "item"
 			}]
 			x: 8.5d
@@ -354,7 +344,11 @@
 		}
 		{
 			dependencies: ["665C7739C0310A43"]
-			description: ["Наверное самый важный минерал в игре. С его помощью можно создавать предметы, которые намного лучше других."]
+			description: [
+				"&6Алмаз&r, наверное, самый важный минерал в игре. Его можно добыть под землёй, но для этого придётся спуститься довольно глубоко."
+				""
+				"С его помощью можно создавать предметы, которые намного лучше других."
+			]
 			id: "7214867124566ED2"
 			rewards: [{
 				count: 2
@@ -364,11 +358,11 @@
 				type: "item"
 			}]
 			shape: "gold"
+			subtitle: "Блестяшки!"
 			tasks: [{
 				count: 4L
 				id: "437956EE26A4A83A"
 				item: "minecraft:diamond"
-				title: "Алмаз"
 				type: "item"
 			}]
 			x: 12.5d
@@ -376,9 +370,10 @@
 		}
 		{
 			dependencies: ["7214867124566ED2"]
-			description: ["С помощью алмазной кирки можно добывать обсидиан! А также, она намного лучше, чем железная."]
+			description: ["С помощью &6алмазной кирки&r можно добывать обсидиан! А также, она намного лучше, чем железная, потому что имеет больше прочности и добывает блоки с большей эффективностью."]
 			id: "4F01D81AEA74A654"
 			shape: "iron"
+			subtitle: "Максимальные возможности добычи!"
 			tasks: [{
 				id: "7EA07E74237EB5EE"
 				item: {
@@ -449,6 +444,7 @@
 			shape: "iron"
 			subtitle: "Более мягкая руда!"
 			tasks: [{
+				count: 4L
 				id: "5C9EF4E48960BADB"
 				item: "minecraft:raw_copper"
 				type: "item"
@@ -473,7 +469,6 @@
 				count: 4L
 				id: "5F950228DA1DBF2D"
 				item: "minecraft:copper_ingot"
-				title: "Медный слиток"
 				type: "item"
 			}]
 			x: 8.0d
@@ -530,8 +525,10 @@
 		}
 		{
 			dependencies: ["7214867124566ED2"]
+			description: ["&6Подбиранг&r можно кинуть и он будет ломать все блоки на своём пути."]
 			id: "6DEBC653A7DBCDE5"
 			shape: "gold"
+			subtitle: "Забавный инструмент!"
 			tasks: [{
 				id: "42FB6DC01DDBA952"
 				item: {
@@ -548,7 +545,7 @@
 		}
 		{
 			dependencies: ["4F01D81AEA74A654"]
-			description: ["С помощью обсидиана можно построить портал в Ад! А также, создать чародейский стол и эндер-сундук."]
+			description: ["С помощью &6обсидиана&r можно построить портал в &4Ад&r! А также, создать чародейский стол и эндер-сундук."]
 			id: "784141803D88C42E"
 			rewards: [{
 				count: 4
@@ -558,11 +555,11 @@
 				type: "item"
 			}]
 			shape: "gold"
+			subtitle: "Крепкий блок!"
 			tasks: [{
 				count: 8L
 				id: "4020DE806DC32E07"
 				item: "minecraft:obsidian"
-				title: "Обсидиан"
 				type: "item"
 			}]
 			x: 15.5d
@@ -570,9 +567,60 @@
 		}
 		{
 			dependencies: ["784141803D88C42E"]
-			description: ["С помощью чародейского стола можно зачаровывать предметы."]
+			description: ["С помощью &6чародейского стола&r можно зачаровывать предметы. Зачарования улучшают инструменты, броню и оружие, усиливая какие-то аспекты или добавляя совершено новые!"]
 			id: "634D0844C7C3BE55"
+			rewards: [
+				{
+					count: 2
+					id: "6DA4A947322BAE18"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:protection"
+								lvl: 3s
+							}]
+						}
+					}
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 2
+					id: "4145D3FE5AA6CE42"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:sharpness"
+								lvl: 3s
+							}]
+						}
+					}
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 2
+					id: "37FB03DC4EABD2E2"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:efficiency"
+								lvl: 3s
+							}]
+						}
+					}
+					random_bonus: 2
+					type: "item"
+				}
+			]
 			shape: "diamond"
+			subtitle: "Дополнительные улучшения!"
 			tasks: [{
 				id: "5BB88152270ECF75"
 				item: "minecraft:enchanting_table"
@@ -583,9 +631,15 @@
 		}
 		{
 			dependencies: ["784141803D88C42E"]
-			description: ["В эндер-сундук можно положить вещи и взять их в совершенно другом месте через другой эндер-сундук, что очень удобно!"]
+			description: ["В &6эндер-сундук&r можно положить вещи и взять их в совершенно другом месте через другой эндер-сундук, что очень удобно!"]
 			id: "1178C179B471D582"
+			rewards: [{
+				id: "23109D915D68309F"
+				item: "artifacts:obsidian_skull"
+				type: "item"
+			}]
 			shape: "diamond"
+			subtitle: "Магия, не иначе!"
 			tasks: [{
 				id: "3A11076783CE5D26"
 				item: "minecraft:ender_chest"
@@ -615,7 +669,6 @@
 				count: 8L
 				id: "6DDE5292AB943FDF"
 				item: "minecraft:raw_gold"
-				title: "Рудное золото"
 				type: "item"
 			}]
 			x: 11.0d
@@ -658,7 +711,6 @@
 				count: 6L
 				id: "454EA8A14D365AEB"
 				item: "minecraft:gold_ingot"
-				title: "Золотой слиток"
 				type: "item"
 			}]
 			x: 11.0d
@@ -740,7 +792,6 @@
 				count: 8L
 				id: "5F2C7721222FA5AA"
 				item: "minecraft:stick"
-				title: "Палка"
 				type: "item"
 			}]
 			x: 1.5d
@@ -799,28 +850,24 @@
 					count: 3L
 					id: "44A4DD5BF37784B3"
 					item: "minecraft:cooked_beef"
-					title: "Стейк"
 					type: "item"
 				}
 				{
 					count: 3L
 					id: "6C6089C848037F01"
 					item: "minecraft:cooked_mutton"
-					title: "Жареная баранина"
 					type: "item"
 				}
 				{
 					count: 3L
 					id: "6DAFCE36C794DAAB"
 					item: "minecraft:cooked_chicken"
-					title: "Жареная курица"
 					type: "item"
 				}
 				{
 					count: 3L
 					id: "3C1C5F5627E126EC"
 					item: "minecraft:cooked_porkchop"
-					title: "Жареная свинина"
 					type: "item"
 				}
 			]
@@ -830,8 +877,17 @@
 		}
 		{
 			dependencies: ["6DEBC653A7DBCDE5"]
+			description: ["&6Эхоранг&r работает также, как подбиранг. Но он излучает постоянные вибрации и увеличивает время полёта, если слышит крик Вардена."]
 			id: "15C1403790BAD877"
+			rewards: [{
+				count: 2
+				id: "4D41C4D6F00D92D3"
+				item: "minecraft:echo_shard"
+				random_bonus: 2
+				type: "item"
+			}]
 			shape: "diamond"
+			subtitle: "Необычный инструмент!"
 			tasks: [{
 				id: "693F654C643766EB"
 				item: {
@@ -863,7 +919,6 @@
 				count: 4L
 				id: "780F2155C6B95748"
 				item: "minecraft:baked_potato"
-				title: "Печёный картофель"
 				type: "item"
 			}]
 			x: 4.5d
@@ -1143,7 +1198,6 @@
 				count: 8L
 				id: "22567894A154AAA5"
 				item: "minecraft:redstone"
-				title: "Редстоуновая пыль"
 				type: "item"
 			}]
 			x: 11.0d
@@ -1326,7 +1380,7 @@
 		}
 		{
 			dependencies: ["7214867124566ED2"]
-			description: ["Алмазная броня намного лучше, чем железная броня."]
+			description: ["&6Алмазная броня&r намного лучше, чем железная броня. Да и в целом, на данном этапе это, наверное, лучшая броня. "]
 			icon: {
 				Count: 1b
 				id: "minecraft:diamond_chestplate"
@@ -1335,7 +1389,44 @@
 				}
 			}
 			id: "52A643BB1E2323D6"
+			rewards: [
+				{
+					id: "4C175944B560E104"
+					item: "minecraft:diamond_block"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "23F5BBE94A390D7C"
+					item: {
+						Count: 1b
+						id: "quark:ancient_tome"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:unbreaking"
+								lvl: 3s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "72FEDB88054A80B3"
+					item: {
+						Count: 1b
+						id: "quark:ancient_tome"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:sharpness"
+								lvl: 5s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
 			shape: "diamond"
+			subtitle: "Максимум защиты!"
 			tasks: [
 				{
 					id: "4F4B862D237F3B6C"
@@ -1388,7 +1479,7 @@
 		}
 		{
 			dependencies: ["7214867124566ED2"]
-			description: ["Алмазные инструменты более прочные и эффективные, чем железные."]
+			description: ["&6Алмазные инструменты&r более прочные и эффективные, чем железные. На данном этапе, наверное, самые лучшие инструменты."]
 			icon: {
 				Count: 1b
 				id: "minecraft:diamond_axe"
@@ -1397,7 +1488,59 @@
 				}
 			}
 			id: "6EFD35C8FFDEFD40"
+			rewards: [
+				{
+					count: 5
+					id: "3AD8FFEED425AAB9"
+					item: "minecraft:diamond"
+					random_bonus: 7
+					type: "item"
+				}
+				{
+					id: "39276F9302FC2CBA"
+					item: {
+						Count: 1b
+						id: "quark:ancient_tome"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:efficiency"
+								lvl: 5s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "527FEC2986D6F01E"
+					item: {
+						Count: 1b
+						id: "quark:ancient_tome"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:sharpness"
+								lvl: 5s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "46D437C5B0BDA65C"
+					item: {
+						Count: 1b
+						id: "quark:ancient_tome"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:unbreaking"
+								lvl: 3s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
 			shape: "diamond"
+			subtitle: "Максимум эффективности!"
 			tasks: [
 				{
 					id: "2D26466C6E8E4657"
@@ -1585,7 +1728,6 @@
 				count: 8L
 				id: "2F64CDE38C680076"
 				item: "savage_and_ravage:blast_proof_plating"
-				title: "Взрывоустойчивые листы"
 				type: "item"
 			}]
 			x: 11.0d
@@ -1747,7 +1889,6 @@
 				count: 8L
 				id: "118E7E6D70538865"
 				item: "savage_and_ravage:blast_proof_plates"
-				title: "Взрывоустойчивая плитка"
 				type: "item"
 			}]
 			x: 12.5d
