@@ -70,9 +70,25 @@
 		}
 		{
 			dependencies: ["08EDE234BE786942"]
+			description: [
+				"&6Слиток Gobber&r создается при помощи Глоуб Gobber, а также некоторых других ресурсов: Железный Слиток, Золотой Слиток и Алмаз. "
+				""
+				"Слиток Gobber необходим для создания &aинструментов&r, &aброни&r, &aпосохов&r, &aмедальонов&r и &aколец&r. А также для создания некоторых &aкомпонентов&r, которые потребуются в создании этих предметов."
+				""
+				"Слиток Gobber можно будет улучшить в дальнейшем до &aАдского Слитка Gobber&r."
+			]
 			id: "31A5D8D3BA9D9B6F"
+			rewards: [{
+				count: 3
+				id: "29CC97D16D826EE3"
+				item: "gobber2:gobber2_ingot"
+				random_bonus: 3
+				type: "item"
+			}]
 			shape: "gold"
+			subtitle: "Настоящий слиток!"
 			tasks: [{
+				count: 4L
 				id: "1F4561855CF50D46"
 				item: "gobber2:gobber2_ingot"
 				type: "item"
