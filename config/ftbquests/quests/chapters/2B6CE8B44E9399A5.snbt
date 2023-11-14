@@ -835,7 +835,6 @@
 		{
 			dependencies: ["796FACA96ED3EBEC"]
 			description: ["Довольно &6питательная&r еда!"]
-			icon: "minecraft:cooked_beef"
 			id: "311BE5963489AB19"
 			rewards: [{
 				icon: "minecraft:cooked_beef"
@@ -992,13 +991,6 @@
 		{
 			dependencies: ["42A0AA3648A0912D"]
 			description: ["&6Железная броня&r довольно хорошо защищает от случайных попаданий. Но против серьёзных боссов она будет плохо выполнять свою работу."]
-			icon: {
-				Count: 1b
-				id: "minecraft:iron_chestplate"
-				tag: {
-					Damage: 0
-				}
-			}
 			id: "395367A55D4BB1AE"
 			rewards: [
 				{
@@ -1085,13 +1077,6 @@
 		{
 			dependencies: ["42A0AA3648A0912D"]
 			description: ["&6Железные инструменты&r более удачный выбор, чем деревянные или каменные. Они имеют хорошую скорость копания, большой урон и достаточный запас прочности."]
-			icon: {
-				Count: 1b
-				id: "minecraft:iron_axe"
-				tag: {
-					Damage: 0
-				}
-			}
 			id: "1C114DB48476EBDF"
 			rewards: [
 				{
@@ -1303,13 +1288,6 @@
 		{
 			dependencies: ["6C6BA8C9DB600AAF"]
 			description: ["&6Стимпанковая броня&r очень хорошо защищает от взрывов, что является её главной особенностью."]
-			icon: {
-				Count: 1b
-				id: "immersive_armors:steampunk_chestplate"
-				tag: {
-					Damage: 0
-				}
-			}
 			id: "786963EDF5B108CA"
 			rewards: [
 				{
@@ -1381,13 +1359,6 @@
 		{
 			dependencies: ["7214867124566ED2"]
 			description: ["&6Алмазная броня&r намного лучше, чем железная броня. Да и в целом, на данном этапе это, наверное, лучшая броня. "]
-			icon: {
-				Count: 1b
-				id: "minecraft:diamond_chestplate"
-				tag: {
-					Damage: 0
-				}
-			}
 			id: "52A643BB1E2323D6"
 			rewards: [
 				{
@@ -1480,13 +1451,6 @@
 		{
 			dependencies: ["7214867124566ED2"]
 			description: ["&6Алмазные инструменты&r более прочные и эффективные, чем железные. На данном этапе, наверное, самые лучшие инструменты."]
-			icon: {
-				Count: 1b
-				id: "minecraft:diamond_axe"
-				tag: {
-					Damage: 0
-				}
-			}
 			id: "6EFD35C8FFDEFD40"
 			rewards: [
 				{
@@ -1583,13 +1547,6 @@
 		{
 			dependencies: ["72A952D88BACB448"]
 			description: ["Ваши первые &6инструменты&r! Они помогут в выживание и изучении мира сборки."]
-			icon: {
-				Count: 1b
-				id: "minecraft:wooden_axe"
-				tag: {
-					Damage: 0
-				}
-			}
 			id: "16EAF7AE7B6AE4AB"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1641,13 +1598,6 @@
 		{
 			dependencies: ["1353634C2CA41B60"]
 			description: ["&6Каменные инструменты&r немного лучше, чем деревянные. С ними будет ещё проще выживать в мире сборки и строить свой путь к главному Артефакту сборки."]
-			icon: {
-				Count: 1b
-				id: "minecraft:stone_axe"
-				tag: {
-					Damage: 0
-				}
-			}
 			id: "6DF7F5370669302A"
 			rewards: [{
 				count: 8
@@ -1736,13 +1686,6 @@
 		{
 			dependencies: ["12DB094CAC679515"]
 			description: ["&6Гриферская броня&r хорошо защищает от взрывов и очень хорошо подходит против криперов."]
-			icon: {
-				Count: 1b
-				id: "savage_and_ravage:griefer_chestplate"
-				tag: {
-					Damage: 0
-				}
-			}
 			id: "6940C2DE0E4D2AFE"
 			rewards: [
 				{

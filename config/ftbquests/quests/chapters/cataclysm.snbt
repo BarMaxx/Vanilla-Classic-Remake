@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "cataclysm"
+	group: "55E44FEC8E881863"
+	icon: "cataclysm:abyssal_sacrifice"
+	id: "0158D14894A5A510"
+	order_index: 0
+	quest_links: [ ]
+	quests: [ ]
+	title: "Cataclysm"
+}

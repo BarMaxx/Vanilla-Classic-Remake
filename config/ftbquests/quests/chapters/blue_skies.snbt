@@ -11,7 +11,7 @@
 		}
 	}
 	id: "28E3403250D0C15F"
-	order_index: 0
+	order_index: 1
 	quest_links: [ ]
 	quests: [{
 		dependencies: ["34C1D59023AA23CD"]

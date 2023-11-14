@@ -45,7 +45,7 @@
 		{
 			dependencies: ["1ED09DF6E49AE5FC"]
 			description: [
-				"&6Глоуб Gobber&r создаётся из маленьких глоубетов Gobber. "
+				"&6Глоуб Gobber&r создаётся из &e9&r маленьких глоубетов Gobber. "
 				""
 				"Этот ресурс нужен для создания &aслитков Gobber&r, а также кучи других полезных предметов."
 			]
@@ -272,9 +272,23 @@
 		}
 		{
 			dependencies: ["08EDE234BE786942"]
+			description: [
+				"&6Липкая Жижа&r создаётся при помощи Глоуб Gobber, а также некоторых других ресурсов: Яйцо, Сгусток Слизи и Сахар. "
+				""
+				"Липкая Жижа необходима для создания питательной еды. А именно - &aЛипкое Яблоко&r, &aЛипкий Хлеб&r и &aЛипкая Говядина&r. "
+			]
 			id: "346F69616CFC6A8A"
+			rewards: [{
+				count: 3
+				id: "6CA7AE644B6E41DF"
+				item: "gobber2:gobber2_goo"
+				random_bonus: 2
+				type: "item"
+			}]
 			shape: "gold"
+			subtitle: "Ингредиент для создания питетельной еды!"
 			tasks: [{
+				count: 4L
 				id: "46FFF9E5AC500FEA"
 				item: "gobber2:gobber2_goo"
 				type: "item"
@@ -284,9 +298,34 @@
 		}
 		{
 			dependencies: ["346F69616CFC6A8A"]
+			description: [
+				"&6Липкая Говядина&r создаётся при помощи Липкой Жижи, а также &e8&r обычных стейков."
+				""
+				"Липкая Говядина &aутоляет голод&r намного лучше обычной, а также даёт &aбольше насыщения&r, чем обычный стейк. "
+				""
+				"Липкая Говядина используется в создании &aЛипкого Бифштекса&r."
+			]
 			id: "226F9DFBDDCAAABC"
+			rewards: [
+				{
+					count: 2
+					id: "6391446A67619FC8"
+					item: "gobber2:gobber2_gooey_beef"
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					count: 2
+					id: "2EE12399C5A9F5A4"
+					item: "minecraft:golden_apple"
+					random_bonus: 1
+					type: "item"
+				}
+			]
 			shape: "gold"
+			subtitle: "Улучшенная говядина, дающая больше насыщения!"
 			tasks: [{
+				count: 4L
 				id: "1A7919A3D83A3D3D"
 				item: "gobber2:gobber2_gooey_beef"
 				type: "item"
@@ -296,8 +335,26 @@
 		}
 		{
 			dependencies: ["226F9DFBDDCAAABC"]
+			description: [
+				"&6Липкий Бифштекс&r создаётся при помощи Липкой Говядины, а также некоторых других ресурсов: Миска, Картофель, Морковь и Липкая Жижа."
+				""
+				"Липкий Бифштекст является очень &aсытным&r блюдом, а также даёт &e100&r% &aнасыщение&r. "
+			]
 			id: "01772069520E9529"
+			rewards: [
+				{
+					id: "52B478825BE6E11E"
+					item: "farmersdelight:apple_cider"
+					type: "item"
+				}
+				{
+					id: "442014CF11006AAA"
+					item: "farmersdelight:cooked_rice"
+					type: "item"
+				}
+			]
 			shape: "diamond"
+			subtitle: "Сытное блюдо, дающее 100% насыщение!"
 			tasks: [{
 				id: "4E88A4667E7E06B6"
 				item: "gobber2:gobber2_gooey_beefstew"
@@ -308,9 +365,32 @@
 		}
 		{
 			dependencies: ["346F69616CFC6A8A"]
+			description: [
+				"&6Липкий Хлеб&r создаётся при помощи Липкой Жижи, а также &e8&r обычных кусков Хлеба."
+				""
+				"Липкий Хлеб &aутоляет голод&r намного лучше обычного, а также даёт &aбольше насыщения&r, чем обычный Хлеб."
+			]
 			id: "3065F2E991D65BC4"
+			rewards: [
+				{
+					count: 2
+					id: "009C44C4C89CFA70"
+					item: "gobber2:gobber2_gooey_bread"
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					count: 2
+					id: "0B4007A80D0EA14B"
+					item: "minecraft:golden_apple"
+					random_bonus: 1
+					type: "item"
+				}
+			]
 			shape: "diamond"
+			subtitle: "Улучшенный хлеб, дающий больше насыщения!"
 			tasks: [{
+				count: 4L
 				id: "72B66B9E2FE5363D"
 				item: "gobber2:gobber2_gooey_bread"
 				type: "item"
@@ -320,9 +400,34 @@
 		}
 		{
 			dependencies: ["346F69616CFC6A8A"]
+			description: [
+				"&6Липкое Яблоко&r создаётся при помощи Липкой Жижи, а также &e8&r обычных Яблок. "
+				""
+				"Липкое Яблоко &aутоляет голод&r намного лучше обычного, а также даёт &aбольше насыщения&r, чем обычное Яблоко."
+				""
+				"Липкое Яблоко используется в создании &aМедальона Небольшого Исцеления&r. "
+			]
 			id: "2D2BF6AE7C91C24E"
+			rewards: [
+				{
+					count: 2
+					id: "68A28418D4BD72D1"
+					item: "gobber2:gobber2_gooey_apple"
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					count: 2
+					id: "00AA94149828CDB7"
+					item: "minecraft:golden_apple"
+					random_bonus: 1
+					type: "item"
+				}
+			]
 			shape: "diamond"
+			subtitle: "Улучшенное яблоко, дающее больше насыщения!"
 			tasks: [{
+				count: 4L
 				id: "3DD904173D171733"
 				item: "gobber2:gobber2_gooey_apple"
 				type: "item"
