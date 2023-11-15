@@ -480,10 +480,24 @@
 		}
 		{
 			dependencies: ["31A5D8D3BA9D9B6F"]
+			description: [
+				"&6Стержень Gobber&r создаётся при помощи &e3&r-х Слитков Gobber."
+				""
+				"Стержень Gobber необходим для создания различного &aоружия&r, &aинструментов&r и &aпосохов&r. "
+			]
 			hide_dependency_lines: true
 			id: "040561DDC1113B5C"
+			rewards: [{
+				count: 3
+				id: "009A65C610E581D1"
+				item: "gobber2:gobber2_rod"
+				random_bonus: 2
+				type: "item"
+			}]
 			shape: "gold"
+			subtitle: "Настолько прочный, что может содержать большую силу!"
 			tasks: [{
+				count: 4L
 				id: "238559D050853D72"
 				item: "gobber2:gobber2_rod"
 				type: "item"
@@ -554,8 +568,30 @@
 		}
 		{
 			dependencies: ["31A5D8D3BA9D9B6F"]
+			description: [
+				"&6Броня Gobber&r создаётся при помощи Слитков Gobber и Изумрудов. "
+				""
+				"Броня Gobber &aдостойно защищает&r своего носителя, но в то же время она имеет &aбольшой вес&r. "
+			]
 			id: "494F4F366329C0EA"
+			rewards: [
+				{
+					count: 9
+					id: "5FFFAEBC02C6F291"
+					item: "gobber2:gobber2_ingot"
+					random_bonus: 7
+					type: "item"
+				}
+				{
+					count: 4
+					id: "6B949D20D948BC8B"
+					item: "minecraft:netherite_scrap"
+					random_bonus: 2
+					type: "item"
+				}
+			]
 			shape: "diamond"
+			subtitle: "Хорошо защищающая, тяжёлая броня!"
 			tasks: [
 				{
 					id: "12D7165069AEF94C"
@@ -602,6 +638,7 @@
 					type: "item"
 				}
 			]
+			title: "Броня Gobber"
 			x: 3.5d
 			y: 1.0d
 		}

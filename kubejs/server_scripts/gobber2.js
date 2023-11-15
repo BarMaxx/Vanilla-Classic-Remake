@@ -64,4 +64,33 @@ ServerEvents.recipes(event => {
 	)
 	
 	
+	event.remove({output: 'gobber2:gobber2_rod'})
+	event.shaped(
+	  Item.of('gobber2:gobber2_rod'), 
+	  [
+	    ' G ',
+		' G ',
+		' G '
+	  ], 
+	  {
+		G: 'gobber2:gobber2_ingot'
+	  }
+	)
+	
+	
+	event.remove({output: 'gobber2:gobber2_boots'})
+	event.shaped(
+	  Item.of('gobber2:gobber2_boots'), 
+	  [
+	    '   ',
+		'G G',
+		'GEG'
+	  ], 
+	  {
+		G: 'gobber2:gobber2_ingot', 
+		E: 'minecraft:emerald'
+	  }
+	)
+	
+	
 })
