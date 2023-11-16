@@ -75,7 +75,7 @@
 				""
 				"Слиток Gobber необходим для создания &aинструментов&r, &aброни&r, &aпосохов&r, &aмедальонов&r и &aколец&r. А также для создания некоторых &aкомпонентов&r, которые потребуются в создании этих предметов."
 				""
-				"Слиток Gobber можно будет улучшить в дальнейшем до &aАдского Слитка Gobber&r."
+				"Слиток Gobber можно улучшить до &aАдского Слитка Gobber&r."
 			]
 			id: "31A5D8D3BA9D9B6F"
 			rewards: [{
@@ -116,6 +116,7 @@
 			id: "16BB3BF0783762C2"
 			shape: "iron"
 			tasks: [{
+				count: 2L
 				id: "0B3C167F74156548"
 				item: "gobber2:gobber2_glob_nether"
 				type: "item"
@@ -125,9 +126,25 @@
 		}
 		{
 			dependencies: ["34C1D59023AA23CD"]
+			description: [
+				"&6Адский Глоубет Gobber&r можно получить, добывая Адскую руду Gobber в Незере."
+				""
+				"Адский Глоубет Gobber &aдобывается&r только &aGobber киркой&r. "
+				""
+				"Адский Глоубет Gobber необходим для создания &aАдского Глоуба Gobber&r. "
+			]
 			id: "3C8971B6DFD6A54B"
+			rewards: [{
+				count: 6
+				id: "4631ADCE3070979E"
+				item: "gobber2:gobber2_globette_nether"
+				random_bonus: 8
+				type: "item"
+			}]
 			shape: "diamond"
+			subtitle: "Адские камушки!"
 			tasks: [{
+				count: 8L
 				id: "7CF0CECA3C276B72"
 				item: "gobber2:gobber2_globette_nether"
 				type: "item"
@@ -468,8 +485,30 @@
 				"08EDE234BE786942"
 				"040561DDC1113B5C"
 			]
+			description: [
+				"&6Посох Урожая&r создаётся при помощи &e2&r-ух Стержней Gobber, а также некоторых других ресурсов: Глоуба Gobber и &e2&r-ух Жёлтых Красителей. "
+				""
+				"Посох Урожая позволяет &aсобирать созревший урожай&r вокруг Игрока. Дальность действия данного приспособления - &e12&r блоков. "
+				""
+				"Посох Урожая можно улучшить до &aПосоха Фермера&r. "
+			]
 			id: "1A03FE01A8A8A3D3"
+			rewards: [
+				{
+					count: 4
+					id: "363571B7A86202B3"
+					item: "gobber2:gobber2_glob"
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					id: "73BC0CFCBCB7CD46"
+					item: "oceansdelight:bowl_of_guardian_soup"
+					type: "item"
+				}
+			]
 			shape: "iron"
+			subtitle: "Удобно использовать вместе с магнитом на больших по площади фермах!"
 			tasks: [{
 				id: "514D066BC3FA6766"
 				item: "gobber2:gobber2_staff_harvest"
@@ -507,8 +546,43 @@
 		}
 		{
 			dependencies: ["040561DDC1113B5C"]
+			description: [
+				"&6Топор для Деревьев Gobber&r создаётся при помощи &e2&r-ух Стержней Gobber, а также некоторых других ресурсов: Блока Gobber и &e2&r-ух Слитков Gobber. "
+				""
+				"Топор для Деревьев Gobber позволяет &aсрубать дерево целиком&r. А также, данный топор имеет &aнеплохой урон&r."
+				""
+				"{@pagebreak}"
+				"&6Молот Gobber&r создаётся при помощи &e2&r-ух Стержней Gobber, а также &e5&r Слитков Gobber."
+				""
+				"Молот Gobber позволяет &aкопать туннель&r &e3&rх&e3&r. "
+				""
+				"{@pagebreak}"
+				"&6Паксель Gobber&r создаётся при помощи &e2&r-ух Стержней Gobber, а также некоторых других ресурсов: Кирки Gobber, Топора Gobber и Лопаты Gobber. "
+				""
+				"Паксель Gobber &aсовмещает&r в себе &aкирку&r, &aтопор&r и &aлопату&r. По сути, данный инструмент является &aмульти-инструментом&r. А также, этот мульти-инструмент имеет &aнеплохой урон&r. "
+			]
 			id: "2FA19D8AA76A35C9"
+			rewards: [
+				{
+					count: 8
+					id: "3801E2244ECBF8E8"
+					item: "gobber2:gobber2_ingot"
+					random_bonus: 8
+					type: "item"
+				}
+				{
+					id: "4E2FA9DE38FCD716"
+					item: "oceansdelight:elder_guardian_roll"
+					type: "item"
+				}
+				{
+					id: "6AFD065877534704"
+					item: "culturaldelights:calamari_roll"
+					type: "item"
+				}
+			]
 			shape: "diamond"
+			subtitle: "Инструменты, которые помогут выживать более эффективно!"
 			tasks: [
 				{
 					id: "52739BA76FB6868B"
@@ -544,13 +618,39 @@
 					type: "item"
 				}
 			]
+			title: "Различные Инструменты"
 			x: -0.5d
 			y: 1.0d
 		}
 		{
 			dependencies: ["040561DDC1113B5C"]
+			description: [
+				"&6Посох Преисподней&r создаётся при помощи &e2&r-ух Стержней Gobber, а также некоторых других ресурсов: Нити и &e2&r-ух Изумрудов."
+				""
+				"Посох Преисподней позволяет &aзахватить и хранить&r несколько &aмобов&r (&oмирных и враждебных&r). Но он не работает на боссах. "
+				""
+				"{@pagebreak}"
+				"&6Посох Очистки&r создаётся при помощи &e2&r-ух Стержней Gobber, а также некоторых других ресурсов: Семечки Пшеницы и &e2&r-ух Зелёных Красителей."
+				""
+				"Посох Очистки позволяет  &aотчистить территорию&r &e12&rх&e12&r от травы, высокой травы и т.п. "
+			]
 			id: "00F51DB0B4CA3D5A"
+			rewards: [
+				{
+					count: 2
+					id: "637DF1BCEEAA8061"
+					item: "gobber2:gobber2_ingot"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "544BBC1E9EDF041C"
+					item: "culturaldelights:pufferfish_roll"
+					type: "item"
+				}
+			]
 			shape: "diamond"
+			subtitle: "Посохи, которые могут упростить игру в некоторых ситуациях!"
 			tasks: [
 				{
 					id: "6EC4F83F358668CE"
@@ -563,6 +663,7 @@
 					type: "item"
 				}
 			]
+			title: "Различные Посохи"
 			x: -0.5d
 			y: 3.0d
 		}
