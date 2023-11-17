@@ -64,6 +64,21 @@ ServerEvents.recipes(event => {
 	)
 	
 	
+	event.remove({output: 'gobber2:gobber2_foo_nether'})
+	event.shaped(
+	  Item.of('6x gobber2:gobber2_foo_nether'), 
+	  [
+	    'NGG',
+		'GGG',
+		'GGG'
+	  ], 
+	  {
+		G: 'gobber2:gobber2_foo',
+		N: 'gobber2:gobber2_glob_nether'
+	  }
+	)
+	
+	
 	event.remove({output: 'gobber2:gobber2_rod'})
 	event.shaped(
 	  Item.of('gobber2:gobber2_rod'), 

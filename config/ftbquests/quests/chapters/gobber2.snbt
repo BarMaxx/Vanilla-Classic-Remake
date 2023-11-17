@@ -47,7 +47,7 @@
 			description: [
 				"&6Глоуб Gobber&r создаётся из &e9&r маленьких глоубетов Gobber. "
 				""
-				"Этот ресурс нужен для создания &aслитков Gobber&r, а также кучи других полезных предметов."
+				"Глоуб Gobber нужен для создания &aслитков Gobber&r, а также множества других &aполезных предметов&r."
 			]
 			id: "08EDE234BE786942"
 			rewards: [{
@@ -113,8 +113,21 @@
 		}
 		{
 			dependencies: ["3C8971B6DFD6A54B"]
+			description: [
+				"&6Адский Глоуб Gobber&r создаётся при помощи &e9&r-и Адских Глоубетов Gobber. "
+				""
+				"Адский Глоуб Gobber нужен для создания &aАдского Слитка Gobber&r, а также множества других &aполезных предметов&r. "
+			]
 			id: "16BB3BF0783762C2"
+			rewards: [{
+				count: 3
+				id: "567A9ED2DCF570C9"
+				item: "gobber2:gobber2_glob_nether"
+				random_bonus: 2
+				type: "item"
+			}]
 			shape: "iron"
+			subtitle: "Полноценный Адский ресурс!"
 			tasks: [{
 				count: 2L
 				id: "0B3C167F74156548"
@@ -455,7 +468,7 @@
 		{
 			dependencies: ["08EDE234BE786942"]
 			description: [
-				"&6Фо Gobber&r создаётся из Глоуб Gobber и из Древесного угля."
+				"&6Фо Gobber&r создаётся из Глоуб Gobber и Древесного угля."
 				""
 				"Фо Gobber является &aулучшенным топливом&r для печи, которое лучше, чем обычный и древесный уголь."
 				""
@@ -805,9 +818,25 @@
 		}
 		{
 			dependencies: ["16BB3BF0783762C2"]
+			description: [
+				"&6Адский Фо Gobber&r создаётся из Адского Глоуба Gobber и &e8&r-и Фо Gobber."
+				""
+				"Адский Фо Gobber является &aулучшенным топливом&r для печи, которое лучше, чем обычный и древесный уголь."
+				""
+				"Время горения Адского Фо Gobber &e96000&r, когда у обычного и древесного угля это время составляет всего &e80&r. "
+			]
 			id: "305FE6E6399956B5"
+			rewards: [{
+				count: 6
+				id: "1B79177340B83FEB"
+				item: "gobber2:gobber2_foo_nether"
+				random_bonus: 2
+				type: "item"
+			}]
 			shape: "diamond"
+			subtitle: "Улучшенное топливо!"
 			tasks: [{
+				count: 4L
 				id: "571AF4E425BED450"
 				item: "gobber2:gobber2_foo_nether"
 				type: "item"
