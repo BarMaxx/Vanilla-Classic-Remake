@@ -136,4 +136,21 @@ ServerEvents.recipes(event => {
 	)
 	
 	
+	event.remove({output: 'gobber2:gobber2_goo'})
+	event.shaped(
+	  Item.of('gobber2:gobber2_goo'), 
+	  [
+	    ' S ',
+		'GBG',
+		' E '
+	  ], 
+	  {
+		G: 'gobber2:gobber2_glob', 
+		E: 'minecraft:egg',
+		B: 'minecraft:slime_ball',
+		S: 'minecraft:sugar'
+	  }
+	)
+	
+	
 })
