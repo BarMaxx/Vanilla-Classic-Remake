@@ -16,11 +16,11 @@ paths = ["textures/gui/*", "!minecraft:textures/gui/icons.png", "!minecraft:text
 dark_theme = false
 #Percentage of original interface brightness to apply.
 #Range: 0.0 ~ 1.0
-texture_darkness = 0.5
+texture_darkness = 0.21830985915492956
 #The minimum brightness value of font while dark mode is enabled.
 #Range: 0.0 ~ 1.0
-font_brightness = 0.75
+font_brightness = 0.4612676056338028
 #Algorithm selector for darkening interface pixels.
 #Allowed Values: GRAYSCALE_AND_HSP, HSP, GRAYSCALE_AND_HSL, HSL, GRAYSCALE_AND_LINEAR, LINEAR
-darkening_algorithm = "GRAYSCALE_AND_HSP"
+darkening_algorithm = "HSL"
 
