@@ -153,4 +153,111 @@ ServerEvents.recipes(event => {
 	)
 	
 	
+	event.remove({output: 'gobber2:gobber2_goo_nether'})
+	event.shaped(
+	  Item.of('gobber2:gobber2_goo_nether'), 
+	  [
+	    ' S ',
+		'NMN',
+		' E '
+	  ], 
+	  {
+		N: 'gobber2:gobber2_glob_nether', 
+		E: 'minecraft:egg',
+		M: 'minecraft:magma_cream',
+		S: 'minecraft:sugar'
+	  }
+	)
+	
+	
+	event.remove({output: 'gobber2:gobber2_gooey_apple'})
+	event.shaped(
+	  Item.of('4x gobber2:gobber2_gooey_apple'), 
+	  [
+	    'GAA',
+		'AAA',
+		'AAA'
+	  ], 
+	  {
+		G: 'gobber2:gobber2_goo', 
+		A: 'minecraft:apple'
+	  }
+	)
+	
+	
+	event.remove({output: 'gobber2:gobber2_gooey_apple_nether'})
+	event.shaped(
+	  Item.of('4x gobber2:gobber2_gooey_apple_nether'), 
+	  [
+	    'NAA',
+		'AAA',
+		'AAA'
+	  ], 
+	  {
+		N: 'gobber2:gobber2_goo_nether', 
+		A: 'minecraft:apple'
+	  }
+	)
+	
+	
+	event.remove({output: 'gobber2:gobber2_gooey_bread'})
+	event.shaped(
+	  Item.of('4x gobber2:gobber2_gooey_bread'), 
+	  [
+	    'GBB',
+		'BBB',
+		'BBB'
+	  ], 
+	  {
+		G: 'gobber2:gobber2_goo', 
+		B: 'minecraft:bread'
+	  }
+	)
+	
+	
+	event.remove({output: 'gobber2:gobber2_gooey_bread_nether'})
+	event.shaped(
+	  Item.of('4x gobber2:gobber2_gooey_bread_nether'), 
+	  [
+	    'NBB',
+		'BBB',
+		'BBB'
+	  ], 
+	  {
+		N: 'gobber2:gobber2_goo_nether', 
+		B: 'minecraft:bread'
+	  }
+	)
+	
+	
+	event.remove({output: 'gobber2:gobber2_gooey_beef'})
+	event.shaped(
+	  Item.of('4x gobber2:gobber2_gooey_beef'), 
+	  [
+	    'GBB',
+		'BBB',
+		'BBB'
+	  ], 
+	  {
+		G: 'gobber2:gobber2_goo', 
+		B: 'minecraft:cooked_beef'
+	  }
+	)
+	
+	
+	event.remove({output: 'gobber2:gobber2_gooey_beef_nether'})
+	event.shaped(
+	  Item.of('4x gobber2:gobber2_gooey_beef_nether'), 
+	  [
+	    'NBB',
+		'BBB',
+		'BBB'
+	  ], 
+	  {
+		N: 'gobber2:gobber2_goo_nether', 
+		B: 'minecraft:cooked_beef'
+	  }
+	)
+	
+	
 })
