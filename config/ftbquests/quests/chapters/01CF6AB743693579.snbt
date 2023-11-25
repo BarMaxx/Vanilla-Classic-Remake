@@ -433,16 +433,6 @@
 			x: -1.5d
 			y: -1.5d
 		}
-		{
-			id: "5D2A32EA0E12467E"
-			tasks: [{
-				id: "6E3BE32850E5A2D5"
-				item: "cataclysm:tidal_claws"
-				type: "item"
-			}]
-			x: 5.0d
-			y: 3.0d
-		}
 	]
 	title: "End"
 }

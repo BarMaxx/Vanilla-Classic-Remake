@@ -156,7 +156,7 @@
 		{
 			dependencies: ["34C1D59023AA23CD"]
 			description: [
-				"&6Адский глоубет Gobber&r можно получить, добывая адскую руду Gobber в Незере."
+				"&6Адский глоубет Gobber&r можно получить, добывая адскую руду Gobber в &4Незере&r."
 				""
 				"Адский глоубет Gobber &aдобывается&r только &aGobber киркой&r. "
 				""
@@ -170,7 +170,7 @@
 				random_bonus: 8
 				type: "item"
 			}]
-			shape: "diamond"
+			shape: "dirt"
 			subtitle: "Адские камушки!"
 			tasks: [{
 				count: 8L
@@ -186,9 +186,25 @@
 				"74F59CD499BC477C"
 				"19A6C469328914AA"
 			]
+			description: [
+				"&6Слиток края Gobber&r создаётся при помощи &e4&r-х глоубов края Gobber, а также некоторых других ресурсов: &e4&r-х адских слитков Gobber и слитка стеллия."
+				""
+				"Слиток края Gobber необходимо для создания &aинструментов&r, &aброни&r, &aпосохов&r, &aмедальонов&r и &aколец&r. А также, для создания некоторых &aкомпонентов&r, которые потребуются в создании этих предметов."
+				""
+				"Кроме этого, слиток края Gobber необходим для создания &aЗвезды дракона&r и &aЭлитр дракона&r. "
+			]
 			id: "50C683E564944A1A"
+			rewards: [{
+				count: 3
+				id: "4AA02ECDF919110D"
+				item: "gobber2:gobber2_ingot_end"
+				random_bonus: 3
+				type: "item"
+			}]
 			shape: "gold"
+			subtitle: "Настоящий слиток Края!"
 			tasks: [{
+				count: 4L
 				id: "3AC1997D53397F49"
 				item: "gobber2:gobber2_ingot_end"
 				type: "item"
@@ -198,9 +214,23 @@
 		}
 		{
 			dependencies: ["2D0CBF484C3D09CB"]
+			description: [
+				"&6Глоуб края Gobber&r создаётся при помощи &e9&r-и глоубетов края Gobber. "
+				""
+				"Глоуб края Gobber нужен для создания &aСлитка края Gobber&r, а также множества других &aполезных предметов&r. "
+			]
 			id: "19A6C469328914AA"
+			rewards: [{
+				count: 3
+				id: "358E4601913CEDA7"
+				item: "gobber2:gobber2_glob_end"
+				random_bonus: 2
+				type: "item"
+			}]
 			shape: "iron"
+			subtitle: "Полноценный ресурс Края!"
 			tasks: [{
+				count: 2L
 				id: "2208E4CF061F0AE4"
 				item: "gobber2:gobber2_glob_end"
 				type: "item"
@@ -210,9 +240,25 @@
 		}
 		{
 			dependencies: ["34C1D59023AA23CD"]
+			description: [
+				"&6Глоубет края Gobber&r можно получить, добывая руду края Gobber в &5Краю&r."
+				""
+				"Глоубет края Gobber &aдобывается&r только &aадской киркой Gobber&r. "
+				""
+				"Глоубет края Gobber необходим для создания &aГлоуба края Gobber&r. "
+			]
 			id: "2D0CBF484C3D09CB"
-			shape: "diamond"
+			rewards: [{
+				count: 6
+				id: "381C0FB7131B6D81"
+				item: "gobber2:gobber2_globette_end"
+				random_bonus: 8
+				type: "item"
+			}]
+			shape: "dirt"
+			subtitle: "Камушки края!"
 			tasks: [{
+				count: 8L
 				id: "5ED66C9EC623E61B"
 				item: "gobber2:gobber2_globette_end"
 				type: "item"
@@ -701,7 +747,7 @@
 			description: [
 				"&6Броня Gobber&r создаётся при помощи слитков Gobber и изумрудов. "
 				""
-				"Броня Gobber &aдостойно защищает&r своего носителя, но в то же время она имеет &aбольшой вес&r. "
+				"Броня Gobber &aнеплохо защищает&r своего носителя."
 			]
 			id: "494F4F366329C0EA"
 			rewards: [
@@ -967,9 +1013,23 @@
 		}
 		{
 			dependencies: ["74F59CD499BC477C"]
+			description: [
+				"&6Адский стержень Gobber&r создаётся при помощи &e3&r-х адских слитков Gobber."
+				""
+				"Адский стержень Gobber необходим для создания различного &aоружия&r, &aинструментов&r и &aпосохов&r. "
+			]
 			id: "31CB28162642A634"
+			rewards: [{
+				count: 3
+				id: "0F4AB71A6A3717C5"
+				item: "gobber2:gobber2_rod_nether"
+				random_bonus: 2
+				type: "item"
+			}]
 			shape: "gold"
+			subtitle: "Ещё более прочный и позволяет содержать большую силу!"
 			tasks: [{
+				count: 4L
 				id: "32926842B3DBFBF2"
 				item: "gobber2:gobber2_rod_nether"
 				type: "item"
@@ -1077,9 +1137,9 @@
 		{
 			dependencies: ["74F59CD499BC477C"]
 			description: [
-				"&6Адская броня &r создаётся при помощи адских слитков Gobber и звёзд Незера. "
+				"&6Адская броня&r создаётся при помощи адских слитков Gobber и звёзд Незера. "
 				""
-				"Адкая броня &aдостойно защищает&r своего носителя, но в то же время она имеет &aбольшой вес&r. "
+				"Адкая броня &aдостойно защищает&r своего носителя."
 			]
 			id: "0FBBCAD46B69BD6B"
 			rewards: [
@@ -1152,9 +1212,25 @@
 		}
 		{
 			dependencies: ["19A6C469328914AA"]
+			description: [
+				"&6Фо края Gobber&r создаётся из глоуба края Gobber и &e8&r-и адских фо Gobber."
+				""
+				"Фо края Gobber является &aулучшенным топливом&r для печи, которое лучше, чем обычный и древесный уголь."
+				""
+				"Время горения фо края Gobber &e128000&r, когда у обычного и древесного угля это время составляет всего &e80&r. "
+			]
 			id: "41CFAA2B493FD21D"
+			rewards: [{
+				count: 6
+				id: "3323DB53F7B1705E"
+				item: "gobber2:gobber2_foo_end"
+				random_bonus: 2
+				type: "item"
+			}]
 			shape: "diamond"
+			subtitle: "Улучшенное топливо!"
 			tasks: [{
+				count: 4L
 				id: "230FDCC05A689B1E"
 				item: "gobber2:gobber2_foo_end"
 				type: "item"
@@ -1188,8 +1264,32 @@
 		}
 		{
 			dependencies: ["461AC034EF33F28E"]
+			description: [
+				"&6Броня края&r создаётся при помощи соединений брони края. "
+				""
+				"Броня края очень &aхорошо защащает&r своего хозяина."
+				""
+				"Броню края можно улучшить до &aДракониевой брони&r."
+			]
 			id: "0599C97AAB449DB4"
+			rewards: [
+				{
+					count: 9
+					id: "156A40D62A7B0DEE"
+					item: "gobber2:gobber2_ingot_end"
+					random_bonus: 7
+					type: "item"
+				}
+				{
+					count: 2
+					id: "61394AD8B0665175"
+					item: "minecraft:nether_star"
+					random_bonus: 2
+					type: "item"
+				}
+			]
 			shape: "diamond"
+			subtitle: "Практически максимальная защита!"
 			tasks: [
 				{
 					id: "4D2AA73E155AD965"
@@ -1236,14 +1336,29 @@
 					type: "item"
 				}
 			]
+			title: "Броня края"
 			x: 11.0d
 			y: 2.5d
 		}
 		{
 			dependencies: ["50C683E564944A1A"]
+			description: [
+				"&6Стержень края Gobber&r создаётся при помощи &e3&r-х слитков края Gobber."
+				""
+				"Стержень края Gobber необходим для создания различного &aоружия&r, &aинструментов&r и &aпосохов&r. "
+			]
 			id: "7590E34F91E8F0FC"
+			rewards: [{
+				count: 3
+				id: "71EF9C6F1B9917DC"
+				item: "gobber2:gobber2_rod_end"
+				random_bonus: 2
+				type: "item"
+			}]
 			shape: "iron"
+			subtitle: "Максимально прочный и содержит максимальную силу!"
 			tasks: [{
+				count: 4L
 				id: "2F2F923FF741F983"
 				item: "gobber2:gobber2_rod_end"
 				type: "item"
