@@ -268,9 +268,32 @@
 		}
 		{
 			dependencies: ["50C683E564944A1A"]
+			description: [
+				"&6Звезда дракона&r создаётся при помощи &e4&r-х слитков края Gobber, а также некоторых других ресурсов: &e4&r-х яиц дракона и звезды Незера. "
+				""
+				"Звезда дракона необходима для создания &aДракониевой брони&r.  "
+			]
 			id: "4B44DD08F7769D65"
+			rewards: [
+				{
+					count: 4
+					id: "76E8C06B2EE3AC4F"
+					item: "gobber2:gobber2_ingot_end"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 2
+					id: "72ED41575DA546FD"
+					item: "minecraft:nether_star"
+					random_bonus: 1
+					type: "item"
+				}
+			]
 			shape: "gold"
+			subtitle: "Ингредиент для крафта Дракониевой брони!"
 			tasks: [{
+				count: 2L
 				id: "66721D008AE2D880"
 				item: "gobber2:dragon_star"
 				type: "item"
@@ -280,8 +303,30 @@
 		}
 		{
 			dependencies: ["50C683E564944A1A"]
+			description: [
+				"&6Элитры дракона&r создаются при помощи &e4&r-х слиток края Gobber, а также некоторых других ресурсов: &e4&r-х яиц дракона и элитр."
+				""
+				"Элитры дракона необходимы для создания &aДракониевого нагрудника&r."
+			]
 			id: "026336A8F6BA44CF"
+			rewards: [
+				{
+					count: 4
+					id: "288FEDCF85BA10E9"
+					item: "gobber2:gobber2_ingot_end"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 2
+					id: "1E47DD9418F0E057"
+					item: "minecraft:nether_star"
+					random_bonus: 2
+					type: "item"
+				}
+			]
 			shape: "diamond"
+			subtitle: "Ингредиент для крафта Дракониевого нагрудника!"
 			tasks: [{
 				id: "341882209F29087C"
 				item: "gobber2:dragon_elytra"
@@ -1240,9 +1285,23 @@
 		}
 		{
 			dependencies: ["50C683E564944A1A"]
+			description: [
+				"&6Кольцо края&r создаётся при помощи &e4&r-х слитков края Gobber. "
+				""
+				"Кольцо края необходимо для создания множество других &aколец&r, а также для создания &aСоединения брони края&r. "
+			]
 			id: "634B483DE20BAAE6"
+			rewards: [{
+				count: 4
+				id: "625995455F9E6EB9"
+				item: "gobber2:gobber2_ring_end"
+				random_bonus: 4
+				type: "item"
+			}]
 			shape: "iron"
+			subtitle: "Основной компонент других колец!"
 			tasks: [{
+				count: 4L
 				id: "0E4EC83A75981D6F"
 				item: "gobber2:gobber2_ring_end"
 				type: "item"
@@ -1252,9 +1311,23 @@
 		}
 		{
 			dependencies: ["634B483DE20BAAE6"]
+			description: [
+				"&6Соединения брони края&r создаются при помощи &e8&r-и колец края, а также &e2&r-ух звёзд Незера. "
+				""
+				"Соединения брони края необходимы для создания &aБрони края&r."
+			]
 			id: "461AC034EF33F28E"
+			rewards: [{
+				count: 4
+				id: "5658B8808716C35B"
+				item: "gobber2:gobber2_links_end"
+				random_bonus: 4
+				type: "item"
+			}]
 			shape: "gold"
+			subtitle: "Ингредиент для крафта Брони края!"
 			tasks: [{
+				count: 8L
 				id: "6A8861374B29324C"
 				item: "gobber2:gobber2_links_end"
 				type: "item"

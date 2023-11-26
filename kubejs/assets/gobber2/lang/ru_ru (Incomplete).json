@@ -165,12 +165,12 @@
 	"item.gobber2.gobber2_ring_nether": "Адское кольцо",
 	"item.gobber2.gobber2_ring_end": "Кольцо края",
 
-	"item.gobber2.gobber2_ring_above": "Ring of Above (and Below)",
-	"item.gobber2.gobber2_ring_above.line1": "Teleports the player to the highest safe block directly above",
-	"item.gobber2.gobber2_ring_above.line2": "Right-click to use",
-	"item.gobber2.gobber2_ring_above.line3": "Shift + right-click teleports player to lowest safe block directly below",
-	"item.gobber2.gobber2_ring_above.line4": "Be careful with the below, you may go way undergound!",
-	"item.gobber2.gobber2_ring_above.line5": "Sorry, this ring only works in the Overworld",
+	"item.gobber2.gobber2_ring_above": "Кольцо высоты (и низоты)",
+	"item.gobber2.gobber2_ring_above.line1": "Телепортирует Игрока на самый высокий безопасный блок прямо над ним",
+	"item.gobber2.gobber2_ring_above.line2": "Нажмите ПКМ, чтобы использовать",
+	"item.gobber2.gobber2_ring_above.line3": "Нажмите Shift + ПКМ, чтобы телепортироваться на самый нижний безопасный блок прямо под вами",
+	"item.gobber2.gobber2_ring_above.line4": "Будьте безопасны с низостью, вы можете уйти далеко под землю!",
+	"item.gobber2.gobber2_ring_above.line5": "Простите, это кольцо работает только в Верхнем мире",
 
 	"item.gobber2.gobber2_ring_acceleration": "Ring of Acceleration",
 	"item.gobber2.gobber2_ring_acceleration.line1": "Provides a boost in velocity while player is aloft",
