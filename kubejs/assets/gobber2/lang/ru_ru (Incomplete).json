@@ -172,14 +172,14 @@
 	"item.gobber2.gobber2_ring_above.line4": "Будьте безопасны с низостью, вы можете уйти далеко под землю!",
 	"item.gobber2.gobber2_ring_above.line5": "Простите, это кольцо работает только в Верхнем мире",
 
-	"item.gobber2.gobber2_ring_acceleration": "Ring of Acceleration",
-	"item.gobber2.gobber2_ring_acceleration.line1": "Provides a boost in velocity while player is aloft",
-	"item.gobber2.gobber2_ring_acceleration.line2": "Right-click and hold, then jump",
-	"item.gobber2.gobber2_ring_acceleration.line3": "Velocity value in config is set too high",
+	"item.gobber2.gobber2_ring_acceleration": "Кольцо ускорения",
+	"item.gobber2.gobber2_ring_acceleration.line1": "Обеспечивает увелечение скорости при нахождении Игрока в воздухе",
+	"item.gobber2.gobber2_ring_acceleration.line2": "Нажмите и удерживайте ПКМ, чтобы прыгать",
+	"item.gobber2.gobber2_ring_acceleration.line3": "Значение скорости в конфигурации установлено слишком высоко",
 
-	"item.gobber2.gobber2_ring_airwalking": "Ring of Air Walking",
-	"item.gobber2.gobber2_ring_airwalking.line1": "Provides the ability to walk on air",
-	"item.gobber2.gobber2_ring_airwalking.line2": "Right-click on air block to place a Gobber Glass block",
+	"item.gobber2.gobber2_ring_airwalking": "Кольцо воздушной ходьбы",
+	"item.gobber2.gobber2_ring_airwalking.line1": "Обеспечивает возможность ходить по воздуху",
+	"item.gobber2.gobber2_ring_airwalking.line2": "Нажмите ПКМ по блоку воздуха, чтобы разместить Чистое стекло",
 
 	"item.gobber2.gobber2_ring_ascent": "Ring of Ascent",
 	"item.gobber2.gobber2_ring_ascent.line1": "Provides the player 3 minutes of Levitation",

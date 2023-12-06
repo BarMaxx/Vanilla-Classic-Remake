@@ -337,8 +337,15 @@
 		}
 		{
 			dependencies: ["4B44DD08F7769D65"]
+			description: ["&6Драконий шлем&r - один из &aлучших&r шлемов в этой сборке."]
 			id: "2F7C76899D352F45"
+			rewards: [{
+				id: "3CB207FB8AD7EE8C"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
 			shape: "diamond"
+			subtitle: "Неуязвимость и удобства!"
 			tasks: [{
 				id: "157F0BB45E177D1C"
 				item: {
@@ -355,8 +362,15 @@
 		}
 		{
 			dependencies: ["4B44DD08F7769D65"]
+			description: ["&6Драконий нагрудник&r - один из &aлучших&r нагрудников в этой сборке."]
 			id: "6DEEF116F0C17DB3"
+			rewards: [{
+				id: "4D8797C4FB4769BC"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
 			shape: "diamond"
+			subtitle: "Неуязвимость и удобства!"
 			tasks: [{
 				id: "571EA3D8AB174A98"
 				item: {
@@ -373,8 +387,15 @@
 		}
 		{
 			dependencies: ["4B44DD08F7769D65"]
+			description: ["&6Драконие поножи&r - одни из &aлучших&r поножей в этой сборке."]
 			id: "419201FBE07A6BCD"
+			rewards: [{
+				id: "7D94D1E5E797DC70"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
 			shape: "diamond"
+			subtitle: "Неуязвимость и удобства!"
 			tasks: [{
 				id: "2A0AAD7144F41849"
 				item: {
@@ -391,8 +412,15 @@
 		}
 		{
 			dependencies: ["4B44DD08F7769D65"]
+			description: ["&6Драконие ботинки&r - одни из &aлучших&r ботинок в этой сборке."]
 			id: "2E6489E73B5AED47"
+			rewards: [{
+				id: "5E4D2BBEC4D327F6"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
 			shape: "diamond"
+			subtitle: "Неуязвимость и удобства!"
 			tasks: [{
 				id: "20F6B542B380387C"
 				item: {
