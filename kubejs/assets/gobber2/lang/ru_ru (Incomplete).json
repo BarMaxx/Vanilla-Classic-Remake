@@ -181,11 +181,11 @@
 	"item.gobber2.gobber2_ring_airwalking.line1": "Обеспечивает возможность ходить по воздуху",
 	"item.gobber2.gobber2_ring_airwalking.line2": "Нажмите ПКМ по блоку воздуха, чтобы разместить Чистое стекло",
 
-	"item.gobber2.gobber2_ring_ascent": "Ring of Ascent",
-	"item.gobber2.gobber2_ring_ascent.line1": "Provides the player 3 minutes of Levitation",
-	"item.gobber2.gobber2_ring_ascent.line2": "Right-click in offhand to use, press sneak to remove effect",
-	"item.gobber2.gobber2_ring_ascent.line3": "Use with Ring of Acceleration for faster traveling",
-	"item.gobber2.gobber2_ring_ascent.line4": "Provides No Fall Damage while held in main, off hand or enderchest",
+	"item.gobber2.gobber2_ring_ascent": "Кольцо восхождения",
+	"item.gobber2.gobber2_ring_ascent.line1": "Обеспечивает Игроку 3-х минутное парение в воздухе",
+	"item.gobber2.gobber2_ring_ascent.line2": "Нажмите ПКМ, чтобы использовать. Нажмите Shift, чтобы удалить эффект",
+	"item.gobber2.gobber2_ring_ascent.line3": "Используйте с Кольцом Ускорения, чтобы путешествовать быстрее",
+	"item.gobber2.gobber2_ring_ascent.line4": "Обеспечивает отсутствие урона при падении, если удерживать в руке/эндер-сундуке",
 
 	"item.gobber2.gobber2_ring_attraction": "Ring of Attraction",
 	"item.gobber2.gobber2_ring_attraction.line1": "A magnet that draws dropped items toward the player",
