@@ -395,7 +395,7 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["44134EE872FCDB7D"]
+			dependencies: ["653B567D11A82D11"]
 			id: "20C904F4EE6D103C"
 			shape: "gold"
 			tasks: [{
@@ -404,8 +404,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 9.0d
-			y: 1.0d
+			x: 6.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["20C904F4EE6D103C"]
@@ -416,8 +416,8 @@
 				item: "twilightforest:ur_ghast_trophy"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 2.0d
+			x: 5.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["20C904F4EE6D103C"]
@@ -428,8 +428,8 @@
 				item: "twilightforest:carminite"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 0.0d
+			x: 6.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["20C904F4EE6D103C"]
@@ -440,8 +440,8 @@
 				item: "twilightforest:fiery_tears"
 				type: "item"
 			}]
-			x: 9.5d
-			y: 2.0d
+			x: 6.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["4DA0EF7E83174979"]
@@ -453,7 +453,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 6.5d
+			x: 3.5d
 			y: 2.5d
 		}
 		{
@@ -465,8 +465,8 @@
 				item: "twilightforest:alpha_yeti_trophy"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 2.5d
+			x: 2.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["0B8EB3D5AA1768F0"]
@@ -477,7 +477,7 @@
 				item: "twilightforest:alpha_yeti_fur"
 				type: "item"
 			}]
-			x: 6.5d
+			x: 3.5d
 			y: 1.5d
 		}
 		{
@@ -552,8 +552,8 @@
 					type: "item"
 				}
 			]
-			x: 6.0d
-			y: 0.5d
+			x: 4.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["0B8EB3D5AA1768F0"]
@@ -564,7 +564,7 @@
 				item: "twilightforest:ice_bomb"
 				type: "item"
 			}]
-			x: 7.0d
+			x: 3.5d
 			y: 3.5d
 		}
 		{
@@ -577,8 +577,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 3.5d
-			y: 2.5d
+			x: 0.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["15B58FFDBB2B3766"]
@@ -589,8 +589,8 @@
 				item: "twilightforest:snow_queen_trophy"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 2.0d
+			x: -1.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["15B58FFDBB2B3766"]
@@ -607,8 +607,8 @@
 				}
 				type: "item"
 			}]
-			x: 2.5d
-			y: 3.5d
+			x: 1.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["15B58FFDBB2B3766"]
@@ -625,8 +625,46 @@
 				}
 				type: "item"
 			}]
-			x: 3.0d
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["44134EE872FCDB7D"]
+			id: "331B68B30B5195E1"
+			min_required_tasks: 1
+			tasks: [
+				{
+					entity: "twilightforest:blockchain_goblin"
+					id: "3C43242E18D68A87"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "twilightforest:lower_goblin_knight"
+					id: "5207984EBD2CEBBB"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "twilightforest:upper_goblin_knight"
+					id: "5C28112C812B1CED"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 9.0d
 			y: 1.0d
+		}
+		{
+			dependencies: ["331B68B30B5195E1"]
+			id: "653B567D11A82D11"
+			tasks: [{
+				id: "6A0DA2CD6C3E396D"
+				item: "twilightforest:armor_shard"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.0d
 		}
 	]
 	title: "Twilight Forest"

@@ -15,7 +15,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["34C1D59023AA23CD"]
+			dependencies: ["0EA1D5F1CE1263EF"]
 			id: "28C61FC52FA396F8"
 			shape: "dirt"
 			tasks: [{
@@ -23,11 +23,11 @@
 				id: "5019A3E8877A4F04"
 				type: "dimension"
 			}]
-			x: 0.0d
+			x: 5.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["28C61FC52FA396F8"]
+			dependencies: ["06831B040C6BCB13"]
 			id: "5B755654675F5917"
 			shape: "diamond"
 			tasks: [{
@@ -35,8 +35,8 @@
 				item: "deeperdarker:heart_of_the_deep"
 				type: "item"
 			}]
-			x: -0.5d
-			y: -1.5d
+			x: 2.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["28C61FC52FA396F8"]
@@ -47,8 +47,8 @@
 				item: "deeperdarker:warden_carapace"
 				type: "item"
 			}]
-			x: -0.5d
-			y: 1.5d
+			x: 4.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["16205A2F7C346DC3"]
@@ -59,7 +59,7 @@
 				item: "deeperdarker:reinforced_echo_shard"
 				type: "item"
 			}]
-			x: -1.5d
+			x: 3.5d
 			y: 2.0d
 		}
 		{
@@ -71,8 +71,8 @@
 				item: "deeperdarker:soul_dust"
 				type: "item"
 			}]
-			x: 0.5d
-			y: -1.5d
+			x: 5.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["0A50A5F891FB27B4"]
@@ -89,7 +89,7 @@
 				}
 				type: "item"
 			}]
-			x: 1.5d
+			x: 6.5d
 			y: -2.0d
 		}
 		{
@@ -101,8 +101,8 @@
 				item: "deeperdarker:soul_crystal"
 				type: "item"
 			}]
-			x: 0.5d
-			y: 1.5d
+			x: 5.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["7AD6AD515ECF2FE5"]
@@ -119,7 +119,7 @@
 				}
 				type: "item"
 			}]
-			x: 1.5d
+			x: 6.5d
 			y: 2.0d
 		}
 		{
@@ -131,7 +131,7 @@
 				item: "deeperdarker:sculk_bone"
 				type: "item"
 			}]
-			x: 1.5d
+			x: 6.5d
 			y: 0.0d
 		}
 		{
@@ -184,7 +184,7 @@
 					type: "item"
 				}
 			]
-			x: -1.5d
+			x: 3.0d
 			y: 1.0d
 		}
 		{
@@ -215,7 +215,7 @@
 					type: "item"
 				}
 			]
-			x: -1.0d
+			x: 4.0d
 			y: 3.0d
 		}
 		{
@@ -246,8 +246,42 @@
 					type: "item"
 				}
 			]
-			x: -2.0d
+			x: 3.0d
 			y: 3.0d
+		}
+		{
+			dependencies: ["34C1D59023AA23CD"]
+			id: "6D43CD89EB04EA21"
+			tasks: [{
+				id: "4DE853C7413223BB"
+				structure: "#minecraft:ancient_city"
+				type: "structure"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5B755654675F5917"]
+			id: "0EA1D5F1CE1263EF"
+			tasks: [{
+				id: "527C41F5BCED9D7E"
+				title: "Портал"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6D43CD89EB04EA21"]
+			id: "06831B040C6BCB13"
+			tasks: [{
+				entity: "minecraft:warden"
+				id: "1C75C70439AF1E16"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.0d
+			y: 0.0d
 		}
 	]
 	title: "Deeper and Darker"
