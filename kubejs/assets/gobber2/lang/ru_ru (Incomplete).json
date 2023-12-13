@@ -288,7 +288,7 @@
 	"item.gobber2.gobber2_ring_traveler": "Кольцо путешественника",
 	"item.gobber2.gobber2_ring_traveler.line1": "Обеспечивает большую способность к прыжкам",
 
-	"item.gobber2.gobber2_ring_vision": "Кольцо видения",
+	"item.gobber2.gobber2_ring_vision": "Кольцо ночного видения",
 	"item.gobber2.gobber2_ring_vision.line1": "Обеспечивает игрока ночным видением",
 	"item.gobber2.gobber2_ring_vision.line2": "Ночное видение активно: %s",
 
@@ -487,80 +487,80 @@
 	"advancements.gobber2.gobber2_ring.title": "Их может быть больше одного",
 	"advancements.gobber2.gobber2_ring.desc": "Создайте кольцо Gobber",
 	
-	"advancements.gobber2.gobber2_ring_attraction.title": "No Items Left Behind",
-	"advancements.gobber2.gobber2_ring_attraction.desc": "Craft a Gobber Ring of Attraction",
+	"advancements.gobber2.gobber2_ring_attraction.title": "Никаких оставленных вещей",
+	"advancements.gobber2.gobber2_ring_attraction.desc": "Создайте кольцо притяжения",
 	
-	"advancements.gobber2.gobber2_ring_return.title": "Home is Where the Heart is",
-	"advancements.gobber2.gobber2_ring_return.desc": "Craft a Gobber Ring of Return",
+	"advancements.gobber2.gobber2_ring_return.title": "Дом там, где находится сердце",
+	"advancements.gobber2.gobber2_ring_return.desc": "Создайте кольцо возвращения",
 	
-	"advancements.gobber2.gobber2_ring_miner.title": "Large Scale Mining",
-	"advancements.gobber2.gobber2_ring_miner.desc": "Craft a Gobber Ring of the Miner",
+	"advancements.gobber2.gobber2_ring_miner.title": "Крупномасштабная добыча полезных ископаемых",
+	"advancements.gobber2.gobber2_ring_miner.desc": "Создайте кольцо добычи",
 	
-	"advancements.gobber2.gobber2_ring_swiftness.title": "Run Like the Wind!",
-	"advancements.gobber2.gobber2_ring_swiftness.desc": "Craft a Gobber Ring of Swiftness",
+	"advancements.gobber2.gobber2_ring_swiftness.title": "Беги со скоростью ветра!",
+	"advancements.gobber2.gobber2_ring_swiftness.desc": "Создайте кольцо скорости",
 	
-	"advancements.gobber2.gobber2_ring_farmer.title": "A Watched Crop can Grow",
-	"advancements.gobber2.gobber2_ring_farmer.desc": "Craft a Gobber Ring of the Farmer",
+	"advancements.gobber2.gobber2_ring_farmer.title": "Наблюдаемый урожай может вырасти",
+	"advancements.gobber2.gobber2_ring_farmer.desc": "Создайте кольцо фермера",
 	
-	"advancements.gobber2.gobber2_ring_ascent.title": "Up, Up, and Away",
-	"advancements.gobber2.gobber2_ring_ascent.desc": "Craft a Gobber Ring of Ascent",
+	"advancements.gobber2.gobber2_ring_ascent.title": "Вверх, вверх и прочь",
+	"advancements.gobber2.gobber2_ring_ascent.desc": "Создайте кольцо восхождения",
 	
-	"advancements.gobber2.gobber2_ring_above.title": "The Shortest Path to the Surface is a Right-Click",
-	"advancements.gobber2.gobber2_ring_above.desc": "Craft a Gobber Ring of Above/Below",
+	"advancements.gobber2.gobber2_ring_above.title": "Кратчайший путь к поверхности - это ПКМ",
+	"advancements.gobber2.gobber2_ring_above.desc": "Создайте кольцо выше/ниже",
 	
-	"advancements.gobber2.gobber2_ring_sunshine.title": "Banish the Rain",
-	"advancements.gobber2.gobber2_ring_sunshine.desc": "Craft a Gobber Ring of Sunshine",
+	"advancements.gobber2.gobber2_ring_sunshine.title": "Прогони дождь",
+	"advancements.gobber2.gobber2_ring_sunshine.desc": "Создайте кольцо солнечного света",
 
-	"advancements.gobber2.gobber2_ring_nether.title": "The Basis of Nether Power",
-	"advancements.gobber2.gobber2_ring_nether.desc": "Craft a Nether Gobber Ring",
+	"advancements.gobber2.gobber2_ring_nether.title": "Основа адской силы",
+	"advancements.gobber2.gobber2_ring_nether.desc": "Создайте адское кольцо Gobber",
 	
-	"advancements.gobber2.gobber2_ring_repair.title": "Better Than Mending",
-	"advancements.gobber2.gobber2_ring_repair.desc": "Craft a Gobber Ring of Repair",
+	"advancements.gobber2.gobber2_ring_repair.title": "Лучше, чем починка",
+	"advancements.gobber2.gobber2_ring_repair.desc": "Создайте кольцо починки",
 	
-	"advancements.gobber2.gobber2_ring_vision.title": "Darkness Begone!",
-	"advancements.gobber2.gobber2_ring_vision.desc": "Craft a Gobber Ring of Vision",
+	"advancements.gobber2.gobber2_ring_vision.title": "Тьма, прочь!",
+	"advancements.gobber2.gobber2_ring_vision.desc": "Создайте кольцо ночного видения",
 	
-	"advancements.gobber2.gobber2_ring_phoenix.title": "Fire is Your Friend",
-	"advancements.gobber2.gobber2_ring_phoenix.desc": "Craft a Gobber Ring of the Phoenix",
+	"advancements.gobber2.gobber2_ring_phoenix.title": "Огонь - твой друг",
+	"advancements.gobber2.gobber2_ring_phoenix.desc": "Создайте кольцо феникса",
 	
-	"advancements.gobber2.gobber2_ring_curing.title": "A Cure for What Ails You",
-	"advancements.gobber2.gobber2_ring_curing.desc": "Craft a Gobber Ring of Curing",
+	"advancements.gobber2.gobber2_ring_curing.title": "Лекарство от того, что тебя беспокоит",
+	"advancements.gobber2.gobber2_ring_curing.desc": "Создайте кольцо исцеления",
 	
-	"advancements.gobber2.gobber2_ring_haste.title": "Dig to Your Hearts Content",
-	"advancements.gobber2.gobber2_ring_haste.desc": "Craft a Gobber Ring of Haste",
+	"advancements.gobber2.gobber2_ring_haste.title": "Копайте сколько душе угодно",
+	"advancements.gobber2.gobber2_ring_haste.desc": "Создайте кольцо спешки",
 
-	"advancements.gobber2.gobber2_ring_end.title": "A Rung Above the Rest",
-	"advancements.gobber2.gobber2_ring_end.desc": "Craft a End Gobber Ring",
+	"advancements.gobber2.gobber2_ring_end.title": "На ступеньку выше остальных",
+	"advancements.gobber2.gobber2_ring_end.desc": "Создайте кольцо края Gobber",
 	
-	"advancements.gobber2.gobber2_ring_blink.title": "Travel Like an Enderman",
-	"advancements.gobber2.gobber2_ring_blink.desc": "Craft a Gobber Ring of Blink",
+	"advancements.gobber2.gobber2_ring_blink.title": "Путешествуй как Эндермен",
+	"advancements.gobber2.gobber2_ring_blink.desc": "Создайте кольцо перемещения",
 	
-	"advancements.gobber2.gobber2_ring_enderchest.title": "Your Enderchest at Your Fingertips",
-	"advancements.gobber2.gobber2_ring_enderchest.desc": "Craft a Gobber Ring of Enderchest",
+	"advancements.gobber2.gobber2_ring_enderchest.title": "Ваш эндер-сундук у Вас под рукой",
+	"advancements.gobber2.gobber2_ring_enderchest.desc": "Создайте кольцо эндер-сундука",
 	
-	"advancements.gobber2.gobber2_ring_void.title": "Express Path to The End",
-	"advancements.gobber2.gobber2_ring_void.desc": "Craft a Gobber Ring of the Void",
+	"advancements.gobber2.gobber2_ring_void.title": "Экспресс-путь к концу",
+	"advancements.gobber2.gobber2_ring_void.desc": "Создайте кольцо пустоты",
 	
-	"advancements.gobber2.gobber2_ring_airwalking.title": "Gravity is for Chumps",
-	"advancements.gobber2.gobber2_ring_airwalking.desc": "Craft a Gobber Ring of Air Walking",
+	"advancements.gobber2.gobber2_ring_airwalking.title": "Гравитация - это для болванов",
+	"advancements.gobber2.gobber2_ring_airwalking.desc": "Создайте кольцо воздушной ходьбы",
 	
-	"advancements.gobber2.gobber2_ring_dismissal.title": "Mobs are Helpless to Your Power",
-	"advancements.gobber2.gobber2_ring_dismissal.desc": "Craft a Gobber Ring of Dismissal",
+	"advancements.gobber2.gobber2_ring_dismissal.title": "Толпы беспомощны перед Вашей силой",
+	"advancements.gobber2.gobber2_ring_dismissal.desc": "Создайте кольцо высвобождения",
 	
-	"advancements.gobber2.gobber2_ring_stealth.title": "Nothing to See, Moving Along",
-	"advancements.gobber2.gobber2_ring_stealth.desc": "Craft a Gobber Ring of Stealth",
+	"advancements.gobber2.gobber2_ring_stealth.title": "Ничего не видно, двигаюсь дальше",
+	"advancements.gobber2.gobber2_ring_stealth.desc": "Создайте кольцо скрытности",
 	
-	"advancements.gobber2.gobber2_ring_traveler.title": "Better Than Firework Rockets",
-	"advancements.gobber2.gobber2_ring_traveler.desc": "Craft a Gobber Ring of the Traveler",
+	"advancements.gobber2.gobber2_ring_traveler.title": "Лучше, чем фейерверки",
+	"advancements.gobber2.gobber2_ring_traveler.desc": "Создайте кольцо путешественика",
 	
-	"advancements.gobber2.gobber2_ring_explorer.title": "Roam the World in a Random Fashion",
-	"advancements.gobber2.gobber2_ring_explorer.desc": "Craft a Gobber Ring of the Explorer",
+	"advancements.gobber2.gobber2_ring_explorer.title": "Бродить по миру случайным образом",
+	"advancements.gobber2.gobber2_ring_explorer.desc": "Создайте кольцо исследователя",
 	
-	"advancements.gobber2.gobber2_ring_teleport.title": "The World is Your Oyster",
-	"advancements.gobber2.gobber2_ring_teleport.desc": "Craft a Gobber Ring of Teleport",
+	"advancements.gobber2.gobber2_ring_teleport.title": "Мир - это Ваша устрица",
+	"advancements.gobber2.gobber2_ring_teleport.desc": "Создайте кольцо телепортации",
 	
-	"advancements.gobber2.gobber2_ring_teleport.title2": "The World is Your Oyster",
-	"advancements.gobber2.gobber2_ring_teleport.desc2": "Craft a Gobber Ring of Teleport",
+	"advancements.gobber2.gobber2_ring_teleport.title2": "Мир - это Ваша устрица",
+	"advancements.gobber2.gobber2_ring_teleport.desc2": "Создайте кольцо телепортации",
 
 	"advancements.gobber2.gobber2_rod.title": "Build Better Tools",
 	"advancements.gobber2.gobber2_rod.desc": "Craft a Gobber Rod",
