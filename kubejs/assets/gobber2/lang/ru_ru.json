@@ -1,5 +1,5 @@
 {
-    "key.toggleRingAttraction": "Toggle Ring of Attraction on/off",
+    "key.toggleRingAttraction": "Переключение кольца притяжения включить/выключить",
     "key.categories.gobber2": "Gobber",
 
 	"block.gobber2.gobber2_lucky_block": "Блок удачи Gobber",
@@ -562,91 +562,92 @@
 	"advancements.gobber2.gobber2_ring_teleport.title2": "Мир - это Ваша устрица",
 	"advancements.gobber2.gobber2_ring_teleport.desc2": "Создайте кольцо телепортации",
 
-	"advancements.gobber2.gobber2_rod.title": "Build Better Tools",
-	"advancements.gobber2.gobber2_rod.desc": "Craft a Gobber Rod",
+	"advancements.gobber2.gobber2_rod.title": "Создавайте лучшие инструменты",
+	"advancements.gobber2.gobber2_rod.desc": "Создайте стержень Gobber",
 	
-	"advancements.gobber2.gobber2_pickaxe.title": "A Better Pickaxe",
-	"advancements.gobber2.gobber2_pickaxe.desc": "Craft a Gobber Pickaxe",
+	"advancements.gobber2.gobber2_pickaxe.title": "Кирка получше",
+	"advancements.gobber2.gobber2_pickaxe.desc": "Создайте кирку Gobber",
 	
-	"advancements.gobber2.gobber2_sword.title": "A Better Blade",
-	"advancements.gobber2.gobber2_sword.desc": "Craft a Gobber Sword",
+	"advancements.gobber2.gobber2_sword.title": "Меч получше",
+	"advancements.gobber2.gobber2_sword.desc": "Создайте меч Gobber",
 	
-	"advancements.gobber2.gobber2_bow.title": "A Better Bow",
-	"advancements.gobber2.gobber2_bow.desc": "Craft a Gobber Bow",
+	"advancements.gobber2.gobber2_bow.title": "Лук получше",
+	"advancements.gobber2.gobber2_bow.desc": "Создайте лук Gobber",
 	
-	"advancements.gobber2.gobber2_paxel.title": "A Great Multi-Tool",
-	"advancements.gobber2.gobber2_paxel.desc": "Craft a Gobber Paxel",
+	"advancements.gobber2.gobber2_paxel.title": "Отличный мульти-инструмент",
+	"advancements.gobber2.gobber2_paxel.desc": "Создайте паксель Gobber",
 	
-	"advancements.gobber2.gobber2_tree_axe.title": "Take That Whole Tree Down!",
-	"advancements.gobber2.gobber2_tree_axe.desc": "Craft a Gobber Treeaxe",
+	"advancements.gobber2.gobber2_tree_axe.title": "Снесите все это дерево целиком!",
+	"advancements.gobber2.gobber2_tree_axe.desc": "Создайте топор для деревьев Gobber",
 	
-	"advancements.gobber2.gobber2_hammer.title": "Make a Tunnel to Nowhere",
-	"advancements.gobber2.gobber2_hammer.desc": "Craft a Gobber Hammer",
+	"advancements.gobber2.gobber2_hammer.title": "Проложите туннель в никуда",
+	"advancements.gobber2.gobber2_hammer.desc": "Создайте молот Gobber",
 	
-	"advancements.gobber2.gobber2_excavator.title": "The Big Digger",
-	"advancements.gobber2.gobber2_excavator.desc": "Craft a Gobber Excavator",
+	"advancements.gobber2.gobber2_excavator.title": "Большой землекоп",
+	"advancements.gobber2.gobber2_excavator.desc": "Создайте экскаватор Gobber",
 
-	"advancements.gobber2.gobber2_staff_clearing.title": "Time to Mow the Lawn",
-	"advancements.gobber2.gobber2_staff_clearing.desc": "Craft a Staff of Clearing",
+	"advancements.gobber2.gobber2_staff_clearing.title": "Пора подстригать газон",
+	"advancements.gobber2.gobber2_staff_clearing.desc": "Создайте посох очистки",
 	
-	"advancements.gobber2.gobber2_staff_ensnarement.title": "A Mob in Your Pocket",
-	"advancements.gobber2.gobber2_staff_ensnarement.desc": "Craft a Staff of Ensnarement",
+	"advancements.gobber2.gobber2_staff_ensnarement.title": "Толпа у тебя в кармане",
+	"advancements.gobber2.gobber2_staff_ensnarement.desc": "Создайте посох преисподней",
 	
-	"advancements.gobber2.gobber2_staff_nature.title": "A Sapling by Any Other Name",
-	"advancements.gobber2.gobber2_staff_nature.desc": "Craft a Staff of Nature",
+	"advancements.gobber2.gobber2_staff_nature.title": "Саженец под любым другим названием",
+	"advancements.gobber2.gobber2_staff_nature.desc": "Создайте посох природы",
 	
-	"advancements.gobber2.gobber2_staff_farmer.title": "Harvest in a larger area",
-	"advancements.gobber2.gobber2_staff_farmer.desc": "Craft a Staff of the Farmer",
+	"advancements.gobber2.gobber2_staff_farmer.title": "Сбор урожая на большей площади",
+	"advancements.gobber2.gobber2_staff_farmer.desc": "Создайте посох фермера",
 	
-	"advancements.gobber2.gobber2_staff_harvest.title": "Grow and harvest in one tool!",
-	"advancements.gobber2.gobber2_staff_harvest.desc": "Craft a Staff of the Harvest",
+	"advancements.gobber2.gobber2_staff_harvest.title": "Выращивайте и собирайте урожай с помощью одного инструмента!",
+	"advancements.gobber2.gobber2_staff_harvest.desc": "Создайте посох урожая",
 	
-	"advancements.gobber2.gobber2_staff_stars.title": "Light up the World",
-	"advancements.gobber2.gobber2_staff_stars.desc": "Craft a Staff of the Stars",
+	"advancements.gobber2.gobber2_staff_stars.title": "Осветите мир",
+	"advancements.gobber2.gobber2_staff_stars.desc": "Создайте звёздный посох",
 	
-	"advancements.gobber2.gobber2_staff_sniper.title": "A Most Deadly Aim",
-	"advancements.gobber2.gobber2_staff_hostile_ensnarement.title": "A (hostile) Mob in Your Pocket",
-	"advancements.gobber2.gobber2_staff_sniper.desc": "Craft a Staff of the Sniper",
+	"advancements.gobber2.gobber2_staff_sniper.title": "Самая смертоносная цель",
+	"advancements.gobber2.gobber2_staff_sniper.desc": "Создайте посох снайпера",
+	
+	"advancements.gobber2.gobber2_staff_hostile_ensnarement.title": "(Враждебная) толпа у Вас в кармане",
 
-	"advancements.gobber2.gobber2_pickaxe_nether.title": "An Even Better Block Breaker",
-	"advancements.gobber2.gobber2_pickaxe_nether.desc": "Craft a Nether Gobber Pickaxe",
+	"advancements.gobber2.gobber2_pickaxe_nether.title": "Ещё лучшая кирка",
+	"advancements.gobber2.gobber2_pickaxe_nether.desc": "Создайте адскую кирку",
 	
-	"advancements.gobber2.gobber2_bow_nether.title": "An Even Better Bow",
-	"advancements.gobber2.gobber2_bow_nether.desc": "Craft a Nether Gobber Bow",
+	"advancements.gobber2.gobber2_bow_nether.title": "Ещё лучший лук",
+	"advancements.gobber2.gobber2_bow_nether.desc": "Создайте адский лук",
 
-	"advancements.gobber2.gobber2_links_end.title": "A Link to the Best Armor",
-	"advancements.gobber2.gobber2_links_end.desc": "Craft End Gobber Links",
+	"advancements.gobber2.gobber2_links_end.title": "Ссылка на лучшую броню",
+	"advancements.gobber2.gobber2_links_end.desc": "Создайте соединения брони края",
 	
-	"advancements.gobber2.gobber2_rod_end.title": "The Key to Unbreakable Gear",
-	"advancements.gobber2.gobber2_rod_end.desc": "Craft a End Gobber Rod",
+	"advancements.gobber2.gobber2_rod_end.title": "Ключ к неломаемому снаряжению",
+	"advancements.gobber2.gobber2_rod_end.desc": "Создайте стержень края",
 	
-	"advancements.gobber2.gobber2_pickaxe_end.title": "An Unbreakable Block Breaker",
-	"advancements.gobber2.gobber2_pickaxe_end.desc": "Craft a End Gobber Pickaxe",
+	"advancements.gobber2.gobber2_pickaxe_end.title": "Неразрушимая кирка",
+	"advancements.gobber2.gobber2_pickaxe_end.desc": "Создайте кирку края",
 	
-	"advancements.gobber2.gobber2_paxel_end.title": "An Unbreakable Multi-Tool",
-	"advancements.gobber2.gobber2_paxel_end.desc": "Craft a End Gobber Paxel",
+	"advancements.gobber2.gobber2_paxel_end.title": "Неразрушимый мульти-инструмент",
+	"advancements.gobber2.gobber2_paxel_end.desc": "Создайте паксель края",
 	
-	"advancements.gobber2.gobber2_hammer_end.title": "An unbreakable hammer",
-	"advancements.gobber2.gobber2_hammer_end.desc": "Craft a End Gobber Hammer",
+	"advancements.gobber2.gobber2_hammer_end.title": "Неразрушимый молот",
+	"advancements.gobber2.gobber2_hammer_end.desc": "Создайте молот края",
 	
-	"advancements.gobber2.gobber2_paxel_stars.title": "Let Your Paxel Light the World",
-	"advancements.gobber2.gobber2_paxel_stars.desc": "Craft a Paxel of the Stars",
+	"advancements.gobber2.gobber2_paxel_stars.title": "Позвольте вашему пакселю осветить мир",
+	"advancements.gobber2.gobber2_paxel_stars.desc": "Создайте звёздный паксель края",
 	
-	"advancements.gobber2.gobber2_bow_end.title": "An Unbreakable and Deadly Bow",
-	"advancements.gobber2.gobber2_bow_end.desc": "Craft a End Gobber Bow",
+	"advancements.gobber2.gobber2_bow_end.title": "Неразрушимый и смертоносный лук",
+	"advancements.gobber2.gobber2_bow_end.desc": "Создайте лук края",
 	
-	"advancements.gobber2.gobber2_sword_end.title": "An Unbreakable and Deadly Blade",
-	"advancements.gobber2.gobber2_sword_end.desc": "Craft a End Gobber Sword",
+	"advancements.gobber2.gobber2_sword_end.title": "Неразрушимый и смертоносный клинок",
+	"advancements.gobber2.gobber2_sword_end.desc": "Создайте меч края",
 	
-	"advancements.gobber2.gobber2_sword_sniper.title": "It's a Sword and A Bow!",
-	"advancements.gobber2.gobber2_sword_sniper.desc": "Craft a Sword of the Sniper",
+	"advancements.gobber2.gobber2_sword_sniper.title": "Это Меч и лук!",
+	"advancements.gobber2.gobber2_sword_sniper.desc": "Создайте меч снайпера",
 
 	"tetra.material.gobber": "Gobber",
 	"tetra.material.gobber.prefix": "Gobber",
-	"tetra.material.gobber_nether": " Nether Gobber",
-	"tetra.material.gobber_nether.prefix": "Nether Gobber",
-	"tetra.material.gobber_end": "End Gobber",
-	"tetra.material.gobber_end.prefix": "End Gobber",
+	"tetra.material.gobber_nether": " Адский Gobber",
+	"tetra.material.gobber_nether.prefix": "Адский Gobber",
+	"tetra.material.gobber_end": "Gobber края",
+	"tetra.material.gobber_end.prefix": "Gobber края",
 
 	"itemGroup.gobber2": "Gobber 2"
 }
