@@ -1,0 +1,34 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "important_tips"
+	group: ""
+	id: "3607B9AB756E4038"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["34C1D59023AA23CD"]
+			id: "346150CF0F5B5C5A"
+			tasks: [{
+				id: "0BAC08798080ACAD"
+				title: "О чём эта глава?"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["346150CF0F5B5C5A"]
+			id: "27789E123396EBAC"
+			tasks: [{
+				id: "22CF83918E14E43A"
+				title: "Как пользоваться схемами структур?"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+	]
+	title: "Important Tips"
+}

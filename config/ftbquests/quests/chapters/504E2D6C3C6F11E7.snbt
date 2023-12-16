@@ -10,23 +10,69 @@
 	quests: [
 		{
 			dependencies: ["784141803D88C42E"]
-			description: ["Войдите в портал из обсидиана!"]
+			description: [
+				"Пришло время разведать новый мир - &4Ад&r. "
+				""
+				"Сначала необходимо &6построить&r &aпортал&r. Для этого нужно нажать по картинке и разместить проекцию в любом месте. После чего нужно расставить блоки обсидиана так, как показано в проекции.&7*&r"
+				""
+				"Далее слеудет &6активировать&r &aпортал&r и &6войти&r в него."
+				""
+				"&7*&r - См. главу &3Important Tips&r."
+			]
 			id: "0638AA464CB433BD"
+			rewards: [
+				{
+					count: 2
+					id: "19194C5E693935CF"
+					item: "quark:red_rune"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 2
+					id: "176214ECC07B64EE"
+					item: "duckling:cooked_duck"
+					random_bonus: 1
+					type: "item"
+				}
+			]
 			shape: "dirt"
-			tasks: [{
-				dimension: "minecraft:the_nether"
-				id: "7F7529F0928603C2"
-				title: "Посетить измерение Незер"
-				type: "dimension"
-			}]
+			subtitle: "Абсолютно новый неизведанный мир!"
+			tasks: [
+				{
+					hasCustomPicture: false
+					id: "34011EB7903DAE66"
+					ignoreState: false
+					layer: true
+					name: "nether_portal"
+					rightclick: false
+					title: "Постройте портал в Незер"
+					type: "questsadditions:structure"
+				}
+				{
+					dimension: "minecraft:the_nether"
+					id: "09BF2F22FEFB29F8"
+					title: "Посетите измерение Незер"
+					type: "dimension"
+				}
+			]
+			title: "Новое измерение - Незер"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["0638AA464CB433BD"]
-			description: ["Если убить Всполоха, то с него может выпасть огненный стержень."]
+			description: ["При убийстве &aВсполоха&r выпадает &6Огненный стержень&r с некоторым шансом."]
 			id: "07F71605EA4AD2D9"
+			rewards: [{
+				count: 2
+				id: "2147D1FA19CEE421"
+				item: "minecraft:blaze_rod"
+				random_bonus: 3
+				type: "item"
+			}]
 			shape: "iron"
+			subtitle: "Главное - не обжечься!"
 			tasks: [{
 				entity: "minecraft:blaze"
 				id: "1064D37728FC568B"
@@ -39,7 +85,7 @@
 		}
 		{
 			dependencies: ["07F71605EA4AD2D9"]
-			description: ["Огненный стержень нужен для создания зельеварки и огненного порошка."]
+			description: ["Огненный стержень нужен для создания &6зельеварки&r и &6огненного порошка&r. А также, для создания множества &aдругих предмет&r."]
 			id: "63CE859816941806"
 			rewards: [{
 				count: 2
@@ -49,6 +95,7 @@
 				type: "item"
 			}]
 			shape: "gold"
+			subtitle: "Горячо!"
 			tasks: [{
 				count: 3L
 				id: "49EFA1BEC8BE5B34"
@@ -587,6 +634,7 @@
 				type: "item"
 			}]
 			shape: "diamond"
+			subtitle: "Неплохо горит!"
 			tasks: [{
 				count: 2L
 				id: "6B15858F40181E0E"
