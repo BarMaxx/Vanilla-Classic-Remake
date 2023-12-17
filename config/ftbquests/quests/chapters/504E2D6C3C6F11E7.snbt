@@ -108,9 +108,34 @@
 		}
 		{
 			dependencies: ["63CE859816941806"]
-			description: ["С помощью зельеварки можно готовить различные зелья."]
+			description: ["С помощью зельеварки можно &6готовить&r различные &aзелья&r."]
 			id: "03D84CFC9502FAC9"
+			rewards: [
+				{
+					id: "5C308ABD48C163B3"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:strong_swiftness"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0D64574CAE1D2750"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:long_regeneration"
+						}
+					}
+					type: "item"
+				}
+			]
 			shape: "gold"
+			subtitle: "Занимательный процесс зельеварения!"
 			tasks: [{
 				id: "7B62886119E2B607"
 				item: "minecraft:brewing_stand"
@@ -121,7 +146,7 @@
 		}
 		{
 			dependencies: ["63CE859816941806"]
-			description: ["Огненный порошок нужен для приготовления зелья, создания око эндера и для создания множества предметов."]
+			description: ["&6Огненный порошок&r нужен для приготовления &aзелья&r, создания &aоко эндера&r и для создания множества предметов."]
 			id: "5C8F6BE38CD61F1B"
 			rewards: [{
 				count: 2
@@ -131,6 +156,7 @@
 				type: "item"
 			}]
 			shape: "gold"
+			subtitle: "Полезный порошок!"
 			tasks: [{
 				count: 4L
 				id: "2289A079FD150DA8"
@@ -143,9 +169,15 @@
 		}
 		{
 			dependencies: ["0638AA464CB433BD"]
-			description: ["Если убить Визер-скелета, то с небольшим шансом с него выпадет его голова!"]
+			description: ["Если убить &6Визер-скелета&r, то с небольшим шансом с него выпадет его &aчереп&r!"]
 			id: "16270A1C68D32B47"
+			rewards: [{
+				id: "08C43BF1FF859681"
+				item: "minecraft:wither_skeleton_skull"
+				type: "item"
+			}]
 			shape: "iron"
+			subtitle: "Опасный противник!"
 			tasks: [{
 				entity: "minecraft:wither_skeleton"
 				id: "63357E11AACD49BB"
@@ -158,9 +190,16 @@
 		}
 		{
 			dependencies: ["16270A1C68D32B47"]
-			description: ["Черепа визер-скелета нужны для призыва босса - Визера!"]
+			description: ["&6Черепа визер-скелета&r нужны для призыва босса - &cВизера&r!"]
 			id: "560BBA75A74C1BCC"
+			rewards: [{
+				id: "73A2DBECD6CBA8CC"
+				item: "minecraft:wither_skeleton_skull"
+				random_bonus: 1
+				type: "item"
+			}]
 			shape: "iron"
+			subtitle: "Редкий предмет!"
 			tasks: [{
 				count: 3L
 				id: "0B88D5EBF01AB616"
@@ -173,9 +212,15 @@
 		}
 		{
 			dependencies: ["560BBA75A74C1BCC"]
-			description: ["Попробуйте убить его."]
+			description: ["Попробуйте убить &cВизера&r, хотя яне сомневаюсь в Вас. Если получится, Вы получите &aЗвезду Незера&r. "]
 			id: "5ACA9C1A680ABD8D"
+			rewards: [{
+				id: "5003F5F00BA19677"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
 			shape: "iron"
+			subtitle: "Босс!"
 			tasks: [{
 				entity: "minecraft:wither"
 				id: "023DF82513696645"
@@ -188,9 +233,17 @@
 		}
 		{
 			dependencies: ["5ACA9C1A680ABD8D"]
-			description: ["Самый дорогой предмет в игре, наверное."]
+			description: ["&6Звезда Незера&r - самый дорогой предмет в игре, наверное."]
 			id: "0BEF1BC6D388B3F8"
+			rewards: [{
+				count: 2
+				id: "5E5A788DE2906903"
+				item: "minecraft:wither_skeleton_skull"
+				random_bonus: 2
+				type: "item"
+			}]
 			shape: "gold"
+			subtitle: "Дорого!"
 			tasks: [{
 				id: "418C2BEFA0EB7DC6"
 				item: "minecraft:nether_star"
@@ -201,9 +254,16 @@
 		}
 		{
 			dependencies: ["0BEF1BC6D388B3F8"]
-			description: ["Маяк позволяет вам получать положительные эффекты в радиусе его действия."]
+			description: ["&6Маяк&r позволяет вам получать &aположительные эффекты&r в радиусе его действия."]
 			id: "2952AC1723FD3EF9"
+			rewards: [{
+				count: 2
+				id: "06713C02938CDE51"
+				item: "sophisticatedstorage:diamond_to_netherite_tier_upgrade"
+				type: "item"
+			}]
 			shape: "diamond"
+			subtitle: "Ваш ориентир и помощник!"
 			tasks: [{
 				id: "3E89DDD1C12131B1"
 				item: "minecraft:beacon"
@@ -214,9 +274,15 @@
 		}
 		{
 			dependencies: ["0BEF1BC6D388B3F8"]
-			description: ["С помощью жертвенного клинка шанс на выпадение черепа визер-скелета выше."]
+			description: ["С помощью &6жертвенного клинка&r &aшанс&r на выпадение черепа визер-скелета &aвыше&r."]
 			id: "20154C9A9D8A5897"
+			rewards: [{
+				id: "3E743BBB45CD77AC"
+				item: "minecraft:nether_star"
+				type: "item"
+			}]
 			shape: "diamond"
+			subtitle: "Невероятно полезный клинок!"
 			tasks: [{
 				id: "01BF31BE6E955265"
 				item: {
@@ -233,16 +299,17 @@
 		}
 		{
 			dependencies: ["0638AA464CB433BD"]
-			description: ["Незер-кварц можно найти в Незере. Он нужен для создания множества предметов."]
+			description: ["&6Незер-кварц&r можно найти в &4Незере&r. Он нужен для создания множества предметов."]
 			id: "7816E4D8946FBA71"
 			rewards: [{
 				count: 8
 				id: "7BA8557269AD6453"
 				item: "minecraft:quartz"
-				random_bonus: 4
+				random_bonus: 10
 				type: "item"
 			}]
 			shape: "iron"
+			subtitle: "При добыче выпадает много опыта!"
 			tasks: [{
 				count: 8L
 				id: "7E4CEE92529C1B0C"
@@ -255,16 +322,17 @@
 		}
 		{
 			dependencies: ["0638AA464CB433BD"]
-			description: ["Песок душ нужен для того, чтобы выращивать незерский нарост либо же для вызова Визера."]
+			description: ["&6Песок душ&r нужен для того, чтобы &aвыращивать&r &cнезерский нарост&r либо же для &aвызова&r босса &cВизера&r."]
 			id: "76AA943499192987"
 			rewards: [{
-				count: 2
+				count: 8
 				id: "2FEDE069D3D2E635"
 				item: "minecraft:soul_sand"
-				random_bonus: 2
+				random_bonus: 8
 				type: "item"
 			}]
 			shape: "gold"
+			subtitle: "Хранит в себе души!"
 			tasks: [{
 				count: 4L
 				id: "359EC817AADB428F"
@@ -277,16 +345,17 @@
 		}
 		{
 			dependencies: ["0638AA464CB433BD"]
-			description: ["С помощью незерского нароста можно варить зелья."]
+			description: ["С помощью &6незерского нароста&r можно &aварить зелья&r."]
 			id: "2438D11304615B6A"
 			rewards: [{
 				count: 4
 				id: "777E60CBFB3AC2E2"
 				item: "minecraft:nether_wart"
-				random_bonus: 2
+				random_bonus: 6
 				type: "item"
 			}]
 			shape: "gold"
+			subtitle: "Бородавки!"
 			tasks: [{
 				count: 4L
 				id: "47988529C2E0CA14"
@@ -299,7 +368,7 @@
 		}
 		{
 			dependencies: ["0638AA464CB433BD"]
-			description: ["Древние обломки можно найти в недрах Ада. Только учтите, что они очень редкие. Они нужны для выплавки незеритового лома."]
+			description: ["&6Древние обломки&r можно найти в недрах &4Незера&r. Только учтите, что они очень редкие. Обломки нужны для выплавки &aнезеритового лома&r."]
 			id: "1339998B70AFCCF9"
 			rewards: [{
 				id: "314212D249D04EA3"
@@ -308,6 +377,7 @@
 				type: "item"
 			}]
 			shape: "iron"
+			subtitle: "Ценный ресурс!"
 			tasks: [{
 				count: 4L
 				id: "21930FB42049618A"
@@ -320,7 +390,7 @@
 		}
 		{
 			dependencies: ["1339998B70AFCCF9"]
-			description: ["Незеритовый лом нужен для создания незеритового слитка."]
+			description: ["&6Незеритовый лом&r нужен для создания &aнезеритового слитка&r."]
 			id: "1903A4E8A177A1AC"
 			rewards: [{
 				id: "4DF8AFB8701BD983"
@@ -329,6 +399,7 @@
 				type: "item"
 			}]
 			shape: "iron"
+			subtitle: "Переход к новому уровню!"
 			tasks: [{
 				count: 4L
 				id: "38F7A9C70D6CF3BB"
@@ -341,7 +412,7 @@
 		}
 		{
 			dependencies: ["1903A4E8A177A1AC"]
-			description: ["С помощью незеритового слитка можно улучшить свои алмазные инструменты и броню, а также создать несколько интересных предметов."]
+			description: ["С помощью &6незеритового слитка&r можно &aулучшить&r свои алмазные инструменты и броню, а также создать несколько интересных предметов."]
 			id: "79325CD17EACF314"
 			rewards: [{
 				id: "14BECE25A2D62C0C"
@@ -349,6 +420,7 @@
 				type: "item"
 			}]
 			shape: "gold"
+			subtitle: "Новый уровень!"
 			tasks: [{
 				count: 2L
 				id: "26627B4161EA62BE"
@@ -370,7 +442,15 @@
 				}
 			}
 			id: "6FAD95BD066A958F"
+			rewards: [{
+				count: 3
+				id: "5D1335EFEC5C26BF"
+				item: "minecraft:netherite_ingot"
+				random_bonus: 2
+				type: "item"
+			}]
 			shape: "diamond"
+			subtitle: "Защищает очень хорошо!"
 			tasks: [
 				{
 					id: "5039A60660D08A3D"
@@ -423,7 +503,7 @@
 		}
 		{
 			dependencies: ["79325CD17EACF314"]
-			description: ["Самые лучшие инструменты в игре, наверное..."]
+			description: ["Очень хорошие инструменты."]
 			icon: {
 				Count: 1b
 				id: "minecraft:netherite_axe"
@@ -432,7 +512,14 @@
 				}
 			}
 			id: "01DE515CAEECA1DC"
+			rewards: [{
+				id: "5EAE760D69A92864"
+				item: "minecraft:netherite_ingot"
+				random_bonus: 2
+				type: "item"
+			}]
 			shape: "diamond"
+			subtitle: "Улучшают эффективность игры!"
 			tasks: [
 				{
 					id: "3403327A7EFE5A55"
@@ -487,7 +574,14 @@
 			dependencies: ["79325CD17EACF314"]
 			description: ["Самый важный предмет в игре!"]
 			id: "5903B6303FE57B7B"
+			rewards: [{
+				count: 2
+				id: "087115F823989DFC"
+				item: "minecraft:netherite_ingot"
+				type: "item"
+			}]
 			shape: "diamond"
+			subtitle: "Зачем?!"
 			tasks: [{
 				id: "6AAE67B50631533A"
 				item: {
@@ -504,9 +598,17 @@
 		}
 		{
 			dependencies: ["0638AA464CB433BD"]
-			description: ["При убийстве Гаста с него может выпасть слеза гаста."]
+			description: ["При убийстве &6Гаста&r с него может выпасть &aслеза гаста&r."]
 			id: "4DA081B66BEB600A"
+			rewards: [{
+				count: 2
+				id: "5932049190BD679A"
+				item: "minecraft:ghast_tear"
+				random_bonus: 2
+				type: "item"
+			}]
 			shape: "gold"
+			subtitle: "Большой и страшный!"
 			tasks: [{
 				entity: "minecraft:ghast"
 				id: "1403269C756C2C73"
@@ -519,7 +621,7 @@
 		}
 		{
 			dependencies: ["4DA081B66BEB600A"]
-			description: ["Достаточно полезный предмет."]
+			description: ["&6Слеза гаста&r - достаточно полезный предмет."]
 			id: "3E26776DA6F36149"
 			rewards: [{
 				count: 2
@@ -529,6 +631,7 @@
 				type: "item"
 			}]
 			shape: "diamond"
+			subtitle: "Удивительный предмет!"
 			tasks: [{
 				count: 2L
 				id: "26D92EF084F52F6D"
@@ -541,16 +644,17 @@
 		}
 		{
 			dependencies: ["7816E4D8946FBA71"]
-			description: ["Можно использовать в качестве декорации или же создать несколько новых предметов."]
+			description: ["&6Кварцевый блок&r можно использовать в качестве декорации или же создать несколько новых предметов."]
 			id: "4030823F0387614B"
 			rewards: [{
-				count: 4
+				count: 8
 				id: "62E15E052B0BEA77"
 				item: "minecraft:quartz_block"
-				random_bonus: 2
+				random_bonus: 6
 				type: "item"
 			}]
 			shape: "gold"
+			subtitle: "Вполне неплохо для декора!"
 			tasks: [{
 				count: 8L
 				id: "04063EEB83FD693D"
@@ -563,16 +667,17 @@
 		}
 		{
 			dependencies: ["4030823F0387614B"]
-			description: ["Можно использовать в качестве декорации или же создать несколько новых предметов."]
+			description: ["&6Гладкий кварц&r так же, как и кварцевый блок можно использовать в качестве декорации или же создать несколько новых предметов."]
 			id: "5B6CBB22B90AEC7C"
 			rewards: [{
-				count: 4
+				count: 8
 				id: "012543402A4FA227"
 				item: "minecraft:smooth_quartz"
-				random_bonus: 2
+				random_bonus: 6
 				type: "item"
 			}]
 			shape: "diamond"
+			subtitle: "Также хорошо подходит для декораций!"
 			tasks: [{
 				count: 8L
 				id: "1BEC43573578839A"
@@ -587,7 +692,14 @@
 			dependencies: ["2438D11304615B6A"]
 			description: ["Вкусный чаёк :)"]
 			id: "7662943446BFF355"
+			rewards: [{
+				count: 2
+				id: "0B1D9B70F05D00AE"
+				item: "farmersrespite:green_tea"
+				type: "item"
+			}]
 			shape: "diamond"
+			subtitle: "Немного протвен!"
 			tasks: [{
 				id: "3048F5938E9D815A"
 				item: "farmersrespite:purulent_tea"
@@ -600,7 +712,15 @@
 			dependencies: ["5C8F6BE38CD61F1B"]
 			description: ["Мм... Вкусно!"]
 			id: "1ECB8304D57715A6"
+			rewards: [{
+				count: 2
+				id: "5EE2854F97F35282"
+				item: "minecraft:blaze_powder"
+				random_bonus: 6
+				type: "item"
+			}]
 			shape: "diamond"
+			subtitle: "Всегда кипяток!"
 			tasks: [{
 				id: "2761D4BF489315B5"
 				item: "farmersrespite:blazing_chili"
@@ -611,10 +731,16 @@
 		}
 		{
 			dependencies: ["0BEF1BC6D388B3F8"]
-			description: ["Очень крутое улучшение!"]
+			description: ["Очень крутое &aулучшение&r!"]
 			id: "3C3E95437372C0B2"
+			rewards: [{
+				id: "04FFF15011068BC0"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_4"
+				type: "item"
+			}]
 			shape: "diamond"
 			size: 1.1d
+			subtitle: "Невероятное улучшение!"
 			tasks: [{
 				id: "3324CA5EE18E2445"
 				item: "sophisticatedbackpacks:inception_upgrade"
@@ -647,7 +773,7 @@
 		}
 		{
 			dependencies: ["5C8F6BE38CD61F1B"]
-			description: ["Очень полезная броня в Аду!"]
+			description: ["Очень &aполезная&r броня в &4Незере&r!"]
 			icon: {
 				Count: 1b
 				id: "immersive_armors:robe_chestplate"
@@ -656,8 +782,16 @@
 				}
 			}
 			id: "118F1B98CD63288A"
+			rewards: [{
+				count: 2
+				id: "5F1AD930B8A13F25"
+				item: "minecraft:blaze_rod"
+				random_bonus: 2
+				type: "item"
+			}]
 			shape: "diamond"
 			size: 1.1d
+			subtitle: "Пригодится в Незере!"
 			tasks: [
 				{
 					id: "1692E7EEF0B98AEF"
@@ -710,9 +844,23 @@
 		}
 		{
 			dependencies: ["03D84CFC9502FAC9"]
-			description: ["Позволяет находиться в огне или лаве без получения урона."]
+			description: ["Позволяет &6находиться&r в огне или лаве без получения урона."]
 			id: "6292CA12BD9FCA34"
+			rewards: [{
+				count: 2
+				id: "562F0AA799F73FC4"
+				item: {
+					Count: 1b
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:fire_resistance"
+					}
+				}
+				random_bonus: 3
+				type: "item"
+			}]
 			shape: "gold"
+			subtitle: "Полезно в Незере!"
 			tasks: [{
 				id: "6CA0BFDCDA5019C6"
 				item: {
@@ -729,9 +877,23 @@
 		}
 		{
 			dependencies: ["6292CA12BD9FCA34"]
-			description: ["Улучшенная версия зелья огнестойкости."]
+			description: ["&6Улучшенная версия&r зелья огнестойкости."]
 			id: "07297428C4FB2F68"
+			rewards: [{
+				count: 2
+				id: "3D9E00EE6EFAA579"
+				item: {
+					Count: 1b
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:long_fire_resistance"
+					}
+				}
+				random_bonus: 3
+				type: "item"
+			}]
 			shape: "diamond"
+			subtitle: "Имеет более длительный эффект!"
 			tasks: [{
 				id: "2274D98C8F4E009A"
 				item: {
@@ -748,9 +910,23 @@
 		}
 		{
 			dependencies: ["03D84CFC9502FAC9"]
-			description: ["Позволяет наносить больше урона."]
+			description: ["Позволяет наносить &6больше урона&r."]
 			id: "7A973E05C597B6E3"
+			rewards: [{
+				count: 2
+				id: "52460A174EC81B3A"
+				item: {
+					Count: 1b
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:strength"
+					}
+				}
+				random_bonus: 3
+				type: "item"
+			}]
 			shape: "gold"
+			subtitle: "Крепче удар!"
 			tasks: [{
 				id: "33997C2375DFCCDD"
 				item: {
@@ -767,9 +943,23 @@
 		}
 		{
 			dependencies: ["7A973E05C597B6E3"]
-			description: ["Улучшенная версия зелья силы."]
+			description: ["&6Улучшенная версия&r зелья силы."]
 			id: "6B716DE17E750687"
+			rewards: [{
+				count: 2
+				id: "21198DE86340D75A"
+				item: {
+					Count: 1b
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:long_strength"
+					}
+				}
+				random_bonus: 3
+				type: "item"
+			}]
 			shape: "diamond"
+			subtitle: "Дольше действует!"
 			tasks: [{
 				id: "4F1316AA5EDDA80A"
 				item: {
@@ -786,9 +976,23 @@
 		}
 		{
 			dependencies: ["7A973E05C597B6E3"]
-			description: ["Улучшенная версия зелья силы."]
+			description: ["&6Улучшенная версия&r зелья силы."]
 			id: "6160D7CD7CC14D3E"
+			rewards: [{
+				count: 2
+				id: "585EBDB5AAA3B6C1"
+				item: {
+					Count: 1b
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:strong_strength"
+					}
+				}
+				random_bonus: 3
+				type: "item"
+			}]
 			shape: "diamond"
+			subtitle: "Сильнее действует!"
 			tasks: [{
 				id: "770BA77E868DC662"
 				item: {
@@ -805,9 +1009,23 @@
 		}
 		{
 			dependencies: ["03D84CFC9502FAC9"]
-			description: ["Позволяет исцелить некоторое количество здоровья."]
+			description: ["Позволяет &6исцелить&r некоторое количество &cздоровья&r."]
 			id: "09D39EC62B37C300"
+			rewards: [{
+				count: 2
+				id: "07F3D4A4DC700B23"
+				item: {
+					Count: 1b
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:healing"
+					}
+				}
+				random_bonus: 3
+				type: "item"
+			}]
 			shape: "gold"
+			subtitle: "Полезно в бою!"
 			tasks: [{
 				id: "2D2A1639F8FB3E8B"
 				item: {
@@ -824,9 +1042,23 @@
 		}
 		{
 			dependencies: ["09D39EC62B37C300"]
-			description: ["Улучшенная версия зелья исцеления."]
+			description: ["&6Улучшенная версия&r зелья исцеления."]
 			id: "5BD8CEE7E07A4083"
+			rewards: [{
+				count: 2
+				id: "35A59C1BAA30FEE5"
+				item: {
+					Count: 1b
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:strong_healing"
+					}
+				}
+				random_bonus: 3
+				type: "item"
+			}]
 			shape: "diamond"
+			subtitle: "Более полезно в бою!"
 			tasks: [{
 				id: "3A21E36AA39D8083"
 				item: {
@@ -843,8 +1075,15 @@
 		}
 		{
 			dependencies: ["76AA943499192987"]
+			description: ["Похож на обычный костёр."]
 			id: "0A1133B0D8F63BD2"
+			rewards: [{
+				id: "4013BF3548FDCB79"
+				item: "delightful:lavender_tea"
+				type: "item"
+			}]
 			shape: "diamond"
+			subtitle: "Атмосферный!"
 			tasks: [{
 				id: "555FF5C64E8A7D75"
 				item: "minecraft:soul_campfire"
@@ -855,16 +1094,17 @@
 		}
 		{
 			dependencies: ["0638AA464CB433BD"]
-			description: ["Чернит часто встречается в Аду. С помощью него можно создать множество предметов."]
+			description: ["&6Чернит&r часто встречается в &4Незере&r. С помощью него можно создать множество предметов."]
 			id: "7C94D66978FD5DE1"
 			rewards: [{
 				count: 6
 				id: "0187EFE19F37B0D7"
 				item: "minecraft:blackstone"
-				random_bonus: 2
+				random_bonus: 12
 				type: "item"
 			}]
 			shape: "iron"
+			subtitle: "Как булыжник, но в Незере!"
 			tasks: [{
 				count: 8L
 				id: "03D85A98E1857CA9"
@@ -879,7 +1119,13 @@
 			dependencies: ["7C94D66978FD5DE1"]
 			description: ["Аналог обычной печи."]
 			id: "643918B72D9D95A2"
+			rewards: [{
+				id: "2863545FDEC3D55B"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			shape: "gold"
+			subtitle: "Как печь из булыжника, но из чернита!"
 			tasks: [{
 				id: "60BB1E6D01C64426"
 				item: "nethersdelight:blackstone_furnace"
@@ -896,10 +1142,11 @@
 				count: 6
 				id: "4D261730E3DBB015"
 				item: "minecraft:polished_blackstone"
-				random_bonus: 2
+				random_bonus: 6
 				type: "item"
 			}]
 			shape: "iron"
+			subtitle: "Красивый блок, подходящий для декора!"
 			tasks: [{
 				count: 8L
 				id: "0FEC17CA96B7262A"
@@ -918,10 +1165,11 @@
 				count: 6
 				id: "76069D98285B774E"
 				item: "minecraft:polished_blackstone_bricks"
-				random_bonus: 2
+				random_bonus: 6
 				type: "item"
 			}]
 			shape: "gold"
+			subtitle: "Ещё более красивый блок!"
 			tasks: [{
 				count: 8L
 				id: "63FF5CA153AA2B82"
@@ -936,7 +1184,13 @@
 			dependencies: ["643918B72D9D95A2"]
 			description: ["Аналог обычной плавильной печи."]
 			id: "4505B3A1BB04E26F"
+			rewards: [{
+				id: "40D262A209B25568"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			shape: "diamond"
+			subtitle: "Как плавильная печь из булыжника, но из чернита!"
 			tasks: [{
 				id: "13F00F9BA8E2E09D"
 				item: "nethersdelight:blackstone_blast_furnace"
@@ -949,7 +1203,13 @@
 			dependencies: ["643918B72D9D95A2"]
 			description: ["Аналог обычной коптильни."]
 			id: "57D86C6312E858AF"
+			rewards: [{
+				id: "3C410FF0E117C7F2"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			shape: "diamond"
+			subtitle: "Как коптильня из булыжника, но из чернита!"
 			tasks: [{
 				id: "08CB61B02F88EDA3"
 				item: "nethersdelight:nether_brick_smoker"
@@ -966,10 +1226,11 @@
 				count: 6
 				id: "1EEEA7C5525C5A39"
 				item: "minecraft:cracked_polished_blackstone_bricks"
-				random_bonus: 2
+				random_bonus: 6
 				type: "item"
 			}]
 			shape: "diamond"
+			subtitle: "Подойдёт для декора старых построек!"
 			tasks: [{
 				count: 8L
 				id: "186A37AD25E5DEC1"
@@ -979,6 +1240,36 @@
 			}]
 			x: -2.0d
 			y: 4.5d
+		}
+		{
+			dependencies: ["2952AC1723FD3EF9"]
+			description: [
+				"Чтобы активировать Маяк 1-го уровня - необходимо построить&7*&r небольшую структуру."
+				""
+				"&7*&r - См. главу &3Important Tips&r."
+			]
+			id: "1819BA01370B3016"
+			rewards: [{
+				count: 2
+				id: "3562DC5A4DADE99E"
+				item: "twilightdelight:berry_stick"
+				random_bonus: 3
+				type: "item"
+			}]
+			shape: "gold"
+			subtitle: "1 Уровень!"
+			tasks: [{
+				hasCustomPicture: false
+				id: "57FCF8BB33A260FB"
+				ignoreState: false
+				layer: true
+				name: "beacon_lvl_1"
+				rightclick: false
+				title: "Активация Маяка"
+				type: "questsadditions:structure"
+			}]
+			x: 0.0d
+			y: 9.0d
 		}
 	]
 	title: "Nether"
