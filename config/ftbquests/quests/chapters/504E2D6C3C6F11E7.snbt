@@ -100,7 +100,6 @@
 				count: 3L
 				id: "49EFA1BEC8BE5B34"
 				item: "minecraft:blaze_rod"
-				title: "Огненный стержень"
 				type: "item"
 			}]
 			x: 3.0d
@@ -161,7 +160,6 @@
 				count: 4L
 				id: "2289A079FD150DA8"
 				item: "minecraft:blaze_powder"
-				title: "Огненный порошок"
 				type: "item"
 			}]
 			x: 3.5d
@@ -204,7 +202,6 @@
 				count: 3L
 				id: "0B88D5EBF01AB616"
 				item: "minecraft:wither_skeleton_skull"
-				title: "Череп визер-скелета"
 				type: "item"
 			}]
 			x: 0.0d
@@ -314,7 +311,6 @@
 				count: 8L
 				id: "7E4CEE92529C1B0C"
 				item: "minecraft:quartz"
-				title: "Незер-кварц"
 				type: "item"
 			}]
 			x: -1.0d
@@ -337,7 +333,6 @@
 				count: 4L
 				id: "359EC817AADB428F"
 				item: "minecraft:soul_sand"
-				title: "Песок душ"
 				type: "item"
 			}]
 			x: 0.0d
@@ -360,7 +355,6 @@
 				count: 4L
 				id: "47988529C2E0CA14"
 				item: "minecraft:nether_wart"
-				title: "Незерский нарост"
 				type: "item"
 			}]
 			x: 1.0d
@@ -382,7 +376,6 @@
 				count: 4L
 				id: "21930FB42049618A"
 				item: "minecraft:ancient_debris"
-				title: "Древние обломки"
 				type: "item"
 			}]
 			x: -1.0d
@@ -404,7 +397,6 @@
 				count: 4L
 				id: "38F7A9C70D6CF3BB"
 				item: "minecraft:netherite_scrap"
-				title: "Незеритовый лом"
 				type: "item"
 			}]
 			x: -3.0d
@@ -425,7 +417,6 @@
 				count: 2L
 				id: "26627B4161EA62BE"
 				item: "minecraft:netherite_ingot"
-				title: "Незеритовый слиток"
 				type: "item"
 			}]
 			x: -4.5d
@@ -636,7 +627,6 @@
 				count: 2L
 				id: "26D92EF084F52F6D"
 				item: "minecraft:ghast_tear"
-				title: "Слеза гаста"
 				type: "item"
 			}]
 			x: 1.0d
@@ -659,7 +649,6 @@
 				count: 8L
 				id: "04063EEB83FD693D"
 				item: "minecraft:quartz_block"
-				title: "Кварцевый блок"
 				type: "item"
 			}]
 			x: -1.0d
@@ -682,7 +671,6 @@
 				count: 8L
 				id: "1BEC43573578839A"
 				item: "minecraft:smooth_quartz"
-				title: "Гладкий кварц"
 				type: "item"
 			}]
 			x: -1.5d
@@ -765,7 +753,6 @@
 				count: 2L
 				id: "6B15858F40181E0E"
 				item: "quark:blaze_lantern"
-				title: "Ифритовый фонарь"
 				type: "item"
 			}]
 			x: 4.5d
@@ -1109,7 +1096,6 @@
 				count: 8L
 				id: "03D85A98E1857CA9"
 				item: "minecraft:blackstone"
-				title: "Чернит"
 				type: "item"
 			}]
 			x: -1.0d
@@ -1151,7 +1137,6 @@
 				count: 8L
 				id: "0FEC17CA96B7262A"
 				item: "minecraft:polished_blackstone"
-				title: "Полированный чернит"
 				type: "item"
 			}]
 			x: -1.0d
@@ -1174,7 +1159,6 @@
 				count: 8L
 				id: "63FF5CA153AA2B82"
 				item: "minecraft:polished_blackstone_bricks"
-				title: "Полированно-чернитные кирпичи"
 				type: "item"
 			}]
 			x: -1.0d
@@ -1235,7 +1219,6 @@
 				count: 8L
 				id: "186A37AD25E5DEC1"
 				item: "minecraft:cracked_polished_blackstone_bricks"
-				title: "Потрескавшиеся полированно-чернитные кирпичи"
 				type: "item"
 			}]
 			x: -2.0d

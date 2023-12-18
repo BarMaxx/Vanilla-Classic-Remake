@@ -16,7 +16,8 @@
 	quests: [
 		{
 			dependencies: ["5C8F6BE38CD61F1B"]
-			description: ["С помощью око эндера можно найти портал в Энд, а также с помощью них портал можно активировать."]
+			description: ["С помощью &6око эндера&r можно найти портал в &5Энд&r, а также с помощью них портал можно активировать."]
+			icon: "minecraft:ender_eye"
 			id: "2B1E2D735EEA2212"
 			rewards: [{
 				count: 2
@@ -27,11 +28,11 @@
 			}]
 			shape: "dirt"
 			size: 1.1d
+			subtitle: "Оно следит за тобой!"
 			tasks: [{
 				count: 12L
 				id: "2A1A8AACAB1AB3A8"
 				item: "minecraft:ender_eye"
-				title: "Око Эндера"
 				type: "item"
 			}]
 			x: 0.0d
@@ -39,9 +40,15 @@
 		}
 		{
 			dependencies: ["2B1E2D735EEA2212"]
-			description: ["Вам нужно идти вслед за выпущенным око эндера, чтобы найти Крепость."]
+			description: ["Вам нужно идти вслед за выпущенным око эндера, чтобы найти &aКрепость&r."]
 			id: "1495017582A6F45B"
+			rewards: [{
+				id: "606C25B6CD879CB9"
+				type: "xp_levels"
+				xp_levels: 7
+			}]
 			shape: "iron"
+			subtitle: "Поиски!"
 			tasks: [{
 				id: "7CBB59801054812D"
 				structure: "minecraft:stronghold"
@@ -53,9 +60,16 @@
 		}
 		{
 			dependencies: ["1495017582A6F45B"]
-			description: ["Найдите портал, активируйте его и прыгните в неизвестность!"]
+			description: ["Найдите портал, активируйте его и прыгните в &5неизвестность&r!"]
 			id: "71E5CF71B79671E6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3BCA67BB4156CAF1"
+				table_id: 8406505191874674524L
+				type: "choice"
+			}]
 			shape: "gold"
+			subtitle: "Интересное приключение!"
 			tasks: [{
 				dimension: "minecraft:the_end"
 				id: "7E95C5EFA23292F6"
@@ -67,10 +81,18 @@
 		}
 		{
 			dependencies: ["71E5CF71B79671E6"]
-			description: ["Самый главный босс в игре - Эндер-дракон. Победите его и пройдите игру!!!"]
+			description: ["Самый главный босс в игре - &dЭндер-дракон&r. Победите его и пройдите игру!!!"]
 			id: "025279E92F14CED0"
+			rewards: [{
+				count: 4
+				id: "128F06507E89D87B"
+				item: "ends_delight:roasted_dragon_meat"
+				random_bonus: 4
+				type: "item"
+			}]
 			shape: "gold"
 			size: 1.3d
+			subtitle: "Цель вашей игры! "
 			tasks: [{
 				entity: "minecraft:ender_dragon"
 				id: "18163D283DCEF388"
@@ -83,10 +105,18 @@
 		}
 		{
 			dependencies: ["025279E92F14CED0"]
-			description: ["Самый эффективный способ передвижения."]
+			description: ["Самый &aэффективный&r способ передвижения."]
 			id: "32A0F83FD64502C1"
+			rewards: [{
+				count: 4
+				id: "61F6B4E70C0C19D4"
+				item: "minecraft:phantom_membrane"
+				random_bonus: 8
+				type: "item"
+			}]
 			shape: "diamond"
 			size: 1.1d
+			subtitle: "Завораживает!"
 			tasks: [{
 				id: "40FEBD435CE53D30"
 				item: {
@@ -103,7 +133,7 @@
 		}
 		{
 			dependencies: ["025279E92F14CED0"]
-			description: ["С помощью панциря шалкера можно создать сам шалкер."]
+			description: ["С помощью &6панциря шалкера&r можно создать &aшалкеровый ящик&r."]
 			id: "587116E8FD63F03C"
 			rewards: [{
 				id: "45798B058C632142"
@@ -112,11 +142,11 @@
 				type: "item"
 			}]
 			shape: "iron"
+			subtitle: "Интересная вещица!"
 			tasks: [{
 				count: 2L
 				id: "0D940C11C5F7037E"
 				item: "minecraft:shulker_shell"
-				title: "Панцирь шалкера"
 				type: "item"
 			}]
 			x: 3.5d
@@ -124,9 +154,17 @@
 		}
 		{
 			dependencies: ["587116E8FD63F03C"]
-			description: ["В шалкеровый ящик можно положить вещи, сломать его и перенсти куда угодно - вещи останутся в нем."]
+			description: ["В &6шалкеровый ящик&r можно положить вещи, сломать его и перенсти куда угодно - вещи останутся в нем."]
 			id: "376B95C41E562D37"
+			rewards: [{
+				count: 8
+				id: "03083B38BDE43C1F"
+				item: "minecraft:shulker_shell"
+				random_bonus: 12
+				type: "item"
+			}]
 			shape: "iron"
+			subtitle: "Почти, как рюкзак!"
 			tasks: [{
 				id: "245EE9E43237200D"
 				item: "minecraft:shulker_box"
@@ -137,9 +175,17 @@
 		}
 		{
 			dependencies: ["376B95C41E562D37"]
-			description: ["Улучшенная версия предыдущего хранилища."]
+			description: ["&aУлучшенная&r версия предыдущего хранилища."]
 			id: "0ADA48C1EEF140EE"
+			rewards: [{
+				count: 4
+				id: "18872957CD587EFC"
+				item: "minecraft:iron_block"
+				random_bonus: 8
+				type: "item"
+			}]
 			shape: "iron"
+			subtitle: "Намного лучше предыдущего!"
 			tasks: [{
 				id: "3F5D461B0CA8EA07"
 				item: "sophisticatedstorage:iron_shulker_box"
@@ -150,9 +196,17 @@
 		}
 		{
 			dependencies: ["0ADA48C1EEF140EE"]
-			description: ["Улучшенная версия предыдущего хранилища."]
+			description: ["&aУлучшенная&r версия предыдущего хранилища."]
 			id: "750F1ECAF23A6AF3"
+			rewards: [{
+				count: 2
+				id: "3399B9C30CFAF4FA"
+				item: "minecraft:gold_block"
+				random_bonus: 4
+				type: "item"
+			}]
 			shape: "gold"
+			subtitle: "Намного лучше предыдущего!"
 			tasks: [{
 				id: "59317C8D6223FDED"
 				item: "sophisticatedstorage:gold_shulker_box"
@@ -163,9 +217,16 @@
 		}
 		{
 			dependencies: ["750F1ECAF23A6AF3"]
-			description: ["Улучшенная версия предыдущего хранилища."]
+			description: ["&aУлучшенная&r версия предыдущего хранилища."]
 			id: "3405CD1F131DB877"
+			rewards: [{
+				id: "782296F01D640D1B"
+				item: "minecraft:diamond_block"
+				random_bonus: 1
+				type: "item"
+			}]
 			shape: "gold"
+			subtitle: "Намного лучше предыдущего!"
 			tasks: [{
 				id: "50CB1C0D6771C854"
 				item: "sophisticatedstorage:diamond_shulker_box"
@@ -176,10 +237,18 @@
 		}
 		{
 			dependencies: ["3405CD1F131DB877"]
-			description: ["Улучшенная версия предыдущего хранилища."]
+			description: ["Самая &aлучшая&r версия шалкерового ящика."]
 			id: "7252B47B321A1ACD"
+			rewards: [{
+				count: 4
+				id: "49B14066F6032ACD"
+				item: "minecraft:netherite_scrap"
+				random_bonus: 2
+				type: "item"
+			}]
 			shape: "diamond"
 			size: 1.2d
+			subtitle: "Самый лучший шалкеровый ящик!"
 			tasks: [{
 				id: "5C197244F97BF615"
 				item: "sophisticatedstorage:netherite_shulker_box"
@@ -190,7 +259,7 @@
 		}
 		{
 			dependencies: ["71E5CF71B79671E6"]
-			description: ["Эндерняк можно использовать в качестве декорации или создать из него другие предметы."]
+			description: ["&6Эндерняк&r можно использовать в качестве декорации или создать из него другие предметы."]
 			id: "379865519EFDF82D"
 			rewards: [{
 				count: 4
@@ -200,11 +269,11 @@
 				type: "item"
 			}]
 			shape: "gold"
+			subtitle: "Твёрдая порода!"
 			tasks: [{
 				count: 8L
 				id: "344F8E1A2E98B798"
 				item: "minecraft:end_stone"
-				title: "Эндерняк"
 				type: "item"
 			}]
 			x: 2.0d
@@ -353,11 +422,11 @@
 				type: "item"
 			}]
 			shape: "diamond"
+			subtitle: "Красивый блок!"
 			tasks: [{
 				count: 8L
 				id: "57F605276B59E893"
 				item: "minecraft:end_stone_bricks"
-				title: "Эндерняковые кирпичи"
 				type: "item"
 			}]
 			x: 2.0d
@@ -387,7 +456,7 @@
 		}
 		{
 			dependencies: ["2B1E2D735EEA2212"]
-			description: ["С помощью кристаллов Энда можно возродить Дракона Края!"]
+			description: ["С помощью &6кристаллов Энда&r можно возродить &dДракона Края&r!"]
 			id: "49DD0CDDBE222BD7"
 			rewards: [{
 				count: 2
@@ -396,11 +465,11 @@
 				type: "item"
 			}]
 			shape: "gold"
+			subtitle: "Могучая сила заключена в нём!"
 			tasks: [{
 				count: 4L
 				id: "49A4952C43B5AC7C"
 				item: "minecraft:end_crystal"
-				title: "Кристалл Энда"
 				type: "item"
 			}]
 			x: -0.5d
@@ -408,9 +477,17 @@
 		}
 		{
 			dependencies: ["2B1E2D735EEA2212"]
-			description: ["Эндер-смотрителя можно использовать в различных механизмах."]
+			description: ["&6Эндер-смотрителя&r можно использовать в различных механизмах."]
 			id: "60B4D666B50757D0"
+			rewards: [{
+				count: 4
+				id: "090D1AA82862A91B"
+				item: "minecraft:ender_pearl"
+				random_bonus: 2
+				type: "item"
+			}]
 			shape: "diamond"
+			subtitle: "Интересный механизм!"
 			tasks: [{
 				id: "2B7E55B44DCBB74F"
 				item: "quark:ender_watcher"
@@ -421,10 +498,17 @@
 		}
 		{
 			dependencies: ["49DD0CDDBE222BD7"]
-			description: ["С этим улучшением ваш рюкзак никогда не исчезнет."]
+			description: ["С этим улучшением ваш рюкзак &aникогда не исчезнет&r."]
 			id: "33A9045F813606BE"
+			rewards: [{
+				count: 2
+				id: "18F27B8F8E920B9D"
+				item: "minecraft:netherite_ingot"
+				type: "item"
+			}]
 			shape: "diamond"
 			size: 1.2d
+			subtitle: "Вполне полезное улучшение, но какой ценой..."
 			tasks: [{
 				id: "774E49148D03505E"
 				item: "sophisticatedbackpacks:everlasting_upgrade"
