@@ -10,11 +10,41 @@
 	quests: [
 		{
 			dependencies: ["34C1D59023AA23CD"]
+			description: [
+				"Сумеречный Лес - новое измерение с большим количеством проработанных и уникальных боссов; системой прогресса, основанной на убийстве боссов; множеством мобов с интересными пасхалками; большим количеством данжей, достижений и многим другим."
+				""
+				"Чтобы попасть в новый мир, необходимо построить портал, как на картинке ниже. Следует выкопать яму 2х2, залить в неё воду (именно бесконечный источник) и расставить цветы по периметру ямы. После проделанной работы нужно кинуть алмаз в воду и произойдёт нечто! "
+			]
 			id: "0AFECA103FCCF23A"
+			rewards: [
+				{
+					count: 2
+					id: "09A5840316838FDF"
+					item: "quark:rainbow_rune"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "49A83781AAE27E35"
+					item: {
+						Count: 1b
+						id: "quark:ancient_tome"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:fortune"
+								lvl: 3s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
 			shape: "dirt"
+			subtitle: "Абсолютно новое измерение!"
 			tasks: [{
 				dimension: "twilightforest:twilight_forest"
 				id: "2648E3A46617AC4C"
+				title: "Посетить измерение Сумеречный Лес"
 				type: "dimension"
 			}]
 			x: 0.0d
@@ -30,8 +60,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 1.0d
-			y: -1.0d
+			x: 1.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["06CBAD8BCECDCDF3"]
@@ -42,8 +72,8 @@
 				item: "twilightforest:naga_trophy"
 				type: "item"
 			}]
-			x: 2.0d
-			y: -2.0d
+			x: 3.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["06CBAD8BCECDCDF3"]
@@ -54,8 +84,8 @@
 				item: "twilightforest:naga_scale"
 				type: "item"
 			}]
-			x: 0.5d
-			y: -2.0d
+			x: 1.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["620060537AB35D26"]
@@ -93,8 +123,8 @@
 					type: "item"
 				}
 			]
-			x: -0.5d
-			y: -2.5d
+			x: 2.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["22A6CCC23C2D1061"]
@@ -106,8 +136,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 3.5d
-			y: -2.5d
+			x: 4.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["568E339ABFF7A602"]
@@ -118,8 +148,8 @@
 				item: "twilightforest:lich_trophy"
 				type: "item"
 			}]
-			x: 5.0d
-			y: -2.5d
+			x: 6.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["568E339ABFF7A602"]
@@ -136,8 +166,8 @@
 				}
 				type: "item"
 			}]
-			x: 4.0d
-			y: -1.5d
+			x: 5.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["568E339ABFF7A602"]
@@ -154,8 +184,8 @@
 				}
 				type: "item"
 			}]
-			x: 3.0d
-			y: -3.5d
+			x: 3.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["568E339ABFF7A602"]
@@ -172,8 +202,8 @@
 				}
 				type: "item"
 			}]
-			x: 4.0d
-			y: -3.5d
+			x: 5.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["568E339ABFF7A602"]
@@ -190,8 +220,8 @@
 				}
 				type: "item"
 			}]
-			x: 3.0d
-			y: -1.5d
+			x: 3.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["0BF7880FE91B6666"]
@@ -203,8 +233,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 6.5d
-			y: -2.5d
+			x: 7.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["5AE48A334FE50D59"]
@@ -215,8 +245,8 @@
 				item: "twilightforest:minoshroom_trophy"
 				type: "item"
 			}]
-			x: 8.0d
-			y: -2.0d
+			x: 9.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["5AE48A334FE50D59"]
@@ -227,8 +257,8 @@
 				item: "twilightforest:meef_stroganoff"
 				type: "item"
 			}]
-			x: 6.0d
-			y: -4.0d
+			x: 7.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["5AE48A334FE50D59"]
@@ -245,8 +275,8 @@
 				}
 				type: "item"
 			}]
-			x: 7.0d
-			y: -4.0d
+			x: 7.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["411013196B68BFA4"]
@@ -258,8 +288,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 9.0d
-			y: -1.0d
+			x: 10.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["4636FFBEE32833E5"]
@@ -271,8 +301,8 @@
 				item: "twilightforest:hydra_trophy"
 				type: "item"
 			}]
-			x: 9.5d
-			y: 0.0d
+			x: 11.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["4636FFBEE32833E5"]
@@ -283,8 +313,8 @@
 				item: "twilightforest:hydra_chop"
 				type: "item"
 			}]
-			x: 7.5d
-			y: -1.0d
+			x: 9.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["4636FFBEE32833E5"]
@@ -295,8 +325,8 @@
 				item: "twilightforest:fiery_blood"
 				type: "item"
 			}]
-			x: 9.5d
-			y: -2.0d
+			x: 11.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["7456786190948B9D"]
@@ -307,8 +337,8 @@
 				item: "twilightforest:fiery_ingot"
 				type: "item"
 			}]
-			x: 10.5d
-			y: -2.5d
+			x: 12.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["7710DC59B6351661"]
@@ -360,8 +390,8 @@
 					type: "item"
 				}
 			]
-			x: 11.0d
-			y: -4.0d
+			x: 13.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["7710DC59B6351661"]
@@ -391,8 +421,8 @@
 					type: "item"
 				}
 			]
-			x: 11.0d
-			y: -1.0d
+			x: 13.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["653B567D11A82D11"]
@@ -404,8 +434,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 6.5d
-			y: 2.5d
+			x: 10.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["20C904F4EE6D103C"]
@@ -416,8 +446,8 @@
 				item: "twilightforest:ur_ghast_trophy"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 2.5d
+			x: 9.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["20C904F4EE6D103C"]
@@ -428,8 +458,8 @@
 				item: "twilightforest:carminite"
 				type: "item"
 			}]
-			x: 6.5d
-			y: 3.5d
+			x: 12.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["20C904F4EE6D103C"]
@@ -440,8 +470,8 @@
 				item: "twilightforest:fiery_tears"
 				type: "item"
 			}]
-			x: 6.5d
-			y: 1.5d
+			x: 10.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["4DA0EF7E83174979"]
@@ -453,8 +483,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 3.5d
-			y: 2.5d
+			x: 7.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["0B8EB3D5AA1768F0"]
@@ -465,8 +495,8 @@
 				item: "twilightforest:alpha_yeti_trophy"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 2.0d
+			x: 6.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["0B8EB3D5AA1768F0"]
@@ -477,8 +507,8 @@
 				item: "twilightforest:alpha_yeti_fur"
 				type: "item"
 			}]
-			x: 3.5d
-			y: 1.5d
+			x: 7.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["6EFE9929677DD2A3"]
@@ -552,8 +582,8 @@
 					type: "item"
 				}
 			]
-			x: 4.5d
-			y: 1.0d
+			x: 8.0d
+			y: -7.5d
 		}
 		{
 			dependencies: ["0B8EB3D5AA1768F0"]
@@ -564,8 +594,8 @@
 				item: "twilightforest:ice_bomb"
 				type: "item"
 			}]
-			x: 3.5d
-			y: 3.5d
+			x: 7.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["2C4CA744F9DDC365"]
@@ -577,8 +607,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 0.5d
-			y: 1.5d
+			x: 4.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["15B58FFDBB2B3766"]
@@ -589,8 +619,8 @@
 				item: "twilightforest:snow_queen_trophy"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 1.5d
+			x: 3.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["15B58FFDBB2B3766"]
@@ -607,8 +637,8 @@
 				}
 				type: "item"
 			}]
-			x: 1.0d
-			y: 0.5d
+			x: 4.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["15B58FFDBB2B3766"]
@@ -625,13 +655,14 @@
 				}
 				type: "item"
 			}]
-			x: 0.5d
-			y: 2.5d
+			x: 4.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["44134EE872FCDB7D"]
 			id: "331B68B30B5195E1"
 			min_required_tasks: 1
+			shape: "gold"
 			tasks: [
 				{
 					entity: "twilightforest:blockchain_goblin"
@@ -652,19 +683,20 @@
 					value: 1L
 				}
 			]
-			x: 9.0d
-			y: 1.0d
+			x: 11.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["331B68B30B5195E1"]
 			id: "653B567D11A82D11"
+			shape: "iron"
 			tasks: [{
 				id: "6A0DA2CD6C3E396D"
 				item: "twilightforest:armor_shard"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 2.0d
+			x: 11.5d
+			y: -4.0d
 		}
 	]
 	title: "Twilight Forest"

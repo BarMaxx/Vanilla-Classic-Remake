@@ -281,7 +281,7 @@
 		}
 		{
 			dependencies: ["025279E92F14CED0"]
-			description: ["Если съесть плод хоруса, то вы будете телепортированы в небольшом радиусе."]
+			description: ["Если съесть &6плод хоруса&r, то вы будете телепортированы в небольшом радиусе."]
 			id: "352FDBD1E41ECBCB"
 			rewards: [{
 				count: 2
@@ -290,11 +290,11 @@
 				type: "item"
 			}]
 			shape: "iron"
+			subtitle: "Странный плод!"
 			tasks: [{
 				count: 4L
 				id: "03ECD2F05BBECAB9"
 				item: "minecraft:chorus_fruit"
-				title: "Плод хоруса"
 				type: "item"
 			}]
 			x: 4.5d
@@ -302,7 +302,7 @@
 		}
 		{
 			dependencies: ["352FDBD1E41ECBCB"]
-			description: ["Из него можно сделать несколько интересных вещей."]
+			description: ["Из него можно сделать несколько &aинтересных&r вещей."]
 			id: "07A202D473CBDC95"
 			rewards: [{
 				count: 2
@@ -312,11 +312,11 @@
 				type: "item"
 			}]
 			shape: "iron"
+			subtitle: "Что это вообще такое?!"
 			tasks: [{
 				count: 4L
 				id: "32FB6F98E71A7240"
 				item: "minecraft:popped_chorus_fruit"
-				title: "Прожаренный плод хоруса"
 				type: "item"
 			}]
 			x: 5.5d
@@ -334,11 +334,11 @@
 				type: "item"
 			}]
 			shape: "iron"
+			subtitle: "Красивый блок!"
 			tasks: [{
 				count: 8L
 				id: "74F083C488603243"
 				item: "minecraft:purpur_block"
-				title: "Пурпур"
 				type: "item"
 			}]
 			x: 6.0d
@@ -356,11 +356,11 @@
 				type: "item"
 			}]
 			shape: "gold"
+			subtitle: "Выглядит интересно!"
 			tasks: [{
 				count: 4L
 				id: "29ACC200F1733BA0"
 				item: "minecraft:end_rod"
-				title: "Стержень Энда"
 				type: "item"
 			}]
 			x: 6.0d
@@ -378,11 +378,11 @@
 				type: "item"
 			}]
 			shape: "gold"
+			subtitle: "Заманчивый блок!"
 			tasks: [{
 				count: 8L
 				id: "672572077BF064E6"
 				item: "quark:duskbound_block"
-				title: "Сумеречный блок"
 				type: "item"
 			}]
 			x: 7.0d
@@ -400,11 +400,11 @@
 				type: "item"
 			}]
 			shape: "diamond"
+			subtitle: "Интересный блок!"
 			tasks: [{
 				count: 4L
 				id: "764B4F7ABF7BD446"
 				item: "quark:duskbound_lantern"
-				title: "Сумеречный фонарь"
 				type: "item"
 			}]
 			x: 8.0d
@@ -444,11 +444,11 @@
 				type: "item"
 			}]
 			shape: "diamond"
+			subtitle: "Красиво!"
 			tasks: [{
 				count: 4L
 				id: "685D4FAAEC885EE9"
 				item: "quark:iron_rod"
-				title: "Железный стержень"
 				type: "item"
 			}]
 			x: 7.0d
