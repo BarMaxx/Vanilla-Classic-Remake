@@ -1248,10 +1248,79 @@
 				layer: true
 				name: "beacon_lvl_1"
 				rightclick: false
-				title: "Активация Маяка"
+				title: "Активация маяка"
 				type: "questsadditions:structure"
 			}]
 			x: 0.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["1819BA01370B3016"]
+			description: [
+				"Чтобы активировать Маяк 2-го уровня - необходимо построить&7*&r небольшую структуру."
+				""
+				"&7*&r - См. главу &3Important Tips&r."
+			]
+			id: "4CA5AC7930B78551"
+			shape: "gold"
+			subtitle: "2 Уровень!"
+			tasks: [{
+				hasCustomPicture: false
+				id: "677D2E88A65BF115"
+				ignoreState: false
+				layer: true
+				name: "beacon_lvl_2"
+				rightclick: false
+				title: "Улучшение маяка"
+				type: "questsadditions:structure"
+			}]
+			x: 1.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["4CA5AC7930B78551"]
+			description: [
+				"Чтобы активировать Маяк 3-го уровня - необходимо построить&7*&r небольшую структуру."
+				""
+				"&7*&r - См. главу &3Important Tips&r."
+			]
+			id: "59A3138C85421684"
+			shape: "gold"
+			subtitle: "3 Уровень!"
+			tasks: [{
+				hasCustomPicture: false
+				id: "031AB1A8225B02A7"
+				ignoreState: false
+				layer: true
+				name: "beacon_lvl_3"
+				rightclick: false
+				title: "Улучшение маяка"
+				type: "questsadditions:structure"
+			}]
+			x: 2.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["59A3138C85421684"]
+			description: [
+				"Чтобы активировать Маяк 4-го уровня - необходимо построить&7*&r небольшую структуру."
+				""
+				"&7*&r - См. главу &3Important Tips&r."
+			]
+			id: "013673B4637FBB29"
+			shape: "diamond"
+			subtitle: "4 Уровень!"
+			tasks: [{
+				hasCustomPicture: false
+				id: "3FFCBFC3731E352B"
+				ignoreState: false
+				layer: true
+				name: "beacon_lvl_4"
+				rightclick: false
+				title: "Улучшение маяка"
+				type: "questsadditions:structure"
+			}]
+			x: 3.0d
 			y: 9.0d
 		}
 	]
