@@ -56,7 +56,25 @@
 		}
 		{
 			dependencies: ["0AFECA103FCCF23A"]
+			description: ["Необходимо найти самого первого босса этого измерения - &6Нага&r. А после, одолеть его."]
 			id: "06CBAD8BCECDCDF3"
+			rewards: [
+				{
+					id: "11341EEA57501FA8"
+					item: "quark:golden_apple_crate"
+					type: "item"
+				}
+				{
+					id: "0DC449636EEA6B53"
+					item: "farmersdelight:apple_pie"
+					type: "item"
+				}
+				{
+					id: "0C049832F7C8C2C7"
+					item: "farmersdelight:apple_cider"
+					type: "item"
+				}
+			]
 			shape: "gold"
 			subtitle: "Огромная змея!"
 			tasks: [{
@@ -70,8 +88,17 @@
 		}
 		{
 			dependencies: ["06CBAD8BCECDCDF3"]
+			description: ["&6Трофей наги&r выпадает после убийства самой наги."]
 			id: "22A6CCC23C2D1061"
+			rewards: [{
+				count: 4
+				id: "07A02504DCF5DCE2"
+				item: "oceansdelight:squid_rings"
+				random_bonus: 2
+				type: "item"
+			}]
 			shape: "iron"
+			subtitle: "Первый трофей!"
 			tasks: [{
 				id: "543DE51691A2E345"
 				item: "twilightforest:naga_trophy"
@@ -82,9 +109,23 @@
 		}
 		{
 			dependencies: ["06CBAD8BCECDCDF3"]
+			description: [
+				"&6Чешуя наги&r выпадет после убийства самой наги."
+				""
+				"Чешуя наги необходима для создания &aброни из чешуи наги&r."
+			]
 			id: "620060537AB35D26"
+			rewards: [{
+				count: 6
+				id: "05ECB6854C44F652"
+				item: "twilightforest:naga_scale"
+				random_bonus: 6
+				type: "item"
+			}]
 			shape: "iron"
+			subtitle: "Обладает магическими свойствами!"
 			tasks: [{
+				count: 4L
 				id: "4576EDC824854D56"
 				item: "twilightforest:naga_scale"
 				type: "item"
@@ -94,8 +135,26 @@
 		}
 		{
 			dependencies: ["620060537AB35D26"]
+			description: ["&6Броня из чешуи наги&r вполне хорошо защищает. Но её главное преимущество в том, что она обладает полезными &aэффектами&r сразу после создания."]
 			id: "22A89BEA68A0DA0A"
+			rewards: [{
+				count: 2
+				id: "6D221F6D3CC24BB6"
+				item: {
+					Count: 1b
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:protection"
+							lvl: 3s
+						}]
+					}
+				}
+				random_bonus: 1
+				type: "item"
+			}]
 			shape: "diamond"
+			subtitle: "Броня сразу с эффектами!"
 			tasks: [
 				{
 					id: "097A25572039FEA0"
@@ -128,13 +187,23 @@
 					type: "item"
 				}
 			]
+			title: "Броня из чешуи наги"
 			x: 2.5d
 			y: 2.0d
 		}
 		{
 			dependencies: ["22A6CCC23C2D1061"]
+			description: ["Необходимо найти второго босса измерения - &6Сумеречный Лич&r. А после, одолеть его."]
 			id: "568E339ABFF7A602"
+			rewards: [{
+				count: 2
+				id: "6C041DDB9AAC4614"
+				item: "upgradednetherite_items:netherite_apple"
+				random_bonus: 2
+				type: "item"
+			}]
 			shape: "gold"
+			subtitle: "Нежить!"
 			tasks: [{
 				entity: "twilightforest:lich"
 				id: "09CCFAB9E6240115"
@@ -146,8 +215,17 @@
 		}
 		{
 			dependencies: ["568E339ABFF7A602"]
+			description: ["&6Трофей лича&r выпадает после убийства самого сумеречного лича."]
 			id: "0BF7880FE91B6666"
+			rewards: [{
+				count: 2
+				id: "59D1038FF4D36E60"
+				item: "ends_delight:fried_dragon_egg"
+				random_bonus: 2
+				type: "item"
+			}]
 			shape: "iron"
+			subtitle: "Второй трофей!"
 			tasks: [{
 				id: "3A242741D4D4A8BF"
 				item: "twilightforest:lich_trophy"
@@ -232,6 +310,7 @@
 			dependencies: ["0BF7880FE91B6666"]
 			id: "5AE48A334FE50D59"
 			shape: "gold"
+			subtitle: "Животное?!"
 			tasks: [{
 				entity: "twilightforest:minotaur"
 				id: "74B28C72970FB973"
