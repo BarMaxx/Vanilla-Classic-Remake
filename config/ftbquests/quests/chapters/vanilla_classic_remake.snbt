@@ -9,8 +9,13 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["34C1D59023AA23CD"]
+			dependencies: [
+				"27770D41688AA6AB"
+				"04A6DB3EE3A17A52"
+			]
 			id: "58CEA56747D60B65"
+			shape: "diamond"
+			size: 2.0d
 			tasks: [{
 				id: "0ADEE6EF9815FA56"
 				item: "kubejs:vanilla_classic_remake"
@@ -22,24 +27,28 @@
 		{
 			dependencies: ["34C1D59023AA23CD"]
 			id: "27770D41688AA6AB"
+			shape: "dirt"
+			size: 1.2d
 			tasks: [{
 				id: "7FF370AFE93BC75B"
 				item: "kubejs:piece_of_artifact"
 				type: "item"
 			}]
 			x: 0.0d
-			y: -1.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["34C1D59023AA23CD"]
 			id: "04A6DB3EE3A17A52"
+			shape: "dirt"
+			size: 1.2d
 			tasks: [{
 				id: "0A588988D213319B"
 				item: "kubejs:singularity"
 				type: "item"
 			}]
 			x: 0.0d
-			y: 1.5d
+			y: 2.0d
 		}
 	]
 	title: "Vanilla Classic Remake"

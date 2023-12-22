@@ -7,6 +7,7 @@
 	order_index: 1
 	quest_links: [ ]
 	quests: [{
+		dependencies: ["58CEA56747D60B65"]
 		id: "1C44686F661BB9E4"
 		subtitle: "Много текста..."
 		tasks: [{

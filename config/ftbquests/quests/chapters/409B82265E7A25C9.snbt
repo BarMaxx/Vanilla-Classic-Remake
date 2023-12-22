@@ -15,6 +15,7 @@
 			tasks: [{
 				dimension: "blue_skies:everdawn"
 				id: "6366D8B6199AE511"
+				title: "Посетить измерение Эвердоун"
 				type: "dimension"
 			}]
 			x: 0.0d

@@ -17,6 +17,7 @@
 		{
 			dependencies: ["6F6EADB5F5C997B0"]
 			id: "49FE34669CEAD13C"
+			shape: "gold"
 			tasks: [{
 				id: "02E6A75E4F309416"
 				item: {
@@ -34,9 +35,11 @@
 		{
 			dependencies: ["34C1D59023AA23CD"]
 			id: "6F6EADB5F5C997B0"
+			shape: "dirt"
 			tasks: [{
 				id: "3ADBAD9E0F1B6F31"
 				structure: "blue_skies:gatekeeper_house_plains"
+				title: "Найти структуру Дом привратника на равнине"
 				type: "structure"
 			}]
 			x: 0.0d

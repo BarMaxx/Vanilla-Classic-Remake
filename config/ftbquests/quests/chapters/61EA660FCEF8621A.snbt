@@ -17,10 +17,11 @@
 		{
 			dependencies: ["0EA1D5F1CE1263EF"]
 			id: "28C61FC52FA396F8"
-			shape: "dirt"
+			shape: "iron"
 			tasks: [{
 				dimension: "deeperdarker:otherside"
 				id: "5019A3E8877A4F04"
+				title: "Посетить измерение Другая сторона"
 				type: "dimension"
 			}]
 			x: 5.0d
@@ -29,7 +30,7 @@
 		{
 			dependencies: ["06831B040C6BCB13"]
 			id: "5B755654675F5917"
-			shape: "diamond"
+			shape: "gold"
 			tasks: [{
 				id: "47C1F43A68F25C6E"
 				item: "deeperdarker:heart_of_the_deep"
@@ -252,9 +253,11 @@
 		{
 			dependencies: ["34C1D59023AA23CD"]
 			id: "6D43CD89EB04EA21"
+			shape: "dirt"
 			tasks: [{
 				id: "4DE853C7413223BB"
 				structure: "#minecraft:ancient_city"
+				title: "Найти структуру Древний город"
 				type: "structure"
 			}]
 			x: 0.0d
@@ -262,10 +265,13 @@
 		}
 		{
 			dependencies: ["5B755654675F5917"]
+			description: ["С помощью &6Сердца глубин&r необходимо активировать портал, который находится в &aДревнем городе&r."]
 			id: "0EA1D5F1CE1263EF"
+			shape: "iron"
+			subtitle: "Новые тайны!"
 			tasks: [{
 				id: "527C41F5BCED9D7E"
-				title: "Портал"
+				title: "Активация портала"
 				type: "checkmark"
 			}]
 			x: 3.5d
@@ -274,6 +280,7 @@
 		{
 			dependencies: ["6D43CD89EB04EA21"]
 			id: "06831B040C6BCB13"
+			shape: "iron"
 			tasks: [{
 				entity: "minecraft:warden"
 				id: "1C75C70439AF1E16"

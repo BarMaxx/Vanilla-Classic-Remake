@@ -18,7 +18,7 @@
 				item: "farmersdelight:stove"
 				type: "item"
 			}]
-			x: 0.0d
+			x: 4.5d
 			y: 0.0d
 		}
 		{
@@ -37,7 +37,7 @@
 				}
 				type: "item"
 			}]
-			x: 1.5d
+			x: 6.0d
 			y: 0.5d
 		}
 		{
@@ -50,7 +50,7 @@
 				item: "farmersdelight:cooking_pot"
 				type: "item"
 			}]
-			x: -1.5d
+			x: 3.0d
 			y: 0.5d
 		}
 		{
@@ -71,7 +71,7 @@
 					type: "item"
 				}
 			]
-			x: -1.5d
+			x: 3.0d
 			y: 1.5d
 		}
 		{
@@ -92,7 +92,7 @@
 					type: "item"
 				}
 			]
-			x: -2.0d
+			x: 2.5d
 			y: -0.5d
 		}
 		{
@@ -105,7 +105,7 @@
 				item: "farmersdelight:ratatouille"
 				type: "item"
 			}]
-			x: -2.5d
+			x: 2.0d
 			y: 0.5d
 		}
 		{
@@ -117,7 +117,7 @@
 				item: "farmersdelight:cutting_board"
 				type: "item"
 			}]
-			x: 0.0d
+			x: 4.5d
 			y: -1.5d
 		}
 		{
@@ -129,8 +129,8 @@
 				item: "nethersdelight:blackstone_stove"
 				type: "item"
 			}]
-			x: -5.5d
-			y: 0.0d
+			x: 0.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["6E480373CD5E5C67"]
@@ -141,8 +141,8 @@
 				item: "nethersdelight:stuffed_hoglin"
 				type: "item"
 			}]
-			x: -4.0d
-			y: 0.5d
+			x: 1.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["6E480373CD5E5C67"]
@@ -153,8 +153,8 @@
 				item: "nethersdelight:grilled_strider"
 				type: "item"
 			}]
-			x: -7.0d
-			y: 0.5d
+			x: -1.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["6E480373CD5E5C67"]
@@ -165,8 +165,8 @@
 				item: "nethersdelight:magma_gelatin"
 				type: "item"
 			}]
-			x: -5.5d
-			y: 1.0d
+			x: 0.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["6E480373CD5E5C67"]
@@ -177,8 +177,8 @@
 				item: "nethersdelight:soul_compost"
 				type: "item"
 			}]
-			x: -5.5d
-			y: -1.5d
+			x: 0.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["34C1D59023AA23CD"]
@@ -189,8 +189,8 @@
 				item: "twilightdelight:maze_stove"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -4.0d
+			x: -5.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["22D33D34AE2C423D"]
@@ -201,8 +201,8 @@
 				item: "twilightdelight:fiery_cooking_pot"
 				type: "item"
 			}]
-			x: -1.5d
-			y: -3.5d
+			x: -4.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["7CDDFEBEBE84ED51"]
@@ -213,8 +213,8 @@
 				item: "twilightdelight:glow_venison_rib_with_pasta"
 				type: "item"
 			}]
-			x: -1.5d
-			y: -2.5d
+			x: -4.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["7CDDFEBEBE84ED51"]
@@ -225,8 +225,8 @@
 				item: "twilightdelight:mushgloom_meef_pasta"
 				type: "item"
 			}]
-			x: -2.0d
-			y: -4.5d
+			x: -3.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["7CDDFEBEBE84ED51"]
@@ -237,8 +237,8 @@
 				item: "twilightdelight:fried_insect"
 				type: "item"
 			}]
-			x: -2.5d
-			y: -3.5d
+			x: -3.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["22D33D34AE2C423D"]
@@ -255,8 +255,8 @@
 				}
 				type: "item"
 			}]
-			x: 1.5d
-			y: -3.5d
+			x: -7.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["22D33D34AE2C423D"]
@@ -267,8 +267,8 @@
 				item: "twilightdelight:thorn_rose_tea"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -3.0d
+			x: -5.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["3E7148E1FC71B4A2"]
@@ -279,7 +279,7 @@
 				item: "abnormals_delight:pickerelweed_juice"
 				type: "item"
 			}]
-			x: 0.0d
+			x: 4.5d
 			y: 1.0d
 		}
 		{
@@ -291,8 +291,8 @@
 				item: "twilightdelight:torchberries_crate"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -5.5d
+			x: -5.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["18FCE07AA8D0E689"]

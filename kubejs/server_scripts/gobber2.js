@@ -42,7 +42,7 @@ ServerEvents.recipes(event => {
 		'NEN'
 	  ], 
 	  {
-		S: 'phantasm:stellium_ingot',
+		S: 'spirit:soul_steel_ingot',
 		E: 'gobber2:gobber2_glob_end',
 		N: 'gobber2:gobber2_ingot_nether'
 	  }

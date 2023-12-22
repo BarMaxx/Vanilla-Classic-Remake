@@ -15,6 +15,7 @@
 			tasks: [{
 				dimension: "blue_skies:everbright"
 				id: "484669DACC558B6C"
+				title: "Посетить измерение Эвербрайт"
 				type: "dimension"
 			}]
 			x: 0.0d
