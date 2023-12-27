@@ -2,7 +2,7 @@
 	icon: "minecraft:cooked_beef"
 	id: "74A9E7EEB42ABF5C"
 	loot_size: 1
-	order_index: 2
+	order_index: 0
 	rewards: [
 		{ count: 4, item: "minecraft:cooked_beef", title: "Стейк" }
 		{ count: 4, item: "minecraft:cooked_porkchop", title: "Жареная свинина" }

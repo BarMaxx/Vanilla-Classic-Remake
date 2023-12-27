@@ -14,11 +14,11 @@
 			hide: true
 			id: "4797541149F48B31"
 			rewards: [{
-				exclude_from_claim_all: true
-				icon: "minecraft:oak_log"
-				id: "0AE22C0BEC7E292A"
-				table_id: 7788030730566606779L
-				type: "choice"
+				count: 2
+				id: "6008AC28E72CDAE4"
+				item: "farmersdelight:stuffed_potato"
+				random_bonus: 2
+				type: "item"
 			}]
 			shape: "dirt"
 			size: 1.1d
@@ -45,11 +45,11 @@
 			description: ["&6Доски&r можно создать из дерева. А из досок можно создать уже большое количество предметов! Но самым главным будет - Верстак."]
 			id: "4C3E20DC2E7A5260"
 			rewards: [{
-				exclude_from_claim_all: true
-				icon: "minecraft:oak_planks"
-				id: "72DA096C5F5169C2"
-				table_id: 4849012743961254791L
-				type: "choice"
+				count: 8
+				id: "755F99C84993B58B"
+				item: "minecraft:sweet_berries"
+				random_bonus: 8
+				type: "item"
 			}]
 			shape: "iron"
 			subtitle: "Важный компонент игры!"
@@ -75,8 +75,8 @@
 			description: ["С помощью &6верстака&r можно создавать предметы на сетке крафта &e3х3&r."]
 			id: "72A952D88BACB448"
 			rewards: [{
-				id: "5FCE890880FBDE0A"
-				item: "neapolitan:vanilla_cake"
+				id: "69988AFBFB024A04"
+				item: "farmersrespite:coffee_cake"
 				type: "item"
 			}]
 			shape: "iron"
@@ -93,12 +93,6 @@
 			dependencies: ["72A952D88BACB448"]
 			description: ["С помощью &6деревянной кирки&r можно добывать булыжник."]
 			id: "01AECB10D8C15891"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "67220EF9F63482DD"
-				table_id: 7788030730566606779L
-				type: "random"
-			}]
 			shape: "iron"
 			subtitle: "Важный инструмент!"
 			tasks: [{
@@ -121,8 +115,9 @@
 			id: "1353634C2CA41B60"
 			rewards: [{
 				count: 4
-				id: "3F98918E3943824E"
-				item: "minecraft:cobblestone"
+				id: "48BBC721A0B04E73"
+				item: "pineapple_delight:pineapple_pie_side"
+				random_bonus: 4
 				type: "item"
 			}]
 			shape: "gold"
@@ -781,8 +776,8 @@
 			id: "2B19E76BB0764227"
 			rewards: [{
 				count: 4
-				id: "1A3510EA5EB22C37"
-				item: "minecraft:stick"
+				id: "0CC9FD37556DEF0E"
+				item: "blue_skies:brewberry"
 				random_bonus: 4
 				type: "item"
 			}]
@@ -1287,7 +1282,17 @@
 		}
 		{
 			dependencies: ["6C6BA8C9DB600AAF"]
-			description: ["&6Стимпанковая броня&r очень хорошо защищает от взрывов, что является её главной особенностью."]
+			description: [
+				"&6Стимпанковая броня&r позволяет получить множество дополнительных &aумений&r."
+				""
+				"Стимпанковый шлем имеет встроенный &aрадар&r, который показывает местонахождение ближайших существ."
+				""
+				"Стимпанковый нагрудник имеет встроенные &aчасы&r."
+				""
+				"Стимпанковые поножи имеют &aдвойной прыжок&r."
+				""
+				"Стимпановые ботинки имеют &aсопротивление урона&r при падении."
+			]
 			id: "786963EDF5B108CA"
 			rewards: [
 				{
@@ -1301,6 +1306,21 @@
 					id: "5894653D48799D51"
 					item: "minecraft:slime_ball"
 					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "0D1328A1960199AB"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							Parent: {
+								Items: [ ]
+								SelectedSlot: 0
+								Size: 6
+							}
+						}
+						id: "supplementaries:quiver"
+					}
 					type: "item"
 				}
 			]
@@ -1550,9 +1570,9 @@
 			id: "16EAF7AE7B6AE4AB"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "03237772A448C747"
-				table_id: 4849012743961254791L
-				type: "choice"
+				id: "27E8542A3BD513B2"
+				table_id: 8406505191874674524L
+				type: "random"
 			}]
 			shape: "iron"
 			subtitle: "Важный набор!"
@@ -1599,13 +1619,19 @@
 			dependencies: ["1353634C2CA41B60"]
 			description: ["&6Каменные инструменты&r немного лучше, чем деревянные. С ними будет ещё проще выживать в мире сборки и строить свой путь к главному Артефакту сборки."]
 			id: "6DF7F5370669302A"
-			rewards: [{
-				count: 8
-				id: "39F7D3E2CE5872C8"
-				item: "minecraft:cobblestone"
-				random_bonus: 8
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "1DA9E028CB8809D5"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "31263199BC9EDBF8"
+					table_id: 8406505191874674524L
+					type: "choice"
+				}
+			]
 			shape: "iron"
 			subtitle: "Более прочный набор инструментов!"
 			tasks: [

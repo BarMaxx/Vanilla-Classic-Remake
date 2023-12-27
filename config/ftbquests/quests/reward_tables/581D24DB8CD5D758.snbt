@@ -2,7 +2,7 @@
 	icon: "minecraft:chest"
 	id: "581D24DB8CD5D758"
 	loot_size: 1
-	order_index: 3
+	order_index: 1
 	rewards: [
 		{ item: "minecraft:chest" }
 		{ item: "quark:ancient_chest" }

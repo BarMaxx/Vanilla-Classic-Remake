@@ -10,9 +10,12 @@
 	quests: [
 		{
 			dependencies: ["34C1D59023AA23CD"]
+			description: ["&6Порошок души&r создаётся в огне душ из &aсветокаменной пыли&r."]
 			id: "2314B23799DC412B"
 			shape: "dirt"
+			subtitle: "Завораживает!"
 			tasks: [{
+				count: 4L
 				id: "5638558583C1D981"
 				item: "spirit:soul_powder"
 				type: "item"
@@ -22,9 +25,12 @@
 		}
 		{
 			dependencies: ["2314B23799DC412B"]
+			description: ["&6Блок порошка души&r создаётся из &e4&r-х порошков души."]
 			id: "24969413BF74EFC9"
 			shape: "iron"
+			subtitle: "Выглядит не твёрдо!"
 			tasks: [{
+				count: 4L
 				id: "688344CF225FB2B4"
 				item: "spirit:soul_powder_block"
 				type: "item"
@@ -34,9 +40,12 @@
 		}
 		{
 			dependencies: ["24969413BF74EFC9"]
+			description: ["&6Сжатый блок порошка души&r создаётся из &e9&r-и блоков порошка души."]
 			id: "46EE21D260B675C9"
 			shape: "iron"
+			subtitle: "Уплотнение!"
 			tasks: [{
+				count: 4L
 				id: "6324DCECE8F8814C"
 				item: "spirit:compressed_soul_powder_block"
 				type: "item"
@@ -61,6 +70,7 @@
 			id: "2605334DB01336E5"
 			shape: "dirt"
 			tasks: [{
+				count: 4L
 				id: "39038541192D7B99"
 				item: "spirit:soul_slate"
 				type: "item"
@@ -82,9 +92,15 @@
 		}
 		{
 			dependencies: ["46EE21D260B675C9"]
+			description: [
+				"&6Стальной блок души&r создаётся на специальной &aконструкции&r из &e4&r-х сжатых блоков порошков души и сжатого песка души, который нужно поджечь. "
+				"А после, необходимо кинуть &aжелезный блок&r в пламя."
+			]
 			id: "72D5C826C53913B2"
 			shape: "gold"
+			subtitle: "Сталь!"
 			tasks: [{
+				count: 4L
 				id: "729A7FE0C8F45A96"
 				item: "spirit:soul_steel_block"
 				type: "item"
