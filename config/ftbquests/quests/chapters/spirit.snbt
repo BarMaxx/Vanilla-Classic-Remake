@@ -67,8 +67,10 @@
 		}
 		{
 			dependencies: ["34C1D59023AA23CD"]
+			description: ["&6Сланец души&r создаётся при помощи &aглубинного сланца&r, брошенного в огонь душ."]
 			id: "2605334DB01336E5"
 			shape: "dirt"
+			subtitle: "Новый камень!"
 			tasks: [{
 				count: 4L
 				id: "39038541192D7B99"
@@ -80,8 +82,10 @@
 		}
 		{
 			dependencies: ["2605334DB01336E5"]
+			description: ["&6Пьедестал&r нужен для создания другого пьедестала."]
 			id: "0804381B8846E9B8"
 			shape: "iron"
+			subtitle: "На него можно положить предмет!"
 			tasks: [{
 				id: "74C7EAF3397BF455"
 				item: "spirit:pedestal"

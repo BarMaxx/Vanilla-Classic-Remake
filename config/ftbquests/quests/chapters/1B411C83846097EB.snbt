@@ -308,6 +308,7 @@
 		}
 		{
 			dependencies: ["0BF7880FE91B6666"]
+			description: ["Необходимо найти &aлабиринт&r минотавра и одолеть его."]
 			id: "5AE48A334FE50D59"
 			shape: "gold"
 			subtitle: "Животное?!"
@@ -322,8 +323,10 @@
 		}
 		{
 			dependencies: ["5AE48A334FE50D59"]
+			description: ["&6Трофей гриботавра&r выпадает при убийстве &aминотавра&r."]
 			id: "411013196B68BFA4"
 			shape: "iron"
+			subtitle: "Третий трофей!"
 			tasks: [{
 				id: "5F9263FC2DB3DAD3"
 				item: "twilightforest:minoshroom_trophy"
@@ -364,8 +367,10 @@
 		}
 		{
 			dependencies: ["411013196B68BFA4"]
+			description: ["Необходимо найти &6Гидру&r, а после ододелеть её."]
 			id: "4636FFBEE32833E5"
 			shape: "gold"
+			subtitle: "Прямо как в сказках!"
 			tasks: [{
 				entity: "twilightforest:hydra"
 				id: "057451F514211659"
@@ -377,9 +382,11 @@
 		}
 		{
 			dependencies: ["4636FFBEE32833E5"]
+			description: ["&6Трофей гидры&r выпадает после убийства босса."]
 			hide: false
 			id: "44134EE872FCDB7D"
 			shape: "iron"
+			subtitle: "Четвёртый трофей!"
 			tasks: [{
 				id: "7CF6C9B5FF019DCB"
 				item: "twilightforest:hydra_trophy"
@@ -510,8 +517,10 @@
 		}
 		{
 			dependencies: ["653B567D11A82D11"]
+			description: ["Необходимо найти &aструктуру&r с &6Ур-Гастом&r, а после уничтожить его."]
 			id: "20C904F4EE6D103C"
 			shape: "gold"
+			subtitle: "Он летает!"
 			tasks: [{
 				entity: "twilightforest:ur_ghast"
 				id: "40EC5E2A5D0DA116"
@@ -523,8 +532,10 @@
 		}
 		{
 			dependencies: ["20C904F4EE6D103C"]
+			description: ["&6Трофей Ур-Гаста&r можно получить после его убийства."]
 			id: "4DA0EF7E83174979"
 			shape: "iron"
+			subtitle: "Пятый трофей!"
 			tasks: [{
 				id: "324E864B9AF0329B"
 				item: "twilightforest:ur_ghast_trophy"
@@ -559,8 +570,10 @@
 		}
 		{
 			dependencies: ["4DA0EF7E83174979"]
+			description: ["Необходимо найти &aструктуру&r с &6Альфа-йети&r, а после убить его."]
 			id: "0B8EB3D5AA1768F0"
 			shape: "gold"
+			subtitle: "У него холодно!"
 			tasks: [{
 				entity: "twilightforest:alpha_yeti"
 				id: "4686B5F437B80C84"
@@ -572,8 +585,10 @@
 		}
 		{
 			dependencies: ["0B8EB3D5AA1768F0"]
+			description: ["&6Трофей Альфа-йети&r выпадает после убийства этого босса."]
 			id: "2C4CA744F9DDC365"
 			shape: "iron"
+			subtitle: "Шестой трофей!"
 			tasks: [{
 				id: "3059DE4F54AFE1D4"
 				item: "twilightforest:alpha_yeti_trophy"
@@ -683,8 +698,10 @@
 		}
 		{
 			dependencies: ["2C4CA744F9DDC365"]
+			description: ["Необходимо найти &aструктуру&r со &6Снежной королевой&r, а после нужно уничтожить этого босса."]
 			id: "15B58FFDBB2B3766"
 			shape: "gold"
+			subtitle: "Снежное царство!"
 			tasks: [{
 				entity: "twilightforest:snow_queen"
 				id: "69BAF94F6148A31D"
@@ -696,8 +713,14 @@
 		}
 		{
 			dependencies: ["15B58FFDBB2B3766"]
+			description: [
+				"&6Трофей Снежной королевы&r выпадает после убийства босса."
+				""
+				"А также, этот трофей и босс является финальным в &aСумеречном лесу&r."
+			]
 			id: "32A2447D9C4BAF7D"
 			shape: "diamond"
+			subtitle: "Финал!"
 			tasks: [{
 				id: "3593EEE0E5BBA007"
 				item: "twilightforest:snow_queen_trophy"
@@ -744,9 +767,14 @@
 		}
 		{
 			dependencies: ["44134EE872FCDB7D"]
+			description: [
+				"Необходимо найти &aструктуру&r, в котрой появляются эти &6гоблины&r."
+				"А после, нужно убить их."
+			]
 			id: "331B68B30B5195E1"
 			min_required_tasks: 1
 			shape: "gold"
+			subtitle: "Выбор из 3-х!"
 			tasks: [
 				{
 					entity: "twilightforest:blockchain_goblin"
@@ -767,19 +795,47 @@
 					value: 1L
 				}
 			]
+			title: "Убить гоблина"
 			x: 11.5d
 			y: -2.5d
 		}
 		{
 			dependencies: ["331B68B30B5195E1"]
+			description: ["&6Осколок рыцарского металла&r выпадает при убйстве одного из гоблинов из предыдущего квеста."]
 			id: "653B567D11A82D11"
 			shape: "iron"
+			subtitle: "Новый металл!"
 			tasks: [{
+				count: 4L
 				id: "6A0DA2CD6C3E396D"
 				item: "twilightforest:armor_shard"
 				type: "item"
 			}]
 			x: 11.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["653B567D11A82D11"]
+			id: "78DC147E7D027C67"
+			shape: "iron"
+			tasks: [{
+				id: "0B6D58A7F524CFE6"
+				item: "twilightforest:armor_shard_cluster"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["78DC147E7D027C67"]
+			id: "5FC38D781C11449B"
+			shape: "gold"
+			tasks: [{
+				id: "0CB53E819A701404"
+				item: "twilightforest:knightmetal_ingot"
+				type: "item"
+			}]
+			x: 14.5d
 			y: -4.0d
 		}
 	]
