@@ -9,8 +9,9 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["1353634C2CA41B60"]
+			dependencies: ["34C1D59023AA23CD"]
 			description: ["&6Инструмент для строительства&r - это самый важный инструмент, который нужен для создания собственной колонии."]
+			hide: true
 			id: "2C99DE39599D0AE1"
 			rewards: [{
 				count: 2
@@ -247,7 +248,8 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["5775A7B44208248A"]
+			dependencies: ["34C1D59023AA23CD"]
+			hide: true
 			id: "0F31B41596CC29EB"
 			shape: "dirt"
 			tasks: [{

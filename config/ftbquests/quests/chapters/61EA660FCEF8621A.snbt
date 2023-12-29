@@ -252,6 +252,7 @@
 		}
 		{
 			dependencies: ["34C1D59023AA23CD"]
+			hide: true
 			id: "6D43CD89EB04EA21"
 			shape: "dirt"
 			tasks: [{
@@ -271,9 +272,10 @@
 			subtitle: "Новые тайны!"
 			tasks: [{
 				id: "527C41F5BCED9D7E"
-				title: "Активация портала"
+				title: "Нажми на меня!"
 				type: "checkmark"
 			}]
+			title: "Активация портала"
 			x: 3.5d
 			y: 0.0d
 		}

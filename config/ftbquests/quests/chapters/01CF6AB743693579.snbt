@@ -15,8 +15,9 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["5C8F6BE38CD61F1B"]
+			dependencies: ["34C1D59023AA23CD"]
 			description: ["С помощью &6око эндера&r можно найти портал в &5Энд&r, а также с помощью них портал можно активировать."]
+			hide: true
 			icon: "minecraft:ender_eye"
 			id: "2B1E2D735EEA2212"
 			rewards: [{

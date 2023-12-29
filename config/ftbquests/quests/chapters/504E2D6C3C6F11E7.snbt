@@ -9,7 +9,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["784141803D88C42E"]
+			dependencies: ["34C1D59023AA23CD"]
 			description: [
 				"Пришло время разведать новый мир - &4Ад&r. "
 				""
@@ -19,6 +19,7 @@
 				""
 				"&7*&r - См. главу &3Important Tips&r."
 			]
+			hide: true
 			id: "0638AA464CB433BD"
 			rewards: [
 				{

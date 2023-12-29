@@ -26,6 +26,7 @@
 		}
 		{
 			dependencies: ["34C1D59023AA23CD"]
+			hide: true
 			id: "27770D41688AA6AB"
 			shape: "dirt"
 			size: 1.2d
@@ -39,6 +40,7 @@
 		}
 		{
 			dependencies: ["34C1D59023AA23CD"]
+			hide: true
 			id: "04A6DB3EE3A17A52"
 			shape: "dirt"
 			size: 1.2d

@@ -10,6 +10,7 @@
 	quests: [
 		{
 			dependencies: ["34C1D59023AA23CD"]
+			hide: true
 			id: "74BE7195932F349A"
 			shape: "dirt"
 			tasks: [{

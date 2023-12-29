@@ -15,8 +15,9 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["5775A7B44208248A"]
+			dependencies: ["34C1D59023AA23CD"]
 			description: ["Улучшенная версия предыдущего хранилища."]
+			hide: true
 			id: "15762F597B965F99"
 			shape: "dirt"
 			tasks: [{
@@ -91,8 +92,9 @@
 			y: -0.5d
 		}
 		{
-			dependencies: ["6AAAA180FDF5C44C"]
+			dependencies: ["34C1D59023AA23CD"]
 			description: ["Улучшенная версия предыдущего хранилища."]
+			hide: true
 			id: "782E87DFA8D9E320"
 			shape: "dirt"
 			tasks: [{
@@ -167,12 +169,10 @@
 			y: 0.5d
 		}
 		{
-			dependencies: [
-				"15762F597B965F99"
-				"782E87DFA8D9E320"
-			]
+			dependencies: ["34C1D59023AA23CD"]
 			dependency_requirement: "one_completed"
 			description: ["Шаблон улучшений нужен для создания улучшений."]
+			hide: true
 			hide_dependency_lines: true
 			id: "274FC868882EF6E8"
 			shape: "dirt"
@@ -186,8 +186,9 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["2B19E76BB0764227"]
+			dependencies: ["34C1D59023AA23CD"]
 			description: ["С помощью этого улучшений можно моментально улучшить хранилище."]
+			hide: true
 			id: "7DD72871BE2B9E8D"
 			shape: "dirt"
 			tasks: [{
@@ -199,8 +200,9 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["42A0AA3648A0912D"]
+			dependencies: ["34C1D59023AA23CD"]
 			description: ["С помощью этого улучшений можно моментально улучшить хранилище."]
+			hide: true
 			id: "7299F4C6F228A401"
 			shape: "iron"
 			tasks: [{
@@ -212,8 +214,9 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["08F7863D82646291"]
+			dependencies: ["34C1D59023AA23CD"]
 			description: ["С помощью этого улучшений можно моментально улучшить хранилище."]
+			hide: true
 			id: "5FD7487ACED59006"
 			shape: "gold"
 			tasks: [{
@@ -225,8 +228,9 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["7214867124566ED2"]
+			dependencies: ["34C1D59023AA23CD"]
 			description: ["С помощью этого улучшений можно моментально улучшить хранилище."]
+			hide: true
 			id: "05616FB7D90AFE2C"
 			shape: "diamond"
 			tasks: [{
@@ -238,8 +242,9 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["79325CD17EACF314"]
+			dependencies: ["34C1D59023AA23CD"]
 			description: ["С помощью этого улучшений можно моментально улучшить хранилище."]
+			hide: true
 			id: "4A69546A27A19757"
 			shape: "diamond"
 			tasks: [{

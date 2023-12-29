@@ -11,6 +11,7 @@
 		{
 			dependencies: ["34C1D59023AA23CD"]
 			description: ["В нем можно хранить много вещей. А также рюкзак можно улучшать! Хорошая вещь в путешествиях."]
+			hide: true
 			id: "416B74D4AB51374B"
 			shape: "iron"
 			tasks: [{
@@ -75,6 +76,7 @@
 		}
 		{
 			dependencies: ["34C1D59023AA23CD"]
+			hide: true
 			id: "470353D9C67BAA03"
 			shape: "dirt"
 			tasks: [{

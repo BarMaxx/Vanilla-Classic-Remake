@@ -9,6 +9,7 @@
 	quest_links: [ ]
 	quests: [{
 		dependencies: ["34C1D59023AA23CD"]
+		hide: true
 		id: "46F4AFCC7AF62FC3"
 		shape: "dirt"
 		tasks: [{

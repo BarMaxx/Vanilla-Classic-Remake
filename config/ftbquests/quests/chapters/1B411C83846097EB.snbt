@@ -19,6 +19,7 @@
 				""
 				"{image:vanilla_classic_remake:textures/portal_to_twilight_forest_complete.png width:200 height:100 align:1}"
 			]
+			hide: true
 			id: "0AFECA103FCCF23A"
 			rewards: [
 				{

@@ -34,6 +34,7 @@
 		}
 		{
 			dependencies: ["34C1D59023AA23CD"]
+			hide: true
 			id: "6F6EADB5F5C997B0"
 			shape: "dirt"
 			tasks: [{

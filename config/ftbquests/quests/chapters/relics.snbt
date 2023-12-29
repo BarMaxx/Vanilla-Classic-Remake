@@ -25,6 +25,7 @@
 		{
 			dependencies: ["34C1D59023AA23CD"]
 			description: ["С помощью &6Стола Исследователя&r можно изучать различные &2Артефакты&r. А также, заниматься улучшением этих Артефактов, чтобы более выгодно их использовать в своих целях."]
+			hide: true
 			id: "7CF84DD7C8E4B52C"
 			shape: "dirt"
 			size: 2.0d
@@ -39,6 +40,7 @@
 		}
 		{
 			dependencies: ["34C1D59023AA23CD"]
+			hide: true
 			id: "1DAB6E68BEE32F49"
 			shape: "diamond"
 			tasks: [{
@@ -65,6 +67,7 @@
 		}
 		{
 			dependencies: ["34C1D59023AA23CD"]
+			hide: true
 			id: "56030D0C8C30D040"
 			shape: "diamond"
 			tasks: [{
@@ -92,6 +95,7 @@
 		}
 		{
 			dependencies: ["34C1D59023AA23CD"]
+			hide: true
 			id: "198724D04F45B035"
 			shape: "gold"
 			tasks: [{
@@ -120,6 +124,7 @@
 		}
 		{
 			dependencies: ["34C1D59023AA23CD"]
+			hide: true
 			id: "1F6BBE780BF4FCC3"
 			shape: "diamond"
 			tasks: [{
@@ -155,6 +160,7 @@
 				""
 				"Водоходы можно найти в &2сокровищницах&r различных данжей. "
 			]
+			hide: true
 			id: "5EF305DD3BA6F41A"
 			rewards: [{
 				id: "0F1193DD781F57DB"
@@ -187,6 +193,7 @@
 		}
 		{
 			dependencies: ["34C1D59023AA23CD"]
+			hide: true
 			id: "0E48D33939EA51FF"
 			shape: "gold"
 			tasks: [{
@@ -221,6 +228,7 @@
 		}
 		{
 			dependencies: ["34C1D59023AA23CD"]
+			hide: true
 			id: "6E145933FCFA48DB"
 			shape: "gold"
 			tasks: [{
@@ -266,6 +274,7 @@
 		}
 		{
 			dependencies: ["34C1D59023AA23CD"]
+			hide: true
 			id: "44D6310965DC17F5"
 			shape: "gold"
 			tasks: [{
@@ -298,6 +307,7 @@
 		}
 		{
 			dependencies: ["34C1D59023AA23CD"]
+			hide: true
 			id: "179D73975DFC0B8D"
 			shape: "gold"
 			tasks: [{
@@ -324,6 +334,7 @@
 		}
 		{
 			dependencies: ["34C1D59023AA23CD"]
+			hide: true
 			id: "4FD72EBBDE57F3AB"
 			shape: "gold"
 			tasks: [{
@@ -356,6 +367,7 @@
 		}
 		{
 			dependencies: ["34C1D59023AA23CD"]
+			hide: true
 			id: "4015B58E2FA870EB"
 			shape: "gold"
 			tasks: [{
@@ -400,6 +412,7 @@
 		}
 		{
 			dependencies: ["34C1D59023AA23CD"]
+			hide: true
 			id: "4B94D3444FE6B488"
 			shape: "diamond"
 			tasks: [{
@@ -433,6 +446,7 @@
 		}
 		{
 			dependencies: ["34C1D59023AA23CD"]
+			hide: true
 			id: "6B48F8B0CD8D2F74"
 			shape: "diamond"
 			tasks: [{
@@ -459,6 +473,7 @@
 		}
 		{
 			dependencies: ["34C1D59023AA23CD"]
+			hide: true
 			id: "1BC2B8ECE6512026"
 			shape: "gold"
 			tasks: [{
@@ -486,6 +501,7 @@
 		}
 		{
 			dependencies: ["34C1D59023AA23CD"]
+			hide: true
 			id: "660EFF5A1745E54E"
 			shape: "iron"
 			tasks: [{
@@ -534,6 +550,7 @@
 		}
 		{
 			dependencies: ["34C1D59023AA23CD"]
+			hide: true
 			id: "04804CDE32D38480"
 			shape: "gold"
 			tasks: [{
@@ -561,6 +578,7 @@
 		}
 		{
 			dependencies: ["34C1D59023AA23CD"]
+			hide: true
 			id: "3DEB6C7C5CE42EC2"
 			shape: "gold"
 			tasks: [{
@@ -587,6 +605,7 @@
 		}
 		{
 			dependencies: ["34C1D59023AA23CD"]
+			hide: true
 			id: "0F6501B2D75A8DE9"
 			shape: "gold"
 			tasks: [{
@@ -614,6 +633,7 @@
 		}
 		{
 			dependencies: ["34C1D59023AA23CD"]
+			hide: true
 			id: "322CC8DAF5DD4FDC"
 			shape: "diamond"
 			tasks: [{
@@ -641,6 +661,7 @@
 		}
 		{
 			dependencies: ["34C1D59023AA23CD"]
+			hide: true
 			id: "77624EDB4C456122"
 			shape: "diamond"
 			tasks: [{
@@ -674,6 +695,7 @@
 		}
 		{
 			dependencies: ["34C1D59023AA23CD"]
+			hide: true
 			id: "0F141A5612B7529B"
 			shape: "diamond"
 			tasks: [{
@@ -702,6 +724,7 @@
 		}
 		{
 			dependencies: ["34C1D59023AA23CD"]
+			hide: true
 			id: "4C70B2424C14A5F3"
 			shape: "diamond"
 			tasks: [{
@@ -752,6 +775,7 @@
 		}
 		{
 			dependencies: ["34C1D59023AA23CD"]
+			hide: true
 			id: "104A2E0B4377FD8A"
 			shape: "iron"
 			tasks: [{
@@ -789,6 +813,7 @@
 		}
 		{
 			dependencies: ["34C1D59023AA23CD"]
+			hide: true
 			id: "4247DB175F0D0B0C"
 			shape: "diamond"
 			tasks: [{
@@ -816,6 +841,7 @@
 		}
 		{
 			dependencies: ["34C1D59023AA23CD"]
+			hide: true
 			id: "5242C3D1F1F35940"
 			shape: "iron"
 			tasks: [{
@@ -849,6 +875,7 @@
 		}
 		{
 			dependencies: ["34C1D59023AA23CD"]
+			hide: true
 			id: "54951BD86572F32C"
 			shape: "iron"
 			tasks: [{
@@ -875,6 +902,7 @@
 		}
 		{
 			dependencies: ["34C1D59023AA23CD"]
+			hide: true
 			id: "2E76563F49AA9A1E"
 			shape: "gold"
 			tasks: [{
@@ -904,6 +932,7 @@
 		}
 		{
 			dependencies: ["34C1D59023AA23CD"]
+			hide: true
 			id: "11AD4404FABDB1BB"
 			shape: "diamond"
 			tasks: [{

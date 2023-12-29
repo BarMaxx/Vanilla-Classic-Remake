@@ -10,6 +10,7 @@
 	quests: [
 		{
 			dependencies: ["34C1D59023AA23CD"]
+			hide: true
 			id: "0BFE369B100A3595"
 			shape: "dirt"
 			tasks: [{
@@ -71,6 +72,7 @@
 		}
 		{
 			dependencies: ["34C1D59023AA23CD"]
+			hide: true
 			id: "048BD55CDEC8C3BA"
 			shape: "dirt"
 			tasks: [{
@@ -102,6 +104,7 @@
 		}
 		{
 			dependencies: ["34C1D59023AA23CD"]
+			hide: true
 			id: "224DFA23647FF06E"
 			shape: "dirt"
 			tasks: [{
@@ -139,6 +142,7 @@
 		}
 		{
 			dependencies: ["34C1D59023AA23CD"]
+			hide: true
 			id: "43659715E87D6396"
 			shape: "dirt"
 			tasks: [{
@@ -325,6 +329,7 @@
 		}
 		{
 			dependencies: ["34C1D59023AA23CD"]
+			hide: true
 			id: "4D7BAF08F127316C"
 			shape: "dirt"
 			tasks: [{
@@ -374,6 +379,7 @@
 		}
 		{
 			dependencies: ["34C1D59023AA23CD"]
+			hide: true
 			id: "725898F4FC60844B"
 			shape: "dirt"
 			tasks: [{
@@ -447,6 +453,7 @@
 		}
 		{
 			dependencies: ["34C1D59023AA23CD"]
+			hide: true
 			id: "5C6EBA95FEEDCC9C"
 			shape: "dirt"
 			tasks: [{
@@ -472,6 +479,7 @@
 		}
 		{
 			dependencies: ["34C1D59023AA23CD"]
+			hide: true
 			id: "03658CB5092A2D92"
 			shape: "dirt"
 			tasks: [{

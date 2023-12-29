@@ -23,6 +23,7 @@
 				""
 				"Глоубеты Gobber нужны для создания &aГлоубов Gobber&r. "
 			]
+			hide: true
 			id: "1ED09DF6E49AE5FC"
 			rewards: [{
 				count: 6
@@ -162,6 +163,7 @@
 				""
 				"Адский глоубет Gobber необходим для создания &aАдского глоуба Gobber&r. "
 			]
+			hide: true
 			id: "3C8971B6DFD6A54B"
 			rewards: [{
 				count: 6
@@ -247,6 +249,7 @@
 				""
 				"Глоубет края Gobber необходим для создания &aГлоуба края Gobber&r. "
 			]
+			hide: true
 			id: "2D0CBF484C3D09CB"
 			rewards: [{
 				count: 6

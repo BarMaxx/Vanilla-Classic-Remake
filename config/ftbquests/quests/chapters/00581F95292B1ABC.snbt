@@ -11,6 +11,7 @@
 		{
 			dependencies: ["34C1D59023AA23CD"]
 			description: ["Кухонная плита нужна, чтобы можно было готовить еду в котелке и на сковороде."]
+			hide: true
 			id: "3E7148E1FC71B4A2"
 			shape: "dirt"
 			tasks: [{
@@ -122,6 +123,7 @@
 		}
 		{
 			dependencies: ["34C1D59023AA23CD"]
+			hide: true
 			id: "6E480373CD5E5C67"
 			shape: "dirt"
 			tasks: [{
@@ -182,6 +184,7 @@
 		}
 		{
 			dependencies: ["34C1D59023AA23CD"]
+			hide: true
 			id: "22D33D34AE2C423D"
 			shape: "dirt"
 			tasks: [{
@@ -295,8 +298,9 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["18FCE07AA8D0E689"]
+			dependencies: ["34C1D59023AA23CD"]
 			description: ["С помощью чайника можно приготовить различные напитки, но в основном чай."]
+			hide: true
 			id: "4F90FB2C13EF2C36"
 			shape: "gold"
 			tasks: [{
@@ -362,6 +366,7 @@
 		}
 		{
 			dependencies: ["34C1D59023AA23CD"]
+			hide: true
 			id: "166345543A884EE8"
 			shape: "gold"
 			tasks: [{
@@ -374,6 +379,7 @@
 		}
 		{
 			dependencies: ["34C1D59023AA23CD"]
+			hide: true
 			id: "0026D313DD899F3C"
 			shape: "diamond"
 			tasks: [{
@@ -386,6 +392,7 @@
 		}
 		{
 			dependencies: ["34C1D59023AA23CD"]
+			hide: true
 			id: "66B463AAA9FA115A"
 			shape: "diamond"
 			tasks: [{
@@ -398,6 +405,7 @@
 		}
 		{
 			dependencies: ["34C1D59023AA23CD"]
+			hide: true
 			id: "3C264BBAB7979EE5"
 			shape: "diamond"
 			tasks: [{
@@ -410,6 +418,7 @@
 		}
 		{
 			dependencies: ["34C1D59023AA23CD"]
+			hide: true
 			id: "64AA84782948C502"
 			shape: "diamond"
 			tasks: [{
