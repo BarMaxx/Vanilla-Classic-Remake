@@ -93,8 +93,10 @@
 		}
 		{
 			dependencies: ["08C12D59F3DAB192"]
+			description: ["&6Распылитель крови&r стреляет кровью."]
 			id: "373A3E77E53F4428"
 			shape: "gold"
+			subtitle: "Стреляет!"
 			tasks: [{
 				id: "3D8ED39D2860DD8A"
 				item: {
@@ -111,9 +113,19 @@
 		}
 		{
 			dependencies: ["57F9EC17BF08B807"]
+			description: ["&6Хоботок&r выпадает при убийстве моба Багровый комар."]
 			id: "08C12D59F3DAB192"
+			rewards: [{
+				count: 3
+				id: "7A8448368F533E3F"
+				item: "alexsmobs:mosquito_proboscis"
+				random_bonus: 2
+				type: "item"
+			}]
 			shape: "iron"
+			subtitle: "Противный предмет!"
 			tasks: [{
+				count: 2L
 				id: "44479EDB37F5D8F5"
 				item: "alexsmobs:mosquito_proboscis"
 				type: "item"
@@ -123,9 +135,16 @@
 		}
 		{
 			dependencies: ["34C1D59023AA23CD"]
+			description: ["Необходимо убить моба &6Багровый комар&r."]
 			hide: true
 			id: "57F9EC17BF08B807"
+			rewards: [{
+				id: "5B52C6C2EE293FCB"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			shape: "dirt"
+			subtitle: "Страшное зрелище!"
 			tasks: [{
 				entity: "alexsmobs:crimson_mosquito"
 				id: "78D095E081C945E1"

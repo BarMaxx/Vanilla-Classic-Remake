@@ -10,9 +10,16 @@
 	quests: [
 		{
 			dependencies: ["34C1D59023AA23CD"]
+			description: ["Необходимо убить моба &6Игнис&r."]
 			hide: true
 			id: "0BFE369B100A3595"
+			rewards: [{
+				id: "2186BB9EE5516161"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			shape: "dirt"
+			subtitle: "Горячо!"
 			tasks: [{
 				entity: "cataclysm:ignis"
 				id: "2F8030B9112C8A72"
@@ -24,9 +31,19 @@
 		}
 		{
 			dependencies: ["0BFE369B100A3595"]
+			description: ["&6Слиток игнита&r выпадает при убийстве моба Игнис."]
 			id: "65D307CA91CEBF73"
+			rewards: [{
+				count: 2
+				id: "4A94E1D15EFEA972"
+				item: "cataclysm:ignitium_ingot"
+				random_bonus: 5
+				type: "item"
+			}]
 			shape: "gold"
+			subtitle: "Огненный слиток!"
 			tasks: [{
+				count: 4L
 				id: "0029EA5C896F8841"
 				item: "cataclysm:ignitium_ingot"
 				type: "item"
@@ -36,8 +53,10 @@
 		}
 		{
 			dependencies: ["0BFE369B100A3595"]
+			description: ["&6Пластинка&r выпадает при убийстве моба Игнис."]
 			id: "5766BB3047E2BEBC"
 			shape: "diamond"
+			subtitle: "Музыка!"
 			tasks: [{
 				id: "12BA2854E11C7C6A"
 				item: "cataclysm:music_disc_ignis"
@@ -48,8 +67,10 @@
 		}
 		{
 			dependencies: ["65D307CA91CEBF73"]
+			description: ["&6Испепелитель&r - это очень мощный меч, необходимый каждому."]
 			id: "20D6CB320CFB51AF"
 			shape: "diamond"
+			subtitle: "Мощный меч!"
 			tasks: [{
 				id: "738D38C2F98D4647"
 				item: "cataclysm:the_incinerator"
@@ -60,8 +81,10 @@
 		}
 		{
 			dependencies: ["65D307CA91CEBF73"]
+			description: ["&6Бастион пламени&r - щит со способностями!"]
 			id: "547998AC2240F618"
 			shape: "diamond"
+			subtitle: "Щит!"
 			tasks: [{
 				id: "11F71B773EBB2DCA"
 				item: "cataclysm:bulwark_of_the_flame"
@@ -72,9 +95,16 @@
 		}
 		{
 			dependencies: ["34C1D59023AA23CD"]
+			description: ["Необходимо убить моба &6Глубинник-жрец&r."]
 			hide: true
 			id: "048BD55CDEC8C3BA"
+			rewards: [{
+				id: "3C16D7283AA85176"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			shape: "dirt"
+			subtitle: "Глубоко!"
 			tasks: [{
 				entity: "cataclysm:deepling_priest"
 				id: "2D96BA65814ADBC6"
@@ -86,8 +116,10 @@
 		}
 		{
 			dependencies: ["048BD55CDEC8C3BA"]
+			description: ["&6Атам&r выпадает при убийстве моба Глубинник-жрец."]
 			id: "6528768C1E40BCAD"
 			shape: "diamond"
+			subtitle: "Быстрое оружие!"
 			tasks: [{
 				id: "3E11DD4E5AA4D3A1"
 				item: {
@@ -104,9 +136,16 @@
 		}
 		{
 			dependencies: ["34C1D59023AA23CD"]
+			description: ["Необходимо убить моба &6Страж края&r."]
 			hide: true
 			id: "224DFA23647FF06E"
+			rewards: [{
+				id: "734A021282DDF367"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			shape: "dirt"
+			subtitle: "Защищает Край!"
 			tasks: [{
 				entity: "cataclysm:ender_guardian"
 				id: "09D2376D77F84C77"
@@ -118,8 +157,10 @@
 		}
 		{
 			dependencies: ["224DFA23647FF06E"]
+			description: ["&6Пластинка&r выпадает при убийстве моба Страж края."]
 			id: "40B65A62720F616D"
 			shape: "diamond"
+			subtitle: "Музыка!"
 			tasks: [{
 				id: "249FDDB7159B5361"
 				item: "cataclysm:music_disc_ender_guardian"
@@ -130,8 +171,14 @@
 		}
 		{
 			dependencies: ["224DFA23647FF06E"]
+			description: [
+				"&6Перчатка стража&r выпадает при убийстве моба Страж края. "
+				""
+				"Перчатка стража &aпритягивет&r различных существ."
+			]
 			id: "632D4B6861246459"
 			shape: "diamond"
+			subtitle: "Притягивает существ!"
 			tasks: [{
 				id: "65839AC526F1378A"
 				item: "cataclysm:gauntlet_of_guard"
@@ -142,9 +189,16 @@
 		}
 		{
 			dependencies: ["34C1D59023AA23CD"]
+			description: ["Необходимо убить моба &6Предвестник&r."]
 			hide: true
 			id: "43659715E87D6396"
+			rewards: [{
+				id: "4ADACFCB2CB7E276"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			shape: "dirt"
+			subtitle: "Настоящее чудовище!"
 			tasks: [{
 				entity: "cataclysm:the_harbinger"
 				id: "5D08348BFAC35F66"
@@ -156,8 +210,15 @@
 		}
 		{
 			dependencies: ["43659715E87D6396"]
+			description: ["&6Блок визерита&r выпадает при убийстве моба Предвестник."]
 			id: "372722EEB47A13AC"
+			rewards: [{
+				id: "58E4F58215278062"
+				item: "cataclysm:witherite_block"
+				type: "item"
+			}]
 			shape: "gold"
+			subtitle: "Драгоценный блок!"
 			tasks: [{
 				id: "3D2B16C3EF8AE01B"
 				item: "cataclysm:witherite_block"
@@ -168,8 +229,10 @@
 		}
 		{
 			dependencies: ["43659715E87D6396"]
+			description: ["&6Ручной визер-гранатомёт&r выпадает при убийстве моба Предвестник. "]
 			id: "5B5C47C1CC1946A9"
 			shape: "diamond"
+			subtitle: "Оружие!"
 			tasks: [{
 				id: "1C2EDE5105E52858"
 				item: "cataclysm:wither_assault_shoulder_weapon"
@@ -180,8 +243,10 @@
 		}
 		{
 			dependencies: ["43659715E87D6396"]
+			description: ["&6Пластинка&r выпадает при убийстве мода Предвестник."]
 			id: "1126887D22B3D305"
 			shape: "diamond"
+			subtitle: "Музыка!"
 			tasks: [{
 				id: "6DF200854FC7E6E1"
 				item: "cataclysm:music_disc_the_harbinger"
@@ -192,9 +257,19 @@
 		}
 		{
 			dependencies: ["372722EEB47A13AC"]
+			description: ["&6Слиток визерита&r можно получить из блока визерита."]
 			id: "061E6CC937FF8BD2"
+			rewards: [{
+				count: 2
+				id: "172FC6ACDFEAA40D"
+				item: "cataclysm:witherite_ingot"
+				random_bonus: 4
+				type: "item"
+			}]
 			shape: "iron"
+			subtitle: "Настоящий металл!"
 			tasks: [{
+				count: 6L
 				id: "344047B597EEC717"
 				item: "cataclysm:witherite_ingot"
 				type: "item"
@@ -204,8 +279,10 @@
 		}
 		{
 			dependencies: ["061E6CC937FF8BD2"]
+			description: ["&6Устройство механического слияния&r нужно для слияния нескольких предметов в новый и прокаченный."]
 			id: "21805FFB3875B1A3"
 			shape: "gold"
+			subtitle: "Слияние предметов!"
 			tasks: [{
 				id: "552D3188CCABB0F7"
 				item: "cataclysm:mechanical_fusion_anvil"
@@ -216,8 +293,10 @@
 		}
 		{
 			dependencies: ["21805FFB3875B1A3"]
+			description: ["&6Перчатка бастиона&r стала сильнее своей предыдущей версии."]
 			id: "3AA8C8499C72447F"
 			shape: "diamond"
+			subtitle: "Стала сильнее!"
 			tasks: [{
 				id: "459FB5DA09D135C3"
 				item: "cataclysm:gauntlet_of_bulwark"
@@ -228,8 +307,10 @@
 		}
 		{
 			dependencies: ["21805FFB3875B1A3"]
+			description: ["&6Горн пустоты&r стал сильнее своей предыдущей версии."]
 			id: "1D1F6D7E4D8FE2E6"
 			shape: "diamond"
+			subtitle: "Стал сильнее!"
 			tasks: [{
 				id: "70DBA5B986147726"
 				item: {
@@ -246,8 +327,10 @@
 		}
 		{
 			dependencies: ["21805FFB3875B1A3"]
+			description: ["&6Игнитовый крылатый нагрудник&r может летать!"]
 			id: "0FBE4D9739A74669"
 			shape: "diamond"
+			subtitle: "Научился летать!"
 			tasks: [{
 				id: "5ECAC0C1F6A2A19C"
 				item: {
@@ -264,8 +347,10 @@
 		}
 		{
 			dependencies: ["21805FFB3875B1A3"]
+			description: ["&6Ручной гранатомёт пустоты&r сильнее своей предыдущей версии."]
 			id: "52D97EC6691A5444"
 			shape: "diamond"
+			subtitle: "Стал сильнее!"
 			tasks: [{
 				id: "44D85AF21D139F5F"
 				item: "cataclysm:void_assault_shoulder_weapon"
@@ -276,8 +361,10 @@
 		}
 		{
 			dependencies: ["65D307CA91CEBF73"]
+			description: ["&6Игнитовая броня&r - очень хорошая броня, подходящая под &4Незер&r."]
 			id: "723EAA028D71E654"
 			shape: "diamond"
+			subtitle: "Имеет эффекты!"
 			tasks: [
 				{
 					id: "7E0B16C66A7140F3"
@@ -324,14 +411,22 @@
 					type: "item"
 				}
 			]
+			title: "Игнитовая броня"
 			x: 3.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["34C1D59023AA23CD"]
+			description: ["Необходимо убить моба &6Левиафан&r."]
 			hide: true
 			id: "4D7BAF08F127316C"
+			rewards: [{
+				id: "06B2A47CBFA2E619"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			shape: "dirt"
+			subtitle: "Прямо из легенд!"
 			tasks: [{
 				entity: "cataclysm:the_leviathan"
 				id: "200FCB26E8B5DF7D"
@@ -343,8 +438,14 @@
 		}
 		{
 			dependencies: ["4D7BAF08F127316C"]
+			description: [
+				"&6Когти прилива&r выпадают при убийстве моба Левиафан."
+				""
+				"Когти прилива - это очень удобный &aкрюк&r, который сильно упростит передвижение и сделает его намного интереснее и веселее."
+			]
 			id: "7FC795D6FC67DD90"
 			shape: "diamond"
+			subtitle: "Крюк!"
 			tasks: [{
 				id: "613563E56326D703"
 				item: "cataclysm:tidal_claws"
@@ -355,8 +456,10 @@
 		}
 		{
 			dependencies: ["4D7BAF08F127316C"]
+			description: ["Просто яйцо."]
 			id: "2E7ABB7E89D3531D"
 			shape: "diamond"
+			subtitle: "В нём что-то скрыто!"
 			tasks: [{
 				id: "13FAFBBB2DF268A7"
 				item: "cataclysm:abyssal_egg"
@@ -367,8 +470,10 @@
 		}
 		{
 			dependencies: ["4D7BAF08F127316C"]
+			description: ["&6Пластинка&r выпадает при убийстве моба Левиафана."]
 			id: "0FC14DD7DD5609C9"
 			shape: "diamond"
+			subtitle: "Музыка!"
 			tasks: [{
 				id: "3FB304F9474F63DC"
 				item: "cataclysm:music_disc_the_leviathan"
@@ -379,9 +484,16 @@
 		}
 		{
 			dependencies: ["34C1D59023AA23CD"]
+			description: ["Необходимо убить моба &6Незеритовое чудище&r."]
 			hide: true
 			id: "725898F4FC60844B"
+			rewards: [{
+				id: "31E88A83B3526834"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			shape: "dirt"
+			subtitle: "Адский босс!"
 			tasks: [{
 				entity: "cataclysm:netherite_monstrosity"
 				id: "414A69D9FFE527FE"
@@ -393,8 +505,14 @@
 		}
 		{
 			dependencies: ["725898F4FC60844B"]
+			description: [
+				"&6Адский горн&r выпадает при убийстве моба Незеритовое чудище."
+				""
+				"Адский горн - &aкирка&r, которую также можно использовать, как и &aоружие&r."
+			]
 			id: "2BE35E9C468D4D5C"
 			shape: "diamond"
+			subtitle: "Кирка!"
 			tasks: [{
 				id: "1D55076BE352F2AD"
 				item: {
@@ -411,8 +529,10 @@
 		}
 		{
 			dependencies: ["725898F4FC60844B"]
+			description: ["&6Пластинка&r выпадает при убийстве моба Незеритовое чудище."]
 			id: "7E6FF34883160791"
 			shape: "diamond"
+			subtitle: "Музыка!"
 			tasks: [{
 				id: "72EF371573FB3959"
 				item: "cataclysm:music_disc_netherite_monstrosity"
@@ -423,8 +543,10 @@
 		}
 		{
 			dependencies: ["725898F4FC60844B"]
+			description: ["&6Чудовищный рог&r выпадает при убийстве моба Незеритовое чудище."]
 			id: "17656A0F166A1853"
 			shape: "gold"
+			subtitle: "Главный трофей!"
 			tasks: [{
 				id: "19D736B6E343F387"
 				item: "cataclysm:monstrous_horn"
@@ -435,8 +557,10 @@
 		}
 		{
 			dependencies: ["17656A0F166A1853"]
+			description: ["&6Чудовищный шлем&r - это очень хороший элмент вашего снаряжения."]
 			id: "1B4564433CC4E055"
 			shape: "diamond"
+			subtitle: "Новый шлем со способностями!"
 			tasks: [{
 				id: "570927A4989353A6"
 				item: {
@@ -453,9 +577,16 @@
 		}
 		{
 			dependencies: ["34C1D59023AA23CD"]
+			description: ["Необходимо убить моба &6Эндер-голем&r."]
 			hide: true
 			id: "5C6EBA95FEEDCC9C"
+			rewards: [{
+				id: "7C6EA796FACCB274"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			shape: "dirt"
+			subtitle: "Голем!"
 			tasks: [{
 				entity: "cataclysm:ender_golem"
 				id: "4E1F57B1AAE46AF5"
@@ -467,8 +598,14 @@
 		}
 		{
 			dependencies: ["5C6EBA95FEEDCC9C"]
+			description: [
+				"&6Ядро пустоты&r выпадает с моба Эндер-голем."
+				""
+				"Ядро пустоты имеет способность вызывать &aРуну пустоты&r при нажатии &eПКМ&r."
+			]
 			id: "6A15A261D0CD108C"
 			shape: "diamond"
+			subtitle: "Сердце голема!"
 			tasks: [{
 				id: "6EE2B72EAF42CA1E"
 				item: "cataclysm:void_core"
@@ -479,9 +616,16 @@
 		}
 		{
 			dependencies: ["34C1D59023AA23CD"]
+			description: ["Необходимо убить моба &6Кораллус&r."]
 			hide: true
 			id: "03658CB5092A2D92"
+			rewards: [{
+				id: "03E660C76EAFBE93"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			shape: "dirt"
+			subtitle: "Под водой!"
 			tasks: [{
 				entity: "cataclysm:coralssus"
 				id: "1AB6FD2BF0BB2BEF"
@@ -493,9 +637,18 @@
 		}
 		{
 			dependencies: ["03658CB5092A2D92"]
+			description: ["&6Осколки кристаллизиванного коралла&r выпадают при убийстве моба Кораллус."]
 			id: "5BDC73A8BBB13A68"
+			rewards: [{
+				id: "12DE9A9C426ED5F0"
+				item: "cataclysm:crystallized_coral_fragments"
+				random_bonus: 1
+				type: "item"
+			}]
 			shape: "gold"
+			subtitle: "Фрагменты!"
 			tasks: [{
+				count: 2L
 				id: "7B1B6903D4E16263"
 				item: "cataclysm:crystallized_coral_fragments"
 				type: "item"
@@ -505,8 +658,10 @@
 		}
 		{
 			dependencies: ["5BDC73A8BBB13A68"]
+			description: ["&6Кристализованный коралл&r создаётся из &e4&r-х осколков кристализованного коралла."]
 			id: "07E127858C9C3515"
 			shape: "diamond"
+			subtitle: "Целый коралл!"
 			tasks: [{
 				id: "388959B504C95250"
 				item: "cataclysm:crystallized_coral"
