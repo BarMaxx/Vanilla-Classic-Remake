@@ -10,9 +10,11 @@
 	quests: [
 		{
 			dependencies: ["34C1D59023AA23CD"]
+			description: ["Постройте портал из каменных кирпичей и подожгите его этим каталистом."]
 			hide: true
 			id: "56BDF3DC0743ECEC"
 			shape: "dirt"
+			subtitle: "Ключ к новым землям!"
 			tasks: [{
 				id: "5B6F197F3E95D1D3"
 				item: "undergarden:catalyst"
@@ -25,9 +27,11 @@
 			dependencies: ["56BDF3DC0743ECEC"]
 			id: "33BAC31846B85E50"
 			shape: "gold"
+			subtitle: "Новое измерение!"
 			tasks: [{
 				dimension: "undergarden:undergarden"
 				id: "4C6A45B3CB7F35ED"
+				title: "Посетить измерение Подземный сад"
 				type: "dimension"
 			}]
 			x: 2.5d
@@ -35,8 +39,10 @@
 		}
 		{
 			dependencies: ["33BAC31846B85E50"]
+			description: ["Появляется в шахтах."]
 			id: "3533994A7E20AD53"
 			shape: "iron"
+			subtitle: "Крафтовый ингредиент!"
 			tasks: [{
 				id: "160212924C91CB51"
 				item: "undergarden:raw_cloggrum"
@@ -47,8 +53,10 @@
 		}
 		{
 			dependencies: ["33BAC31846B85E50"]
+			description: ["Втречается в шахте."]
 			id: "65DA848B635FC2DA"
 			shape: "iron"
+			subtitle: "Ледосталь!"
 			tasks: [{
 				id: "4BBAD5C86581C781"
 				item: "undergarden:raw_froststeel"
@@ -59,8 +67,10 @@
 		}
 		{
 			dependencies: ["3533994A7E20AD53"]
+			description: ["Из этих слитков можно скрафтит всё: от брони до щита."]
 			id: "5A0A352946FDAD28"
 			shape: "gold"
+			subtitle: "Полезный слиток!"
 			tasks: [{
 				id: "5610DBD180EB63A6"
 				item: "undergarden:cloggrum_ingot"
@@ -71,8 +81,10 @@
 		}
 		{
 			dependencies: ["65DA848B635FC2DA"]
+			description: ["Позволяет сделать инструменты и броню."]
 			id: "40444BC36346008C"
 			shape: "gold"
+			subtitle: "Холодный слиток!"
 			tasks: [{
 				id: "2BA666C93C8F7115"
 				item: "undergarden:froststeel_ingot"
@@ -83,8 +95,10 @@
 		}
 		{
 			dependencies: ["33BAC31846B85E50"]
+			description: ["Появляются в любых катакомбах."]
 			id: "3231386158012906"
 			shape: "iron"
+			subtitle: "Огромный робот!"
 			tasks: [{
 				entity: "undergarden:forgotten_guardian"
 				id: "7365622F3D2C97F7"
@@ -96,8 +110,10 @@
 		}
 		{
 			dependencies: ["3231386158012906"]
+			description: ["Падает с Защитников."]
 			id: "364BCF66CD1A168F"
 			shape: "iron"
+			subtitle: "Осколок чего-то крутого!"
 			tasks: [{
 				id: "1CBE889DC04F5137"
 				item: "undergarden:forgotten_nugget"
@@ -108,8 +124,10 @@
 		}
 		{
 			dependencies: ["364BCF66CD1A168F"]
+			description: ["Позволяет улучшать инструменты и хлоггрума."]
 			id: "5203045576711C8C"
 			shape: "gold"
+			subtitle: "Незерит!"
 			tasks: [{
 				id: "7727CB17174AF172"
 				item: "undergarden:forgotten_ingot"
@@ -120,10 +138,12 @@
 		}
 		{
 			dependencies: ["33BAC31846B85E50"]
+			description: ["Появляются чаще всего в шахтах."]
 			id: "6DB6DE5E03353D95"
 			shape: "iron"
+			subtitle: "Худой человек!"
 			tasks: [{
-				entity: "undergarden:rotbeast"
+				entity: "undergarden:rotwalker"
 				id: "1F8B8F646E4EAE46"
 				type: "kill"
 				value: 1L
@@ -133,8 +153,10 @@
 		}
 		{
 			dependencies: ["6DB6DE5E03353D95"]
+			description: ["Из осколков можно сделать факела и кристаллы."]
 			id: "6946BEF7CDE8A954"
 			shape: "iron"
+			subtitle: "Осколок утерия!"
 			tasks: [{
 				id: "56D541434AEFAE7C"
 				item: "undergarden:utheric_shard"
@@ -145,8 +167,10 @@
 		}
 		{
 			dependencies: ["6946BEF7CDE8A954"]
+			description: ["Из красталла утерия можно сделать инструменты и броню."]
 			id: "514654B94823F2A2"
 			shape: "gold"
+			subtitle: "Рубин?"
 			tasks: [{
 				id: "60B25DEE7AEA47AF"
 				item: "undergarden:utherium_crystal"
@@ -159,6 +183,7 @@
 			dependencies: ["33BAC31846B85E50"]
 			id: "4D9267B93902E4FC"
 			shape: "iron"
+			subtitle: "Босс этого мира!"
 			tasks: [{
 				entity: "undergarden:masticator"
 				id: "43D6EFBB36D9CE62"
@@ -170,8 +195,10 @@
 		}
 		{
 			dependencies: ["4D9267B93902E4FC"]
+			description: ["Позволяет сделать неплохой нагрудник."]
 			id: "6FE108004B6ED236"
 			shape: "gold"
+			subtitle: "Крафтовый ингредиент!"
 			tasks: [{
 				id: "423EFB149DC7903D"
 				item: "undergarden:masticator_scales"
@@ -182,8 +209,10 @@
 		}
 		{
 			dependencies: ["6FE108004B6ED236"]
+			description: ["Нагрудник сразу будет зачарован на шипы, что будет помогать вам в сражениях."]
 			id: "7F9497CE4E7645E5"
 			shape: "diamond"
+			subtitle: "Острая штучка!"
 			tasks: [{
 				id: "59CE3F7747846FCC"
 				item: {
@@ -204,8 +233,10 @@
 		}
 		{
 			dependencies: ["5203045576711C8C"]
+			description: ["Наносят больше урона всем мобам, кроме боссов."]
 			id: "0C476EDF2EC0ED8D"
 			shape: "diamond"
+			subtitle: "Лучшее оружие!"
 			tasks: [
 				{
 					id: "122A66F7CC70B275"
@@ -235,8 +266,10 @@
 		}
 		{
 			dependencies: ["5203045576711C8C"]
+			description: ["Капают на 1.5 быстрее в этом мире."]
 			id: "113AC8DC225BE957"
 			shape: "diamond"
+			subtitle: "Теперь лучше!"
 			tasks: [
 				{
 					id: "19BAC981188043F9"
@@ -266,8 +299,10 @@
 		}
 		{
 			dependencies: ["5203045576711C8C"]
+			description: ["Копают блоки в этом мире быстрее."]
 			id: "100385269130C68D"
 			shape: "diamond"
+			subtitle: "Для деревни - пойдёт!"
 			tasks: [
 				{
 					id: "109C0985420F7C01"
@@ -297,8 +332,10 @@
 		}
 		{
 			dependencies: ["5A0A352946FDAD28"]
+			description: ["Немного хуже алмазной."]
 			id: "377511059D3B0BD1"
 			shape: "diamond"
+			subtitle: "Хорошая броня!"
 			tasks: [
 				{
 					id: "30550230F5893727"
@@ -350,8 +387,10 @@
 		}
 		{
 			dependencies: ["5A0A352946FDAD28"]
+			description: ["Неплохие оружия, которые Вы сможите улучшить."]
 			id: "390DCEEC49A433FE"
 			shape: "diamond"
+			subtitle: "Теперь монстры будут вас бояться!"
 			tasks: [
 				{
 					id: "5734BBA8F5DED212"
@@ -392,8 +431,10 @@
 		}
 		{
 			dependencies: ["5A0A352946FDAD28"]
+			description: ["Но вы сможите их улучшить до более хороших."]
 			id: "74C1E672043EC84F"
 			shape: "diamond"
+			subtitle: "Не самые лучшие инструменты!"
 			tasks: [
 				{
 					id: "1B767ED8565DFC44"
@@ -419,12 +460,14 @@
 				}
 			]
 			x: 5.5d
-			y: -2.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["5A0A352946FDAD28"]
+			description: ["Не очень прочные инструменты."]
 			id: "243E1DEA4F78471E"
 			shape: "diamond"
+			subtitle: "Для дачного сезона!"
 			tasks: [
 				{
 					id: "79BE4C4A2695AF29"
@@ -450,12 +493,14 @@
 				}
 			]
 			x: 2.5d
-			y: -2.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["40444BC36346008C"]
+			description: ["Каждый элемент брони будет замедлять Вас."]
 			id: "068697869FA84DC1"
 			shape: "diamond"
+			subtitle: "Неплохая броня!"
 			tasks: [
 				{
 					id: "6F43986413313316"
@@ -507,8 +552,10 @@
 		}
 		{
 			dependencies: ["40444BC36346008C"]
+			description: ["Удары по мобам будут замедлять их."]
 			id: "6329E536B15B0DB0"
 			shape: "diamond"
+			subtitle: "Холодные инструменты!"
 			tasks: [
 				{
 					id: "087BBC38D7C87678"
@@ -538,8 +585,10 @@
 		}
 		{
 			dependencies: ["40444BC36346008C"]
+			description: ["Замедляет врага при ударе."]
 			id: "763C4CBD7C71C963"
 			shape: "diamond"
+			subtitle: "\"Холодное\" оружие!"
 			tasks: [{
 				id: "19E92AE5E39CFF16"
 				item: {
@@ -556,8 +605,10 @@
 		}
 		{
 			dependencies: ["40444BC36346008C"]
+			description: ["Не самые прочные инструменты."]
 			id: "4A1027A5BB4E24C2"
 			shape: "diamond"
+			subtitle: "Для копания картошки в поле!"
 			tasks: [
 				{
 					id: "64544FEA88329B5E"
@@ -587,8 +638,10 @@
 		}
 		{
 			dependencies: ["514654B94823F2A2"]
+			description: ["Броня не хоже алмазной."]
 			id: "2D4E5E270EEDA8F4"
 			shape: "diamond"
+			subtitle: "Хорошая броня!"
 			tasks: [
 				{
 					id: "58A65455345096AA"
@@ -640,8 +693,10 @@
 		}
 		{
 			dependencies: ["514654B94823F2A2"]
+			description: ["Меч наносит дополнительный урон мобам рода Rot"]
 			id: "05D3485829E976B6"
 			shape: "diamond"
+			subtitle: "Хороший меч!"
 			tasks: [{
 				id: "385953B569C02A13"
 				item: {
@@ -658,8 +713,10 @@
 		}
 		{
 			dependencies: ["514654B94823F2A2"]
+			description: ["Этими инструментами вы сможите копать все типы рыд и брёвен."]
 			id: "601DA50CEBD9C7AB"
 			shape: "diamond"
+			subtitle: "Хорошие инструменты!"
 			tasks: [
 				{
 					id: "794EFD419759A70B"
@@ -689,8 +746,10 @@
 		}
 		{
 			dependencies: ["514654B94823F2A2"]
+			description: ["Быстрая лопата и прочная мотыга."]
 			id: "40ED3B53DDFB73AB"
 			shape: "diamond"
+			subtitle: "Всё для огорода!"
 			tasks: [
 				{
 					id: "2152E4607A418C86"
