@@ -10,10 +10,11 @@
 	quests: [
 		{
 			dependencies: ["34C1D59023AA23CD"]
-			description: ["Кухонная плита нужна, чтобы можно было готовить еду в котелке и на сковороде."]
+			description: ["&6Кухонная плита&r нужна, чтобы можно было готовить еду в котелке и на сковороде."]
 			hide: true
 			id: "3E7148E1FC71B4A2"
 			shape: "dirt"
+			subtitle: "Готовка!"
 			tasks: [{
 				id: "7C0FD43D8FADABD9"
 				item: "farmersdelight:stove"
@@ -24,9 +25,10 @@
 		}
 		{
 			dependencies: ["3E7148E1FC71B4A2"]
-			description: ["Сковорода это по-сути тоже самое, что и костер."]
+			description: ["&6Сковорода&r это по-сути тоже самое, что и костер."]
 			id: "64216357FF920335"
 			shape: "gold"
+			subtitle: "Жарка!"
 			tasks: [{
 				id: "63B89A62F0893F00"
 				item: {
@@ -43,9 +45,10 @@
 		}
 		{
 			dependencies: ["3E7148E1FC71B4A2"]
-			description: ["В кухонном котелке можно готовить совершенно новые виды еды!"]
+			description: ["В &6кухонном котелке&r можно готовить совершенно новые виды еды!"]
 			id: "29F161339EA12F00"
 			shape: "gold"
+			subtitle: "Варка!"
 			tasks: [{
 				id: "3CA795DACBFE1F0A"
 				item: "farmersdelight:cooking_pot"
@@ -60,6 +63,7 @@
 			icon: "farmersdelight:vegetable_soup"
 			id: "1368C59D480A9722"
 			shape: "diamond"
+			subtitle: "Вкусные!"
 			tasks: [
 				{
 					id: "0011819D9B12A7D8"
@@ -72,6 +76,7 @@
 					type: "item"
 				}
 			]
+			title: "Супы"
 			x: 3.0d
 			y: 1.5d
 		}
@@ -81,6 +86,7 @@
 			icon: "farmersdelight:beef_stew"
 			id: "00AC7BCBEC5F91BA"
 			shape: "diamond"
+			subtitle: "Пора тушить!"
 			tasks: [
 				{
 					id: "59D408391897DF2C"
@@ -93,6 +99,7 @@
 					type: "item"
 				}
 			]
+			title: "Тушёная еда"
 			x: 2.5d
 			y: -0.5d
 		}
@@ -101,6 +108,7 @@
 			description: ["Да, тот самый, из мультфильма!"]
 			id: "2FB7565666501D2F"
 			shape: "diamond"
+			subtitle: "Главный на столе!"
 			tasks: [{
 				id: "6B4469A4DB1263CF"
 				item: "farmersdelight:ratatouille"
@@ -111,8 +119,10 @@
 		}
 		{
 			dependencies: ["3E7148E1FC71B4A2"]
+			description: ["&6Разделочная доска&r нужна для нарезки предметов."]
 			id: "3992EECE0C4B9373"
 			shape: "gold"
+			subtitle: "Разделка!"
 			tasks: [{
 				id: "6ADC0D7A8CBDEF95"
 				item: "farmersdelight:cutting_board"
@@ -123,9 +133,11 @@
 		}
 		{
 			dependencies: ["34C1D59023AA23CD"]
+			description: ["&6Плита из чернита&r нужна для приготовления блюд."]
 			hide: true
 			id: "6E480373CD5E5C67"
 			shape: "dirt"
+			subtitle: "Готовка!"
 			tasks: [{
 				id: "56C913690BA7E2F6"
 				item: "nethersdelight:blackstone_stove"
@@ -136,8 +148,10 @@
 		}
 		{
 			dependencies: ["6E480373CD5E5C67"]
+			description: ["Огромное блюдо."]
 			id: "2DE59A0AFD265F74"
 			shape: "diamond"
+			subtitle: "Огромный!"
 			tasks: [{
 				id: "6C1CFCEF84799CCE"
 				item: "nethersdelight:stuffed_hoglin"
@@ -148,8 +162,10 @@
 		}
 		{
 			dependencies: ["6E480373CD5E5C67"]
+			description: ["Сытное и вкусное блюдо."]
 			id: "2CF20133C647879A"
 			shape: "diamond"
+			subtitle: "Сытно!"
 			tasks: [{
 				id: "3A0DD59D06410A0C"
 				item: "nethersdelight:grilled_strider"
@@ -160,8 +176,10 @@
 		}
 		{
 			dependencies: ["6E480373CD5E5C67"]
+			description: ["Невероятно сытно."]
 			id: "742EF8CC88B0B0C6"
 			shape: "diamond"
+			subtitle: "Очень сытно!"
 			tasks: [{
 				id: "2A1B480D8423A0C0"
 				item: "nethersdelight:magma_gelatin"
@@ -172,8 +190,10 @@
 		}
 		{
 			dependencies: ["6E480373CD5E5C67"]
+			description: ["Улучшает выращивание культур."]
 			id: "73C996E70CA4D6F9"
 			shape: "gold"
+			subtitle: "Компост!"
 			tasks: [{
 				id: "5ACA922B006BAF2B"
 				item: "nethersdelight:soul_compost"
@@ -187,6 +207,7 @@
 			hide: true
 			id: "22D33D34AE2C423D"
 			shape: "dirt"
+			subtitle: "Готовка!"
 			tasks: [{
 				id: "0896759FB2C052A2"
 				item: "twilightdelight:maze_stove"
@@ -199,6 +220,7 @@
 			dependencies: ["22D33D34AE2C423D"]
 			id: "7CDDFEBEBE84ED51"
 			shape: "gold"
+			subtitle: "Варка!"
 			tasks: [{
 				id: "1778C4C64B3D371C"
 				item: "twilightdelight:fiery_cooking_pot"
@@ -209,8 +231,10 @@
 		}
 		{
 			dependencies: ["7CDDFEBEBE84ED51"]
+			description: ["Вкусное блюдо."]
 			id: "5E46C3158E26D902"
 			shape: "diamond"
+			subtitle: "Сытно!"
 			tasks: [{
 				id: "4C62A7E0BAA93E12"
 				item: "twilightdelight:glow_venison_rib_with_pasta"
@@ -221,8 +245,10 @@
 		}
 		{
 			dependencies: ["7CDDFEBEBE84ED51"]
+			description: ["Вкусное блюдо."]
 			id: "2F38B770C75725F9"
 			shape: "diamond"
+			subtitle: "Вкусно!"
 			tasks: [{
 				id: "5B33AC9ABEEC68DD"
 				item: "twilightdelight:mushgloom_meef_pasta"
@@ -233,8 +259,10 @@
 		}
 		{
 			dependencies: ["7CDDFEBEBE84ED51"]
+			description: ["Противное блюдо."]
 			id: "58BD3C492752B19D"
 			shape: "diamond"
+			subtitle: "Противно!"
 			tasks: [{
 				id: "649EEBC56DB5400C"
 				item: "twilightdelight:fried_insect"
@@ -245,8 +273,10 @@
 		}
 		{
 			dependencies: ["22D33D34AE2C423D"]
+			description: ["Серьёзное оружие."]
 			id: "04F4B4D499D8AD88"
 			shape: "gold"
+			subtitle: "Оружие!"
 			tasks: [{
 				id: "1492CCF7BFE01098"
 				item: {
@@ -263,8 +293,10 @@
 		}
 		{
 			dependencies: ["22D33D34AE2C423D"]
+			description: ["Чай не может быть плохим."]
 			id: "2DCEF1362B27C094"
 			shape: "diamond"
+			subtitle: "Чаёк!"
 			tasks: [{
 				id: "25A021E1BABACDD9"
 				item: "twilightdelight:thorn_rose_tea"
@@ -277,6 +309,7 @@
 			dependencies: ["3E7148E1FC71B4A2"]
 			id: "6A777900F59F2823"
 			shape: "diamond"
+			subtitle: "Вкусный сок!"
 			tasks: [{
 				id: "618AFA8B748A7A0A"
 				item: "abnormals_delight:pickerelweed_juice"
@@ -287,8 +320,10 @@
 		}
 		{
 			dependencies: ["22D33D34AE2C423D"]
+			description: ["Просто ящик."]
 			id: "7FA52E148E23B68E"
 			shape: "gold"
+			subtitle: "Ящичек!"
 			tasks: [{
 				id: "0850835B3FAF2E6D"
 				item: "twilightdelight:torchberries_crate"
@@ -299,10 +334,11 @@
 		}
 		{
 			dependencies: ["34C1D59023AA23CD"]
-			description: ["С помощью чайника можно приготовить различные напитки, но в основном чай."]
+			description: ["С помощью &6чайника&r можно приготовить различные напитки, но в основном чай."]
 			hide: true
 			id: "4F90FB2C13EF2C36"
 			shape: "gold"
+			subtitle: "Очень полезный предмет!"
 			tasks: [{
 				id: "461E528551173418"
 				item: "farmersrespite:kettle"
@@ -314,9 +350,11 @@
 		}
 		{
 			dependencies: ["4F90FB2C13EF2C36"]
+			description: ["&6Кофе&r бодрит своим кофеином."]
 			hide_dependency_lines: true
 			id: "39E2014E85A449E5"
 			shape: "diamond"
+			subtitle: "Бодрит!"
 			tasks: [{
 				id: "3E67E7E430ED0314"
 				item: "farmersrespite:coffee"
@@ -327,9 +365,11 @@
 		}
 		{
 			dependencies: ["4F90FB2C13EF2C36"]
+			description: ["&6Зелёный чай&r даёт &aспешку&r при выпивании."]
 			hide_dependency_lines: true
 			id: "365C002FA3CCE18A"
 			shape: "diamond"
+			subtitle: "Спешка!"
 			tasks: [{
 				id: "05D832F6F2C0D28D"
 				item: "farmersrespite:green_tea"
@@ -340,9 +380,11 @@
 		}
 		{
 			dependencies: ["4F90FB2C13EF2C36"]
+			description: ["&6Ромашковый чай&r даёт &aкомфорт&r при выпивании."]
 			hide_dependency_lines: true
 			id: "2FD4ADEDF33F17C9"
 			shape: "diamond"
+			subtitle: "Кофморт!"
 			tasks: [{
 				id: "5E2A11C80F96569A"
 				item: "farmersrespite:dandelion_tea"
@@ -353,9 +395,11 @@
 		}
 		{
 			dependencies: ["4F90FB2C13EF2C36"]
+			description: ["&6Жёлтый чай&r даёт &aсопротивление&r при выпивании."]
 			hide_dependency_lines: true
 			id: "421423680EBD1922"
 			shape: "diamond"
+			subtitle: "Сопротивление!"
 			tasks: [{
 				id: "05DFFD67E94A4C66"
 				item: "farmersrespite:yellow_tea"
@@ -366,9 +410,11 @@
 		}
 		{
 			dependencies: ["34C1D59023AA23CD"]
+			description: ["Супчик."]
 			hide: true
 			id: "166345543A884EE8"
 			shape: "gold"
+			subtitle: "Вкусно!"
 			tasks: [{
 				id: "7FD196F1648647E5"
 				item: "oceansdelight:guardian_soup"
@@ -379,9 +425,11 @@
 		}
 		{
 			dependencies: ["34C1D59023AA23CD"]
+			description: ["Просто вкусный сок."]
 			hide: true
 			id: "0026D313DD899F3C"
 			shape: "diamond"
+			subtitle: "Вкусно!"
 			tasks: [{
 				id: "4219ACF4C4C4BC14"
 				item: "pineapple_delight:pineapple_juice"
@@ -392,9 +440,11 @@
 		}
 		{
 			dependencies: ["34C1D59023AA23CD"]
+			description: ["Просто вкусное мороженное."]
 			hide: true
 			id: "66B463AAA9FA115A"
 			shape: "diamond"
+			subtitle: "Холдно!"
 			tasks: [{
 				id: "70F146DEDCA85560"
 				item: "pineapple_delight:pineapple_ice_cream"
@@ -405,9 +455,11 @@
 		}
 		{
 			dependencies: ["34C1D59023AA23CD"]
+			description: ["Странное блюдо."]
 			hide: true
 			id: "3C264BBAB7979EE5"
 			shape: "diamond"
+			subtitle: "Странно!"
 			tasks: [{
 				id: "59595D8616A5FE66"
 				item: "pineapple_delight:pineapple_fried_rice"
@@ -418,9 +470,11 @@
 		}
 		{
 			dependencies: ["34C1D59023AA23CD"]
+			description: ["Непонятное блюдо."]
 			hide: true
 			id: "64AA84782948C502"
 			shape: "diamond"
+			subtitle: "Непонятно!"
 			tasks: [{
 				id: "4EE5C259AA39BAF9"
 				item: "oceansdelight:squid_rings"

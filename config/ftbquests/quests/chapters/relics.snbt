@@ -40,9 +40,16 @@
 		}
 		{
 			dependencies: ["34C1D59023AA23CD"]
+			description: ["Узнать больше о &6реликвии&r можно на &aСтоле исследователя&r."]
 			hide: true
 			id: "1DAB6E68BEE32F49"
+			rewards: [{
+				id: "1EC0405786D58A42"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
 			shape: "diamond"
+			subtitle: "Накладывает печать!"
 			tasks: [{
 				id: "26171CCB753263DB"
 				item: {
@@ -67,9 +74,16 @@
 		}
 		{
 			dependencies: ["34C1D59023AA23CD"]
+			description: ["Узнать больше о &6реликвии&r можно на &aСтоле исследователя&r."]
 			hide: true
 			id: "56030D0C8C30D040"
+			rewards: [{
+				id: "59A6B0089642A3B2"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
 			shape: "diamond"
+			subtitle: "Не жалеет пространство!"
 			tasks: [{
 				id: "29B60FA76BCDB0E4"
 				item: {
@@ -95,9 +109,16 @@
 		}
 		{
 			dependencies: ["34C1D59023AA23CD"]
+			description: ["Узнать больше о &6реликвии&r можно на &aСтоле исследователя&r."]
 			hide: true
 			id: "198724D04F45B035"
+			rewards: [{
+				id: "391E22F6B04625FB"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
 			shape: "gold"
+			subtitle: "Отражатель!"
 			tasks: [{
 				id: "5572EAB2DA37C5D5"
 				item: {
@@ -124,9 +145,16 @@
 		}
 		{
 			dependencies: ["34C1D59023AA23CD"]
+			description: ["Узнать больше о &6реликвии&r можно на &aСтоле исследователя&r."]
 			hide: true
 			id: "1F6BBE780BF4FCC3"
+			rewards: [{
+				id: "095212EF680632EA"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
 			shape: "diamond"
+			subtitle: "Позволяют ходить по лаве!"
 			tasks: [{
 				id: "4F5AB7DB72CFEB8D"
 				item: {
@@ -151,15 +179,7 @@
 		}
 		{
 			dependencies: ["34C1D59023AA23CD"]
-			description: [
-				"&6Водоходы&r - это реликвия, которая позволяет ходить по поверхности воды и не тонуть в ней определённое количество времени. После истечения запаса времени реликвия начинает тонуть, затягивая своего владельца с собой на дно."
-				""
-				"Водоходы имеют &e1&r единственную способность - \"&lВлагоустойчивость&r\", которую можно улучшать, тем самым увеличивая запас времени для ходьбы по поверхности воды. "
-				""
-				"Больше узнать про реликвию и её &aпрокачку&r можно на &6Столе Исследователя&r."
-				""
-				"Водоходы можно найти в &2сокровищницах&r различных данжей. "
-			]
+			description: ["Узнать больше о &6реликвии&r можно на &aСтоле исследователя&r."]
 			hide: true
 			id: "5EF305DD3BA6F41A"
 			rewards: [{
@@ -193,9 +213,16 @@
 		}
 		{
 			dependencies: ["34C1D59023AA23CD"]
+			description: ["Узнать больше о &6реликвии&r можно на &aСтоле исследователя&r."]
 			hide: true
 			id: "0E48D33939EA51FF"
+			rewards: [{
+				id: "29F011E47CF4F8BB"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
 			shape: "gold"
+			subtitle: "Для ночи!"
 			tasks: [{
 				id: "76ACC62B5EE5859F"
 				item: {
@@ -228,9 +255,16 @@
 		}
 		{
 			dependencies: ["34C1D59023AA23CD"]
+			description: ["Узнать больше о &6реликвии&r можно на &aСтоле исследователя&r."]
 			hide: true
 			id: "6E145933FCFA48DB"
+			rewards: [{
+				id: "22AFE43FA6387770"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
 			shape: "gold"
+			subtitle: "Страшный пояс!"
 			tasks: [{
 				id: "7E9D674663A55A5E"
 				item: {
@@ -274,9 +308,16 @@
 		}
 		{
 			dependencies: ["34C1D59023AA23CD"]
+			description: ["Узнать больше о &6реликвии&r можно на &aСтоле исследователя&r."]
 			hide: true
 			id: "44D6310965DC17F5"
+			rewards: [{
+				id: "7F59806954F3731E"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
 			shape: "gold"
+			subtitle: "Пора охотиться!"
 			tasks: [{
 				id: "54C3D9A0A4F6CF24"
 				item: {
@@ -307,9 +348,16 @@
 		}
 		{
 			dependencies: ["34C1D59023AA23CD"]
+			description: ["Узнать больше о &6реликвии&r можно на &aСтоле исследователя&r."]
 			hide: true
 			id: "179D73975DFC0B8D"
+			rewards: [{
+				id: "6A8C68499B033362"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
 			shape: "gold"
+			subtitle: "Просто пояс!"
 			tasks: [{
 				id: "693D59468AB12641"
 				item: {
@@ -334,9 +382,16 @@
 		}
 		{
 			dependencies: ["34C1D59023AA23CD"]
+			description: ["Узнать больше о &6реликвии&r можно на &aСтоле исследователя&r."]
 			hide: true
 			id: "4FD72EBBDE57F3AB"
+			rewards: [{
+				id: "26EBB3135A21153D"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
 			shape: "gold"
+			subtitle: "Опасно!"
 			tasks: [{
 				id: "51A3CE93F3D40068"
 				item: {
@@ -367,9 +422,16 @@
 		}
 		{
 			dependencies: ["34C1D59023AA23CD"]
+			description: ["Узнать больше о &6реликвии&r можно на &aСтоле исследователя&r."]
 			hide: true
 			id: "4015B58E2FA870EB"
+			rewards: [{
+				id: "1B78BB5A4E688147"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
 			shape: "gold"
+			subtitle: "Яростные будни!"
 			tasks: [{
 				id: "2CAB4EFD288858F5"
 				item: {
@@ -412,9 +474,16 @@
 		}
 		{
 			dependencies: ["34C1D59023AA23CD"]
+			description: ["Узнать больше о &6реликвии&r можно на &aСтоле исследователя&r."]
 			hide: true
 			id: "4B94D3444FE6B488"
+			rewards: [{
+				id: "72B57D4211D0516E"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
 			shape: "diamond"
+			subtitle: "Пора кататься на коньках!"
 			tasks: [{
 				id: "18B0B2E2803BA25C"
 				item: {
@@ -446,9 +515,16 @@
 		}
 		{
 			dependencies: ["34C1D59023AA23CD"]
+			description: ["Узнать больше о &6реликвии&r можно на &aСтоле исследователя&r."]
 			hide: true
 			id: "6B48F8B0CD8D2F74"
+			rewards: [{
+				id: "5EE23F18A65F944F"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
 			shape: "diamond"
+			subtitle: "Прямиком из бастиона!"
 			tasks: [{
 				id: "6BD2F2FB120A7678"
 				item: {
@@ -473,9 +549,16 @@
 		}
 		{
 			dependencies: ["34C1D59023AA23CD"]
+			description: ["Узнать больше о &6реликвии&r можно на &aСтоле исследователя&r."]
 			hide: true
 			id: "1BC2B8ECE6512026"
+			rewards: [{
+				id: "1E82566EB68620E9"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
 			shape: "gold"
+			subtitle: "Сделан из хоруса!"
 			tasks: [{
 				id: "7D7EE3E3963F8764"
 				item: {
@@ -501,9 +584,16 @@
 		}
 		{
 			dependencies: ["34C1D59023AA23CD"]
+			description: ["Узнать больше о &6реликвии&r можно на &aСтоле исследователя&r."]
 			hide: true
 			id: "660EFF5A1745E54E"
+			rewards: [{
+				id: "5C5F52341C65FC93"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
 			shape: "iron"
+			subtitle: "Хранит стрелы!"
 			tasks: [{
 				id: "0FEBE28BF77ADE0C"
 				item: {
@@ -550,9 +640,16 @@
 		}
 		{
 			dependencies: ["34C1D59023AA23CD"]
+			description: ["Узнать больше о &6реликвии&r можно на &aСтоле исследователя&r."]
 			hide: true
 			id: "04804CDE32D38480"
+			rewards: [{
+				id: "2D872DE5C32043B2"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
 			shape: "gold"
+			subtitle: "Из церкви!"
 			tasks: [{
 				id: "4D739D2EEC0A1200"
 				item: {
@@ -578,9 +675,16 @@
 		}
 		{
 			dependencies: ["34C1D59023AA23CD"]
+			description: ["Узнать больше о &6реликвии&r можно на &aСтоле исследователя&r."]
 			hide: true
 			id: "3DEB6C7C5CE42EC2"
+			rewards: [{
+				id: "32F5F7301B8B8DCB"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
 			shape: "gold"
+			subtitle: "Это конец?"
 			tasks: [{
 				id: "2F59BB96352B6D75"
 				item: {
@@ -605,9 +709,16 @@
 		}
 		{
 			dependencies: ["34C1D59023AA23CD"]
+			description: ["Узнать больше о &6реликвии&r можно на &aСтоле исследователя&r."]
 			hide: true
 			id: "0F6501B2D75A8DE9"
+			rewards: [{
+				id: "55F1D930F8AA3F6B"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
 			shape: "gold"
+			subtitle: "Реально полезная реликвия!"
 			tasks: [{
 				id: "3BDEEDF8481FB6FC"
 				item: {
@@ -633,9 +744,16 @@
 		}
 		{
 			dependencies: ["34C1D59023AA23CD"]
+			description: ["Узнать больше о &6реликвии&r можно на &aСтоле исследователя&r."]
 			hide: true
 			id: "322CC8DAF5DD4FDC"
+			rewards: [{
+				id: "1C34307761EF5507"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
 			shape: "diamond"
+			subtitle: "Зеркало!"
 			tasks: [{
 				id: "34D68EB8380C3C63"
 				item: {
@@ -661,9 +779,16 @@
 		}
 		{
 			dependencies: ["34C1D59023AA23CD"]
+			description: ["Узнать больше о &6реликвии&r можно на &aСтоле исследователя&r."]
 			hide: true
 			id: "77624EDB4C456122"
+			rewards: [{
+				id: "1D7F44A41DA082E3"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
 			shape: "diamond"
+			subtitle: "Колют лёд!"
 			tasks: [{
 				id: "1A94358B7FF5F616"
 				item: {
@@ -695,9 +820,16 @@
 		}
 		{
 			dependencies: ["34C1D59023AA23CD"]
+			description: ["Узнать больше о &6реликвии&r можно на &aСтоле исследователя&r."]
 			hide: true
 			id: "0F141A5612B7529B"
+			rewards: [{
+				id: "3A208E6403D7EC20"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
 			shape: "diamond"
+			subtitle: "Он пылает!"
 			tasks: [{
 				id: "663D7089338037EB"
 				item: {
@@ -724,9 +856,16 @@
 		}
 		{
 			dependencies: ["34C1D59023AA23CD"]
+			description: ["Узнать больше о &6реликвии&r можно на &aСтоле исследователя&r."]
 			hide: true
 			id: "4C70B2424C14A5F3"
+			rewards: [{
+				id: "01B9C7D6B94166B7"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
 			shape: "diamond"
+			subtitle: "Мешочек!"
 			tasks: [{
 				id: "7D6E7C808E20BBCC"
 				item: {
@@ -775,9 +914,16 @@
 		}
 		{
 			dependencies: ["34C1D59023AA23CD"]
+			description: ["Узнать больше о &6реликвии&r можно на &aСтоле исследователя&r."]
 			hide: true
 			id: "104A2E0B4377FD8A"
+			rewards: [{
+				id: "20C7A99F4C7D6450"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
 			shape: "iron"
+			subtitle: "Красивая реликвия!"
 			tasks: [{
 				id: "4928FAEE37B4AB49"
 				item: {
@@ -813,9 +959,16 @@
 		}
 		{
 			dependencies: ["34C1D59023AA23CD"]
+			description: ["Узнать больше о &6реликвии&r можно на &aСтоле исследователя&r."]
 			hide: true
 			id: "4247DB175F0D0B0C"
+			rewards: [{
+				id: "5FDD6A6D3C6E9D78"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
 			shape: "diamond"
+			subtitle: "Пора кататься на роликах!"
 			tasks: [{
 				id: "05BFC4AF841ACA2B"
 				item: {
@@ -841,9 +994,16 @@
 		}
 		{
 			dependencies: ["34C1D59023AA23CD"]
+			description: ["Узнать больше о &6реликвии&r можно на &aСтоле исследователя&r."]
 			hide: true
 			id: "5242C3D1F1F35940"
+			rewards: [{
+				id: "4D54B10427775EA4"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
 			shape: "iron"
+			subtitle: "Бесконечность!"
 			tasks: [{
 				id: "13B8392D2D228D8D"
 				item: {
@@ -875,9 +1035,16 @@
 		}
 		{
 			dependencies: ["34C1D59023AA23CD"]
+			description: ["Узнать больше о &6реликвии&r можно на &aСтоле исследователя&r."]
 			hide: true
 			id: "54951BD86572F32C"
+			rewards: [{
+				id: "76454C133ADC4C1A"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
 			shape: "iron"
+			subtitle: "Для лошадей!"
 			tasks: [{
 				id: "086B050BDD070D21"
 				item: {
@@ -902,9 +1069,16 @@
 		}
 		{
 			dependencies: ["34C1D59023AA23CD"]
+			description: ["Узнать больше о &6реликвии&r можно на &aСтоле исследователя&r."]
 			hide: true
 			id: "2E76563F49AA9A1E"
+			rewards: [{
+				id: "5E3AFDE98406BCF8"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
 			shape: "gold"
+			subtitle: "В ней тепло!"
 			tasks: [{
 				id: "395C7D6ADD64B106"
 				item: {
@@ -932,9 +1106,16 @@
 		}
 		{
 			dependencies: ["34C1D59023AA23CD"]
+			description: ["Узнать больше о &6реликвии&r можно на &aСтоле исследователя&r."]
 			hide: true
 			id: "11AD4404FABDB1BB"
+			rewards: [{
+				id: "7276FF79C3471672"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
 			shape: "diamond"
+			subtitle: "Почему только 1?"
 			tasks: [{
 				id: "53145423820A770B"
 				item: {

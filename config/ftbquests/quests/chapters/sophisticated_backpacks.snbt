@@ -14,6 +14,7 @@
 			hide: true
 			id: "416B74D4AB51374B"
 			shape: "iron"
+			subtitle: "Начальный уровень!"
 			tasks: [{
 				id: "2286CC31EB516023"
 				item: "sophisticatedbackpacks:backpack"
@@ -27,6 +28,7 @@
 			description: ["Улучшенная версия предыдущего рюкзака."]
 			id: "4A761E894FE0F436"
 			shape: "iron"
+			subtitle: "Второй уровень!"
 			tasks: [{
 				id: "6477F28E9ED16F30"
 				item: "sophisticatedbackpacks:iron_backpack"
@@ -40,6 +42,7 @@
 			description: ["Улучшенная версия предыдущего рюкзака."]
 			id: "77BC8D4750BD58DB"
 			shape: "gold"
+			subtitle: "Третий уровень!"
 			tasks: [{
 				id: "40222C7D6D91F9C5"
 				item: "sophisticatedbackpacks:gold_backpack"
@@ -53,6 +56,7 @@
 			description: ["Улучшенная версия предыдущего рюкзака."]
 			id: "36ED28DD6857E7D8"
 			shape: "gold"
+			subtitle: "Четвёртый уровень!"
 			tasks: [{
 				id: "4BA1C51C444DA1D8"
 				item: "sophisticatedbackpacks:diamond_backpack"
@@ -66,6 +70,7 @@
 			description: ["Самый крутой рюкзак."]
 			id: "116EF45660B8660F"
 			shape: "diamond"
+			subtitle: "Финальный уровень!"
 			tasks: [{
 				id: "6CFA8117537C1042"
 				item: "sophisticatedbackpacks:netherite_backpack"
@@ -76,9 +81,11 @@
 		}
 		{
 			dependencies: ["34C1D59023AA23CD"]
+			description: ["&6Шаблон улучшения&r нужен для создания &aулучшений&r."]
 			hide: true
 			id: "470353D9C67BAA03"
 			shape: "dirt"
+			subtitle: "Шаблон!"
 			tasks: [{
 				id: "652D8F472551BB16"
 				item: "sophisticatedbackpacks:upgrade_base"
@@ -91,6 +98,7 @@
 			dependencies: ["470353D9C67BAA03"]
 			id: "4ECADE67BBD2E2A9"
 			shape: "iron"
+			subtitle: "Улучшение!"
 			tasks: [{
 				id: "555F39965026DF90"
 				item: "sophisticatedbackpacks:stack_upgrade_tier_1"
@@ -103,6 +111,7 @@
 			dependencies: ["4ECADE67BBD2E2A9"]
 			id: "5B8DFD565952E442"
 			shape: "gold"
+			subtitle: "Улучшение!"
 			tasks: [{
 				id: "5C6E6607DF85CFEC"
 				item: "sophisticatedbackpacks:stack_upgrade_tier_2"
@@ -115,6 +124,7 @@
 			dependencies: ["5B8DFD565952E442"]
 			id: "0BD98F9FB4CA5171"
 			shape: "gold"
+			subtitle: "Улучшение!"
 			tasks: [{
 				id: "5CA4763EC46359BC"
 				item: "sophisticatedbackpacks:stack_upgrade_tier_3"
@@ -127,6 +137,7 @@
 			dependencies: ["0BD98F9FB4CA5171"]
 			id: "1E4D6346028B0FA5"
 			shape: "diamond"
+			subtitle: "Улучшение!"
 			tasks: [{
 				id: "6ECE395FC18BDE6D"
 				item: "sophisticatedbackpacks:stack_upgrade_tier_4"
@@ -139,6 +150,7 @@
 			dependencies: ["470353D9C67BAA03"]
 			id: "3549C68F35ED0435"
 			shape: "iron"
+			subtitle: "Улучшение!"
 			tasks: [{
 				id: "3D3840A997FB9C2D"
 				item: "sophisticatedbackpacks:magnet_upgrade"
@@ -151,6 +163,7 @@
 			dependencies: ["3549C68F35ED0435"]
 			id: "32090D1FFCAAEA07"
 			shape: "diamond"
+			subtitle: "Улучшение!"
 			tasks: [{
 				id: "239F3718B491EE5B"
 				item: "sophisticatedbackpacks:advanced_magnet_upgrade"
@@ -164,6 +177,7 @@
 			hide_dependency_lines: true
 			id: "2481F4D13EA498D7"
 			shape: "diamond"
+			subtitle: "Улучшение!"
 			tasks: [{
 				id: "0C5C9840D50FA04B"
 				item: "sophisticatedbackpacks:everlasting_upgrade"
@@ -177,6 +191,7 @@
 			hide_dependency_lines: true
 			id: "2AF4FF1C604B3A3F"
 			shape: "diamond"
+			subtitle: "Улучшение!"
 			tasks: [{
 				id: "7B1840E37C5D3403"
 				item: "sophisticatedbackpacks:crafting_upgrade"

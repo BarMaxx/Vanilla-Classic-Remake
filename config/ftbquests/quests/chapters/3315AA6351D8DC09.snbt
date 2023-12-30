@@ -20,6 +20,7 @@
 			hide: true
 			id: "15762F597B965F99"
 			shape: "dirt"
+			subtitle: "Намного лучше предыдущего!"
 			tasks: [{
 				id: "79554B5440BB0C88"
 				item: {
@@ -39,6 +40,7 @@
 			description: ["Улучшенная версия предыдущего хранилища."]
 			id: "337B785A56F5D850"
 			shape: "iron"
+			subtitle: "Намного лучше предыдущего!"
 			tasks: [{
 				id: "00B9DD290543FA96"
 				item: {
@@ -58,6 +60,7 @@
 			description: ["Улучшенная версия предыдущего хранилища."]
 			id: "6D350C1F3CF2932A"
 			shape: "gold"
+			subtitle: "Намного лучше предыдущего!"
 			tasks: [{
 				id: "23F5D0CAF7C75168"
 				item: {
@@ -77,6 +80,7 @@
 			description: ["Улучшенная версия предыдущего хранилища."]
 			id: "1B8A0233AE4DCB4B"
 			shape: "diamond"
+			subtitle: "Намного лучше предыдущего!"
 			tasks: [{
 				id: "6AA031AFFC736292"
 				item: {
@@ -97,6 +101,7 @@
 			hide: true
 			id: "782E87DFA8D9E320"
 			shape: "dirt"
+			subtitle: "Намного лучше предыдущей!"
 			tasks: [{
 				id: "4AA74A2DB3E78BEC"
 				item: {
@@ -116,6 +121,7 @@
 			description: ["Улучшенная версия предыдущего хранилища."]
 			id: "468BEDC6F00999C4"
 			shape: "iron"
+			subtitle: "Намного лучше предыдущей!"
 			tasks: [{
 				id: "7DF9F866BE67091E"
 				item: {
@@ -135,6 +141,7 @@
 			description: ["Улучшенная версия предыдущего хранилища."]
 			id: "6559A50C458AEE13"
 			shape: "gold"
+			subtitle: "Намного лучше предыдущей!"
 			tasks: [{
 				id: "7C0DD39673F01169"
 				item: {
@@ -154,6 +161,7 @@
 			description: ["Улучшенная версия предыдущего хранилища."]
 			id: "6B8DDDD19EDF924F"
 			shape: "diamond"
+			subtitle: "Намного лучше предыдущей!"
 			tasks: [{
 				id: "2D0BFB397C1B2B81"
 				item: {
@@ -171,12 +179,13 @@
 		{
 			dependencies: ["34C1D59023AA23CD"]
 			dependency_requirement: "one_completed"
-			description: ["Шаблон улучшений нужен для создания улучшений."]
+			description: ["&6Шаблон улучшения&r нужен для создания &aулучшений&r."]
 			hide: true
 			hide_dependency_lines: true
 			id: "274FC868882EF6E8"
 			shape: "dirt"
 			size: 1.2d
+			subtitle: "Шаблон!"
 			tasks: [{
 				id: "443130F0B0760C2A"
 				item: "sophisticatedstorage:upgrade_base"
@@ -191,6 +200,7 @@
 			hide: true
 			id: "7DD72871BE2B9E8D"
 			shape: "dirt"
+			subtitle: "Улучшение!"
 			tasks: [{
 				id: "232A25F58766FCC8"
 				item: "sophisticatedstorage:basic_tier_upgrade"
@@ -205,6 +215,7 @@
 			hide: true
 			id: "7299F4C6F228A401"
 			shape: "iron"
+			subtitle: "Улучшение!"
 			tasks: [{
 				id: "50A8C0993029B4AD"
 				item: "sophisticatedstorage:basic_to_iron_tier_upgrade"
@@ -219,6 +230,7 @@
 			hide: true
 			id: "5FD7487ACED59006"
 			shape: "gold"
+			subtitle: "Улучшение!"
 			tasks: [{
 				id: "218FE453ED0855E6"
 				item: "sophisticatedstorage:iron_to_gold_tier_upgrade"
@@ -233,6 +245,7 @@
 			hide: true
 			id: "05616FB7D90AFE2C"
 			shape: "diamond"
+			subtitle: "Улучшение!"
 			tasks: [{
 				id: "708B4E316333F8E4"
 				item: "sophisticatedstorage:gold_to_diamond_tier_upgrade"
@@ -247,6 +260,7 @@
 			hide: true
 			id: "4A69546A27A19757"
 			shape: "diamond"
+			subtitle: "Улучшение!"
 			tasks: [{
 				id: "793A14201AA8FEA4"
 				item: "sophisticatedstorage:diamond_to_netherite_tier_upgrade"
@@ -260,6 +274,7 @@
 			hide_dependency_lines: true
 			id: "177ED30FD39DE3C0"
 			shape: "iron"
+			subtitle: "Улучшение!"
 			tasks: [{
 				id: "5ED18D13998F0D87"
 				item: "sophisticatedstorage:stack_upgrade_tier_1"
@@ -272,6 +287,7 @@
 			dependencies: ["177ED30FD39DE3C0"]
 			id: "27F06EF8AA069247"
 			shape: "iron"
+			subtitle: "Улучшение!"
 			tasks: [{
 				id: "3BA0E6CAF6C50FB6"
 				item: "sophisticatedstorage:stack_upgrade_tier_2"
@@ -284,6 +300,7 @@
 			dependencies: ["27F06EF8AA069247"]
 			id: "668F335ED1929B6E"
 			shape: "gold"
+			subtitle: "Улучшение!"
 			tasks: [{
 				id: "03E290B81E99049F"
 				item: "sophisticatedstorage:stack_upgrade_tier_3"
@@ -296,6 +313,7 @@
 			dependencies: ["668F335ED1929B6E"]
 			id: "08C0CEDFACD115A5"
 			shape: "diamond"
+			subtitle: "Улучшение!"
 			tasks: [{
 				id: "3AAF9A86CB6A0A1E"
 				item: "sophisticatedstorage:stack_upgrade_tier_4"
@@ -309,6 +327,7 @@
 			hide_dependency_lines: true
 			id: "374BDF8B77143D4E"
 			shape: "diamond"
+			subtitle: "Улучшение!"
 			tasks: [{
 				id: "1E07AF766B8106FB"
 				item: "sophisticatedstorage:crafting_upgrade"
@@ -322,6 +341,7 @@
 			hide_dependency_lines: true
 			id: "7AF0DFC503FF931D"
 			shape: "gold"
+			subtitle: "Улучшение!"
 			tasks: [{
 				id: "7A3D0D35813A9AEB"
 				item: "sophisticatedstorage:smelting_upgrade"
@@ -334,6 +354,7 @@
 			dependencies: ["7AF0DFC503FF931D"]
 			id: "5AD08FB6F1B2EBE6"
 			shape: "diamond"
+			subtitle: "Улучшение!"
 			tasks: [{
 				id: "1AEBC4EC08C766CD"
 				item: "sophisticatedstorage:auto_smelting_upgrade"
@@ -346,6 +367,7 @@
 			dependencies: ["1DA2575BE67F8FD8"]
 			id: "43AD92755F50BF75"
 			shape: "diamond"
+			subtitle: "Улучшение!"
 			tasks: [{
 				id: "2AD740058B5B9C25"
 				item: "sophisticatedstorage:auto_blasting_upgrade"
@@ -359,6 +381,7 @@
 			hide_dependency_lines: true
 			id: "1DA2575BE67F8FD8"
 			shape: "gold"
+			subtitle: "Улучшение!"
 			tasks: [{
 				id: "65F01C6963E96ACF"
 				item: "sophisticatedstorage:blasting_upgrade"
@@ -372,6 +395,7 @@
 			hide_dependency_lines: true
 			id: "24B0E4521E19A5A8"
 			shape: "gold"
+			subtitle: "Улучшение!"
 			tasks: [{
 				id: "4BAEF856E9E71611"
 				item: "sophisticatedstorage:smoking_upgrade"
@@ -384,6 +408,7 @@
 			dependencies: ["24B0E4521E19A5A8"]
 			id: "3E514CD196C1E50E"
 			shape: "diamond"
+			subtitle: "Улучшение!"
 			tasks: [{
 				id: "743261ECEF71D5EB"
 				item: "sophisticatedstorage:auto_smoking_upgrade"
@@ -397,6 +422,7 @@
 			hide_dependency_lines: true
 			id: "35D843CA92D55690"
 			shape: "diamond"
+			subtitle: "Улучшение!"
 			tasks: [{
 				id: "452D4A002F91DBA3"
 				item: "sophisticatedstorage:stonecutter_upgrade"

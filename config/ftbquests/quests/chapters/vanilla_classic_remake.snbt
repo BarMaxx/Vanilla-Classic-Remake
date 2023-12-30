@@ -13,9 +13,11 @@
 				"27770D41688AA6AB"
 				"04A6DB3EE3A17A52"
 			]
+			description: ["Финальный предмет сборки."]
 			id: "58CEA56747D60B65"
 			shape: "diamond"
 			size: 2.0d
+			subtitle: "Финал!"
 			tasks: [{
 				id: "0ADEE6EF9815FA56"
 				item: "kubejs:vanilla_classic_remake"
@@ -30,6 +32,7 @@
 			id: "27770D41688AA6AB"
 			shape: "dirt"
 			size: 1.2d
+			subtitle: "Кусочек финала!"
 			tasks: [{
 				id: "7FF370AFE93BC75B"
 				item: "kubejs:piece_of_artifact"
@@ -44,6 +47,7 @@
 			id: "04A6DB3EE3A17A52"
 			shape: "dirt"
 			size: 1.2d
+			subtitle: "Кусочек финала!"
 			tasks: [{
 				id: "0A588988D213319B"
 				item: "kubejs:singularity"
