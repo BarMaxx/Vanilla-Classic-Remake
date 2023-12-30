@@ -52,11 +52,11 @@
 				title: "Посетить измерение Сумеречный Лес"
 				type: "dimension"
 			}]
-			x: 0.0d
-			y: 0.0d
+			x: -12.5d
+			y: -2.0d
 		}
 		{
-			dependencies: ["0AFECA103FCCF23A"]
+			dependencies: ["62C8A4F4FA049FE0"]
 			description: ["Необходимо найти самого первого босса этого измерения - &6Нага&r. А после, одолеть его."]
 			id: "06CBAD8BCECDCDF3"
 			rewards: [
@@ -84,8 +84,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 1.5d
-			y: 0.0d
+			x: -10.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["06CBAD8BCECDCDF3"]
@@ -105,8 +105,8 @@
 				item: "twilightforest:naga_trophy"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 0.0d
+			x: -8.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["06CBAD8BCECDCDF3"]
@@ -131,8 +131,8 @@
 				item: "twilightforest:naga_scale"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 1.5d
+			x: -9.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["620060537AB35D26"]
@@ -189,8 +189,8 @@
 				}
 			]
 			title: "Броня из чешуи наги"
-			x: 2.5d
-			y: 2.0d
+			x: -8.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["22A6CCC23C2D1061"]
@@ -211,8 +211,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 4.5d
-			y: 0.0d
+			x: -5.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["568E339ABFF7A602"]
@@ -232,13 +232,15 @@
 				item: "twilightforest:lich_trophy"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 0.0d
+			x: -3.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["568E339ABFF7A602"]
+			description: ["Стреляет пулями."]
 			id: "321CF520641CEBDD"
 			shape: "diamond"
+			subtitle: "Неплохое дальнее оружие"
 			tasks: [{
 				id: "1DD1308727EF9B6C"
 				item: {
@@ -250,13 +252,15 @@
 				}
 				type: "item"
 			}]
-			x: 5.5d
-			y: -1.0d
+			x: -4.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["568E339ABFF7A602"]
+			description: ["Высасывает жизни из мобов, отдавая их вам."]
 			id: "757E37DC1CDDAA63"
 			shape: "diamond"
+			subtitle: "Теперь ты вампир"
 			tasks: [{
 				id: "1361EB02AC8BE60F"
 				item: {
@@ -268,13 +272,15 @@
 				}
 				type: "item"
 			}]
-			x: 3.5d
-			y: 1.0d
+			x: -5.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["568E339ABFF7A602"]
+			description: ["Призывает зомби, у которых ограниченный срок жизни."]
 			id: "59D6A0B3682157D7"
 			shape: "diamond"
+			subtitle: "Личные помощники"
 			tasks: [{
 				id: "6F15B4DC9B90ABC4"
 				item: {
@@ -286,8 +292,8 @@
 				}
 				type: "item"
 			}]
-			x: 5.5d
-			y: 1.0d
+			x: -6.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["568E339ABFF7A602"]
@@ -304,27 +310,27 @@
 				}
 				type: "item"
 			}]
-			x: 3.5d
-			y: -1.0d
+			x: -7.0d
+			y: 1.5d
 		}
 		{
-			dependencies: ["0BF7880FE91B6666"]
-			description: ["Необходимо найти &aлабиринт&r минотавра и одолеть его."]
+			dependencies: ["71146B5E7089A3B5"]
+			description: ["Необходимо найти &aлабиринт&r гриботавра и одолеть его."]
 			id: "5AE48A334FE50D59"
 			shape: "gold"
 			subtitle: "Животное?!"
 			tasks: [{
-				entity: "twilightforest:minotaur"
+				entity: "twilightforest:minoshroom"
 				id: "74B28C72970FB973"
 				type: "kill"
 				value: 1L
 			}]
-			x: 7.5d
-			y: 0.0d
+			x: -1.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["5AE48A334FE50D59"]
-			description: ["&6Трофей гриботавра&r выпадает при убийстве &aминотавра&r."]
+			description: ["&6Трофей гриботавра&r выпадает при убийстве &aгриботавра&r."]
 			id: "411013196B68BFA4"
 			shape: "iron"
 			subtitle: "Третий трофей!"
@@ -333,25 +339,29 @@
 				item: "twilightforest:minoshroom_trophy"
 				type: "item"
 			}]
-			x: 9.0d
-			y: 0.0d
+			x: -1.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["5AE48A334FE50D59"]
+			description: ["Съеште эту похлёбку, чтобы спокойно путешествовать по жарким землям."]
 			id: "5D59B600FF5D690B"
 			shape: "diamond"
+			subtitle: "Довольно питательная еда"
 			tasks: [{
 				id: "634BF7EEC688B8C7"
 				item: "twilightforest:meef_stroganoff"
 				type: "item"
 			}]
-			x: 7.5d
-			y: 1.5d
+			x: -2.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["5AE48A334FE50D59"]
+			description: ["При беге наносит дополнительный урон мобам."]
 			id: "16C1CC7285B68D28"
 			shape: "diamond"
+			subtitle: "Очень хорошее оружие"
 			tasks: [{
 				id: "329DF37DC531D331"
 				item: {
@@ -363,8 +373,8 @@
 				}
 				type: "item"
 			}]
-			x: 7.5d
-			y: -1.5d
+			x: -2.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["411013196B68BFA4"]
@@ -378,8 +388,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 10.5d
-			y: 0.0d
+			x: -2.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["4636FFBEE32833E5"]
@@ -393,49 +403,57 @@
 				item: "twilightforest:hydra_trophy"
 				type: "item"
 			}]
-			x: 11.5d
-			y: -1.0d
+			x: -3.5d
+			y: -8.0d
 		}
 		{
 			dependencies: ["4636FFBEE32833E5"]
+			description: ["Съев это мясо, вы солучите регенерацию."]
 			id: "2840646BF0E99DFD"
 			shape: "diamond"
+			subtitle: "Вкусно и полезно"
 			tasks: [{
 				id: "5F012D5D1E160B71"
 				item: "twilightforest:hydra_chop"
 				type: "item"
 			}]
-			x: 9.5d
-			y: 1.0d
+			x: -3.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["4636FFBEE32833E5"]
+			description: ["Из крови крафтятся огненные слитки."]
 			id: "7456786190948B9D"
 			shape: "iron"
+			subtitle: "Даже не смей пытаться это выпить"
 			tasks: [{
 				id: "35F813928DA53993"
 				item: "twilightforest:fiery_blood"
 				type: "item"
 			}]
-			x: 11.5d
-			y: 1.0d
+			x: -2.75d
+			y: -4.767857142857125d
 		}
 		{
 			dependencies: ["7456786190948B9D"]
+			description: ["Из слитком можно скрафтить броню и инструменты."]
 			id: "7710DC59B6351661"
 			shape: "gold"
+			subtitle: "Излучает немного тепла"
 			tasks: [{
 				id: "5068BCEB984366E6"
 				item: "twilightforest:fiery_ingot"
 				type: "item"
 			}]
-			x: 12.5d
-			y: 1.5d
+			x: -3.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["7710DC59B6351661"]
+			description: ["Атакующие вас мобы будут поджигаться."]
 			id: "66EC38BF11EB06B9"
 			shape: "diamond"
+			subtitle: "Смотря на вас, у меня пылает сердце"
 			tasks: [
 				{
 					id: "31CDA0BBB072B34C"
@@ -482,11 +500,12 @@
 					type: "item"
 				}
 			]
-			x: 13.0d
-			y: 0.5d
+			x: -3.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["7710DC59B6351661"]
+			description: ["Меч будет поджигать врагов, а кирка автоматически плавить руды."]
 			id: "781F927EF445EF76"
 			shape: "diamond"
 			tasks: [
@@ -513,8 +532,8 @@
 					type: "item"
 				}
 			]
-			x: 13.5d
-			y: 2.0d
+			x: -4.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["653B567D11A82D11"]
@@ -528,46 +547,50 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 10.5d
-			y: -5.0d
+			x: -10.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["20C904F4EE6D103C"]
 			description: ["&6Трофей Ур-Гаста&r можно получить после его убийства."]
 			id: "4DA0EF7E83174979"
 			shape: "iron"
-			subtitle: "Пятый трофей!"
+			subtitle: "Шестой трофей!"
 			tasks: [{
 				id: "324E864B9AF0329B"
 				item: "twilightforest:ur_ghast_trophy"
 				type: "item"
 			}]
-			x: 9.0d
-			y: -5.0d
+			x: -11.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["20C904F4EE6D103C"]
+			description: ["Из карминита можно сделать несколько блоков-механизмов."]
 			id: "5C7256D15435750F"
 			shape: "diamond"
+			subtitle: "Похоже на кровь"
 			tasks: [{
 				id: "44F1585E529A16E1"
 				item: "twilightforest:carminite"
 				type: "item"
 			}]
-			x: 12.0d
-			y: -5.0d
+			x: -8.5d
+			y: -7.5d
 		}
 		{
 			dependencies: ["20C904F4EE6D103C"]
+			description: ["Это тоже самое, что и кровь Гидры."]
 			id: "329815C94B4FFB56"
 			shape: "diamond"
+			subtitle: "На вкус ужасное"
 			tasks: [{
 				id: "0AA9EF073D1EE3D7"
 				item: "twilightforest:fiery_tears"
 				type: "item"
 			}]
-			x: 10.5d
-			y: -6.5d
+			x: -10.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["4DA0EF7E83174979"]
@@ -581,39 +604,43 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 7.5d
-			y: -5.0d
+			x: -12.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["0B8EB3D5AA1768F0"]
 			description: ["&6Трофей Альфа-йети&r выпадает после убийства этого босса."]
 			id: "2C4CA744F9DDC365"
 			shape: "iron"
-			subtitle: "Шестой трофей!"
+			subtitle: "Седьмой трофей!"
 			tasks: [{
 				id: "3059DE4F54AFE1D4"
 				item: "twilightforest:alpha_yeti_trophy"
 				type: "item"
 			}]
-			x: 6.0d
-			y: -5.0d
+			x: -11.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["0B8EB3D5AA1768F0"]
+			description: ["Из меха можно создать броню, которая будет иметь зачарования."]
 			id: "6EFE9929677DD2A3"
 			shape: "iron"
+			subtitle: "А говорили Йети не существует"
 			tasks: [{
 				id: "048AE0FED8A7ABDD"
 				item: "twilightforest:alpha_yeti_fur"
 				type: "item"
 			}]
-			x: 7.5d
-			y: -6.5d
+			x: -10.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["6EFE9929677DD2A3"]
+			description: ["Замораживает атакоющего."]
 			id: "4F1D655B30E0F368"
 			shape: "diamond"
+			subtitle: "Зима в сердце, на душе вьюга"
 			tasks: [
 				{
 					id: "63C7BCA7B950C18A"
@@ -682,20 +709,22 @@
 					type: "item"
 				}
 			]
-			x: 8.0d
-			y: -7.5d
+			x: -9.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["0B8EB3D5AA1768F0"]
+			description: ["Засыпает снегом поверхность и замораживает воду."]
 			id: "4E7DAC10729379BE"
 			shape: "diamond"
+			subtitle: "С новым годом!"
 			tasks: [{
 				id: "507CF053CC93F4B3"
 				item: "twilightforest:ice_bomb"
 				type: "item"
 			}]
-			x: 7.5d
-			y: -3.5d
+			x: -10.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["2C4CA744F9DDC365"]
@@ -709,8 +738,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 4.5d
-			y: -5.0d
+			x: -8.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["15B58FFDBB2B3766"]
@@ -727,13 +756,15 @@
 				item: "twilightforest:snow_queen_trophy"
 				type: "item"
 			}]
-			x: 3.0d
-			y: -5.0d
+			x: -6.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["15B58FFDBB2B3766"]
+			description: ["Стреляет сразу тремя стрелами, тратя при этом одну"]
 			id: "0545B934E4E04F0A"
 			shape: "diamond"
+			subtitle: "Тратит одну стрелу"
 			tasks: [{
 				id: "2EE18001B1E71EAF"
 				item: {
@@ -745,13 +776,15 @@
 				}
 				type: "item"
 			}]
-			x: 4.0d
-			y: -6.0d
+			x: -8.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["15B58FFDBB2B3766"]
+			description: ["Будет следовать за ближейшей к стреле цели."]
 			id: "43C3F589CDE0074B"
 			shape: "diamond"
+			subtitle: "Автоприцел"
 			tasks: [{
 				id: "3209C917839C0060"
 				item: {
@@ -763,81 +796,235 @@
 				}
 				type: "item"
 			}]
-			x: 4.0d
-			y: -4.0d
+			x: -7.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["44134EE872FCDB7D"]
-			description: [
-				"Необходимо найти &aструктуру&r, в котрой появляются эти &6гоблины&r."
-				"А после, нужно убить их."
-			]
+			description: ["Необходимо найти тронный зал, где появятся фантомы призраков, которых нужно убить."]
 			id: "331B68B30B5195E1"
 			min_required_tasks: 1
 			shape: "gold"
-			subtitle: "Выбор из 3-х!"
-			tasks: [
-				{
-					entity: "twilightforest:blockchain_goblin"
-					id: "3C43242E18D68A87"
-					type: "kill"
-					value: 1L
-				}
-				{
-					entity: "twilightforest:lower_goblin_knight"
-					id: "5207984EBD2CEBBB"
-					type: "kill"
-					value: 1L
-				}
-				{
-					entity: "twilightforest:upper_goblin_knight"
-					id: "5C28112C812B1CED"
-					type: "kill"
-					value: 1L
-				}
-			]
-			title: "Убить гоблина"
-			x: 11.5d
-			y: -2.5d
+			tasks: [{
+				entity: "twilightforest:knight_phantom"
+				id: "5C28112C812B1CED"
+				type: "kill"
+				value: 1L
+			}]
+			x: -5.5d
+			y: -9.0d
 		}
 		{
 			dependencies: ["331B68B30B5195E1"]
-			description: ["&6Осколок рыцарского металла&r выпадает при убйстве одного из гоблинов из предыдущего квеста."]
+			description: ["Трофей Фантомного Рыцаря можно получить после убийства всех шести духов."]
 			id: "653B567D11A82D11"
 			shape: "iron"
-			subtitle: "Новый металл!"
+			subtitle: "Пятый трофей!"
 			tasks: [{
-				count: 4L
 				id: "6A0DA2CD6C3E396D"
+				item: "twilightforest:knight_phantom_trophy"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["0AFECA103FCCF23A"]
+			description: ["Карта покажет местонахождение всех боссов и данжей."]
+			id: "62C8A4F4FA049FE0"
+			shape: "iron"
+			subtitle: "Ваш путеводитель по этому миру"
+			tasks: [{
+				id: "65B2E2404C0A84A8"
+				item: "twilightforest:magic_map"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0BF7880FE91B6666"]
+			description: ["Карта поможет вам найти комнату босса в лабиринте минотавра."]
+			id: "71146B5E7089A3B5"
+			shape: "iron"
+			subtitle: "Даже с ней будет нелегко"
+			tasks: [{
+				id: "3C9C6F0A5BE2240C"
+				item: "twilightforest:maze_map"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["62C8A4F4FA049FE0"]
+			description: ["Чтобы получить трофей, необходимо скормить Квест-Раму все 16 цветов шерсти."]
+			id: "72DFED12846B2E83"
+			shape: "gold"
+			subtitle: "Девятый трофей!"
+			tasks: [{
+				id: "09DFFFFE54771DE6"
+				item: "twilightforest:quest_ram_trophy"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["331B68B30B5195E1"]
+			description: ["Выпадает почти со всех мобов в подземелье."]
+			id: "2F67D3072EF6014C"
+			shape: "gold"
+			subtitle: "Маленькая частичка чего-то большего"
+			tasks: [{
+				id: "6421054B10663437"
 				item: "twilightforest:armor_shard"
 				type: "item"
 			}]
-			x: 11.5d
-			y: -4.0d
+			x: -7.0d
+			y: -7.5d
 		}
 		{
-			dependencies: ["653B567D11A82D11"]
-			id: "78DC147E7D027C67"
-			shape: "iron"
+			dependencies: ["2F67D3072EF6014C"]
+			description: ["Переплавте чтобы получить слиток."]
+			id: "390BED420D37C985"
+			shape: "gold"
+			subtitle: "Кучка металлолома"
 			tasks: [{
-				id: "0B6D58A7F524CFE6"
+				id: "3E70E1B9B084F5C9"
 				item: "twilightforest:armor_shard_cluster"
 				type: "item"
 			}]
-			x: 13.0d
-			y: -4.0d
+			x: -5.5d
+			y: -7.0d
 		}
 		{
-			dependencies: ["78DC147E7D027C67"]
-			id: "5FC38D781C11449B"
+			dependencies: ["390BED420D37C985"]
+			description: ["Из слитков можно сделать броню и инструменты."]
+			id: "736374340FAA484D"
 			shape: "gold"
+			subtitle: "Крафтовый ингредиент"
 			tasks: [{
-				id: "0CB53E819A701404"
+				id: "5B34960A373AFD88"
 				item: "twilightforest:knightmetal_ingot"
 				type: "item"
 			}]
-			x: 14.5d
-			y: -4.0d
+			x: -7.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["736374340FAA484D"]
+			description: ["Наносят дополнительный урон врагам с бронёй."]
+			id: "281881127D7AC454"
+			shape: "gold"
+			subtitle: "Выглядят устрашающими"
+			tasks: [
+				{
+					id: "14862D74AEA36613"
+					item: {
+						Count: 1b
+						id: "twilightforest:knightmetal_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "045EAA172DAD195C"
+					item: {
+						Count: 1b
+						id: "twilightforest:knightmetal_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "678676DB75D60FDA"
+					item: {
+						Count: 1b
+						id: "twilightforest:knightmetal_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -7.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["736374340FAA484D"]
+			description: ["По защите, броня не хуже алмазной."]
+			id: "732D164835CB2B34"
+			shape: "gold"
+			subtitle: "Очень хорошая броня"
+			tasks: [
+				{
+					id: "3FF6067BCB60FF2E"
+					item: {
+						Count: 1b
+						id: "twilightforest:knightmetal_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4CE51CAE838D02BA"
+					item: {
+						Count: 1b
+						id: "twilightforest:knightmetal_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4459474C1B7A75FA"
+					item: {
+						Count: 1b
+						id: "twilightforest:knightmetal_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6C9782A94D4C9C71"
+					item: {
+						Count: 1b
+						id: "twilightforest:knightmetal_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -5.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["32A2447D9C4BAF7D"]
+			description: ["Замок является ареной для финального босса, которого уже как 8 лет не могут добавить."]
+			id: "6FA155274B0E6147"
+			shape: "diamond"
+			subtitle: "Финал?"
+			tasks: [{
+				id: "353F651B25DAFA19"
+				structure: "twilightforest:final_castle"
+				type: "structure"
+			}]
+			title: "Найти структуру Финальный Замок"
+			x: -5.0d
+			y: -3.0d
 		}
 	]
 	title: "Twilight Forest"
