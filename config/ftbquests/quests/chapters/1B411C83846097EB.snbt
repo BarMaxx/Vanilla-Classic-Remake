@@ -240,7 +240,7 @@
 			description: ["Стреляет пулями."]
 			id: "321CF520641CEBDD"
 			shape: "diamond"
-			subtitle: "Неплохое дальнее оружие"
+			subtitle: "Неплохое дальнее оружие!"
 			tasks: [{
 				id: "1DD1308727EF9B6C"
 				item: {
@@ -260,7 +260,7 @@
 			description: ["Высасывает жизни из мобов, отдавая их вам."]
 			id: "757E37DC1CDDAA63"
 			shape: "diamond"
-			subtitle: "Теперь ты вампир"
+			subtitle: "Теперь ты вампир!"
 			tasks: [{
 				id: "1361EB02AC8BE60F"
 				item: {
@@ -280,7 +280,7 @@
 			description: ["Призывает зомби, у которых ограниченный срок жизни."]
 			id: "59D6A0B3682157D7"
 			shape: "diamond"
-			subtitle: "Личные помощники"
+			subtitle: "Личные помощники!"
 			tasks: [{
 				id: "6F15B4DC9B90ABC4"
 				item: {
@@ -299,6 +299,7 @@
 			dependencies: ["568E339ABFF7A602"]
 			id: "7502F166B14ABB5E"
 			shape: "diamond"
+			subtitle: "Отражатель!"
 			tasks: [{
 				id: "1EFF39EAA287B759"
 				item: {
@@ -347,7 +348,7 @@
 			description: ["Съеште эту похлёбку, чтобы спокойно путешествовать по жарким землям."]
 			id: "5D59B600FF5D690B"
 			shape: "diamond"
-			subtitle: "Довольно питательная еда"
+			subtitle: "Довольно питательная еда!"
 			tasks: [{
 				id: "634BF7EEC688B8C7"
 				item: "twilightforest:meef_stroganoff"
@@ -361,7 +362,7 @@
 			description: ["При беге наносит дополнительный урон мобам."]
 			id: "16C1CC7285B68D28"
 			shape: "diamond"
-			subtitle: "Очень хорошее оружие"
+			subtitle: "Очень хорошее оружие!"
 			tasks: [{
 				id: "329DF37DC531D331"
 				item: {
@@ -411,7 +412,7 @@
 			description: ["Съев это мясо, вы солучите регенерацию."]
 			id: "2840646BF0E99DFD"
 			shape: "diamond"
-			subtitle: "Вкусно и полезно"
+			subtitle: "Вкусно и полезно!"
 			tasks: [{
 				id: "5F012D5D1E160B71"
 				item: "twilightforest:hydra_chop"
@@ -425,7 +426,7 @@
 			description: ["Из крови крафтятся огненные слитки."]
 			id: "7456786190948B9D"
 			shape: "iron"
-			subtitle: "Даже не смей пытаться это выпить"
+			subtitle: "Даже не смей пытаться это выпить!"
 			tasks: [{
 				id: "35F813928DA53993"
 				item: "twilightforest:fiery_blood"
@@ -439,7 +440,7 @@
 			description: ["Из слитком можно скрафтить броню и инструменты."]
 			id: "7710DC59B6351661"
 			shape: "gold"
-			subtitle: "Излучает немного тепла"
+			subtitle: "Излучает немного тепла!"
 			tasks: [{
 				id: "5068BCEB984366E6"
 				item: "twilightforest:fiery_ingot"
@@ -453,7 +454,7 @@
 			description: ["Атакующие вас мобы будут поджигаться."]
 			id: "66EC38BF11EB06B9"
 			shape: "diamond"
-			subtitle: "Смотря на вас, у меня пылает сердце"
+			subtitle: "Смотря на вас, у меня пылает сердце!"
 			tasks: [
 				{
 					id: "31CDA0BBB072B34C"
@@ -500,6 +501,7 @@
 					type: "item"
 				}
 			]
+			title: "Огненная броня"
 			x: -3.5d
 			y: -1.0d
 		}
@@ -508,6 +510,7 @@
 			description: ["Меч будет поджигать врагов, а кирка автоматически плавить руды."]
 			id: "781F927EF445EF76"
 			shape: "diamond"
+			subtitle: "Горячие!"
 			tasks: [
 				{
 					id: "056209D12AB8E3A7"
@@ -532,6 +535,7 @@
 					type: "item"
 				}
 			]
+			title: "Огненные инструменты"
 			x: -4.5d
 			y: -1.5d
 		}
@@ -569,7 +573,7 @@
 			description: ["Из карминита можно сделать несколько блоков-механизмов."]
 			id: "5C7256D15435750F"
 			shape: "diamond"
-			subtitle: "Похоже на кровь"
+			subtitle: "Похоже на кровь!"
 			tasks: [{
 				id: "44F1585E529A16E1"
 				item: "twilightforest:carminite"
@@ -583,7 +587,7 @@
 			description: ["Это тоже самое, что и кровь Гидры."]
 			id: "329815C94B4FFB56"
 			shape: "diamond"
-			subtitle: "На вкус ужасное"
+			subtitle: "На вкус ужасное!"
 			tasks: [{
 				id: "0AA9EF073D1EE3D7"
 				item: "twilightforest:fiery_tears"
@@ -626,7 +630,7 @@
 			description: ["Из меха можно создать броню, которая будет иметь зачарования."]
 			id: "6EFE9929677DD2A3"
 			shape: "iron"
-			subtitle: "А говорили Йети не существует"
+			subtitle: "А говорили Йети не существует!"
 			tasks: [{
 				id: "048AE0FED8A7ABDD"
 				item: "twilightforest:alpha_yeti_fur"
@@ -640,7 +644,7 @@
 			description: ["Замораживает атакоющего."]
 			id: "4F1D655B30E0F368"
 			shape: "diamond"
-			subtitle: "Зима в сердце, на душе вьюга"
+			subtitle: "Зима в сердце, на душе вьюга!"
 			tasks: [
 				{
 					id: "63C7BCA7B950C18A"
@@ -709,6 +713,7 @@
 					type: "item"
 				}
 			]
+			title: "Одежда йети"
 			x: -9.0d
 			y: -6.0d
 		}
@@ -764,7 +769,7 @@
 			description: ["Стреляет сразу тремя стрелами, тратя при этом одну"]
 			id: "0545B934E4E04F0A"
 			shape: "diamond"
-			subtitle: "Тратит одну стрелу"
+			subtitle: "Тратит одну стрелу!"
 			tasks: [{
 				id: "2EE18001B1E71EAF"
 				item: {
@@ -784,7 +789,7 @@
 			description: ["Будет следовать за ближейшей к стреле цели."]
 			id: "43C3F589CDE0074B"
 			shape: "diamond"
-			subtitle: "Автоприцел"
+			subtitle: "Автоприцел!"
 			tasks: [{
 				id: "3209C917839C0060"
 				item: {
@@ -805,6 +810,7 @@
 			id: "331B68B30B5195E1"
 			min_required_tasks: 1
 			shape: "gold"
+			subtitle: "Призраки существуют!"
 			tasks: [{
 				entity: "twilightforest:knight_phantom"
 				id: "5C28112C812B1CED"
@@ -833,7 +839,7 @@
 			description: ["Карта покажет местонахождение всех боссов и данжей."]
 			id: "62C8A4F4FA049FE0"
 			shape: "iron"
-			subtitle: "Ваш путеводитель по этому миру"
+			subtitle: "Ваш путеводитель по этому миру!"
 			tasks: [{
 				id: "65B2E2404C0A84A8"
 				item: "twilightforest:magic_map"
@@ -847,7 +853,7 @@
 			description: ["Карта поможет вам найти комнату босса в лабиринте минотавра."]
 			id: "71146B5E7089A3B5"
 			shape: "iron"
-			subtitle: "Даже с ней будет нелегко"
+			subtitle: "Даже с ней будет нелегко!"
 			tasks: [{
 				id: "3C9C6F0A5BE2240C"
 				item: "twilightforest:maze_map"
@@ -875,8 +881,9 @@
 			description: ["Выпадает почти со всех мобов в подземелье."]
 			id: "2F67D3072EF6014C"
 			shape: "gold"
-			subtitle: "Маленькая частичка чего-то большего"
+			subtitle: "Маленькая частичка чего-то большего!"
 			tasks: [{
+				count: 8L
 				id: "6421054B10663437"
 				item: "twilightforest:armor_shard"
 				type: "item"
@@ -889,8 +896,9 @@
 			description: ["Переплавте чтобы получить слиток."]
 			id: "390BED420D37C985"
 			shape: "gold"
-			subtitle: "Кучка металлолома"
+			subtitle: "Кучка металлолома!"
 			tasks: [{
+				count: 4L
 				id: "3E70E1B9B084F5C9"
 				item: "twilightforest:armor_shard_cluster"
 				type: "item"
@@ -903,8 +911,9 @@
 			description: ["Из слитков можно сделать броню и инструменты."]
 			id: "736374340FAA484D"
 			shape: "gold"
-			subtitle: "Крафтовый ингредиент"
+			subtitle: "Крафтовый ингредиент!"
 			tasks: [{
+				count: 10L
 				id: "5B34960A373AFD88"
 				item: "twilightforest:knightmetal_ingot"
 				type: "item"
@@ -917,7 +926,7 @@
 			description: ["Наносят дополнительный урон врагам с бронёй."]
 			id: "281881127D7AC454"
 			shape: "gold"
-			subtitle: "Выглядят устрашающими"
+			subtitle: "Выглядят устрашающе!"
 			tasks: [
 				{
 					id: "14862D74AEA36613"
@@ -953,6 +962,7 @@
 					type: "item"
 				}
 			]
+			title: "Рыцарские инструменты"
 			x: -7.0d
 			y: -4.5d
 		}
@@ -961,7 +971,7 @@
 			description: ["По защите, броня не хуже алмазной."]
 			id: "732D164835CB2B34"
 			shape: "gold"
-			subtitle: "Очень хорошая броня"
+			subtitle: "Очень хорошая броня!"
 			tasks: [
 				{
 					id: "3FF6067BCB60FF2E"
@@ -1008,6 +1018,7 @@
 					type: "item"
 				}
 			]
+			title: "Рыцарская броня"
 			x: -5.5d
 			y: -5.5d
 		}

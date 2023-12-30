@@ -16,8 +16,10 @@
 	quests: [
 		{
 			dependencies: ["0EA1D5F1CE1263EF"]
+			description: ["Войдите в активированный &6портал&r."]
 			id: "28C61FC52FA396F8"
 			shape: "iron"
+			subtitle: "Новое измерение!"
 			tasks: [{
 				dimension: "deeperdarker:otherside"
 				id: "5019A3E8877A4F04"
@@ -29,8 +31,10 @@
 		}
 		{
 			dependencies: ["06831B040C6BCB13"]
+			description: ["&6Сердце глубин&r выпадает при убийстве моба &aХранитель&r."]
 			id: "5B755654675F5917"
 			shape: "gold"
+			subtitle: "Достаётся не просто!"
 			tasks: [{
 				id: "47C1F43A68F25C6E"
 				item: "deeperdarker:heart_of_the_deep"
@@ -40,45 +44,66 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["28C61FC52FA396F8"]
+			dependencies: ["06831B040C6BCB13"]
+			description: ["&6Панцирь хранителя&r выпадает при убийстве моба &aХранитель&r."]
 			id: "16205A2F7C346DC3"
+			rewards: [{
+				id: "3DF52CC8ACC643ED"
+				item: "deeperdarker:warden_carapace"
+				random_bonus: 2
+				type: "item"
+			}]
 			shape: "iron"
+			subtitle: "Прочный!"
 			tasks: [{
 				id: "10E0AA0A4E38C5EE"
 				item: "deeperdarker:warden_carapace"
 				type: "item"
 			}]
-			x: 4.5d
-			y: 1.0d
+			x: 1.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["16205A2F7C346DC3"]
+			description: ["&6Усиленный эхо-осколок&r нужен для улучшения &aНезеритовых инструментов&r и &aброни&r."]
 			id: "577B8D1295289FBF"
+			rewards: [{
+				id: "23D50E853FC127D3"
+				item: "deeperdarker:reinforced_echo_shard"
+				random_bonus: 3
+				type: "item"
+			}]
 			shape: "gold"
+			subtitle: "Новый уровень!"
 			tasks: [{
 				id: "3B66F3043B3CBE77"
 				item: "deeperdarker:reinforced_echo_shard"
 				type: "item"
 			}]
-			x: 3.5d
+			x: 3.0d
 			y: 2.0d
 		}
 		{
-			dependencies: ["28C61FC52FA396F8"]
+			dependencies: ["735553C1834E466B"]
+			description: ["&6Пыль душ&r выпадает при убийстве моба &aРазбитый&r."]
 			id: "0A50A5F891FB27B4"
 			shape: "gold"
+			subtitle: "Интересный предмет!"
 			tasks: [{
+				count: 2L
 				id: "1334C8CB034F203F"
 				item: "deeperdarker:soul_dust"
 				type: "item"
 			}]
 			x: 5.5d
-			y: -1.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["0A50A5F891FB27B4"]
+			description: ["&6Зелье скалкового родства&r создаётся на &aварочной стойке&r."]
 			id: "34AEDD56279530E7"
 			shape: "diamond"
+			subtitle: "Новое зелье!"
 			tasks: [{
 				id: "4141706950747C5A"
 				item: {
@@ -91,24 +116,28 @@
 				type: "item"
 			}]
 			x: 6.5d
-			y: -2.0d
+			y: -3.0d
 		}
 		{
-			dependencies: ["28C61FC52FA396F8"]
+			dependencies: ["0502F48FD786E5D6"]
+			description: ["&6Кристалл душ&r выпадает при убийстве моба &aСталкер&r."]
 			id: "7AD6AD515ECF2FE5"
 			shape: "gold"
+			subtitle: "Важный предмет!"
 			tasks: [{
 				id: "30608F6B730D7906"
 				item: "deeperdarker:soul_crystal"
 				type: "item"
 			}]
 			x: 5.5d
-			y: 1.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["7AD6AD515ECF2FE5"]
+			description: ["&6Элитры душ&r позволяют летать."]
 			id: "283B5303F6132A34"
 			shape: "diamond"
+			subtitle: "Возможность летать!"
 			tasks: [{
 				id: "5B43125CCCE698DA"
 				item: {
@@ -121,24 +150,29 @@
 				type: "item"
 			}]
 			x: 6.5d
-			y: 2.0d
+			y: 3.0d
 		}
 		{
-			dependencies: ["28C61FC52FA396F8"]
+			dependencies: ["28CF755A036888A8"]
+			description: ["&6Скалковая кость&r выпадает при убийстве моба &aСкалковая сороконожка&r."]
 			id: "287509D04EC0A0ED"
 			shape: "diamond"
+			subtitle: "Косточка!"
 			tasks: [{
+				count: 2L
 				id: "421DE90E13ECE364"
 				item: "deeperdarker:sculk_bone"
 				type: "item"
 			}]
-			x: 6.5d
+			x: 8.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["577B8D1295289FBF"]
+			description: ["Хорошая броня."]
 			id: "5EACF8E4B2CD231D"
 			shape: "diamond"
+			subtitle: "Более защищённая!"
 			tasks: [
 				{
 					id: "0843F60FFC02BE76"
@@ -185,13 +219,16 @@
 					type: "item"
 				}
 			]
+			title: "Броня хранителя"
 			x: 3.0d
-			y: 1.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["577B8D1295289FBF"]
+			description: ["Хорошее оружие."]
 			id: "3336DEC525CCF90B"
 			shape: "diamond"
+			subtitle: "Более сильное!"
 			tasks: [
 				{
 					id: "293DD1186181D108"
@@ -216,13 +253,16 @@
 					type: "item"
 				}
 			]
-			x: 4.0d
-			y: 3.0d
+			title: "Оружие хранителя"
+			x: 1.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["577B8D1295289FBF"]
+			description: ["Хорошие инструменты."]
 			id: "3E70EC9A7F0BF86A"
 			shape: "diamond"
+			subtitle: "Более эффективные!"
 			tasks: [
 				{
 					id: "5678E96FDB266AD5"
@@ -247,14 +287,17 @@
 					type: "item"
 				}
 			]
-			x: 3.0d
-			y: 3.0d
+			title: "Инструменты хранителя"
+			x: 4.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["34C1D59023AA23CD"]
+			description: ["Необходимо найти &6Древний город&r, который находит под землёй в верхнем мире."]
 			hide: true
 			id: "6D43CD89EB04EA21"
 			shape: "dirt"
+			subtitle: "Древнее зло!"
 			tasks: [{
 				id: "4DE853C7413223BB"
 				structure: "#minecraft:ancient_city"
@@ -266,7 +309,11 @@
 		}
 		{
 			dependencies: ["5B755654675F5917"]
-			description: ["С помощью &6Сердца глубин&r необходимо активировать портал, который находится в &aДревнем городе&r."]
+			description: [
+				"С помощью &6Сердца глубин&r необходимо активировать портал, который находится в &aДревнем городе&r."
+				""
+				"Необходимо нажать &eПКМ&r по порталу, держа в руке сердце глубин. Не забудьте отчистить портал от лишних блоков."
+			]
 			id: "0EA1D5F1CE1263EF"
 			shape: "iron"
 			subtitle: "Новые тайны!"
@@ -281,8 +328,10 @@
 		}
 		{
 			dependencies: ["6D43CD89EB04EA21"]
+			description: ["Необходимо убить моба &6Хранитель&r."]
 			id: "06831B040C6BCB13"
 			shape: "iron"
+			subtitle: "Непростая задача!"
 			tasks: [{
 				entity: "minecraft:warden"
 				id: "1C75C70439AF1E16"
@@ -291,6 +340,51 @@
 			}]
 			x: 1.0d
 			y: 0.0d
+		}
+		{
+			dependencies: ["28C61FC52FA396F8"]
+			description: ["Необходимо убить моба &6Разбитый&r."]
+			id: "735553C1834E466B"
+			shape: "iron"
+			subtitle: "Новый монстр!"
+			tasks: [{
+				entity: "deeperdarker:shattered"
+				id: "317FB7A4451CEF76"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["28C61FC52FA396F8"]
+			description: ["Необходимо убить моба &6Скалковая сороконожка&r."]
+			id: "28CF755A036888A8"
+			shape: "iron"
+			subtitle: "Новый монстр!"
+			tasks: [{
+				entity: "deeperdarker:sculk_centipede"
+				id: "6C225636AD56EBC3"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["28C61FC52FA396F8"]
+			description: ["Необходимо убить моба &6Сталкер&r."]
+			id: "0502F48FD786E5D6"
+			shape: "iron"
+			subtitle: "Новый монстр!"
+			tasks: [{
+				entity: "deeperdarker:stalker"
+				id: "5141BDE24F7B4EA9"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.0d
+			y: 1.5d
 		}
 	]
 	title: "Deeper and Darker"

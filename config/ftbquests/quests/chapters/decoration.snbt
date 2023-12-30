@@ -9,9 +9,11 @@
 	quest_links: [ ]
 	quests: [{
 		dependencies: ["34C1D59023AA23CD"]
+		description: ["&6Стамеска&r нужна для изменения текстуры у блоков."]
 		hide: true
 		id: "46F4AFCC7AF62FC3"
 		shape: "dirt"
+		subtitle: "Декорации!"
 		tasks: [{
 			id: "4364260C0247C706"
 			item: "rechiseled:chisel"

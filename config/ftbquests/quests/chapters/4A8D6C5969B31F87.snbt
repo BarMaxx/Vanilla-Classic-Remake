@@ -62,10 +62,11 @@
 		}
 		{
 			dependencies: ["2F7739EAE638E34C"]
-			description: ["С помощью хижины строителя в вашей колонии начнут появлятся строители, которые будут выстраивать вашу колонию."]
+			description: ["С помощью &6хижины строителя&r в вашей колонии начнут появлятся строители, которые будут выстраивать вашу колонию."]
 			id: "77FD7924E4C9F49B"
 			shape: "gold"
 			size: 1.2d
+			subtitle: "Строительство!"
 			tasks: [{
 				id: "709E053A6113D6EB"
 				item: "minecolonies:blockhutbuilder"
@@ -76,9 +77,10 @@
 		}
 		{
 			dependencies: ["2C99DE39599D0AE1"]
-			description: ["В бочке для компоста можно создать компост."]
+			description: ["В &6бочке для компоста&r можно создать компост."]
 			id: "2A295A99E1EB08A1"
 			shape: "iron"
+			subtitle: "Компост!"
 			tasks: [{
 				id: "163BDECDCB0D90A8"
 				item: "minecolonies:barrel_block"
@@ -99,6 +101,7 @@
 				type: "item"
 			}]
 			shape: "gold"
+			subtitle: "Костная мука!"
 			tasks: [{
 				count: 4L
 				id: "74B26EDE6003EA68"
@@ -111,10 +114,11 @@
 		}
 		{
 			dependencies: ["77FD7924E4C9F49B"]
-			description: ["В ресторане жители вашей колонии будут питаться."]
+			description: ["В &6ресторане&r жители вашей колонии будут питаться."]
 			hide_dependency_lines: true
 			id: "530C5641D46E0AB9"
 			shape: "diamond"
+			subtitle: "Готовка!"
 			tasks: [{
 				id: "77EBD35BCC51ACA0"
 				item: "minecolonies:blockhutcook"
@@ -125,10 +129,11 @@
 		}
 		{
 			dependencies: ["77FD7924E4C9F49B"]
-			description: ["На складе будут храниться предметы вашей колонии."]
+			description: ["На &6складе&r будут храниться предметы вашей колонии."]
 			hide_dependency_lines: true
 			id: "2B1589DB8B80A05C"
 			shape: "diamond"
+			subtitle: "Хранилище!"
 			tasks: [{
 				id: "62CB53D8A875D15C"
 				item: "minecolonies:blockhutwarehouse"
@@ -139,10 +144,11 @@
 		}
 		{
 			dependencies: ["77FD7924E4C9F49B"]
-			description: ["С помощью фермы ваша колония сможет сама производить еду."]
+			description: ["С помощью &6фермы&r ваша колония сможет сама производить еду."]
 			hide_dependency_lines: true
 			id: "62F2D549BCD26EE7"
 			shape: "diamond"
+			subtitle: "Выращивание еды!"
 			tasks: [{
 				id: "4D9C6482AFAD579F"
 				item: "minecolonies:blockhutfarmer"
@@ -153,9 +159,10 @@
 		}
 		{
 			dependencies: ["77FD7924E4C9F49B"]
-			description: ["В университете вы будете открывать новые строения для вашей колонии."]
+			description: ["В &6университете&r вы будете открывать новые строения для вашей колонии."]
 			id: "36DCE7FA65BB1F52"
 			shape: "gold"
+			subtitle: "Учёба!"
 			tasks: [{
 				id: "091AC18F09373D04"
 				item: "minecolonies:blockhutuniversity"
@@ -166,10 +173,11 @@
 		}
 		{
 			dependencies: ["77FD7924E4C9F49B"]
-			description: ["С помощью шахты ваша колония будет сама добывать полезные ископаемые."]
+			description: ["С помощью &6шахты&r ваша колония будет сама добывать полезные ископаемые."]
 			hide_dependency_lines: true
 			id: "281D82ACDEC902F8"
 			shape: "diamond"
+			subtitle: "Добыча ресурсов!"
 			tasks: [{
 				id: "72DFA8CF6EB5FD7D"
 				item: "minecolonies:blockhutminer"
@@ -180,10 +188,11 @@
 		}
 		{
 			dependencies: ["77FD7924E4C9F49B"]
-			description: ["С помощью хижины лесника ваша колония сможет сама добывать дерево для развития!"]
+			description: ["С помощью &6хижины лесника&r ваша колония сможет сама добывать дерево для развития!"]
 			hide_dependency_lines: true
 			id: "6624CFD1C397FF48"
 			shape: "diamond"
+			subtitle: "Добыча ресурсов!"
 			tasks: [{
 				id: "795442B328E5303B"
 				item: "minecolonies:blockhutlumberjack"
@@ -194,10 +203,11 @@
 		}
 		{
 			dependencies: ["77FD7924E4C9F49B"]
-			description: ["Сторожевая башня нужна для защиты колонии."]
+			description: ["&6Сторожевая башня&r нужна для защиты колонии."]
 			hide_dependency_lines: true
 			id: "4E2542511296B43B"
 			shape: "diamond"
+			subtitle: "Защита!"
 			tasks: [{
 				id: "786C63E868255B07"
 				item: "minecolonies:blockhutguardtower"
@@ -208,10 +218,11 @@
 		}
 		{
 			dependencies: ["36DCE7FA65BB1F52"]
-			description: ["В школе жители вашей колонии будут учиться."]
+			description: ["В &6школе&r жители вашей колонии будут учиться."]
 			hide_dependency_lines: true
 			id: "19CD8CE2013A27C4"
 			shape: "diamond"
+			subtitle: "Учёба!"
 			tasks: [{
 				id: "4C61BE396F395DB9"
 				item: "minecolonies:blockhutschool"
@@ -222,10 +233,11 @@
 		}
 		{
 			dependencies: ["36DCE7FA65BB1F52"]
-			description: ["В больнице жители вашей колонии будут лечиться."]
+			description: ["В &6больнице&r жители вашей колонии будут лечиться."]
 			hide_dependency_lines: true
 			id: "1BD339F1C02EE43B"
 			shape: "diamond"
+			subtitle: "Лечение!"
 			tasks: [{
 				id: "771F9C0B290900B5"
 				item: "minecolonies:blockhuthospital"
@@ -239,6 +251,7 @@
 			description: ["Интересное хранилище."]
 			id: "139BCE3B00A83815"
 			shape: "iron"
+			subtitle: "Хранилище!"
 			tasks: [{
 				id: "337ABDA97C5FDFA7"
 				item: "minecolonies:blockminecoloniesrack"
@@ -249,9 +262,11 @@
 		}
 		{
 			dependencies: ["34C1D59023AA23CD"]
+			description: ["Начало вашей колонии."]
 			hide: true
 			id: "0F31B41596CC29EB"
 			shape: "dirt"
+			subtitle: "Начало!"
 			tasks: [{
 				id: "318C1C3CBEC1D851"
 				item: "minecolonies:supplycampdeployer"

@@ -18,6 +18,7 @@
 			dependencies: ["72733968ECC1C246"]
 			id: "33C118E36D9FA1E1"
 			shape: "dirt"
+			subtitle: "Новое измерение!"
 			tasks: [{
 				dimension: "blue_skies:everbright"
 				id: "484669DACC558B6C"
@@ -32,8 +33,9 @@
 			description: ["Добудьте немного камня для инструментов."]
 			id: "0A65F1010B1D56BA"
 			shape: "iron"
-			subtitle: "Красивый камень"
+			subtitle: "Красивый камень!"
 			tasks: [{
+				count: 4L
 				id: "06DF09AA64BA9B49"
 				item: "blue_skies:turquoise_cobblestone"
 				type: "item"
@@ -49,7 +51,7 @@
 			description: ["Это печка выполняет те же функции, что и обычная. Только если вы положите в слот топлива особые предметы, то они смогут перевоплотиться в земные аналоги."]
 			id: "21294D4889484551"
 			shape: "gold"
-			subtitle: "Грибная печь"
+			subtitle: "Грибная печь!"
 			tasks: [{
 				id: "5CAFC1FE3B51D42F"
 				item: "blue_skies:snowcap_oven"
@@ -63,7 +65,7 @@
 			description: ["Из этих блоков можно создать печь этого мира."]
 			id: "06EB44453CFA0D9E"
 			shape: "iron"
-			subtitle: "Блок грибочков"
+			subtitle: "Блок грибочков!"
 			tasks: [{
 				id: "5A81958EE0B36738"
 				item: "blue_skies:snowcap_mushroom_block"
@@ -78,21 +80,21 @@
 			hide_dependency_lines: true
 			id: "495BFE02895B7155"
 			shape: "iron"
-			subtitle: "Грибочек"
+			subtitle: "Грибочек!"
 			tasks: [{
 				id: "502DF5FA177F3F58"
 				item: "blue_skies:snowcap_pinhead"
 				type: "item"
 			}]
 			x: -12.0d
-			y: -3.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["0A65F1010B1D56BA"]
 			description: ["Обычная каменная кирка, которой вы сможите добыть некоторые руды."]
 			id: "3DE354A671C2D09B"
 			shape: "gold"
-			subtitle: "Каменная кирка"
+			subtitle: "Каменная кирка!"
 			tasks: [{
 				id: "6B0B3A9CD69BF2ED"
 				item: {
@@ -112,8 +114,9 @@
 			description: ["Из эти осколков можно создать источник света и различные копья."]
 			id: "7F34C736C90A6C82"
 			shape: "iron"
-			subtitle: "Прилетели прямо с луны"
+			subtitle: "Прилетели прямо с луны!"
 			tasks: [{
+				count: 2L
 				id: "0AB47B306710395A"
 				item: "blue_skies:moonstone_shard"
 				type: "item"
@@ -126,8 +129,9 @@
 			description: ["Этот самоцвет можно найти в пещерах. Из него крафтятся инструменты и броня."]
 			id: "3E3F2A6658CB655C"
 			shape: "iron"
-			subtitle: "Похож на рубин"
+			subtitle: "Похож на рубин!"
 			tasks: [{
+				count: 6L
 				id: "4D447C80168BCB83"
 				item: "blue_skies:pyrope_gem"
 				type: "item"
@@ -140,14 +144,16 @@
 			description: ["Добыв эту руду, Вы сможете сделать вещи, которые будут не хуже железных."]
 			id: "71DB69814A0B47B0"
 			shape: "iron"
-			subtitle: "Железо этого мира"
+			subtitle: "Железо этого мира!"
 			tasks: [
 				{
+					count: 4L
 					id: "00AA6958D576820A"
 					item: "blue_skies:raw_aquite"
 					type: "item"
 				}
 				{
+					count: 6L
 					id: "5E6D6B403DF8868B"
 					item: "blue_skies:aquite"
 					type: "item"
@@ -162,7 +168,7 @@
 			description: ["Кирка ничем от железной не отличается."]
 			id: "34FAA200D911BBFD"
 			shape: "gold"
-			subtitle: "Железная кирка"
+			subtitle: "Железная кирка!"
 			tasks: [{
 				id: "0571593B5B5C15CF"
 				item: {
@@ -182,7 +188,7 @@
 			description: ["Эта кирка копает быстрее остальных, но уровень её добычи не выше камня("]
 			id: "09AD609EF2CF1F27"
 			shape: "gold"
-			subtitle: "Быстрая кирка"
+			subtitle: "Быстрая кирка!"
 			tasks: [{
 				id: "4E0B416BE27A067C"
 				item: {
@@ -203,14 +209,16 @@
 			description: ["Встречается редко, но предметы из этой руды очень хорошие по свойствам."]
 			id: "67DEE061A73F243E"
 			shape: "iron"
-			subtitle: "Алмазы этого мира"
+			subtitle: "Алмазы этого мира!"
 			tasks: [
 				{
+					count: 4L
 					id: "6F83B1927BEA1ED7"
 					item: "blue_skies:raw_charoite"
 					type: "item"
 				}
 				{
+					count: 6L
 					id: "595080BE7E0A507F"
 					item: "blue_skies:charoite"
 					type: "item"
@@ -225,7 +233,7 @@
 			description: ["Алмазная кирка. Ничего необычного."]
 			id: "6BDD636E4AA02AA2"
 			shape: "gold"
-			subtitle: "Алмазная кирка"
+			subtitle: "Алмазная кирка!"
 			tasks: [{
 				id: "6EE5C80619C05F01"
 				item: {
@@ -245,8 +253,9 @@
 			description: ["Немного лучше, чем предыдущий материал."]
 			id: "7BD9063F0E0C0224"
 			shape: "iron"
-			subtitle: "Незерит этого мира"
+			subtitle: "Незерит этого мира!"
 			tasks: [{
+				count: 4L
 				id: "32D7304C884FE0BE"
 				item: "blue_skies:diopside_gem"
 				type: "item"
@@ -259,7 +268,7 @@
 			description: ["Лучшая кирка в этом мире."]
 			id: "6264D9F5BC0CC4B9"
 			shape: "diamond"
-			subtitle: "Лучше алмазной"
+			subtitle: "Лучше алмазной!"
 			tasks: [{
 				id: "683200A6D0A927D0"
 				item: {
@@ -279,6 +288,7 @@
 			description: ["Неплохое дальное оружие."]
 			id: "4B13FDA474D9BFCD"
 			shape: "diamond"
+			subtitle: "Оружие дальнего боя!"
 			tasks: [{
 				id: "4BA71EC597FB9AAD"
 				item: {
@@ -298,8 +308,9 @@
 			description: ["Можно использовать для освещения местности."]
 			id: "0A5B07937CF23A7C"
 			shape: "diamond"
-			subtitle: "Факела"
+			subtitle: "Факела!"
 			tasks: [{
+				count: 4L
 				id: "0613D84F6911AFAC"
 				item: "blue_skies:moonstone"
 				type: "item"
@@ -312,7 +323,7 @@
 			description: ["Одна из лучших бронь."]
 			id: "5D5593AC9E0DD2A5"
 			shape: "diamond"
-			subtitle: "Это ещё не конец"
+			subtitle: "Это ещё не конец!"
 			tasks: [
 				{
 					id: "6E9AFC22F47F1CAC"
@@ -368,7 +379,7 @@
 			description: ["Аналоги алмазных инструментов. Для боссов самое то."]
 			id: "6EE88B1FDF7FAAE6"
 			shape: "diamond"
-			subtitle: "Алмазные инструменты"
+			subtitle: "Алмазные инструменты!"
 			tasks: [
 				{
 					id: "016B51F2D817D13D"
@@ -402,7 +413,7 @@
 			description: ["По защите броня может и хуже, но по твёрдости выигрывает."]
 			id: "63ED9D47E736BB72"
 			shape: "diamond"
-			subtitle: "Травяная броня"
+			subtitle: "Травяная броня!"
 			tasks: [
 				{
 					id: "55777EEE59F4AB28"
@@ -458,7 +469,7 @@
 			description: ["Сильнейшие оружия в этом мире."]
 			id: "4C88CDCBB0CD75DD"
 			shape: "diamond"
-			subtitle: "Сильнее некуда"
+			subtitle: "Сильнее некуда!"
 			tasks: [
 				{
 					id: "3A7F1E38FC1AC068"
@@ -492,7 +503,7 @@
 			description: ["Эта башня появляется везде по миру и, причём, довольно часто."]
 			id: "4FEE0D0770EC7EFD"
 			shape: "iron"
-			subtitle: "Башня мага"
+			subtitle: "Башня мага!"
 			tasks: [{
 				id: "4E3525CBF40BF1F6"
 				structure: "blue_skies:everbright_blinding_dungeon"
@@ -507,7 +518,7 @@
 			description: ["Неплохие инструменты для старта."]
 			id: "27B4392A969F6CED"
 			shape: "gold"
-			subtitle: "Рубиновые инструменты"
+			subtitle: "Рубиновые инструменты!"
 			tasks: [
 				{
 					id: "19CC5A3ECB6A7AA4"
@@ -541,7 +552,7 @@
 			description: ["С этим оружием и на боссов пойти можно."]
 			id: "3F4D39646481E843"
 			shape: "gold"
-			subtitle: "Хорошие инструменты"
+			subtitle: "Хорошие инструменты!"
 			tasks: [
 				{
 					id: "6CA5BFC85F86A812"
@@ -575,7 +586,7 @@
 			description: ["Мобы будут с трудом вас пробивать."]
 			id: "41F33E3A52BE84B1"
 			shape: "diamond"
-			subtitle: "Хорошая броня"
+			subtitle: "Хорошая броня!"
 			tasks: [
 				{
 					id: "40876D7053353151"
@@ -631,7 +642,7 @@
 			description: ["По защите броня схожа с кальчугой."]
 			id: "75CEFCBA2DDF3AA7"
 			shape: "diamond"
-			subtitle: "Рубиновая броня"
+			subtitle: "Рубиновая броня!"
 			tasks: [
 				{
 					id: "411098E254FF310A"
@@ -687,7 +698,7 @@
 			description: ["По всей башне разбросано 4 ключа. Собрав их все, Вы сможете открыть путь к Заклинателю."]
 			id: "528E6FE97075D52E"
 			shape: "iron"
-			subtitle: "Ключи от комнаты босса"
+			subtitle: "Ключи от комнаты босса!"
 			tasks: [{
 				count: 4L
 				id: "3811CF034240B25D"
@@ -704,6 +715,7 @@
 			]
 			id: "3486ABDB78FD1EB8"
 			shape: "gold"
+			subtitle: "Босс!"
 			tasks: [{
 				entity: "blue_skies:summoner"
 				id: "1E28B3361691A464"
@@ -718,7 +730,7 @@
 			description: ["При броске, копьё всегда вернётся к отправителю."]
 			id: "489AD748B7E993CE"
 			shape: "diamond"
-			subtitle: "Верный друг"
+			subtitle: "Верный друг!"
 			tasks: [{
 				id: "51BE8839C01495FD"
 				item: {
@@ -738,7 +750,7 @@
 			description: ["Увеличивает скорость персонажа на 10% при надевании."]
 			id: "589F399824648A26"
 			shape: "diamond"
-			subtitle: "Быстрые ноги смерти не боятся"
+			subtitle: "Быстрые ноги смерти не боятся!"
 			tasks: [{
 				id: "0A72EBEEB9633506"
 				item: {
@@ -758,7 +770,7 @@
 			description: ["Можно найти где-то в мире. Не заметить это здание невозможно."]
 			id: "441745D2CDEB36B4"
 			shape: "iron"
-			subtitle: "Дом Старлита"
+			subtitle: "Дом Старлита!"
 			tasks: [{
 				id: "501756C2DE9BEE13"
 				structure: "blue_skies:nature_dungeon"
@@ -773,7 +785,7 @@
 			description: ["Вам придётся пройти все комнаты на всех этажах, чтобы найти эти ключи."]
 			id: "58414F06FB622D1E"
 			shape: "gold"
-			subtitle: "Удачи)"
+			subtitle: "Удачи!"
 			tasks: [{
 				count: 4L
 				id: "57B6B82D009D7B68"
@@ -790,6 +802,7 @@
 			]
 			id: "3E79B91DF82EEA6B"
 			shape: "diamond"
+			subtitle: "Босс!"
 			tasks: [{
 				entity: "blue_skies:starlit_crusher"
 				id: "6A659631FE4D3EC6"
@@ -804,7 +817,7 @@
 			description: ["При зажатии ПКМ, молот подкидывает врагов в воздух и наносит им урон."]
 			id: "70EA89D7AB5A4666"
 			shape: "diamond"
-			subtitle: "Вызывает землетрясение"
+			subtitle: "Вызывает землетрясение!"
 			tasks: [{
 				id: "5EECDA7A2D1BFEAC"
 				item: {
@@ -824,7 +837,7 @@
 			description: ["При надевании даёт одно дополнительное сердце."]
 			id: "63DAF99A3D05BE9F"
 			shape: "diamond"
-			subtitle: "Больше жизней - дольше будут бить"
+			subtitle: "Больше жизней - дольше будут бить!"
 			tasks: [{
 				id: "3CAC7BF168F35138"
 				item: {
@@ -845,7 +858,7 @@
 			hide: true
 			id: "6F6EADB5F5C997B0"
 			shape: "dirt"
-			subtitle: "Одинокий домик жителя"
+			subtitle: "Одинокий домик жителя!"
 			tasks: [{
 				id: "3ADBAD9E0F1B6F31"
 				structure: "blue_skies:gatekeeper_house_plains"
@@ -860,7 +873,7 @@
 			description: ["Эту зажигалку можно либо скрафтить, либо купить у Привратника за изумруды."]
 			id: "49FE34669CEAD13C"
 			shape: "gold"
-			subtitle: "Ключ от порталов"
+			subtitle: "Ключ от порталов!"
 			tasks: [{
 				id: "02E6A75E4F309416"
 				item: {
@@ -879,6 +892,7 @@
 			dependencies: ["453D4C05E7CA0894"]
 			id: "74BE7195932F349A"
 			shape: "dirt"
+			subtitle: "Новое измерение!"
 			tasks: [{
 				dimension: "blue_skies:everdawn"
 				id: "6366D8B6199AE511"
@@ -893,8 +907,9 @@
 			description: ["Добудьте немного камня для инструментов."]
 			id: "1CA1448CA3CB59B7"
 			shape: "iron"
-			subtitle: "Красивый камень"
+			subtitle: "Красивый камень!"
 			tasks: [{
+				count: 4L
 				id: "5FD90E8B8E0EDD37"
 				item: "blue_skies:lunar_cobblestone"
 				type: "item"
@@ -907,7 +922,7 @@
 			description: ["Печь, работающая от жара предметов."]
 			id: "153DC40D7E6589EA"
 			shape: "gold"
-			subtitle: "Горячая штучка"
+			subtitle: "Горячая штучка!"
 			tasks: [{
 				id: "67F2DDEF2D443301"
 				item: "blue_skies:horizonite_forge"
@@ -921,7 +936,7 @@
 			description: ["Обычная каменная кирка, которой вы сможите добыть некоторые руды."]
 			id: "43DC786F5628C853"
 			shape: "gold"
-			subtitle: "Каменная кирка"
+			subtitle: "Каменная кирка!"
 			tasks: [{
 				id: "332D38D32CF9B470"
 				item: {
@@ -941,8 +956,9 @@
 			description: ["Из эти осколков можно создать источник света и различные копья."]
 			id: "4ED834F722B5532A"
 			shape: "iron"
-			subtitle: "Прилетели прямо с луны"
+			subtitle: "Прилетели прямо с луны!"
 			tasks: [{
+				count: 2L
 				id: "7BADFB7BB770D8CF"
 				item: "blue_skies:moonstone_shard"
 				type: "item"
@@ -955,6 +971,7 @@
 			description: ["Неплохое дальное оружие."]
 			id: "36B1B4199044FF4C"
 			shape: "diamond"
+			subtitle: "Оружие дальнего боя!"
 			tasks: [{
 				id: "09527FF8629363B1"
 				item: {
@@ -974,8 +991,9 @@
 			description: ["Можно использовать для освещения местности."]
 			id: "78D739D261B53D12"
 			shape: "diamond"
-			subtitle: "Факела"
+			subtitle: "Факела!"
 			tasks: [{
+				count: 4L
 				id: "56293593B9A59473"
 				item: "blue_skies:moonstone"
 				type: "item"
@@ -988,8 +1006,9 @@
 			description: ["Этот самоцвет можно найти в пещерах. Из него крафтятся инструменты и броня."]
 			id: "33508D908B2B3607"
 			shape: "iron"
-			subtitle: "Похож на рубин"
+			subtitle: "Похож на рубин!"
 			tasks: [{
+				count: 6L
 				id: "0033C18E6680E041"
 				item: "blue_skies:pyrope_gem"
 				type: "item"
@@ -1002,14 +1021,16 @@
 			description: ["Добыв эту руду, Вы сможете сделать вещи, которые будут не хуже железных."]
 			id: "7C1D2FEB6E08617F"
 			shape: "iron"
-			subtitle: "Железо этого мира"
+			subtitle: "Железо этого мира!"
 			tasks: [
 				{
+					count: 4L
 					id: "540C633AF265379C"
 					item: "blue_skies:raw_aquite"
 					type: "item"
 				}
 				{
+					count: 6L
 					id: "002F5341C8F6ACF4"
 					item: "blue_skies:aquite"
 					type: "item"
@@ -1024,7 +1045,7 @@
 			description: ["Эта кирка копает быстрее остальных, но уровень её добычи не выше камня("]
 			id: "044A7DE657D3A217"
 			shape: "gold"
-			subtitle: "Быстрая кирка"
+			subtitle: "Быстрая кирка!"
 			tasks: [{
 				id: "510565842892348A"
 				item: {
@@ -1044,7 +1065,7 @@
 			description: ["Кирка ничем от железной не отличается."]
 			id: "6B0EA302FBA60970"
 			shape: "gold"
-			subtitle: "Железная кирка"
+			subtitle: "Железная кирка!"
 			tasks: [{
 				id: "2C71CF7049033DDD"
 				item: {
@@ -1064,14 +1085,16 @@
 			description: ["Встречается редко, но предметы из этой руды очень хорошие по свойствам."]
 			id: "0D3641128E425C35"
 			shape: "iron"
-			subtitle: "Алмазы этого мира"
+			subtitle: "Алмазы этого мира!"
 			tasks: [
 				{
+					count: 4L
 					id: "43D94BFA1551A7DB"
 					item: "blue_skies:raw_charoite"
 					type: "item"
 				}
 				{
+					count: 6L
 					id: "3D491A22F0BCD010"
 					item: "blue_skies:charoite"
 					type: "item"
@@ -1086,7 +1109,7 @@
 			description: ["Одна из лучших бронь."]
 			id: "227073138F579099"
 			shape: "diamond"
-			subtitle: "Это ещё не конец"
+			subtitle: "Это ещё не конец!"
 			tasks: [
 				{
 					id: "5388CE8CD811B4AB"
@@ -1142,7 +1165,7 @@
 			description: ["Аналоги алмазных инструментов. Для боссов самое то."]
 			id: "15920659902165B6"
 			shape: "diamond"
-			subtitle: "Алмазные инструменты"
+			subtitle: "Алмазные инструменты!"
 			tasks: [
 				{
 					id: "6636F12EE2CC60C4"
@@ -1176,7 +1199,7 @@
 			description: ["Алмазная кирка. Ничего необычного."]
 			id: "5AAF794D906CB548"
 			shape: "gold"
-			subtitle: "Алмазная кирка"
+			subtitle: "Алмазная кирка!"
 			tasks: [{
 				id: "69258D4E20D4240B"
 				item: {
@@ -1199,11 +1222,13 @@
 			subtitle: "Интересно, есть ли вертикалит?"
 			tasks: [
 				{
+					count: 4L
 					id: "161FC7BF2C0598FF"
 					item: "blue_skies:raw_horizonite"
 					type: "item"
 				}
 				{
+					count: 6L
 					id: "5FAE5F622B0F3367"
 					item: "blue_skies:horizonite_ingot"
 					type: "item"
@@ -1218,7 +1243,7 @@
 			description: ["Хорошая кирка с авто-плавкой."]
 			id: "23C3D1CBB35C69C1"
 			shape: "diamond"
-			subtitle: "Излучает сильный жар"
+			subtitle: "Излучает сильный жар!"
 			tasks: [{
 				id: "10391B3EF1129748"
 				item: {
@@ -1238,7 +1263,7 @@
 			description: ["По защите броня схожа с кальчугой."]
 			id: "20BEC1AF97284492"
 			shape: "diamond"
-			subtitle: "Одежда для зимы"
+			subtitle: "Одежда для зимы!"
 			tasks: [
 				{
 					id: "2D1DEC361940E0F3"
@@ -1294,7 +1319,7 @@
 			description: ["При ударе мечом по врагу, тот будет подожжён."]
 			id: "11E041B635F5BBA6"
 			shape: "diamond"
-			subtitle: "Оружие с огоньком"
+			subtitle: "Оружие с огоньком!"
 			tasks: [
 				{
 					id: "3DE4BBA90485A7B5"
@@ -1328,7 +1353,7 @@
 			description: ["Постройте из кирпичей, найденных в сарае у Привратника, рамку обычного портала."]
 			id: "72733968ECC1C246"
 			shape: "gold"
-			subtitle: "Портал в Эвербрайт"
+			subtitle: "Портал в Эвербрайт!"
 			tasks: [{
 				count: 10L
 				id: "78029706701E3DEE"
@@ -1343,7 +1368,7 @@
 			description: ["Постройте из кирпичей, найденных в сарае у Привратника, рамку обычного портала."]
 			id: "453D4C05E7CA0894"
 			shape: "gold"
-			subtitle: "Портал в Эвердоун"
+			subtitle: "Портал в Эвердоун!"
 			tasks: [{
 				count: 10L
 				id: "0317A1DEBF957EB5"
@@ -1358,7 +1383,7 @@
 			description: ["Эта башня появляется везде по миру и, причём, довольно часто."]
 			id: "2972A0CEFB21C2B1"
 			shape: "iron"
-			subtitle: "Башня Алхимика"
+			subtitle: "Башня Алхимика!"
 			tasks: [{
 				id: "4ADB4E1851C510F0"
 				structure: "blue_skies:everdawn_blinding_dungeon"
@@ -1373,7 +1398,7 @@
 			description: ["По всей башне разбросано 4 ключа. Собрав их все, Вы сможете открыть путь к Алхимику"]
 			id: "40F07E51A846F1B0"
 			shape: "iron"
-			subtitle: "Ключи от комнаты босса"
+			subtitle: "Ключи от комнаты босса!"
 			tasks: [{
 				count: 4L
 				id: "705062D8CA29BDA3"
@@ -1390,6 +1415,7 @@
 			]
 			id: "0C8146FD6AE2E6B5"
 			shape: "gold"
+			subtitle: "Босс!"
 			tasks: [{
 				entity: "blue_skies:alchemist"
 				id: "7D685D52322E427B"
@@ -1404,7 +1430,7 @@
 			description: ["При зажатом шифте делает вас невидимым."]
 			id: "44F3EE06B029A769"
 			shape: "diamond"
-			subtitle: "Ниндзя"
+			subtitle: "Ниндзя!"
 			tasks: [{
 				id: "405DE8BD6F6552BC"
 				item: {
@@ -1424,7 +1450,7 @@
 			description: ["Хороший щит для защиты."]
 			id: "3B5B432BEBBDEF43"
 			shape: "diamond"
-			subtitle: "Острые шипы"
+			subtitle: "Острые шипы!"
 			tasks: [{
 				id: "38EEB6E3BDAE7432"
 				item: {
@@ -1444,7 +1470,7 @@
 			description: ["Появляется где-то в мире. Выглядит как засохшее дерево с проходом внутрь."]
 			id: "5364314C958C8AC2"
 			shape: "iron"
-			subtitle: "Подземелье пауков"
+			subtitle: "Подземелье пауков!"
 			tasks: [{
 				id: "618E25C08CDA3F69"
 				structure: "blue_skies:poison_dungeon"
@@ -1459,7 +1485,7 @@
 			description: ["Вам придётся пройти все комнаты на всех этажах, чтобы найти эти ключи."]
 			id: "1F2CE9AD100358CC"
 			shape: "gold"
-			subtitle: "Удачи)"
+			subtitle: "Удачи!"
 			tasks: [{
 				count: 4L
 				id: "5EC8AF19F1AA35A3"
@@ -1476,6 +1502,7 @@
 			]
 			id: "73636985F59A15F6"
 			shape: "diamond"
+			subtitle: "Босс!"
 			tasks: [{
 				entity: "blue_skies:arachnarch"
 				id: "53E609CB4AA0D6DF"
@@ -1490,6 +1517,7 @@
 			description: ["Увеличивает нанесённый ущерб на 1 при отравлении."]
 			id: "2359DD90A1044134"
 			shape: "diamond"
+			subtitle: "Опасная!"
 			tasks: [{
 				id: "650DA3DC1A7555C9"
 				item: {
@@ -1509,7 +1537,7 @@
 			description: ["Стреляет ядом."]
 			id: "4B41B27F5227595A"
 			shape: "diamond"
-			subtitle: "Жало паука"
+			subtitle: "Жало паука!"
 			tasks: [{
 				id: "58F57418F5096418"
 				item: {
@@ -1529,7 +1557,7 @@
 			description: ["При использовании, свиток сбрасывает с неба каменные глыбы, наносящие урон мобам."]
 			id: "74A6A52F4531A253"
 			shape: "diamond"
-			subtitle: "Это каменный дождь"
+			subtitle: "Это каменный дождь!"
 			tasks: [{
 				id: "6148EBD277C51B77"
 				item: {
@@ -1549,7 +1577,7 @@
 			description: ["Может как стрелять, так и призывать големов. Для того, чтобы сменить режим, нужно положить книгу и фрагмент души в стол призыва."]
 			id: "39B41C944074C20E"
 			shape: "diamond"
-			subtitle: "Книга мага"
+			subtitle: "Книга мага!"
 			tasks: [{
 				id: "4A85F487F2296591"
 				item: {
@@ -1569,7 +1597,7 @@
 			description: ["Неплохие инструменты для старта."]
 			id: "6F504EA443F85C78"
 			shape: "gold"
-			subtitle: "Рубиновые инструменты"
+			subtitle: "Рубиновые инструменты!"
 			tasks: [
 				{
 					id: "778127AEB153E437"
@@ -1603,7 +1631,7 @@
 			description: ["По защите броня схожа с кальчугой."]
 			id: "3A01FE3B07CF0B8D"
 			shape: "diamond"
-			subtitle: "Рубиновая броня"
+			subtitle: "Рубиновая броня!"
 			tasks: [
 				{
 					id: "3A3BDBB18BDBEF1F"
@@ -1659,7 +1687,7 @@
 			description: ["С этим оружием и на боссов пойти можно."]
 			id: "2DE9715170D2CC43"
 			shape: "gold"
-			subtitle: "Хорошие инструменты"
+			subtitle: "Хорошие инструменты!"
 			tasks: [
 				{
 					id: "2BB7A1343E370B40"
@@ -1693,7 +1721,7 @@
 			description: ["Мобы будут с трудом вас пробивать."]
 			id: "19F96EE667886B34"
 			shape: "diamond"
-			subtitle: "Хорошая броня"
+			subtitle: "Хорошая броня!"
 			tasks: [
 				{
 					id: "6F2F5611E8438148"
@@ -1749,8 +1777,9 @@
 			description: ["Немного лучше, чем предыдущий материал."]
 			id: "1477F6D3F4F86FC3"
 			shape: "iron"
-			subtitle: "Незерит этого мира"
+			subtitle: "Незерит этого мира!"
 			tasks: [{
+				count: 4L
 				id: "79B7770A6084FE11"
 				item: "blue_skies:diopside_gem"
 				type: "item"
@@ -1763,7 +1792,7 @@
 			description: ["Лучшая кирка в этом мире."]
 			id: "2084089963BBFB96"
 			shape: "diamond"
-			subtitle: "Лучше алмазной"
+			subtitle: "Лучше алмазной!"
 			tasks: [{
 				id: "2BF7B63C2D731DDA"
 				item: {
@@ -1783,7 +1812,7 @@
 			description: ["Сильнейшие оружия в этом мире."]
 			id: "575E7DF623411B50"
 			shape: "diamond"
-			subtitle: "Сильнее некуда"
+			subtitle: "Сильнее некуда!"
 			tasks: [
 				{
 					id: "30B1E21683ACA240"
@@ -1817,7 +1846,7 @@
 			description: ["По защите броня может и хуже, но по твёрдости выигрывает."]
 			id: "45BBF9477EEEFE74"
 			shape: "diamond"
-			subtitle: "Травяная броня"
+			subtitle: "Травяная броня!"
 			tasks: [
 				{
 					id: "287A65AF755DCFB1"

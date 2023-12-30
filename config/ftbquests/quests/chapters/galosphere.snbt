@@ -79,9 +79,12 @@
 		}
 		{
 			dependencies: ["6539AFC730A694E2"]
+			description: ["Можно использовать в качестве декора."]
 			id: "13090B1A2E8C93B7"
 			shape: "gold"
+			subtitle: "Красивый блок!"
 			tasks: [{
+				count: 2L
 				id: "4AE581A48FF209F2"
 				item: "galosphere:silver_panel"
 				type: "item"
@@ -91,8 +94,10 @@
 		}
 		{
 			dependencies: ["13090B1A2E8C93B7"]
+			description: ["На &6столе зажигания&r можно изменять &aСеребряную бомбу&r."]
 			id: "4D5D0D32F2792D4B"
 			shape: "diamond"
+			subtitle: "Интересный блок!"
 			tasks: [{
 				id: "3622BB56236DC20C"
 				item: "galosphere:combustion_table"
@@ -106,8 +111,10 @@
 				"6539AFC730A694E2"
 				"6775B366BF42931C"
 			]
+			description: ["&6Монстрометр&r довольно прикольный механизм."]
 			id: "70CDFD5A07B2ABAA"
 			shape: "gold"
+			subtitle: "Механизм!"
 			tasks: [{
 				id: "1984520918E76DBA"
 				item: "galosphere:monstrometer"
@@ -121,8 +128,10 @@
 				"6539AFC730A694E2"
 				"7956D219F9F64A66"
 			]
+			description: ["&6Якорь искажения&r довольно необычный механизм."]
 			id: "2F6D2EB39188EE21"
 			shape: "gold"
+			subtitle: "Механизм!"
 			tasks: [{
 				id: "2D38496EC7FAC116"
 				item: "galosphere:warped_anchor"
@@ -133,10 +142,20 @@
 		}
 		{
 			dependencies: ["34C1D59023AA23CD"]
+			description: ["&6Осколок аллюрита&r можно найти под землёй."]
 			hide: true
 			id: "371BC7C3F4429B5A"
+			rewards: [{
+				count: 4
+				id: "05ABF858A591DF70"
+				item: "galosphere:allurite_shard"
+				random_bonus: 4
+				type: "item"
+			}]
 			shape: "dirt"
+			subtitle: "Новый ресурс!"
 			tasks: [{
+				count: 4L
 				id: "2A9D70A7DCFFED21"
 				item: "galosphere:allurite_shard"
 				type: "item"
@@ -146,9 +165,12 @@
 		}
 		{
 			dependencies: ["371BC7C3F4429B5A"]
+			description: ["Можно использовать в качестве декора."]
 			id: "7956D219F9F64A66"
 			shape: "iron"
+			subtitle: "Красивый блок!"
 			tasks: [{
+				count: 2L
 				id: "3E219FFA4A171405"
 				item: "galosphere:allurite_block"
 				type: "item"
@@ -158,10 +180,20 @@
 		}
 		{
 			dependencies: ["34C1D59023AA23CD"]
+			description: ["&6Осколок люмьера&r можно найти под землёй."]
 			hide: true
 			id: "44F4E8E9B4DDC9A3"
+			rewards: [{
+				count: 4
+				id: "0BD6BD256F7C0548"
+				item: "galosphere:lumiere_shard"
+				random_bonus: 4
+				type: "item"
+			}]
 			shape: "dirt"
+			subtitle: "Новый ресурс!"
 			tasks: [{
+				count: 4L
 				id: "697A2C6080930BE6"
 				item: "galosphere:lumiere_shard"
 				type: "item"
@@ -171,9 +203,12 @@
 		}
 		{
 			dependencies: ["44F4E8E9B4DDC9A3"]
+			description: ["Можно использовать в качестве декора."]
 			id: "6775B366BF42931C"
 			shape: "iron"
+			subtitle: "Красивый блок!"
 			tasks: [{
+				count: 2L
 				id: "449A65D9E88DC9DF"
 				item: "galosphere:lumiere_block"
 				type: "item"
@@ -183,9 +218,11 @@
 		}
 		{
 			dependencies: ["34C1D59023AA23CD"]
+			description: ["Впечатляет."]
 			hide: true
 			id: "476B5B47188EA036"
 			shape: "dirt"
+			subtitle: "Красиво!"
 			tasks: [{
 				id: "7B7C1B94D0BF9C24"
 				item: "galosphere:bottle_of_spectre"
@@ -196,8 +233,10 @@
 		}
 		{
 			dependencies: ["476B5B47188EA036"]
+			description: ["&6Люстра&r нужна для освещения местности."]
 			id: "5CB8A4BDE7D408CC"
 			shape: "diamond"
+			subtitle: "Красивый факел!"
 			tasks: [{
 				id: "03D88E84FCDF5FD4"
 				item: "galosphere:chandelier"
@@ -208,8 +247,10 @@
 		}
 		{
 			dependencies: ["476B5B47188EA036"]
+			description: ["Ползен для изучения местности."]
 			id: "734B974FFA4A1435"
 			shape: "diamond"
+			subtitle: "Фейерверк!"
 			tasks: [{
 				id: "3A2B1F8B296AFE47"
 				item: "galosphere:spectre_flare"
@@ -220,8 +261,10 @@
 		}
 		{
 			dependencies: ["0934C05C6A6445B3"]
+			description: ["Необычно."]
 			id: "7D13767FA0DE3B50"
 			shape: "diamond"
+			subtitle: "Измерение давления?"
 			tasks: [{
 				id: "77AE3BD1C8E9EBAA"
 				item: "galosphere:barometer"
