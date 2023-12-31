@@ -14,9 +14,9 @@
 - Custom items
 - Interesting build finale
 
-  # Description
+# Description
 
-En
+## En
 Vanilla Classic Remake is a build where you won't find complicated technical or magical mods. On the contrary, this assembly contains the simplest and most interesting mods that 
 complement and improve vanilla Minecraft! For example, mobs that lost in the game developers' vote have been added. By passing this game added a paraglider and a lot of other 
 content from the game Legend of Zelda: Breath of the Wild and much more.
@@ -30,7 +30,7 @@ A huge number of interesting quests have been added to the assembly, which will 
 Remake for version 1.19.2, therefore, in it you will be able to meet a beautiful and large-scale generation of the world and caves, as well as an Ancient city and Varden! 
 Therefore, install the assembly rather, go into the world and enjoy the assembly!
 
-Ru
+## Ru
 Vanilla Classic Remake - это сборка, в которой вы не найдете сложные технические или магические моды. Наоборот, в этой сборке собраны самые простые и интересные моды, которые 
 дополняют и улучшают ванильный Майнкрафт! Например добавлены мобы, которые проиграли в голосовании разработчиков игры. По мимо этого игру добавлен параплан и множество другого 
 контента из игры Legend of Zelda: Breath of the Wild и многое другое.
