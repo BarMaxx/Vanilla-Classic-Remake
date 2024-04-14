@@ -1,4 +1,4 @@
-Список изменений Vanilla Classic Remake v1.1.3.1
+Список изменений Vanilla Classic Remake v1.2.1
 
 Моды:
 - Обновлены все моды до последней версии

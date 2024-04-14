@@ -1,3 +1,5 @@
+Список модов Vanilla Classic Remake v1.2.1
+
 abnormals delight - Добавляет интеграцию между модами Abnormals и Farmer's Delight
 AI Improvements - Повышение производительности и логики
 Alex's Mobs - это мод для Forge, который добавляет в Minecraft 89 новых мобов.
