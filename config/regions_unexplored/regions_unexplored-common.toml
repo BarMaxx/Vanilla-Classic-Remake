@@ -80,11 +80,11 @@
 	toggle_redstone_caves = true
 	toggle_prismachasm = true
 	#nether_biomes
-	toggle_mycotoxic_undergrowth = true
-	toggle_redstone_hell = true
-	toggle_blackstone_basin = true
-	toggle_glistering_meadow = true
-	toggle_corrupted_holt = true
+	toggle_mycotoxic_undergrowth = false
+	toggle_redstone_hell = false
+	toggle_blackstone_basin = false
+	toggle_glistering_meadow = false
+	toggle_corrupted_holt = false
 
 [worldgen_options]
 	#surface_rules

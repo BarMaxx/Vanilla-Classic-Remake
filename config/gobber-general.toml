@@ -195,31 +195,31 @@
 [gobber_foods]
 	#Goo hunger value [default: 7]
 	#Range: 0 ~ 25
-	gooHunger = 7
+	gooHunger = 5
 	#Goo saturation value [default: 0.7]
 	#Range: 0.0 ~ 5.0
 	gooSaturation = 0.7
 	#Gooey apple hunger value [default: 8]
 	#Range: 0 ~ 25
-	gooeyAppleHunger = 8
+	gooeyAppleHunger = 5
 	#Gooey apple saturation value [default: 0.8]
 	#Range: 0.0 ~ 5.0
 	gooeyAppleSaturation = 0.8
 	#Gooey bread hunger value [default: 8]
 	#Range: 0 ~ 25
-	gooeyBreadHunger = 8
+	gooeyBreadHunger = 6
 	#Gooey bread saturation value [default: 0.8]
 	#Range: 0.0 ~ 5.0
 	gooeyBreadSaturation = 0.8
 	#Gooey beef hunger value [default: 9]
 	#Range: 0 ~ 25
-	gooeyBeefHunger = 9
+	gooeyBeefHunger = 8
 	#Gooey beef saturation value [default: 0.9]
 	#Range: 0.0 ~ 5.0
 	gooeyBeefSaturation = 0.9
 	#Gooey beefstew hunger value [default: 10]
 	#Range: 0 ~ 25
-	gooeyBeefstewHunger = 10
+	gooeyBeefstewHunger = 9
 	#Gooey beefstew saturation value [default: 1.0]
 	#Range: 0.0 ~ 5.0
 	gooeyBeefstewSaturation = 1.0
@@ -424,4 +424,9 @@
 	#Bow zoom valuee [0.0-1.0, default: .45]
 	#Range: 0.1 ~ 0.9
 	bow_zoom_value = 0.45
+
+#Hammer/Excavator Full Damage
+[full_damage]
+	#Hammer/Excavator Full Damage [true/false, default: true]
+	full_damage = false
 
